@@ -1,0 +1,12 @@
+TITLE: Privacy Policy
+DESCRIPTION: Privacy policy and data protection.
+URL: https://monsieurclick.com/privacy.html
+TYPE: Legal
+LANG: en
+TAGS: privacy, GDPR, data
+
+# Privacy Policy
+
+Privacy policy and data protection.
+
+→ Full page: https://monsieurclick.com/privacy.html

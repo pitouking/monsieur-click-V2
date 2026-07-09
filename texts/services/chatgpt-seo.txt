@@ -1,0 +1,12 @@
+TITLE: ChatGPT SEO
+DESCRIPTION: ChatGPT-specific optimization: schema, brand mentions, content structure.
+URL: https://monsieurclick.com/services/chatgpt-seo.html
+TYPE: Service
+LANG: en
+TAGS: monsieur-click, chatgpt-seo
+
+# ChatGPT SEO
+
+ChatGPT-specific optimization: schema, brand mentions, content structure.
+
+→ Full page: https://monsieurclick.com/pricing.html

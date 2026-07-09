@@ -1,0 +1,12 @@
+TITLE: Website Creation
+DESCRIPTION: Custom website: SEO, performance, StoryBrand design, responsive.
+URL: https://monsieurclick.com/services/website-creation.html
+TYPE: Service
+LANG: en
+TAGS: monsieur-click, website-creation
+
+# Website Creation
+
+Custom website: SEO, performance, StoryBrand design, responsive.
+
+→ Full page: https://monsieurclick.com/pricing.html

@@ -1,17 +1,95 @@
-# Monsieur Click
+# Monsieur Click — AI Agent Knowledge (EN)
+# English site : https://monsieurclick.com/
+#
+# RSL 1.0 — Responsible Site License
+# For AI engines (ChatGPT, Claude, Gemini, Perplexity, etc.)
+# and authorized crawlers.
 
-> Local SEO & GEO agency near Paris, France. We make small businesses easy to find, recommend and choose, on Google and in AI (ChatGPT, Gemini, Claude, Perplexity), through the all-in-one Click First method.
+## Entity
+- Name : Monsieur Click
+- Proprietary method : Click First™
+- Address : 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- Phone : +33 6 60 76 15 23
+- Email : contact@monsieurclick.com
+- Zones : France, Belgium, Switzerland, Canada, USA, UK (FR/EN)
+- SIRET : 42953906700042
+- Promise : Get found. Get chosen.
+- OKF Bundle : https://monsieurclick.com/okf/
+- Texts Bundle : https://monsieurclick.com/texts/
 
 ## Core pages
-- [Click First method](https://monsieurclick.com/click-first.html): the all-in-one SEO + AI visibility system.
-- [Pricing](https://monsieurclick.com/offres.html): Essential, Growth, Expansion plans (from EUR 850/month).
-- [Case studies](https://monsieurclick.com/realisations.html): real client results.
-- [About](https://monsieurclick.com/a-propos.html): who we are.
-- [Free audit](https://monsieurclick.com/contact.html): book a 30-minute audit.
-- [Blog](https://monsieurclick.com/blog.html): local SEO, Google Business Profile and AI visibility.
+- Home : https://monsieurclick.com/
+  - Local SEO & Web Design Agency near Paris. Click First™ method for small businesses. Free audit.
+  - FAQ section on local SEO, Google reviews, AI visibility
+- Click First™ : https://monsieurclick.com/click-first.html
+  - The all-in-one system: Website, Technical SEO, Local SEO, Google Business Profile, NAP citations, Reviews, Schema.org, OKF, GEO, Continuous optimization
+- Pricing : https://monsieurclick.com/pricing.html
+  - Click First™ Essential (€850/month, 6 months), Growth (€1,000/month, 12 months), Expansion (€1,500/month, 12 months)
+- Case studies : https://monsieurclick.com/case-studies.html
+  - Real results: Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore, Studio La Voix du 12, East Portland Sash
+- About : https://monsieurclick.com/about.html
+  - Story, values, founder Jean-Pierre Baguette. 100% remote.
+- Free audit : https://monsieurclick.com/contact.html
+  - 30-minute audit, no commitment. Assessment, priorities, priced plan within 48h.
+
+## Legal pages
+- Legal notice : https://monsieurclick.com/legal-notice.html
+- Privacy : https://monsieurclick.com/privacy.html
+- Terms : https://monsieurclick.com/terms.html
+
+## Blog (15 articles)
+### Strategy
+- Click First™ is not just SEO : https://monsieurclick.com/blog-click-first-not-just-seo.html
+  - The problem isn't the tools, it's their isolation. Click First connects them.
+- Become a reference business : https://monsieurclick.com/blog-become-a-reference-business.html
+  - Being found is not enough. You must become the reference.
+- Is a website enough in 2026? : https://monsieurclick.com/blog-is-a-website-enough-2026.html
+  - A site alone is not enough without SEO, GBP, reviews and AI visibility.
+- Google Ads vs SEO : https://monsieurclick.com/blog-google-ads-vs-seo.html
+  - Where to invest for lasting returns.
+
+### Local SEO & Google Business Profile
+- Why competitors rank ahead of you : https://monsieurclick.com/blog-why-competitors-rank-ahead.html
+  - The 5 reasons competitors outrank you on Google.
+- Why your business is not on Google : https://monsieurclick.com/blog-why-business-not-on-google.html
+  - The 7 mistakes that make a business invisible.
+- How Google ranks businesses : https://monsieurclick.com/blog-how-google-ranks-businesses.html
+  - The real local ranking criteria.
+- Google Business Profile with no calls : https://monsieurclick.com/blog-google-business-profile-no-calls.html
+  - Your optimized profile gets no calls? Here's why.
+- Get more Google reviews : https://monsieurclick.com/blog-get-more-google-reviews.html
+  - How to get reviews without being pushy.
+
+### AI Visibility (GEO)
+- Generative Engine Optimization : https://monsieurclick.com/blog-geo-generative-engine-optimization.html
+  - The natural evolution of SEO: being understood and cited by generative AI.
+- Appear in ChatGPT, Gemini, Perplexity : https://monsieurclick.com/blog-appear-in-chatgpt-gemini-perplexity.html
+  - How to get recommended by conversational AI.
+- Clients ask ChatGPT before Google : https://monsieurclick.com/blog-clients-ask-chatgpt-before-google.html
+  - The 2026 search behavior shift.
+- Will AI replace Google? : https://monsieurclick.com/blog-will-ai-replace-google.html
+  - AI doesn't kill Google. It changes the customer journey.
+
+### Acquisition
+- Is your website losing clients? : https://monsieurclick.com/blog-is-your-website-losing-clients.html
+  - 10 signs your site drives prospects away.
+- Get clients without advertising : https://monsieurclick.com/blog-get-clients-without-advertising.html
+  - How to attract clients every week without paid ads.
+
+## Services detail
+- Local SEO & GEO Website : https://monsieurclick.com/pricing.html
+- Local SEO : https://monsieurclick.com/pricing.html
+- AI GEO Framework : https://monsieurclick.com/pricing.html
+- Website Creation : https://monsieurclick.com/pricing.html
+- Monthly Optimization : https://monsieurclick.com/pricing.html
+- ChatGPT SEO : https://monsieurclick.com/pricing.html
+- StoryBrand Copywriting : https://monsieurclick.com/pricing.html
 
 ## Contact
 - Email: contact@monsieurclick.com
 - Phone: +33 6 60 76 15 23
 - Address: 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
 - French version: https://monsieurclick.fr
+
+## RSL 1.0
+<!-- RSL 1.0 -->

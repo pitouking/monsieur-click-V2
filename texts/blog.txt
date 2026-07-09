@@ -1,0 +1,12 @@
+TITLE: Blog — Local SEO, GEO & AI Visibility
+DESCRIPTION: Articles on local SEO, GEO, AI visibility and digital marketing for small businesses.
+URL: https://monsieurclick.com/blog.html
+TYPE: Blog
+LANG: en
+TAGS: blog, seo, geo, articles
+
+# Blog — Local SEO, GEO & AI Visibility
+
+Articles on local SEO, GEO, AI visibility and digital marketing for small businesses.
+
+→ Full page: https://monsieurclick.com/blog.html
