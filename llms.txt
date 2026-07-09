@@ -11,7 +11,7 @@
 - Adresse : 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
 - Téléphone : +33 6 60 76 15 23
 - Email : contact@monsieurclick.com
-- Zones : France, Belgique, Suisse, Canada, États-Unis, Royaume-Uni (FR/EN)
+- Zones : France, Belgique, Suisse, Canada
 - SIRET : 42953906700042
 - Promesse : Soyez trouvé. Soyez choisi.
 - Bundle OKF : https://monsieurclick.fr/okf/
@@ -19,99 +19,58 @@
 
 ## Pages principales
 - Accueil : https://monsieurclick.fr/
-  - Agence SEO local & création de site à Malakoff (92). La méthode Click First pour être trouvé sur Google, Maps et les IA.
-  - Contient FAQ SEO local, avis Google, temps de visibilité, GEO
-- Click First™ : https://monsieurclick.fr/click-first.html
-  - La méthode tout-en-un : site web, Technical SEO, SEO local, Google Business Profile, citations NAP, avis, Schema.org, OKF, GEO, optimisation continue
-- Offres et tarifs : https://monsieurclick.fr/offres.html
-  - Click First™ Essentiel (850 €/mois, 6 mois), Développement (1 000 €/mois, 12 mois), Expansion (1 500 €/mois, 12 mois)
-- Réalisations : https://monsieurclick.fr/realisations.html
-  - Études de cas : Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore, Studio La Voix du 12, East Portland Sash
-- À propos : https://monsieurclick.fr/a-propos.html
-  - Histoire, valeurs, créateur Jean-Pierre Baguette. À distance 100 %.
-- Diagnostic gratuit : https://monsieurclick.fr/contact.html
-  - 30 minutes, sans engagement. État des lieux, priorités, plan chiffré sous 48 h.
+  - Agence SEO local & création de site à Malakoff (92)
+- Click First™ : https://monsieurclick.fr/click-first
+  - Méthode tout-en-un : site web, SEO local, GBP, avis, GEO
+- Offres et tarifs : https://monsieurclick.fr/offres
+  - Essentiel 850€/mois, Développement 1 000€/mois, Expansion 1 500€/mois
+- Réalisations : https://monsieurclick.fr/realisations
+  - Études de cas : Assogym, Dharma Massage, Bodyguard Paris, etc.
+- À propos : https://monsieurclick.fr/a-propos
+  - Créateur Jean-Pierre Baguette. 100% à distance.
+- Diagnostic gratuit : https://monsieurclick.fr/contact
+  - 30 minutes, sans engagement. Plan chiffré sous 48h.
 
 ## Pages légales
-- Mentions légales : https://monsieurclick.fr/mentions-legales.html
-- Confidentialité : https://monsieurclick.fr/confidentialite.html
-- Conditions générales : https://monsieurclick.fr/conditions.html
+- Mentions légales : https://monsieurclick.fr/mentions-legales
+- Confidentialité : https://monsieurclick.fr/confidentialite
+- Conditions : https://monsieurclick.fr/conditions
 
 ## Blog (15 articles)
 ### Stratégie
-- Click First™ n'est pas une prestation SEO : https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo.html
-  - Le problème n'est pas les outils, c'est leur isolement. Click First les connecte.
-- Entreprise référencée plutôt que visible : https://monsieurclick.fr/blog-entreprise-reference-plutot-que-visible.html
-  - Être trouvé ne suffit plus. Il faut devenir la référence.
-- Site internet suffit en 2026 : https://monsieurclick.fr/blog-site-suffit-2026.html
-  - Un site seul ne suffit plus sans SEO, GBP, avis et visibilité IA.
-- Google Ads ou SEO : https://monsieurclick.fr/blog-google-ads-ou-seo.html
-  - Où investir pour un retour durable.
+- Click First™ pas une prestation SEO : https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo
+- Entreprise référence plutôt que visible : https://monsieurclick.fr/blog-entreprise-reference-plutot-que-visible
+- Site suffit en 2026 ? : https://monsieurclick.fr/blog-site-suffit-2026
+- Google Ads ou SEO : https://monsieurclick.fr/blog-google-ads-ou-seo
 
-### SEO Local & Google Business Profile
-- Pourquoi vos concurrents sont devant vous : https://monsieurclick.fr/blog-pourquoi-concurrents-devant-google.html
-  - Les 5 raisons pour lesquelles vos concurrents vous dépassent sur Google.
-- Pourquoi votre entreprise est invisible sur Google : https://monsieurclick.fr/blog-pourquoi-entreprise-invisible-google.html
-  - Les 7 erreurs qui rendent une entreprise invisible.
-- Comment Google classe les entreprises : https://monsieurclick.fr/blog-comment-google-classe-les-entreprises.html
-  - Les critères réels de classement local.
-- Fiche Google Business Profile sans appel : https://monsieurclick.fr/blog-fiche-google-business-profile-sans-appel.html
-  - Votre fiche optimisée ne génère pas d'appels ? Voici pourquoi.
-- Obtenir plus d'avis Google : https://monsieurclick.fr/blog-obtenir-plus-avis-google.html
-  - Obtenir des avis sans être insistant.
+### SEO Local & GBP
+- Concurrents devant vous : https://monsieurclick.fr/blog-pourquoi-concurrents-devant-google
+- Entreprise invisible sur Google : https://monsieurclick.fr/blog-pourquoi-entreprise-invisible-google
+- Comment Google classe les entreprises : https://monsieurclick.fr/blog-comment-google-classe-les-entreprises
+- Fiche GBP sans appel : https://monsieurclick.fr/blog-fiche-google-business-profile-sans-appel
+- Plus d'avis Google : https://monsieurclick.fr/blog-obtenir-plus-avis-google
 
 ### Visibilité IA (GEO)
-- GEO : optimiser son entreprise pour les IA génératives : https://monsieurclick.fr/blog-geo-generative-engine-optimization.html
-  - L'évolution naturelle du SEO : être compris et cité par les IA génératives.
-- Apparaître dans ChatGPT, Gemini, Perplexity : https://monsieurclick.fr/blog-apparaitre-reponses-chatgpt-gemini-perplexity.html
-  - Comment être recommandé par les IA conversationnelles.
-- Vos clients utilisent ChatGPT avant Google : https://monsieurclick.fr/blog-clients-utilisent-chatgpt-avant-google.html
-  - Le changement de comportement de recherche en 2026.
-- Les IA vont-elles remplacer Google : https://monsieurclick.fr/blog-ia-vont-elles-remplacer-google.html
-  - Elles ne tuent pas Google. Elles changent le parcours client.
+- GEO pour entreprises : https://monsieurclick.fr/blog-geo-generative-engine-optimization
+- Apparaître dans ChatGPT, Gemini, Perplexity : https://monsieurclick.fr/blog-apparaitre-reponses-chatgpt-gemini-perplexity
+- Clients utilisent ChatGPT avant Google : https://monsieurclick.fr/blog-clients-utilisent-chatgpt-avant-google
+- IA vont-elles remplacer Google ? : https://monsieurclick.fr/blog-ia-vont-elles-remplacer-google
 
 ### Acquisition
-- Votre site internet perd des clients : https://monsieurclick.fr/blog-site-internet-perd-clients.html
-  - 10 signes que votre site fait fuir vos prospects.
-- Trouver des clients sans publicité : https://monsieurclick.fr/blog-trouver-clients-sans-publicite.html
-  - La méthode pour attirer des clients chaque semaine sans pub.
-
-## Services détaillés
-- SEO Local & Site Web GEO : https://monsieurclick.fr/offres.html
-- SEO Local seul : https://monsieurclick.fr/click-first.html
-- Framework GEO IA : https://monsieurclick.fr/click-first.html#geo
-- Création de site web : https://monsieurclick.fr/offres.html
-- Optimisation mensuelle : https://monsieurclick.fr/click-first.html#optimisation
-- SEO ChatGPT : https://monsieurclick.fr/click-first.html#geo
-- Copywriting StoryBrand : https://monsieurclick.fr/click-first.html#contenus
-
-## OKF Knowledge Bundle
-- Hub OKF : https://monsieurclick.fr/okf/
-- Tous les services : https://monsieurclick.fr/okf/services/
-- SEO Local & Site Web GEO : https://monsieurclick.fr/okf/services/seo-local-site-web.html
-- SEO Local : https://monsieurclick.fr/okf/services/seo-local.html
-- Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia.html
-- Création de site web : https://monsieurclick.fr/okf/services/creation-site-web.html
-- Optimisation mensuelle : https://monsieurclick.fr/okf/services/optimisation-mensuelle.html
-- SEO ChatGPT : https://monsieurclick.fr/okf/services/seo-chatgpt.html
-- Copywriting StoryBrand : https://monsieurclick.fr/okf/services/copywriting-storybrand.html
-- À propos (OKF) : https://monsieurclick.fr/okf/a-propos.html
-- Réalisations (OKF) : https://monsieurclick.fr/okf/realisations.html
-- Contact (OKF) : https://monsieurclick.fr/okf/contact.html
-- Blog (OKF) : https://monsieurclick.fr/okf/blog/
+- Site internet perd des clients : https://monsieurclick.fr/blog-site-internet-perd-clients
+- Clients sans publicité : https://monsieurclick.fr/blog-trouver-clients-sans-publicite
 
 ## Offres et tarifs
 | Offre | Cible | Prix | Engagement |
 |-------|-------|------|------------|
-| Click First™ Essentiel | Site petit ou coach | 850 €/mois | 6 mois |
-| Click First™ Développement | Site artisan | 1 000 €/mois | 12 mois |
-| Click First™ Expansion | Site entreprise | 1 500 €/mois | 12 mois |
+| Click First™ Essentiel | Petit site ou coach | 850 €/mois | 6 mois |
+| Click First™ Développement | Artisan | 1 000 €/mois | 12 mois |
+| Click First™ Expansion | Entreprise | 1 500 €/mois | 12 mois |
 
 ## Résultats vérifiés
-- Dub-School : +40 % d'élèves
-- Heather Fillmore Coaching : +200 % de trafic
-- Sync Legal : +150 % de leads
-- Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Studio La Voix du 12, East Portland Sash
+- Dub-School : +40% d'élèves
+- Heather Fillmore Coaching : +200% de trafic
+- Sync Legal : +150% de leads
 
 ## Ressources techniques
 - Sitemap : https://monsieurclick.fr/sitemap.xml
