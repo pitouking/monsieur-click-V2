@@ -1,0 +1,286 @@
+# Monsieur Click — AI Agent Knowledge (FR) — llms-full.txt
+# Version étendue avec descriptions complètes, résumés de contenu et types Schema.org
+# Site français : https://monsieurclick.fr/
+#
+# RSL 1.0 — Responsible Site License
+
+================================================================================
+ENTITÉ
+================================================================================
+Nom : Monsieur Click
+Méthode propriétaire : Click First™
+Adresse NAP : 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+Téléphone : +33 6 60 76 15 23
+Email : contact@monsieurclick.com
+SIRET : 42953906700042
+Zones : France, Belgique, Suisse, Canada, États-Unis, Royaume-Uni
+Langues : Français (FR), Anglais (EN)
+URL : https://monsieurclick.fr/
+Promesse : Soyez trouvé. Soyez choisi.
+Fonctionnement : 100 % à distance (téléphone, Zoom, email)
+Fondateur : Jean-Pierre Baguette
+Création : 2023
+Réseaux sociaux : LinkedIn, Twitter/X, Instagram, Facebook
+Bundle OKF : https://monsieurclick.fr/okf/
+Bundle texts : https://monsieurclick.fr/texts/
+
+================================================================================
+PAGE : Accueil
+================================================================================
+URL : https://monsieurclick.fr/
+Titre : Agence SEO local & création de site à Malakoff (92)
+Description : Agence SEO local et création de sites à Malakoff. La méthode Click First pour être trouvé sur Google, Maps et les IA. Diagnostic gratuit.
+Schema.org : FAQPage, Organization, ProfessionalService, WebSite, WebPage
+Résumé :
+Page d'accueil présentant Monsieur Click, créateur de Click First™. Hero avec le message "Vos futurs clients vous cherchent déjà. Faisons en sorte qu'ils vous trouvent." Présente le système complet : site internet, SEO local, Google Business Profile, avis, visibilité IA (GEO), contenus StoryBrand. Inclut une FAQ structurée (Comment apparaître dans le top 3 Google Maps, Être référencé gratuitement, Faut-il un site avec une fiche GBP, Comment être recommandé par ChatGPT, Temps pour être visible, Qu'est-ce que le SEO local, Travail avec pays francophones/anglophones, SEO mort avec les IA, Pourquoi investir maintenant). Note Google : 5 étoiles, basé sur 15 avis. 3 offres : Essentiel à 850 €/mois, Développement à 1 000 €/mois, Expansion à 1 500 €/mois.
+Contenu clé : Hero + CTA diagnostic gratuit, section Click First™ (méthode complète), offres, réalisations, FAQ, formulaire de contact GHL.
+
+================================================================================
+PAGE : Click First™
+================================================================================
+URL : https://monsieurclick.fr/click-first.html
+Titre : Click First™, la méthode SEO tout-en-un
+Description : Click First réunit site, SEO local, avis et visibilité IA en une méthode cohérente pour PME. Devenez le choix évident. Diagnostic gratuit.
+Schema.org : Service, FAQPage, Organization, ProfessionalService, WebSite, BreadcrumbList, WebPage
+Résumé :
+Page pilier présentant la méthode Click First™. Composantes : Site web & Technical SEO, SEO local, Google Business Profile, Citations & cohérence NAP, Avis Google, Données structurées Schema.org + OKF, Visibilité IA (GEO : ChatGPT/Claude/Gemini/Perplexity), Contenus StoryBrand, Optimisation continue. FAQ détaillée : puis-je ne prendre qu'une composante, qu'est-ce que Schema et OKF, Technical SEO inclus, cohérence NAP, délais de résultats, compatibilité WordPress, comment être cité par les IA, différence SEO/GEO, faut-il refaire mon site, pack local Google Maps, travail à distance, garantie de position.
+Contenu clé : système cohérent vs prestations isolées, chaque levier expliqué, résultats mesurés chaque mois.
+
+================================================================================
+PAGE : Offres et tarifs
+================================================================================
+URL : https://monsieurclick.fr/offres.html
+Titre : Offres SEO local, création de site & contenu
+Description : Création de site, SEO local, Google Business Profile et contenu optimisé pour TPE/PME. Choisissez votre levier. Diagnostic gratuit, Monsieur Click.
+Schema.org : OfferCatalog, Offer, Organization, ProfessionalService, WebSite, BreadcrumbList, WebPage
+Résumé :
+Présentation des 3 offres Click First™ :
+- Essentiel : 850 €/mois, engagement 6 mois. Pour site petit ou coach. Inclus : site web + hébergement, SEO local, Google Business Profile, citations NAP, suivi mensuel.
+- Développement : 1 000 €/mois, engagement 12 mois. Pour site artisan. Inclus : Essentiel + avis Google, contenus StoryBrand, Schema.org avancé.
+- Expansion : 1 500 €/mois, engagement 12 mois. Pour site entreprise. Inclus : Développement + visibilité IA (GEO), bundle OKF, CRM automation (option).
+Tout commence par un diagnostic gratuit de 30 minutes. Aucun paiement en ligne.
+Contenu clé : chaque offre détaille les composantes incluses, la cible, le prix et l'engagement.
+
+================================================================================
+PAGE : Réalisations
+================================================================================
+URL : https://monsieurclick.fr/realisations.html
+Titre : Réalisations SEO local & sites web de PME
+Description : Résultats clients concrets en SEO local, création de sites et visibilité Google. Ce que produit la méthode Click First. Diagnostic gratuit.
+Schema.org : BreadcrumbList, Organization, ProfessionalService, WebSite, WebPage
+Résumé :
+Études de cas réelles organisées par secteur :
+- Bien-être & Santé : Assogym (certification Qualiopi), Dharma Massage, Susan Filan
+- Services & Sécurité : Bodyguard Paris, Heather Fillmore Coaching
+- Art & Culture : Studio La Voix du 12
+- BTP & Artisanat : East Portland Sash
+Chaque cas détaille le problème initial, la solution Click First™ appliquée et les résultats obtenus. Dub-School (+40 % d'élèves), Heather Fillmore (+200 % de trafic), Sync Legal (+150 % de leads).
+Contenu clé : preuves sociales par secteur, résultats chiffrés, méthodologie commune (système, pas chance).
+
+================================================================================
+PAGE : À propos
+================================================================================
+URL : https://monsieurclick.fr/a-propos.html
+Titre : À propos de Monsieur Click, agence SEO local
+Description : Monsieur Click, agence SEO et webdesign à Malakoff, aide les TPE/PME à être trouvées et choisies sur Google et les IA. Diagnostic gratuit.
+Schema.org : AboutPage, Organization, ProfessionalService, WebSite, BreadcrumbList
+Résumé :
+Histoire et valeurs de Monsieur Click. Conviction : les meilleures entreprises devraient aussi être les plus faciles à trouver. Créé par Jean-Pierre Baguette en 2023. Fonctionnement 100 % à distance. Ne se définit pas comme "une agence" mais comme le créateur d'une méthode. Valeurs : transparence, cohérence, résultats mesurables. Services couverts : SEO local, création site web, Google Business Profile, visibilité IA, copywriting StoryBrand.
+Contenu clé : pourquoi Monsieur Click existe, la philosophie Click First™ vs agences traditionnelles, le fonctionnement à distance.
+
+================================================================================
+PAGE : Diagnostic gratuit / Contact
+================================================================================
+URL : https://monsieurclick.fr/contact.html
+Titre : Contact & diagnostic SEO gratuit | Monsieur Click
+Description : Contactez Monsieur Click pour un diagnostic gratuit de votre visibilité sur Google, Google Maps et les IA. Réponse sous 24 h ouvrées.
+Schema.org : ContactPage, Organization, ProfessionalService, WebSite, BreadcrumbList
+Résumé :
+Page de contact avec formulaire de diagnostic gratuit (30 minutes). Ce que vous recevez : état des lieux visibilité (Google, Maps, IA), 3 priorités concrètes, plan chiffré sous 48 h, sans engagement. Coordonnées : 24 bis sentier des Fosses Rouges, 92240 Malakoff, France. Email : contact@monsieurclick.com. Téléphone : +33 6 60 76 15 23. Zones : France, francophone & anglophone, 100 % à distance.
+Contenu clé : formulaire GHL intégré, informations de contact complètes, processus du diagnostic.
+
+================================================================================
+PAGE : Blog
+================================================================================
+URL : https://monsieurclick.fr/blog.html
+Titre : Blog SEO local, Google Business & visibilité IA | Monsieur Click
+Description : Conseils pratiques pour être trouvé et choisi sur Google, Maps et les IA : SEO local, fiche Google, avis et visibilité dans ChatGPT.
+Schema.org : ItemList, Organization, ProfessionalService, WebSite, BreadcrumbList
+Résumé :
+Hub du blog avec 15 articles organisés par catégories : Stratégie, SEO, Google Business Profile, Visibilité IA. Filtres interactifs. Chaque article présente un titre, une catégorie, un extrait et un lien. Articles mis en avant : Click First™ n'est pas une prestation SEO, GEO pour les IA génératives.
+Contenu clé : liste complète des articles avec catégories et extraits, recherche et filtres.
+
+================================================================================
+BLOG : Click First™ n'est pas une prestation SEO
+================================================================================
+URL : https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo.html
+Titre : Click First™ n'est pas une prestation SEO — c'est un écosystème de visibilité complet
+Description : Le problème des PME n'est pas le manque d'outils SEO, c'est leur isolement. Click First™ connecte site, SEO local, GBP, avis, GEO et données structurées en un seul système cohérent.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Stratégie
+Résumé : La plupart des entreprises achètent des prestations SEO isolées qui ne communiquent pas entre elles. Click First™ résout ce problème en connectant tous les leviers : site, SEO local, Google Business Profile, avis, visibilité IA (GEO), données structurées. Résultat : un écosystème cohérent qui se renforce mutuellement.
+
+================================================================================
+BLOG : GEO — Optimiser son entreprise pour les IA génératives
+================================================================================
+URL : https://monsieurclick.fr/blog-geo-generative-engine-optimization.html
+Titre : GEO (Generative Engine Optimization) : optimisez votre entreprise pour les IA génératives
+Description : L'évolution naturelle du SEO : être compris et cité par les IA génératives comme ChatGPT, Gemini, Claude et Perplexity.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Visibilité IA
+Résumé : Le GEO est la suite logique du SEO. Là où le SEO vise les moteurs de recherche, le GEO prépare votre entreprise à être citée par les IA génératives. Les piliers : données structurées Schema.org, bundle OKF, contenus clairs et citables, entités nommées cohérentes, autorisation des robots IA.
+
+================================================================================
+BLOG : Les IA vont-elles remplacer Google ?
+================================================================================
+URL : https://monsieurclick.fr/blog-ia-vont-elles-remplacer-google.html
+Titre : Les IA vont-elles remplacer Google ? La vérité sur l'avenir de la recherche en ligne
+Description : ChatGPT, Perplexity et Gemini ne tuent pas Google. Ils changent le parcours de vos futurs clients. Voici ce que ça implique pour votre entreprise.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Visibilité IA
+Résumé : Les IA ne remplacent pas Google, elles ajoutent un nouveau canal de recherche. Les entreprises doivent être visibles sur les deux : Google pour la recherche traditionnelle, les IA pour les recommandations conversationnelles. L'approche Click First™ couvre les deux.
+
+================================================================================
+BLOG : Entreprise référencée plutôt que visible
+================================================================================
+URL : https://monsieurclick.fr/blog-entreprise-reference-plutot-que-visible.html
+Titre : Devenez une entreprise de référence, pas seulement visible
+Description : Être trouvé sur Google ne suffit plus. Il faut devenir la référence que Google, ChatGPT et vos clients citent spontanément.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Stratégie
+Résumé : La visibilité est passive, la référence est active. Une entreprise de référence est celle que les moteurs et les IA recommandent naturellement, parce qu'elle a construit une autorité réelle : avis, contenus, citations, cohérence des données.
+
+================================================================================
+BLOG : Obtenir plus d'avis Google
+================================================================================
+URL : https://monsieurclick.fr/blog-obtenir-plus-avis-google.html
+Titre : Obtenir plus d'avis Google (sans être insistant) — Guide complet
+Description : Les avis Google sont le facteur n°1 du SEO local. Découvrez comment en obtenir plus, naturellement, sans forcer vos clients.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Google Business Profile
+Résumé : Guide pratique pour obtenir des avis Google authentiques. Stratégies : timing de la demande, automatisation du lien d'avis, réponse à tous les avis, intégration dans le parcours client. Les avis influencent le classement local et la décision des prospects.
+
+================================================================================
+BLOG : Votre site internet perd des clients
+================================================================================
+URL : https://monsieurclick.fr/blog-site-internet-perd-clients.html
+Titre : Votre site internet perd des clients : 10 signes qui ne trompent pas
+Description : Un site lent, mal structuré ou sans données Schema.org fait fuir vos prospects ET Google. Voici les 10 signaux d'alarme.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : SEO
+Résumé : 10 signes que votre site fait fuir des clients : lenteur, absence de mobile-first, pas de Schema.org, pas de CTA clair, contenu périmé, absence d'avis, pas de maillage interne, design non professionnel, pas de données structurées, pas d'optimisation locale.
+
+================================================================================
+BLOG : Pourquoi vos concurrents sont devant vous sur Google
+================================================================================
+URL : https://monsieurclick.fr/blog-pourquoi-concurrents-devant-google.html
+Titre : Pourquoi vos concurrents sont devant vous sur Google (et comment les dépasser)
+Description : Vos concurrents ne sont pas meilleurs que vous. Ils sont juste mieux organisés. Voici les 5 leviers qu'ils activent.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : SEO
+Résumé : 5 raisons : Google Business Profile optimisé, avis réguliers, site techniquement propre, contenus locaux réguliers, données structurées Schema.org. La bonne nouvelle : ces leviers sont actionnables.
+
+================================================================================
+BLOG : Apparaître dans les réponses de ChatGPT, Gemini, Perplexity
+================================================================================
+URL : https://monsieurclick.fr/blog-apparaitre-reponses-chatgpt-gemini-perplexity.html
+Titre : Apparaître dans les réponses de ChatGPT, Gemini et Perplexity — Guide GEO
+Description : Les IA conversationnelles recommandent déjà des entreprises. Voici comment faire en sorte que la vôtre soit citée.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Visibilité IA
+Résumé : Guide pratique pour être cité par les IA : bundle OKF/llms.txt, Schema.org complet, autorisations robots.txt (GPTBot, ClaudeBot, PerplexityBot), contenu citable et structuré, cohérence des informations sur tout le web.
+
+================================================================================
+BLOG : Vos clients utilisent ChatGPT avant Google
+================================================================================
+URL : https://monsieurclick.fr/blog-clients-utilisent-chatgpt-avant-google.html
+Titre : Vos clients utilisent ChatGPT avant Google — Êtes-vous prêt ?
+Description : En 2026, de plus en plus de clients posent leurs questions aux IA avant de chercher sur Google. Votre entreprise est-elle visible là-bas ?
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Visibilité IA
+Résumé : Les habitudes de recherche changent. Les clients commencent par ChatGPT, Perplexity ou Gemini pour leurs questions. Si votre entreprise n'est pas structurée pour ces canaux, vous êtes invisible pour une part croissante de votre marché.
+
+================================================================================
+BLOG : Google Ads ou SEO — Où investir ?
+================================================================================
+URL : https://monsieurclick.fr/blog-google-ads-ou-seo.html
+Titre : Google Ads ou référencement naturel (SEO) : où investir pour un retour durable ?
+Description : Publicité ou référencement ? Les deux ont leur place, mais pas au même moment. Voici comment choisir.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Stratégie
+Résumé : Comparaison Google Ads vs SEO : les Ads donnent des résultats immédiats mais coûteux et temporaires ; le SEO construit une visibilité durable mais prend du temps. Stratégie recommandée : SEO en fondation, Ads pour les pics d'activité.
+
+================================================================================
+BLOG : Trouver des clients sans publicité
+================================================================================
+URL : https://monsieurclick.fr/blog-trouver-clients-sans-publicite.html
+Titre : Trouver des clients chaque semaine sans publicité — La méthode SEO local
+Description : Attirez des clients qualifiés chaque semaine sans dépenser un euro en publicité. La méthode complète.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : SEO
+Résumé : Méthode pour attirer des clients sans publicité : Google Business Profile optimisé, avis réguliers, contenus locaux, citations NAP, site web performant. Le SEO local comme moteur d'acquisition rentable et durable.
+
+================================================================================
+BLOG : Fiche Google Business Profile sans appel
+================================================================================
+URL : https://monsieurclick.fr/blog-fiche-google-business-profile-sans-appel.html
+Titre : Votre fiche Google Business Profile n'apporte aucun appel — Voici pourquoi
+Description : Votre fiche Google est optimisée mais le téléphone ne sonne pas ? 5 raisons qui expliquent pourquoi et comment y remédier.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Google Business Profile
+Résumé : Une fiche GBP bien classée ne suffit pas si elle ne convertit pas. Raisons : absence d'avis récents, photos non attractives, description générique, pas de publications, informations incomplètes, pas de lien vers un site qui rassure.
+
+================================================================================
+BLOG : Comment Google classe les entreprises
+================================================================================
+URL : https://monsieurclick.fr/blog-comment-google-classe-les-entreprises.html
+Titre : Comment Google classe les entreprises locales — Les vrais critères de classement
+Description : Proximité, pertinence, notoriété : découvrez comment Google décide quelles entreprises montrer dans le pack local.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : SEO
+Résumé : Les 3 piliers du classement local Google : Proximité (distance physique), Pertinence (adéquation avec la recherche), Notoriété (signaux de confiance : avis, citations, liens). Chaque pilier expliqué avec des actions concrètes.
+
+================================================================================
+BLOG : Pourquoi votre entreprise est invisible sur Google
+================================================================================
+URL : https://monsieurclick.fr/blog-pourquoi-entreprise-invisible-google.html
+Titre : Pourquoi votre entreprise est invisible sur Google — Les 7 erreurs fatales
+Description : Vous avez un site et une fiche Google, mais personne ne vous trouve ? Voici les 7 raisons les plus fréquentes.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : SEO
+Résumé : 7 erreurs : pas de fiche GBP vérifiée, incohérence NAP, absence d'avis, site non optimisé (pas de mobile-first, lent), pas de Schema.org, contenu générique sans mots-clés locaux, pas de citations dans les annuaires.
+
+================================================================================
+BLOG : Un site internet suffit-il en 2026 ?
+================================================================================
+URL : https://monsieurclick.fr/blog-site-suffit-2026.html
+Titre : Un site internet suffit-il en 2026 ? La réponse va vous surprendre
+Description : En 2026, un site seul ne suffit plus. Découvrez ce dont votre entreprise a vraiment besoin pour être trouvée.
+Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
+Catégorie : Stratégie
+Résumé : Un site seul est nécessaire mais plus suffisant. En 2026, il faut un écosystème complet : site + GBP + SEO local + avis + Schema.org + visibilité IA. Les clients arrivent par Google Maps, les IA, les avis — le site est la destination finale.
+
+================================================================================
+PAGE : Mentions légales
+================================================================================
+URL : https://monsieurclick.fr/mentions-legales.html
+Titre : Mentions légales | Monsieur Click
+Schema.org : WebPage
+
+================================================================================
+PAGE : Confidentialité
+================================================================================
+URL : https://monsieurclick.fr/confidentialite.html
+Titre : Politique de confidentialité | Monsieur Click
+Schema.org : WebPage
+
+================================================================================
+PAGE : Conditions générales
+================================================================================
+URL : https://monsieurclick.fr/conditions.html
+Titre : Conditions générales | Monsieur Click
+Schema.org : WebPage
+
+================================================================================
+## RSL 1.0
+<!-- RSL 1.0 -->

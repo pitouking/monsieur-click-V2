@@ -1,0 +1,17 @@
+# Cloudflare Pages redirects
+# OKF directory rewrites
+/okf  /okf/index.html  200
+/okf/  /okf/index.html  200
+/okf/services  /okf/services/index.html  200
+/okf/services/  /okf/services/index.html  200
+/okf/services/*  /okf/services/:splat  200
+/okf/a-propos  /okf/a-propos.html  200
+/okf/realisations  /okf/realisations.html  200
+/okf/contact  /okf/contact.html  200
+/okf/blog  /okf/blog/index.html  200
+/okf/blog/  /okf/blog/index.html  200
+/okf/blog/*  /okf/blog/:splat  200
+
+# Texts directory rewrites
+/texts  /texts/index.txt  200
+/texts/  /texts/index.txt  200

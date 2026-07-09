@@ -16,5 +16,9 @@ User-agent: PerplexityBot
 Allow: /
 User-agent: Google-Extended
 Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Bytespider
+Allow: /
 
-Sitemap: https://monsieurclick.com/sitemap.xml
+Sitemap: https://monsieurclick.fr/sitemap.xml
