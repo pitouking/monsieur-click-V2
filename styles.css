@@ -10,7 +10,7 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{font-family:'Montserrat',system-ui,sans-serif;background-color:var(--navy);background-image:radial-gradient(rgba(255,255,255,.02) 1px,transparent 1px);background-size:26px 26px;color:var(--ink);line-height:1.65;overflow-x:hidden}
+  body{font-family:'Montserrat',system-ui,sans-serif;background-color:var(--navy);background-image:radial-gradient(rgba(255,255,255,.02) 1px,transparent 1px);background-size:26px 26px;color:var(--ink);line-height:1.65;}
   /* Halos de fond très doux (profondeur, casse les aplats navy) */
   pointer-events:none;background:radial-gradient(46% 38% at 10% 6%,rgba(53,167,230,.05),transparent 62%),radial-gradient(42% 34% at 90% 82%,rgba(240,82,42,.045),transparent 62%)}
   h1,h2,h3,h4,.disp{font-family:'Montserrat',sans-serif;line-height:1.1;letter-spacing:0;font-weight:700;text-wrap:balance}
