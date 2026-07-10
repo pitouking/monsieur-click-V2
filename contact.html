@@ -38,7 +38,7 @@
 <nav id="nav">
   <div class="wrap-wide nav-inner">
     <a href="/" class="logo"><img class="mk" src="/logo-mc.webp" alt="Monsieur Click" width="48" height="48"> Monsieur <b>Click</b></a>
-    <div class="nav-links" id="navLinks">
+    <div class="nav-links" id="navLinks" aria-hidden="true">
       <a href="/click-first" class="link">Click First™</a>
       <a href="/realisations" class="link">Réalisations</a>
       <a href="/offres" class="link">Offres</a>
@@ -47,7 +47,7 @@
       <a href="/contact" class="btn btn-primary">Diagnostic gratuit</a>
       <div class="lang" role="group" aria-label="Langue du site"><a href="https://monsieurclick.fr" class="on" hreflang="fr" aria-current="true">FR</a><a href="https://monsieurclick.com" hreflang="en">EN</a></div>
     </div>
-    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navLinks">☰</button>
   </div>
 </nav>
 
