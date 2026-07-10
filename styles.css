@@ -110,7 +110,7 @@
   .showcase{position:relative;width:100%;min-height:70vh;overflow:hidden;background:var(--navy)}
   .showcase img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
   .showcase::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,var(--navy),transparent 16%,transparent 84%,var(--navy));pointer-events:none}
-  #offres,#avis,.approach,#faq,#parlons,footer{content-visibility:auto;contain-intrinsic-size:auto 600px}
+  #offres,#avis,.approach,#parlons,footer{content-visibility:auto;contain-intrinsic-size:auto 600px}
 
   .journey{background:linear-gradient(180deg,var(--navy),var(--navy-2))}
   .jtrack{position:relative;height:360vh}

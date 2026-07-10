@@ -33,6 +33,13 @@
     revealEls.forEach(el=>io.observe(el));
   }
 
+  document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{
+    const item=q.parentElement,a=item.querySelector('.faq-a'),open=item.classList.contains('open');
+    if(!a)return;
+    document.querySelectorAll('.faq-item').forEach(i=>{const pane=i.querySelector('.faq-a');i.classList.remove('open');if(pane)pane.style.maxHeight=null});
+    if(!open){item.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
+  }));
+
   function bootHeavy(){
     const cl=document.getElementById('checklist');
     if(cl){
