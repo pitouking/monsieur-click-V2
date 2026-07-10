@@ -9,11 +9,19 @@
     requestAnimationFrame(()=>{nav.classList.toggle('scrolled',scrollY>40);ticking=false;});
   },{passive:true});
   const toggle=document.getElementById('menuToggle'),links=document.getElementById('navLinks');
-  if(toggle&&links){toggle.addEventListener('click',()=>{
-      const open=links.classList.toggle('show');
-      toggle.setAttribute('aria-expanded',String(open));
-    });
-    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('show');toggle.setAttribute('aria-expanded','false');}));}
+  function setMenu(open){
+    if(!links||!toggle)return;
+    links.classList.toggle('show',open);
+    links.setAttribute('aria-hidden',String(!open));
+    document.body.classList.toggle('menu-open',open);
+    toggle.setAttribute('aria-expanded',String(open));
+    toggle.textContent=open?'✕':'☰';
+    toggle.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu');
+  }
+  if(toggle&&links){
+    toggle.addEventListener('click',()=>setMenu(!links.classList.contains('show')));
+    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+  }
 
   const revealEls=[...document.querySelectorAll('.reveal')];
   revealEls.forEach((el,i)=>el.style.setProperty('--reveal-delay',`${Math.min(i%3,2)*70}ms`));

@@ -14,13 +14,16 @@
 <meta property="og:description" content="Développez votre entreprise. Nous nous occupons de votre visibilité sur Google et dans les intelligences artificielles.">
 <meta property="og:image" content="https://monsieurclick.fr/hero-bg.webp">
 <meta property="og:locale" content="fr_FR">
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="dns-prefetch" href="https://connect.facebook.net">
+<link rel="dns-prefetch" href="https://link.monsieurclick.com">
+<link rel="dns-prefetch" href="https://www.cookie-banner.ca">
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="preload" as="font" href="/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" type="font/woff2" crossorigin>
-<link rel="preload" as="font" href="/fonts/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="/hero-bg.webp" fetchpriority="high">
+<link rel="preload" href="/styles.css?v=20260710k" as="style">
+<link rel="stylesheet" href="/styles.css?v=20260710k">
 <meta property="og:locale:alternate" content="en_US">
-<link rel="stylesheet" href="/fonts/fonts.css">
-<link rel="preload" as="font" href="/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" type="font/woff2" crossorigin>
-<link rel="preload" as="font" href="/fonts/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2" type="font/woff2" crossorigin>
 <meta property="og:url" content="https://monsieurclick.fr/">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
@@ -40,8 +43,6 @@
   ]
 }
 </script>
-<link rel="preload" as="image" href="hero-bg.webp" fetchpriority="high">
-<link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
 {"@type":["Organization","ProfessionalService"],"@id":"https://monsieurclick.fr/#org","name":"Monsieur Click","alternateName":"Créateur de Click First™","url":"https://monsieurclick.fr/","logo":"https://monsieurclick.fr/logo-mc.webp","image":"https://monsieurclick.fr/hero-bg.webp","email":"contact@monsieurclick.com","telephone":"+33660761523","priceRange":"€€","foundingDate":"2023","knowsLanguage":["fr","en"],"founder":{"@type":"Person","name":"Jean-Pierre Baguette"},"address":{"@type":"PostalAddress","streetAddress":"24 bis sentier des Fosses Rouges","postalCode":"92240","addressLocality":"Malakoff","addressRegion":"Île-de-France","addressCountry":"FR"},"areaServed":[{"@type":"Country","name":"France"},{"@type":"Country","name":"Belgique"},{"@type":"Country","name":"Suisse"},{"@type":"Country","name":"Canada"},{"@type":"Country","name":"United States"},{"@type":"Country","name":"United Kingdom"}],"sameAs":["https://www.linkedin.com/company/monsieur-click/","https://twitter.com/monsieurclick","https://www.instagram.com/monsieurclick/","https://facebook.com/monsieurclick"],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"15"}},
@@ -51,19 +52,13 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://monsieurclick.fr/#webpage", "url": "https://monsieurclick.fr/", "name": "Monsieur Click, Click First™ : soyez trouvé, soyez choisi | France, francophone & anglophone", "isPartOf": {"@id": "https://monsieurclick.fr/#website"}, "about": {"@id": "https://monsieurclick.fr/#org"}, "inLanguage": "fr-FR", "description": "Vos futurs clients vous cherchent déjà sur Google et sur les IA. Click First™ réunit site, SEO, Google Business Profile, avis et visibilité IA dans une seule méthode. Pour les entreprises francophones et anglophones."}]}
 </script>
-<!-- Meta Pixel -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','852496749984370');fbq('track','PageView');
-</script>
-<noscript><img loading="lazy" decoding="async" height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=852496749984370&ev=PageView&noscript=1"/></noscript>
-<!-- End Meta Pixel -->
 </head>
 <body>
 
 <nav id="nav">
   <div class="wrap-wide nav-inner">
     <a href="/" class="logo"><img class="mk" src="/logo-mc.webp" alt="Monsieur Click" width="48" height="48"> Monsieur <b>Click</b></a>
-    <div class="nav-links" id="navLinks">
+    <div class="nav-links" id="navLinks" aria-hidden="true">
       <a href="/click-first" class="link">Click First™</a>
       <a href="/realisations" class="link">Réalisations</a>
       <a href="/offres" class="link">Offres</a>
@@ -182,7 +177,10 @@
         </div>
       </div>
       <div class="jbar"><i id="jprog"></i></div>
-      <div class="jrail" id="jrail"></div>
+      <div class="jrail-scroll" id="jrailScroll" aria-label="Étapes du parcours client">
+        <div class="jrail" id="jrail"></div>
+      </div>
+      <p class="j-swipe-hint" aria-hidden="true">Glissez pour explorer le parcours</p>
     </div>
   </div>
 </section>
@@ -310,9 +308,6 @@ nostic</a>
     </div>
     <div class="center reveal"><span class="g-badge"><span class="stars">★★★★★</span> <b>5,0</b> · 15 avis Google</span></div>
     <div class="widget-wrap reveal" id="widgetWrap">
-      <script type="text/javascript">
-      !function(){var e,t=document;e=function(){if(window.EMRPixel)return console.info("EMR: Pixel already loaded");var e=t.createElement("script");e.defer=!0,e.src="https://cdn2.revw.me/js/pixel.js?t="+864e5*Math.ceil(new Date/864e5);var n=t.getElementsByTagName("script")[0];n.charset="utf-8",n.parentNode.insertBefore(e,n),e.onload=function(){EMRPixel.init("review.monsieurclick.com",34)}},"interactive"===t.readyState||"complete"===t.readyState?e():t.addEventListener("DOMContentLoaded",e)}();
-      </script>
       <emr-simple-carousel widget-id="0b372368-eefd-4fe6-b21c-0948dd489ac3"></emr-simple-carousel>
     </div>
     <div class="rev-track reveal" id="revFallback" style="display:none">
@@ -495,95 +490,7 @@ nostic</a>
   </div>
 </footer>
 
-<script>
-(function(){
-  const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
-  let ticking=false;
-  const nav=document.getElementById('nav');
-  if(nav)addEventListener('scroll',()=>{
-    if(ticking)return;ticking=true;
-    requestAnimationFrame(()=>{nav.classList.toggle('scrolled',scrollY>40);ticking=false;});
-  },{passive:true});
-  const toggle=document.getElementById('menuToggle'),links=document.getElementById('navLinks');
-  if(toggle&&links){
-    toggle.addEventListener('click',()=>{const open=links.classList.toggle('show');toggle.setAttribute('aria-expanded',String(open));});
-    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('show');toggle.setAttribute('aria-expanded','false');}));
-  }
-  const revealEls=[...document.querySelectorAll('.reveal')];
-  revealEls.forEach((el,i)=>el.style.setProperty('--reveal-delay',`${Math.min(i%3,2)*70}ms`));
-  if(reduce||!('IntersectionObserver' in window)){revealEls.forEach(el=>el.classList.add('in'));}
-  else{const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});revealEls.forEach(el=>io.observe(el));}
-  const cl=document.getElementById('checklist');
-  if(cl){const clio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){[...cl.children].forEach((c,i)=>setTimeout(()=>c.classList.add('in'),i*80));clio.disconnect();}}),{threshold:.3});clio.observe(cl);}
-
-  // Journey driven by scroll
-  const steps=[
-    {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>',t:'La recherche',d:'Mardi, 9 h. Un client tape son besoin sur Google, suivi du nom de sa ville. La décision commence ici.'},
-    {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>',t:'Le pack local',d:'Trois fiches Google Business Profile s\'affichent sur Google Maps. La vôtre en fait-elle partie ?'},
-    {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg>',t:'La comparaison',d:'Il ouvre deux ou trois sites et juge, en quelques secondes, celui qui inspire le plus confiance.'},
-    {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.28 5.83.85-4.22 4.11 1 5.8L12 16.9l-5.21 2.74 1-5.8-4.22-4.11 5.83-.85L12 3.5Z"/></svg>',t:'Les avis',d:'Il lit vos avis Google. Cinq étoiles, des réponses soignées : le doute s\'efface.'},
-    {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.7 4.5L18 9l-4.3 1.5L12 15l-1.7-4.5L6 9l4.3-1.5L12 3Z"/><path d="M18.5 14l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8Z"/></svg>',t:'Les résultats IA',d:'Il demande à l\'AI Overview de Google « lequel choisir ? ». Votre nom ressort, ou pas.'},
-    {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg>',t:'La recommandation',d:'Il vérifie sur ChatGPT ou Perplexity. L\'IA le conforte et vous cite comme la référence.'},
-    {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4.5h3.6l1.8 4.5-2.3 1.6a12.5 12.5 0 0 0 5.5 5.5l1.6-2.3 4.5 1.8v3.6a1.8 1.8 0 0 1-1.9 1.8A16 16 0 0 1 2.7 6.4 1.8 1.8 0 0 1 4.5 4.5Z"/></svg>',t:'L\'appel',d:'Le téléphone sonne. Il sait déjà pourquoi il vous appelle. Le parcours aboutit chez vous.'}
-  ];
-  const jbig=document.getElementById('jbig'),jtitle=document.getElementById('jtitle'),jdesc=document.getElementById('jdesc'),jstepk=document.getElementById('jstepk'),jrail=document.getElementById('jrail'),jprog=document.getElementById('jprog'),jtrack=document.getElementById('jtrack');
-  let jcur=-1,jt;
-  steps.forEach((s,i)=>{const d=document.createElement('button');d.className='jdot'+(i===0?' active':'');d.innerHTML='<span>'+s.e+'</span> '+s.t;
-    d.addEventListener('click',()=>{const top=jtrack.offsetTop+(i+0.5)/steps.length*(jtrack.offsetHeight-innerHeight);scrollTo({top,behavior:'smooth'});});jrail.appendChild(d);});
-  function setStep(i){if(i===jcur)return;jcur=i;const s=steps[i];
-    const grp=[jbig,jtitle,jdesc,jstepk];
-    grp.forEach(el=>el.classList.add('jswap'));
-    clearTimeout(jt);
-    jt=setTimeout(()=>{if(i!==jcur)return;jbig.innerHTML=s.e;jtitle.textContent=s.t;jdesc.textContent=s.d;jstepk.textContent='Scène '+(i+1)+' / '+steps.length;grp.forEach(el=>el.classList.remove('jswap'));},180);
-    [...jrail.children].forEach((c,k)=>c.classList.toggle('active',k===i));}
-  function onScrollJ(){if(!jtrack)return;const total=jtrack.offsetHeight-innerHeight;if(total<=0)return;
-    let p=(-jtrack.getBoundingClientRect().top)/total;p=Math.max(0,Math.min(1,p));
-    jprog.style.width=(p*100)+'%';setStep(Math.min(steps.length-1,Math.floor(p*steps.length)));}
-  if(jtrack){setStep(0);addEventListener('scroll',onScrollJ,{passive:true});onScrollJ();}
-
-  // Constellation orbit
-  const nodes=['Site internet','SEO','Google Business Profile','Avis Google','Schema.org','Contenus StoryBrand','Pages Services','Pages Locales','Knowledge Graph','AI Overviews','ChatGPT','Gemini','Claude','Perplexity','Veille permanente'];
-  const cont=document.getElementById('constellation'),svg=document.getElementById('ecoLinks'),center=document.getElementById('ecoCenter');
-  if(cont){
-    const N=nodes.length,els=[],lines=[],base=[];let offset=0,paused=false;
-    nodes.forEach((label,i)=>{
-      const el=document.createElement('div');el.className='enode';el.textContent=label;cont.appendChild(el);
-      const ln=document.createElementNS('http://www.w3.org/2000/svg','line');ln.setAttribute('x1','50');ln.setAttribute('y1','50');svg.appendChild(ln);
-      els.push(el);lines.push(ln);base.push((i/N)*Math.PI*2 - Math.PI/2);
-      el.addEventListener('mouseenter',()=>{paused=true;els.forEach((p,k)=>p.classList.toggle('dim',k!==i));lines.forEach((l,k)=>l.classList.toggle('hot',k===i));el.classList.remove('dim');el.classList.add('hot');});
-      el.addEventListener('mouseleave',()=>{paused=false;reset();});
-    });
-    center.addEventListener('mouseenter',()=>{paused=true;els.forEach(p=>{p.classList.remove('dim');p.classList.add('hot');});lines.forEach(l=>l.classList.add('hot'));});
-    center.addEventListener('mouseleave',()=>{paused=false;reset();});
-    function reset(){els.forEach(p=>p.classList.remove('dim','hot'));lines.forEach(l=>l.classList.remove('hot'));}
-    function place(){const w=cont.clientWidth,r=w*0.4,cx=w/2,cy=w/2;
-      els.forEach((el,i)=>{const a=base[i]+offset;const x=cx+Math.cos(a)*r,y=cy+Math.sin(a)*r;
-        el.style.transform='translate(-50%,-50%)';el.style.left=(x/w*100)+'%';el.style.top=(y/w*100)+'%';
-        lines[i].setAttribute('x2',(x/w*100).toFixed(2));lines[i].setAttribute('y2',(y/w*100).toFixed(2));});}
-    function tick(){if(!paused&&!reduce)offset+=0.0018;place();requestAnimationFrame(tick);}
-    place();requestAnimationFrame(tick);addEventListener('resize',place);
-  }
-
-  // Particles
-  const cv=document.getElementById('particles');
-  if(cv && !reduce){
-    const ctx=cv.getContext('2d');let W,H,pts=[],raf=null,running=false;
-    function size(){W=cv.width=cv.offsetWidth;H=cv.height=cv.offsetHeight;const n=Math.min(90,Math.floor(W*H/13000));pts=Array.from({length:n},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.45,vy:(Math.random()-.5)*.45}));}
-    function draw(){ctx.clearRect(0,0,W,H);
-      for(const p of pts){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;}
-      for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const a=pts[i],b=pts[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.hypot(dx,dy);if(d<130){ctx.strokeStyle='rgba(53,167,230,'+(0.22*(1-d/130))+')';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}}
-      for(const p of pts){ctx.fillStyle='rgba(140,200,245,.85)';ctx.beginPath();ctx.arc(p.x,p.y,1.7,0,7);ctx.fill();}
-      raf=requestAnimationFrame(draw);}
-    function startP(){if(!running){running=true;draw();}}function stopP(){running=false;if(raf)cancelAnimationFrame(raf);}
-    addEventListener('resize',size);size();startP();
-    const pio=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting?startP():stopP()),{threshold:.02});pio.observe(cv);
-  }
-
-  // Reviews fallback
-  setTimeout(function(){const w=document.getElementById('widgetWrap'),fb=document.getElementById('revFallback');
-    const el=w&&w.querySelector('emr-simple-carousel');const empty=!el||el.clientHeight<40;
-    if(empty&&fb){fb.style.display='flex';const row=document.getElementById('revRow');if(row)row.innerHTML+=row.innerHTML;}},2800);
-})();
-</script>
+<script defer src="/home.js?v=20260710k"></script>
+<script defer src="/perf.js?v=20260710j"></script>
 </body>
 </html>
