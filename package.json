@@ -5,7 +5,9 @@
   "main": "shared.js",
   "scripts": {
     "test": "playwright test",
-    "test:headed": "playwright test --headed"
+    "test:headed": "playwright test --headed",
+    "deploy:fr": "CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 wrangler pages deploy . --project-name=monsieurclick-fr --commit-dirty=true",
+    "deploy:en": "CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 wrangler pages deploy . --project-name=monsieurclick-com --commit-dirty=true"
   },
   "keywords": [],
   "author": "",
