@@ -1,6 +1,6 @@
 TITRE: Mentions légales
 DESCRIPTION: Mentions légales de Monsieur Click. Jean-Pierre Baguette, SIRET 42953906700042.
-URL: https://monsieurclick.fr/mentions-legales.html
+URL: https://monsieurclick.fr/mentions-legales
 TYPE: Legal
 LANG: fr
 TAGS: mentions légales, SIRET, éditeur
@@ -9,4 +9,4 @@ TAGS: mentions légales, SIRET, éditeur
 
 Mentions légales de Monsieur Click. Jean-Pierre Baguette, SIRET 42953906700042.
 
-→ Page complète : https://monsieurclick.fr/mentions-legales.html
+→ Page complète : https://monsieurclick.fr/mentions-legales

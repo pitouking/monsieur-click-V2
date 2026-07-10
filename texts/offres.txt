@@ -1,6 +1,6 @@
 TITRE: Offres et tarifs — Click First™
 DESCRIPTION: Click First™ Essentiel (850€/mois), Développement (1000€/mois), Expansion (1500€/mois).
-URL: https://monsieurclick.fr/offres.html
+URL: https://monsieurclick.fr/offres
 TYPE: Page
 LANG: fr
 TAGS: offres, tarifs, pricing, abonnement
@@ -9,4 +9,4 @@ TAGS: offres, tarifs, pricing, abonnement
 
 Click First™ Essentiel (850€/mois), Développement (1000€/mois), Expansion (1500€/mois).
 
-→ Page complète : https://monsieurclick.fr/offres.html
+→ Page complète : https://monsieurclick.fr/offres

@@ -46,11 +46,11 @@
 ## Bundle OKF (connaissances structurées pour IA)
 - Hub OKF : https://monsieurclick.fr/okf/
 - Services OKF : https://monsieurclick.fr/okf/services/
-- À propos OKF : https://monsieurclick.fr/okf/a-propos.html
-- Réalisations OKF : https://monsieurclick.fr/okf/realisations.html
-- Contact OKF : https://monsieurclick.fr/okf/contact.html
+- À propos OKF : https://monsieurclick.fr/okf/a-propos
+- Réalisations OKF : https://monsieurclick.fr/okf/realisations
+- Contact OKF : https://monsieurclick.fr/okf/contact
 - Blog OKF : https://monsieurclick.fr/okf/blog/
-- Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia.html
+- Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia
 
 ## Blog (15 articles)
 ### Stratégie

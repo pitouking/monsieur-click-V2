@@ -1,6 +1,6 @@
 TITRE: SEO Local
 DESCRIPTION: Optimisation SEO locale : Google Business Profile, avis, citations NAP, contenu local.
-URL: https://monsieurclick.fr/services/seo-local.html
+URL: https://monsieurclick.fr/okf/services/seo-local
 TYPE: Service
 LANG: fr
 TAGS: SEO local, Google Business Profile, avis, NAP
@@ -9,4 +9,4 @@ TAGS: SEO local, Google Business Profile, avis, NAP
 
 Optimisation SEO locale : Google Business Profile, avis, citations NAP, contenu local.
 
-→ Page complète : https://monsieurclick.fr/offres.html
+→ Page complète : https://monsieurclick.fr/offres

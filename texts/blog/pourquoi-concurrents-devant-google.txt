@@ -1,6 +1,6 @@
 TITRE: Pourquoi vos concurrents sont devant vous
 DESCRIPTION: Les 5 raisons pour lesquelles vos concurrents vous dépassent sur Google. Et comment les rattraper.
-URL: https://monsieurclick.fr/pourquoi-concurrents-devant-google.html
+URL: https://monsieurclick.fr/blog-pourquoi-concurrents-devant-google
 TYPE: BlogArticle
 LANG: fr
 TAGS: concurrents, Google, SEO, classement, stratégie
@@ -11,5 +11,5 @@ Les 5 raisons pour lesquelles vos concurrents vous dépassent sur Google. Et com
 
 Cet article explore le thème : Concurrence.
 
-→ Lire l'article complet : https://monsieurclick.fr/pourquoi-concurrents-devant-google.html
-→ Blog : https://monsieurclick.fr/blog.html
+→ Lire l'article complet : https://monsieurclick.fr/blog-pourquoi-concurrents-devant-google
+→ Blog : https://monsieurclick.fr/blog

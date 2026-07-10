@@ -289,13 +289,13 @@ BUNDLE OKF — Pages structurées pour IA
 ================================================================================
 Hub : https://monsieurclick.fr/okf/
 Services : https://monsieurclick.fr/okf/services/
-À propos : https://monsieurclick.fr/okf/a-propos.html
-Réalisations : https://monsieurclick.fr/okf/realisations.html
-Contact : https://monsieurclick.fr/okf/contact.html
+À propos : https://monsieurclick.fr/okf/a-propos
+Réalisations : https://monsieurclick.fr/okf/realisations
+Contact : https://monsieurclick.fr/okf/contact
 Blog OKF : https://monsieurclick.fr/okf/blog/
-Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia.html
-SEO Local : https://monsieurclick.fr/okf/services/seo-local.html
-SEO ChatGPT : https://monsieurclick.fr/okf/services/seo-chatgpt.html
+Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia
+SEO Local : https://monsieurclick.fr/okf/services/seo-local
+SEO ChatGPT : https://monsieurclick.fr/okf/services/seo-chatgpt
 Version EN : https://monsieurclick.com/okf/
 
 ================================================================================

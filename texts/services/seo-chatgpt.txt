@@ -1,6 +1,6 @@
 TITRE: SEO ChatGPT
 DESCRIPTION: Optimisation spécifique pour apparaître dans les réponses ChatGPT.
-URL: https://monsieurclick.fr/services/seo-chatgpt.html
+URL: https://monsieurclick.fr/okf/services/seo-chatgpt
 TYPE: Service
 LANG: fr
 TAGS: ChatGPT, SEO, visibilité, IA
@@ -9,4 +9,4 @@ TAGS: ChatGPT, SEO, visibilité, IA
 
 Optimisation spécifique pour apparaître dans les réponses ChatGPT.
 
-→ Page complète : https://monsieurclick.fr/offres.html
+→ Page complète : https://monsieurclick.fr/offres

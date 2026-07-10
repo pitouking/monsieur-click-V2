@@ -1,6 +1,6 @@
 TITRE: Fiche Google Business Profile sans appel
 DESCRIPTION: Votre fiche optimisée ne génère pas d'appels ? Voici pourquoi et comment y remédier.
-URL: https://monsieurclick.fr/fiche-google-business-profile-sans-appel.html
+URL: https://monsieurclick.fr/blog-fiche-google-business-profile-sans-appel
 TYPE: BlogArticle
 LANG: fr
 TAGS: Google Business Profile, appels, optimisation, SEO local
@@ -11,5 +11,5 @@ Votre fiche optimisée ne génère pas d'appels ? Voici pourquoi et comment y re
 
 Cet article explore le thème : SEO Local.
 
-→ Lire l'article complet : https://monsieurclick.fr/fiche-google-business-profile-sans-appel.html
-→ Blog : https://monsieurclick.fr/blog.html
+→ Lire l'article complet : https://monsieurclick.fr/blog-fiche-google-business-profile-sans-appel
+→ Blog : https://monsieurclick.fr/blog

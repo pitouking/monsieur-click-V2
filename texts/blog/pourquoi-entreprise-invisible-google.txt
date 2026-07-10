@@ -1,6 +1,6 @@
 TITRE: Pourquoi votre entreprise est invisible sur Google
 DESCRIPTION: Les 7 erreurs qui rendent une entreprise invisible sur Google et les solutions concrètes.
-URL: https://monsieurclick.fr/pourquoi-entreprise-invisible-google.html
+URL: https://monsieurclick.fr/blog-pourquoi-entreprise-invisible-google
 TYPE: BlogArticle
 LANG: fr
 TAGS: invisible, Google, erreurs, solutions, SEO local
@@ -11,5 +11,5 @@ Les 7 erreurs qui rendent une entreprise invisible sur Google et les solutions c
 
 Cet article explore le thème : SEO Local.
 
-→ Lire l'article complet : https://monsieurclick.fr/pourquoi-entreprise-invisible-google.html
-→ Blog : https://monsieurclick.fr/blog.html
+→ Lire l'article complet : https://monsieurclick.fr/blog-pourquoi-entreprise-invisible-google
+→ Blog : https://monsieurclick.fr/blog

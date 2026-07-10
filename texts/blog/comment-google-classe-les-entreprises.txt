@@ -1,6 +1,6 @@
 TITRE: Comment Google classe les entreprises
 DESCRIPTION: Les critères réels de classement local. Proximité, pertinence, notoriété : les 3 piliers du SEO local.
-URL: https://monsieurclick.fr/comment-google-classe-les-entreprises.html
+URL: https://monsieurclick.fr/blog-comment-google-classe-les-entreprises
 TYPE: BlogArticle
 LANG: fr
 TAGS: Google, classement, SEO local, critères, algorithme
@@ -11,5 +11,5 @@ Les critères réels de classement local. Proximité, pertinence, notoriété : 
 
 Cet article explore le thème : SEO Local.
 
-→ Lire l'article complet : https://monsieurclick.fr/comment-google-classe-les-entreprises.html
-→ Blog : https://monsieurclick.fr/blog.html
+→ Lire l'article complet : https://monsieurclick.fr/blog-comment-google-classe-les-entreprises
+→ Blog : https://monsieurclick.fr/blog

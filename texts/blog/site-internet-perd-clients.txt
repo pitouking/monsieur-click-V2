@@ -1,6 +1,6 @@
 TITRE: Votre site internet perd des clients
 DESCRIPTION: 10 signes que votre site fait fuir vos prospects. Diagnostic et solutions pour un site qui convertit.
-URL: https://monsieurclick.fr/site-internet-perd-clients.html
+URL: https://monsieurclick.fr/blog-site-internet-perd-clients
 TYPE: BlogArticle
 LANG: fr
 TAGS: site internet, conversion, clients, UX, performance
@@ -11,5 +11,5 @@ TAGS: site internet, conversion, clients, UX, performance
 
 Cet article explore le thème : Site web.
 
-→ Lire l'article complet : https://monsieurclick.fr/site-internet-perd-clients.html
-→ Blog : https://monsieurclick.fr/blog.html
+→ Lire l'article complet : https://monsieurclick.fr/blog-site-internet-perd-clients
+→ Blog : https://monsieurclick.fr/blog

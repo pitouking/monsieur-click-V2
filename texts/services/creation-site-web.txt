@@ -1,6 +1,6 @@
 TITRE: Création de site web
 DESCRIPTION: Création de site optimisé SEO, responsive, performance, design StoryBrand.
-URL: https://monsieurclick.fr/services/creation-site-web.html
+URL: https://monsieurclick.fr/okf/services/creation-site-web
 TYPE: Service
 LANG: fr
 TAGS: création site, web design, StoryBrand, performance
@@ -9,4 +9,4 @@ TAGS: création site, web design, StoryBrand, performance
 
 Création de site optimisé SEO, responsive, performance, design StoryBrand.
 
-→ Page complète : https://monsieurclick.fr/offres.html
+→ Page complète : https://monsieurclick.fr/offres

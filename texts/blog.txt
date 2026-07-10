@@ -1,6 +1,6 @@
 TITRE: Blog — SEO local, GEO, marketing digital
 DESCRIPTION: Articles sur le SEO local, la visibilité IA et le marketing digital pour petites entreprises.
-URL: https://monsieurclick.fr/blog.html
+URL: https://monsieurclick.fr/blog
 TYPE: Blog
 LANG: fr
 TAGS: blog, SEO, GEO, articles
@@ -9,4 +9,4 @@ TAGS: blog, SEO, GEO, articles
 
 Articles sur le SEO local, la visibilité IA et le marketing digital pour petites entreprises.
 
-→ Page complète : https://monsieurclick.fr/blog.html
+→ Page complète : https://monsieurclick.fr/blog

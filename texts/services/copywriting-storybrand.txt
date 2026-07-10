@@ -1,6 +1,6 @@
 TITRE: Copywriting StoryBrand
 DESCRIPTION: Contenu marketing structuré selon la méthode StoryBrand. Clarifier votre message.
-URL: https://monsieurclick.fr/services/copywriting-storybrand.html
+URL: https://monsieurclick.fr/okf/services/copywriting-storybrand
 TYPE: Service
 LANG: fr
 TAGS: copywriting, StoryBrand, contenu, marketing
@@ -9,4 +9,4 @@ TAGS: copywriting, StoryBrand, contenu, marketing
 
 Contenu marketing structuré selon la méthode StoryBrand. Clarifier votre message.
 
-→ Page complète : https://monsieurclick.fr/offres.html
+→ Page complète : https://monsieurclick.fr/offres

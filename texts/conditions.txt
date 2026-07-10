@@ -1,6 +1,6 @@
 TITRE: Conditions générales de vente
 DESCRIPTION: Conditions générales des offres Click First™.
-URL: https://monsieurclick.fr/conditions.html
+URL: https://monsieurclick.fr/conditions
 TYPE: Legal
 LANG: fr
 TAGS: CGV, conditions, vente
@@ -9,4 +9,4 @@ TAGS: CGV, conditions, vente
 
 Conditions générales des offres Click First™.
 
-→ Page complète : https://monsieurclick.fr/conditions.html
+→ Page complète : https://monsieurclick.fr/conditions
