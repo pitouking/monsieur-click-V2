@@ -1,5 +1,5 @@
-TITLE: Home — Local SEO & Web Design Agency | Monsieur Click
-DESCRIPTION: Local SEO and website design that gets you found on Google, Maps and AI. Click First™ method.
+TITLE: Home — Local SEO Agency & Web Design | Monsieur Click
+DESCRIPTION: Local SEO agency for small businesses: local search rankings, Google Business Profile and web design. Click First™ method.
 URL: https://monsieurclick.com/index.html
 TYPE: Page
 LANG: en
