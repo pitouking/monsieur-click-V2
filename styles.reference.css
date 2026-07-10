@@ -150,6 +150,8 @@
      font-family:'Montserrat';font-weight:700;color:#fff;font-size:1.35rem;line-height:1.1;z-index:4;cursor:pointer;box-shadow:0 10px 40px rgba(240,82,42,.5)}
   .ecenter span.nm{white-space:nowrap}
   .eco-fallback{display:none}
+  .eco-fallback .chip{opacity:1;transform:none}
+  .eco-fallback .center-pill::before{display:none}
 
   .offers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch;max-width:1060px;margin:0 auto}
   .offer{background:var(--surface);border:1px solid var(--brd);border-radius:14px;padding:34px 28px;display:flex;flex-direction:column;transition:transform var(--dur-med) var(--ease-out),border-color var(--dur-med) var(--ease-out);position:relative;overflow:hidden;will-change:transform}
@@ -272,7 +274,7 @@
     .jstage{grid-template-columns:1fr;gap:20px;text-align:center;justify-items:center}
     .jinfo p{margin:0 auto}
     .constellation{display:none}
-    .eco-fallback{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:640px;margin:0 auto}
+    .eco-fallback{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:640px;margin:0 auto;opacity:1;transform:none}
     .eco-fallback .center-pill{width:100%;text-align:center;background:linear-gradient(135deg,var(--orange-2),var(--orange));color:#fff;border:none;font-weight:700}
   }
 
