@@ -39,7 +39,7 @@
   .shead .kick{display:flex;align-items:baseline;gap:16px;margin-bottom:14px}
   .shead.center .kick{justify-content:center}
   .shead .no{font-family:'Montserrat';font-weight:700;font-size:1.1rem;color:var(--orange-2);letter-spacing:.05em}
-  .shead h2{font-size:clamp(2rem,4.2vw,3.1rem);font-weight:700}
+  .shead h2,.shead h3{font-size:clamp(2rem,4.2vw,3.1rem);font-weight:700}
   .shead p{color:var(--muted);margin-top:18px;font-size:1.08rem}
   .lede-close{text-align:center;max-width:780px;margin:0 auto;font-family:'Montserrat';font-size:clamp(1.4rem,2.6vw,1.9rem);color:#dbe4f2;line-height:1.45}
 
@@ -181,7 +181,7 @@
 
   .intl{background:linear-gradient(180deg,var(--navy-2),var(--navy))}
   .intl-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;max-width:var(--maxw);margin:0 auto}
-  .intl-left h2{font-size:clamp(2rem,4vw,3rem);margin:14px 0 18px}
+  .intl-left h2,.intl-left h3{font-size:clamp(2rem,4vw,3rem);margin:14px 0 18px}
   .intl-left p{color:var(--muted);font-size:1.06rem;margin-bottom:20px}
   .intl-big{font-family:'Montserrat';font-size:clamp(3rem,8vw,6rem);font-weight:700;line-height:1;color:var(--cyan-2)}
   .flags{display:grid;gap:14px}
@@ -255,11 +255,11 @@
 
   footer{padding:60px 0 38px;border-top:1px solid var(--brd)}
   .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:30px;margin-bottom:36px}
-  .foot-grid h3,.foot-grid h4{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;font-family:'Montserrat',sans-serif;font-weight:700}
+  .foot-grid h3,.foot-grid h4,.foot-grid .foot-label{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;font-family:'Montserrat',sans-serif;font-weight:700}
   .foot-grid p,.foot-grid a{color:var(--muted);font-size:.92rem;display:block;margin-bottom:8px}
   .foot-grid a:hover{color:var(--ink)}
   #nav .logo,footer .logo{font-family:'Montserrat',sans-serif !important}
-  footer .foot-grid h3,footer .foot-grid h4{font-family:'Montserrat',sans-serif !important}
+  footer .foot-grid h3,footer .foot-grid h4,footer .foot-grid .foot-label{font-family:'Montserrat',sans-serif !important}
   .foot-bottom{text-align:center;color:var(--muted);font-size:.83rem;border-top:1px solid var(--brd);padding-top:22px}
 
   .reveal{opacity:0;transform:translate3d(0,28px,0);transition:opacity var(--dur-slow) var(--ease-soft),transform var(--dur-slow) var(--ease-soft);transition-delay:var(--reveal-delay,0ms);will-change:opacity,transform}
