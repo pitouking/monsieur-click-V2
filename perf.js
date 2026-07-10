@@ -94,9 +94,16 @@
     }else onLoad(bootReviews,2500);
   }
 
+  function mountFormIframe(root){
+    var iframe=root&&(root.querySelector?root.querySelector('iframe[data-src]'):null);
+    if(iframe&&iframe.dataset.src&&!iframe.getAttribute('src'))
+      iframe.setAttribute('src',iframe.dataset.src);
+  }
+
   var parlons=document.getElementById('parlons');
   if(parlons){
     function bootForm(){
+      mountFormIframe(parlons);
       if(document.querySelector('script[src*="form_embed.js"]'))return;
       loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
     }
@@ -112,9 +119,10 @@
     }else onLoad(bootForm,1500);
   }
 
-  var contactIframe=document.querySelector('iframe[src*="widget/form/"]');
+  var contactIframe=document.querySelector('iframe[src*="widget/form/"],iframe[data-src*="widget/form/"]');
   if(contactIframe&&!parlons){
     idle(function(){
+      mountFormIframe(contactIframe.parentElement||document);
       if(!document.querySelector('script[src*="form_embed.js"]'))
         loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
     },1200);
