@@ -1,6 +1,6 @@
 TITLE: Case Studies | Monsieur Click
 DESCRIPTION: Real results: Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore.
-URL: https://monsieurclick.com/case-studies.html
+URL: https://monsieurclick.com/case-studies
 TYPE: Page
 LANG: en
 TAGS: case-studies, portfolio, results
@@ -9,4 +9,4 @@ TAGS: case-studies, portfolio, results
 
 Real results: Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore.
 
-→ Full page: https://monsieurclick.com/case-studies.html
+→ Full page: https://monsieurclick.com/case-studies

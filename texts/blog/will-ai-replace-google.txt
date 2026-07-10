@@ -1,6 +1,6 @@
 TITLE: Will AI Replace Google?
 DESCRIPTION: AI doesn't kill Google. It changes the customer journey.
-URL: https://monsieurclick.com/blog-will-ai-replace-google.html
+URL: https://monsieurclick.com/blog-will-ai-replace-google
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 AI doesn't kill Google. It changes the customer journey.
 
-→ Read full article: https://monsieurclick.com/blog-will-ai-replace-google.html
-→ Blog: https://monsieurclick.com/blog.html
+→ Read full article: https://monsieurclick.com/blog-will-ai-replace-google
+→ Blog: https://monsieurclick.com/blog

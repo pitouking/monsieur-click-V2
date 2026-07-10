@@ -1,6 +1,6 @@
 TITLE: Legal Notice
 DESCRIPTION: Legal notice of Monsieur Click. Jean-Pierre Baguette, SIRET 42953906700042.
-URL: https://monsieurclick.com/legal-notice.html
+URL: https://monsieurclick.com/legal-notice
 TYPE: Legal
 LANG: en
 TAGS: legal, sirert, publisher
@@ -9,4 +9,4 @@ TAGS: legal, sirert, publisher
 
 Legal notice of Monsieur Click. Jean-Pierre Baguette, SIRET 42953906700042.
 
-→ Full page: https://monsieurclick.com/legal-notice.html
+→ Full page: https://monsieurclick.com/legal-notice

@@ -1,6 +1,6 @@
 TITLE: Free Audit — Contact | Monsieur Click
 DESCRIPTION: 30-minute free audit. No commitment. Assessment and plan within 48h.
-URL: https://monsieurclick.com/contact.html
+URL: https://monsieurclick.com/contact
 TYPE: Page
 LANG: en
 TAGS: contact, free audit, consultation
@@ -9,4 +9,4 @@ TAGS: contact, free audit, consultation
 
 30-minute free audit. No commitment. Assessment and plan within 48h.
 
-→ Full page: https://monsieurclick.com/contact.html
+→ Full page: https://monsieurclick.com/contact

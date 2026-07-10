@@ -1,5 +1,5 @@
 # Monsieur Click — Full AI Knowledge Base
-> Local SEO & GEO Agency near Paris. Click First™ method for small businesses.
+> Local SEO agency near Paris. Click First™ method for small businesses — web design, GBP, GEO and AI visibility.
 > Domain EN: https://monsieurclick.com
 > Domain FR: https://monsieurclick.fr
 > RSL 1.0
@@ -8,8 +8,8 @@
 
 ### Home
 URL: https://monsieurclick.com/
-Title: Local SEO & Web Design Agency | Monsieur Click
-Description: Local SEO and website design that gets you found on Google, Maps and AI. The all-in-one Click First™ method for small businesses. Free audit.
+Title: Local SEO Agency Near Paris — Web Design & AI Visibility | Monsieur Click
+Description: Local SEO agency for small businesses: local search rankings, Google Business Profile and web design that builds lasting visibility on Google, Maps and AI. Free audit.
 Type: WebPage
 Schema: WebSite, FAQPage
 
@@ -155,6 +155,7 @@ Case Studies: https://monsieurclick.com/okf/case-studies.html
 Contact: https://monsieurclick.com/okf/contact.html
 Blog: https://monsieurclick.com/okf/blog/
 French version: https://monsieurclick.fr/okf/
+Texts bundle: https://monsieurclick.com/texts/
 
 ## RSL 1.0
 <!-- RSL 1.0 -->

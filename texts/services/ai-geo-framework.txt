@@ -1,6 +1,6 @@
 TITLE: AI GEO Framework
 DESCRIPTION: Optimization for ChatGPT, Gemini, Claude, Perplexity. Brand signals, RSL compliance.
-URL: https://monsieurclick.com/services/ai-geo-framework.html
+URL: https://monsieurclick.com/okf/services/ai-geo-framework.html
 TYPE: Service
 LANG: en
 TAGS: monsieur-click, ai-geo-framework
@@ -9,4 +9,4 @@ TAGS: monsieur-click, ai-geo-framework
 
 Optimization for ChatGPT, Gemini, Claude, Perplexity. Brand signals, RSL compliance.
 
-→ Full page: https://monsieurclick.com/pricing.html
+→ Full page: https://monsieurclick.com/okf/services/ai-geo-framework.html

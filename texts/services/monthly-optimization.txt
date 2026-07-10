@@ -1,6 +1,6 @@
 TITLE: Monthly Optimization
 DESCRIPTION: Ongoing monitoring, updates, reviews, GEO adjustments, monthly reports.
-URL: https://monsieurclick.com/services/monthly-optimization.html
+URL: https://monsieurclick.com/okf/services/monthly-optimization.html
 TYPE: Service
 LANG: en
 TAGS: monsieur-click, monthly-optimization
@@ -9,4 +9,4 @@ TAGS: monsieur-click, monthly-optimization
 
 Ongoing monitoring, updates, reviews, GEO adjustments, monthly reports.
 
-→ Full page: https://monsieurclick.com/pricing.html
+→ Full page: https://monsieurclick.com/okf/services/monthly-optimization.html
