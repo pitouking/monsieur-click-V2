@@ -1,6 +1,7 @@
 # Monsieur Click — AI Agent Knowledge (FR) — llms-full.txt
 # Version étendue avec descriptions complètes, résumés de contenu et types Schema.org
 # Site français : https://monsieurclick.fr/
+# Site anglais : https://monsieurclick.com/
 #
 # RSL 1.0 — Responsible Site License
 
@@ -17,11 +18,13 @@ Zones : France, Belgique, Suisse, Canada, États-Unis, Royaume-Uni
 Langues : Français (FR), Anglais (EN)
 URL : https://monsieurclick.fr/
 Promesse : Soyez trouvé. Soyez choisi.
+Site EN : https://monsieurclick.com/
 Fonctionnement : 100 % à distance (téléphone, Zoom, email)
 Fondateur : Jean-Pierre Baguette
 Création : 2023
 Réseaux sociaux : LinkedIn, Twitter/X, Instagram, Facebook
 Bundle OKF : https://monsieurclick.fr/okf/
+Bundle OKF EN : https://monsieurclick.com/okf/
 Bundle texts : https://monsieurclick.fr/texts/
 
 ================================================================================
@@ -280,6 +283,20 @@ PAGE : Conditions générales
 URL : https://monsieurclick.fr/conditions
 Titre : Conditions générales | Monsieur Click
 Schema.org : WebPage
+
+================================================================================
+BUNDLE OKF — Pages structurées pour IA
+================================================================================
+Hub : https://monsieurclick.fr/okf/
+Services : https://monsieurclick.fr/okf/services/
+À propos : https://monsieurclick.fr/okf/a-propos.html
+Réalisations : https://monsieurclick.fr/okf/realisations.html
+Contact : https://monsieurclick.fr/okf/contact.html
+Blog OKF : https://monsieurclick.fr/okf/blog/
+Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia.html
+SEO Local : https://monsieurclick.fr/okf/services/seo-local.html
+SEO ChatGPT : https://monsieurclick.fr/okf/services/seo-chatgpt.html
+Version EN : https://monsieurclick.com/okf/
 
 ================================================================================
 ## RSL 1.0

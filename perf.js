@@ -107,6 +107,7 @@
       if(document.querySelector('script[src*="form_embed.js"]'))return;
       loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
     }
+    if(location.hash==='#parlons')bootForm();
     if('IntersectionObserver' in window){
       var fio=new IntersectionObserver(function(entries,o){
         entries.forEach(function(e){
@@ -116,16 +117,19 @@
         });
       },{rootMargin:'420px'});
       fio.observe(parlons);
+      if(parlons.getBoundingClientRect().top<window.innerHeight+420)bootForm();
     }else onLoad(bootForm,1500);
   }
 
   var contactIframe=document.querySelector('iframe[src*="widget/form/"],iframe[data-src*="widget/form/"]');
   if(contactIframe&&!parlons){
-    idle(function(){
+    function bootContactForm(){
       mountFormIframe(contactIframe.parentElement||document);
       if(!document.querySelector('script[src*="form_embed.js"]'))
         loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
-    },1200);
+    }
+    bootContactForm();
+    onLoad(bootContactForm,0);
   }
 
 })();

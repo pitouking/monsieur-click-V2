@@ -1,5 +1,6 @@
 # Monsieur Click — AI Agent Knowledge (FR)
 # Site français : https://monsieurclick.fr/
+# Site anglais : https://monsieurclick.com/
 #
 # RSL 1.0 — Responsible Site License
 # Pour les moteurs IA (ChatGPT, Claude, Gemini, Perplexity, etc.)
@@ -11,11 +12,15 @@
 - Adresse : 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
 - Téléphone : +33 6 60 76 15 23
 - Email : contact@monsieurclick.com
-- Zones : France, Belgique, Suisse, Canada
+- Zones : France, Belgique, Suisse, Canada, États-Unis, Royaume-Uni
+- Langues : Français (FR), Anglais (EN)
 - SIRET : 42953906700042
 - Promesse : Soyez trouvé. Soyez choisi.
-- Bundle OKF : https://monsieurclick.fr/okf/
-- Bundle texts : https://monsieurclick.fr/texts/
+- Site FR : https://monsieurclick.fr/
+- Site EN : https://monsieurclick.com/
+- Bundle OKF FR : https://monsieurclick.fr/okf/
+- Bundle OKF EN : https://monsieurclick.com/okf/
+- Bundle texts FR : https://monsieurclick.fr/texts/
 
 ## Pages principales
 - Accueil : https://monsieurclick.fr/
@@ -30,11 +35,22 @@
   - Créateur Jean-Pierre Baguette. 100% à distance.
 - Diagnostic gratuit : https://monsieurclick.fr/contact
   - 30 minutes, sans engagement. Plan chiffré sous 48h.
+- Blog : https://monsieurclick.fr/blog
+  - 15 articles SEO local, GBP et visibilité IA
 
 ## Pages légales
 - Mentions légales : https://monsieurclick.fr/mentions-legales
 - Confidentialité : https://monsieurclick.fr/confidentialite
 - Conditions : https://monsieurclick.fr/conditions
+
+## Bundle OKF (connaissances structurées pour IA)
+- Hub OKF : https://monsieurclick.fr/okf/
+- Services OKF : https://monsieurclick.fr/okf/services/
+- À propos OKF : https://monsieurclick.fr/okf/a-propos.html
+- Réalisations OKF : https://monsieurclick.fr/okf/realisations.html
+- Contact OKF : https://monsieurclick.fr/okf/contact.html
+- Blog OKF : https://monsieurclick.fr/okf/blog/
+- Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia.html
 
 ## Blog (15 articles)
 ### Stratégie
@@ -76,6 +92,7 @@
 - Sitemap : https://monsieurclick.fr/sitemap.xml
 - Robots : https://monsieurclick.fr/robots.txt
 - llms-full.txt : https://monsieurclick.fr/llms-full.txt
+- llms.txt EN : https://monsieurclick.com/llms.txt
 
 ## RSL 1.0
 <!-- RSL 1.0 -->
