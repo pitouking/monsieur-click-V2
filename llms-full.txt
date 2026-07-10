@@ -1,6 +1,7 @@
 # Monsieur Click — Full AI Knowledge Base
 > Local SEO & GEO Agency near Paris. Click First™ method for small businesses.
-> Domain: https://monsieurclick.com
+> Domain EN: https://monsieurclick.com
+> Domain FR: https://monsieurclick.fr
 > RSL 1.0
 
 ## Pages
@@ -80,43 +81,43 @@ Type: KnowledgeBundle
 ## Services
 
 ### Local SEO & GEO Website
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/okf/services/local-seo-geo-website.html
 Description: SEO-optimized website + local SEO + GEO. Built with Click First™. From €850/month.
 Type: Service
 Schema: Service, OfferCatalog
 
 ### Local SEO
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/okf/services/local-seo.html
 Description: Google Business Profile optimization, NAP citations, reviews, local content, Google Maps ranking.
 Type: Service
 Schema: Service
 
 ### AI GEO Framework
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/okf/services/ai-geo-framework.html
 Description: Optimize for AI Overviews. ChatGPT, Gemini, Claude, Perplexity inclusion strategy.
 Type: Service
 Schema: Service
 
 ### Website Creation
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/okf/services/website-creation.html
 Description: Custom website creation with SEO, performance, StoryBrand design, responsive, fast.
 Type: Service
 Schema: Service
 
 ### Monthly Optimization
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/okf/services/monthly-optimization.html
 Description: Ongoing SEO, content, reviews, GEO monitoring. Monthly check-ups and adjustments.
 Type: Service
 Schema: Service
 
 ### ChatGPT SEO
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/okf/services/chatgpt-seo.html
 Description: Specific optimization for ChatGPT visibility and citations.
 Type: Service
 Schema: Service
 
 ### StoryBrand Copywriting
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/okf/services/storybrand-copywriting.html
 Description: StoryBrand framework copywriting. Clarify your message, attract your ideal clients.
 Type: Service
 Schema: Service
@@ -145,6 +146,15 @@ Schema: Service
 ### Acquisition
 - Is your website losing clients?: https://monsieurclick.com/blog-is-your-website-losing-clients
 - Get clients without advertising: https://monsieurclick.com/blog-get-clients-without-advertising
+
+## OKF Bundle Pages
+Hub: https://monsieurclick.com/okf/
+Services: https://monsieurclick.com/okf/services/
+About: https://monsieurclick.com/okf/about.html
+Case Studies: https://monsieurclick.com/okf/case-studies.html
+Contact: https://monsieurclick.com/okf/contact.html
+Blog: https://monsieurclick.com/okf/blog/
+French version: https://monsieurclick.fr/okf/
 
 ## RSL 1.0
 <!-- RSL 1.0 -->

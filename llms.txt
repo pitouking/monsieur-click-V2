@@ -1,5 +1,6 @@
 # Monsieur Click — AI Agent Knowledge (EN)
 # English site : https://monsieurclick.com/
+# French site : https://monsieurclick.fr/
 #
 # RSL 1.0 — Responsible Site License
 # For AI engines (ChatGPT, Claude, Gemini, Perplexity, etc.)
@@ -11,10 +12,14 @@
 - Address : 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
 - Phone : +33 6 60 76 15 23
 - Email : contact@monsieurclick.com
-- Areas : France, Belgium, Switzerland, Canada, USA, UK (EN/FR)
+- Areas : France, Belgium, Switzerland, Canada, USA, UK
+- Languages : English (EN), French (FR)
 - SIRET : 42953906700042
 - Promise : Get found. Get chosen.
-- OKF Bundle : https://monsieurclick.com/okf/
+- Site EN : https://monsieurclick.com/
+- Site FR : https://monsieurclick.fr/
+- OKF Bundle EN : https://monsieurclick.com/okf/
+- OKF Bundle FR : https://monsieurclick.fr/okf/
 - Texts Bundle : https://monsieurclick.com/texts/
 
 ## Main pages
@@ -30,11 +35,22 @@
   - Founder Jean-Pierre Baguette. 100% remote.
 - Free Audit : https://monsieurclick.com/contact
   - 30 min, no commitment. Priced plan within 48h.
+- Blog : https://monsieurclick.com/blog
+  - 15 articles on local SEO, GBP and AI visibility
 
 ## Legal pages
 - Legal Notice : https://monsieurclick.com/legal-notice
 - Privacy : https://monsieurclick.com/privacy
 - Terms : https://monsieurclick.com/terms
+
+## OKF Bundle (structured knowledge for AI)
+- OKF Hub : https://monsieurclick.com/okf/
+- OKF Services : https://monsieurclick.com/okf/services/
+- OKF About : https://monsieurclick.com/okf/about.html
+- OKF Case Studies : https://monsieurclick.com/okf/case-studies.html
+- OKF Contact : https://monsieurclick.com/okf/contact.html
+- OKF Blog : https://monsieurclick.com/okf/blog/
+- AI GEO Framework : https://monsieurclick.com/okf/services/ai-geo-framework.html
 
 ## Blog (15 articles)
 ### Strategy
@@ -76,6 +92,7 @@
 - Sitemap : https://monsieurclick.com/sitemap.xml
 - Robots : https://monsieurclick.com/robots.txt
 - llms-full.txt : https://monsieurclick.com/llms-full.txt
+- llms.txt FR : https://monsieurclick.fr/llms.txt
 
 ## RSL 1.0
 <!-- RSL 1.0 -->
