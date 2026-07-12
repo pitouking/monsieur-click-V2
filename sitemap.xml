@@ -14,20 +14,9 @@
   <url><loc>https://monsieurclick.fr/confidentialite</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://monsieurclick.fr/conditions</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 
-  <!-- OKF Bundle -->
-  <url><loc>https://monsieurclick.fr/okf/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/a-propos</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/realisations</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/blog/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/seo-local-site-web</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/seo-local</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/framework-geo-ia</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/creation-site-web</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/optimisation-mensuelle</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/seo-chatgpt</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.fr/okf/services/copywriting-storybrand</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <!-- OKF bundle intentionnellement exclu du sitemap : contenu quasi-dupliqué/thin
+       vs. pages principales, reste crawlable (robots.txt allow + llms.txt) pour
+       consommation par agents IA, mais non soumis à l'indexation recherche. -->
 
   <!-- Articles de blog -->
   <url><loc>https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo</loc><lastmod>2026-05-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
