@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
+<link rel="icon" type="image/webp" href="/logo-mc.webp">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Click First™ : Méthode SEO &amp; Visibilité IA Tout-en-Un</title>
 <meta name="description" content="Site web, SEO local, Google Business Profile, avis et visibilité IA réunis dans une méthode cohérente. Un seul système, pas d'outils isolés. Diagnostic gratuit.">
@@ -82,7 +83,7 @@
     <span class="eyebrow">Click First™</span>
     <h1>Click First™, tous les leviers de votre visibilité dans un seul système.</h1>
     <p class="sub">On ne vous vend pas un site, du référencement naturel ou une fiche Google séparément. On installe une méthode cohérente où chaque élément renforce les autres, pour que Google, Google Maps et les moteurs IA comme ChatGPT, Claude, Gemini et Perplexity vous trouvent, vous comprennent et vous recommandent.</p>
-    <div style="margin-top:26px"><a href="/contact" class="btn btn-primary">Obtenir mon diagnostic gratuit</a></div>
+    <div style="margin-top:26px;display:flex;gap:14px;flex-wrap:wrap"><a href="/contact" class="btn btn-primary">Obtenir mon diagnostic gratuit</a><a href="#score" class="btn btn-ghost">Calculer mon Score Click First™</a></div>
   </div>
 </header>
 
@@ -101,6 +102,80 @@
     <div class="q-strip reveal" style="margin-top:38px">
       <div class="q1">Un levier isolé ne suffit plus. C'est un système qu'il faut.</div>
       <div class="q2">Recherche Google, fiche Google Business Profile, site internet, avis Google, puis parfois une question posée à ChatGPT ou Perplexity avant la décision. Nous sommes ce guide : notre métier consiste à orchestrer ce système, dans le bon ordre, pour transformer une entreprise invisible en choix évident, sur Google comme sur les IA.</div>
+    </div>
+  </div>
+</section>
+
+<section id="score" style="padding-top:0">
+  <div class="wrap" style="max-width:820px">
+    <div class="shead reveal">
+      <div class="kick"><span class="no">·</span><span class="eyebrow">Outil gratuit</span></div>
+      <h2>Votre Score Click First™, en 3 minutes.</h2>
+      <p>35 questions réparties en 5 domaines (site, SEO local, Google Business Profile, visibilité IA, confiance). À la fin : votre score, vos points forts et vos 3 priorités concrètes.</p>
+    </div>
+
+    <div id="cfsWizard" class="cfs-wizard">
+      <div class="cfs-progress"><div class="cfs-progress-bar" id="cfsProgressBar" style="width:0%"></div></div>
+      <div class="cfs-stepline" id="cfsStepLabel"></div>
+
+      <form id="cfsForm" novalidate>
+        <div id="cfsQuestions" class="cfs-questions"></div>
+
+        <div id="cfsLead" class="cfs-lead" hidden>
+          <h3 style="margin-bottom:6px">Dernière étape</h3>
+          <p class="muted" style="margin-bottom:20px">Pour recevoir votre score et vos priorités par email.</p>
+          <div class="cform">
+            <div class="row">
+              <div><label for="cfsBusiness">Nom de l'entreprise</label><input id="cfsBusiness" name="business_name" type="text" autocomplete="organization" required></div>
+              <div><label for="cfsEmail">Email</label><input id="cfsEmail" name="email" type="email" autocomplete="email" required></div>
+            </div>
+            <div class="row">
+              <div><label for="cfsWebsite">Site web (optionnel)</label><input id="cfsWebsite" name="website_url" type="url" autocomplete="url" placeholder="https://"></div>
+              <div><label for="cfsPhone">Téléphone (optionnel)</label><input id="cfsPhone" name="phone" type="tel" autocomplete="tel"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cfs-nav">
+          <button type="button" id="cfsPrev" class="btn btn-ghost" hidden>Précédent</button>
+          <button type="button" id="cfsNext" class="btn btn-primary">Suivant</button>
+          <button type="submit" id="cfsSubmit" class="btn btn-primary" hidden>Voir mon score</button>
+        </div>
+        <p id="cfsMsg" class="muted" style="margin-top:14px" role="status" hidden></p>
+      </form>
+    </div>
+
+    <div id="cfrContent" hidden>
+      <h3 id="cfrBusinessTitle" style="margin-bottom:32px">Votre Score Click First™</h3>
+      <div class="cfr-hero">
+        <div class="cfr-global">
+          <div class="cfr-global-num" id="cfrGlobalScore">--</div>
+          <div class="cfr-global-label" id="cfrGlobalLabel"></div>
+        </div>
+        <svg id="cfrRadar" viewBox="-45 -20 390 340" class="cfr-radar-svg" aria-hidden="true">
+          <g id="cfrRadarGrid"></g>
+          <polygon id="cfrRadarData" points="" class="cfr-radar-data"></polygon>
+          <g id="cfrRadarLabels"></g>
+        </svg>
+      </div>
+
+      <div class="cfr-badges" id="cfrBadges"></div>
+
+      <div class="cfr-cols">
+        <div>
+          <h3>Vos points forts</h3>
+          <ul class="cfr-strengths" id="cfrStrengths"></ul>
+        </div>
+        <div>
+          <h3>Vos 3 priorités</h3>
+          <div class="cfr-priorities" id="cfrPriorities"></div>
+        </div>
+      </div>
+
+      <div class="cfr-cta">
+        <p>Ces priorités, on peut les traiter ensemble : la méthode Click First™ réunit tous les leviers dans un seul système.</p>
+        <a href="/contact" class="btn btn-primary">Réserver mon diagnostic gratuit</a>
+      </div>
     </div>
   </div>
 </section>
@@ -249,7 +324,7 @@
   <div class="wrap">
     <div class="ctaband reveal">
       <h2>Prêt à installer Click First™ chez vous ?</h2>
-      <p>Recevez un diagnostic gratuit : votre visibilité actuelle sur Google et les IA, vos priorités, et le plan pour passer devant.</p>
+      <p>Recevez un diagnostic gratuit : votre visibilité actuelle sur Google et les IA, vos priorités, et le plan pour passer devant. Ou <a href="#score" style="color:#fff;text-decoration:underline">calculez votre Score Click First™</a> en 3 minutes.</p>
       <a href="/contact" class="btn">Obtenir mon diagnostic gratuit</a>
     </div>
   </div>
@@ -310,5 +385,6 @@
 </footer>
 <script defer src="/perf.js?v=20260710l"></script>
 <script src="/shared.js"></script>
+<script type="module" src="/score-embed.js"></script>
 </body>
 </html>

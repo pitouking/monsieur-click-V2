@@ -1,34 +1,10 @@
 # Cloudflare Pages redirects
 
-# Legacy .html → clean URLs (301)
-/click-first.html /click-first 301
-/offres.html /offres 301
-/realisations.html /realisations 301
-/a-propos.html /a-propos 301
-/contact.html /contact 301
-/blog.html /blog 301
-/mentions-legales.html /mentions-legales 301
-/confidentialite.html /confidentialite 301
-/conditions.html /conditions 301
-/index.html / 301
-/blog-*.html /blog-:splat 301
-/okf/a-propos.html /okf/a-propos 301
-/okf/realisations.html /okf/realisations 301
-/okf/contact.html /okf/contact 301
-/okf/services/*.html /okf/services/:splat 301
-/okf/blog/*.html /okf/blog/:splat 301
-
-# Main site rewrites (clean URLs)
-/click-first /click-first.html 200
-/offres /offres.html 200
-/realisations /realisations.html 200
-/a-propos /a-propos.html 200
-/contact /contact.html 200
-/blog /blog.html 200
-/mentions-legales /mentions-legales.html 200
-/confidentialite /confidentialite.html 200
-/conditions /conditions.html 200
-/blog-* /blog-:splat.html 200
+# Score Click First™ merged into a section on /click-first (one-way, no reverse rule)
+/score /click-first 301
+/score-resultat /click-first 301
+/score.html /click-first 301
+/score-resultat.html /click-first 301
 
 # OKF directory rewrites
 /okf /okf/index.html 200
