@@ -5,17 +5,18 @@
 /score-result.html  /click-first  301
 
 # OKF rewrites (internal 200)
+# Single-file matches (about, case-studies, contact) are NOT rewritten here:
+# okf/about.html etc already exist as static files, Cloudflare Pages resolves
+# /okf/about -> okf/about.html natively. An explicit rule here collided with
+# that native resolution and caused a 308 self-redirect loop.
 /okf  /okf/index.html  200
 /okf/  /okf/index.html  200
 /okf/services  /okf/services/index.html  200
 /okf/services/  /okf/services/index.html  200
-/okf/services/*  /okf/services/:splat  200
-/okf/about  /okf/about.html  200
-/okf/case-studies  /okf/case-studies.html  200
-/okf/contact  /okf/contact.html  200
+/okf/services/*  /okf/services/:splat.html  200
 /okf/blog  /okf/blog/index.html  200
 /okf/blog/  /okf/blog/index.html  200
-/okf/blog/*  /okf/blog/:splat  200
+/okf/blog/*  /okf/blog/:splat.html  200
 # Texts rewrites
 /texts  /texts/index.txt  200
 /texts/  /texts/index.txt  200

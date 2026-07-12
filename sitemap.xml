@@ -27,18 +27,7 @@
   <url><loc>https://monsieurclick.com/blog-why-business-not-on-google</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.com/blog-why-competitors-rank-ahead</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.com/blog-will-ai-replace-google</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <!-- OKF Bundle -->
-  <url><loc>https://monsieurclick.com/okf/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.com/okf/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.com/okf/case-studies.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.com/okf/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.com/okf/blog/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/local-seo-geo-website.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/local-seo.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/ai-geo-framework.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/website-creation.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/monthly-optimization.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/chatgpt-seo.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://monsieurclick.com/okf/services/storybrand-copywriting.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <!-- OKF bundle intentionally excluded from sitemap: near-duplicate/thin
+       content vs. main pages, kept crawlable (robots.txt allow + llms.txt)
+       for AI-agent consumption but not submitted for primary search indexing. -->
 </urlset>
