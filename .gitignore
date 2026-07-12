@@ -1,0 +1,9 @@
+.wrangler/
+node_modules/
+.vexp/
+
+<!-- barry-cache:start -->
+.context-state/
+.context-cache/
+.barry-cache/
+<!-- barry-cache:end -->

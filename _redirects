@@ -1,3 +1,9 @@
+# Click First Score merged into a section on /click-first (one-way, no reverse rule)
+/score  /click-first  301
+/score-result  /click-first  301
+/score.html  /click-first  301
+/score-result.html  /click-first  301
+
 # OKF rewrites (internal 200)
 /okf  /okf/index.html  200
 /okf/  /okf/index.html  200
