@@ -7,12 +7,13 @@ Format meta : title ≤ 60 car., description 140–160 car. H1 = mot-clé princi
 
 ## P1 — `/` (Accueil)
 - **Mot-clé** : agence seo / agence web (30 300)
-- **H1** : Agence SEO & Webdesign à Malakoff (92) — France & francophonie
+- **H1** : badge hero (pas le gros titre) — `Agence SEO & Webdesign · Malakoff (92)`. Le slogan reste un `<p class="hero-headline">`.
 - **Title** : Agence SEO & Webdesign à Malakoff (92) | Monsieur Click
 - **Meta** : Agence SEO & création de site pour TPE/PME. SEO local, Google Business Profile et visibilité IA (GEO). Diagnostic gratuit.
-- **Sections** : hero (promesse claire) → problème client → méthode Click First™ (3 leviers) → services (liens vers /services/*) → preuves (avis, réalisations) → zones (Paris, IDF, francophonie) → FAQ → CTA diagnostic.
+- **Sections** : hero → problème client → parcours client (5 étapes dont **Les IA / GEO**) → méthode Click First™ → services → preuves → zones → FAQ → CTA.
 - **Schema** : Organization + LocalBusiness + WebSite (SearchAction).
-- **Liens internes** : tous les hubs services, /agence-seo-paris, /consultant-seo-paris, /offres.
+- **Liens internes** : tous les hubs services, /agence-seo-paris, /consultant-seo-paris, /offres, /glossaire/, /realisations/.
+
 
 ## P1 — `/services/creation-site-web`
 - **Mot-clé** : création site internet (6 600) ; secondaires : création site vitrine (590), refonte (rappel)
@@ -116,5 +117,49 @@ Format meta : title ≤ 60 car., description 140–160 car. H1 = mot-clé princi
 - **H1** : Agence SEO en Île-de-France
 - **Rôle** : hub régional qui absorbe les requêtes banlieue faibles (voir do-not-build).
 
+## P4 — Glossaire (citation IA, hors volume)
+### `/glossaire/`
+- **H1** : Glossaire SEO & GEO
+- **Title** : Glossaire SEO & GEO | Monsieur Click
+- **Meta** : Définitions claires du SEO local, du GEO et de Google Business Profile. Pour être cité par Google et les IA.
+- **Schema** : DefinedTermSet + BreadcrumbList. **Liens** : 3 entrées + /services/visibilite-ia-geo.
+
+### `/glossaire/seo-local`
+- **H1** : SEO local
+- **Schema** : DefinedTerm. **Lien argent** : /services/seo-local.
+
+### `/glossaire/optimisation-moteurs-generatifs`
+- **H1** : Optimisation pour les moteurs génératifs (GEO)
+- **Schema** : DefinedTerm. **Lien argent** : /services/visibilite-ia-geo. Slug 100 % FR (pas d'anglais dans l'URL).
+
+### `/glossaire/google-business-profile`
+- **H1** : Google Business Profile
+- **Schema** : DefinedTerm. **Lien argent** : /services/google-business-profile.
+
+## P4 — `/realisations/` (hub + 7 études de cas)
+- **H1 hub** : Réalisations SEO local & sites web
+- Remplace l'ancienne page plate `/realisations`. Une URL par cas :
+  - `/realisations/assogym`
+  - `/realisations/dharma-massage-therapy`
+  - `/realisations/susan-filan`
+  - `/realisations/bodyguard-paris`
+  - `/realisations/heather-fillmore-coaching`
+  - `/realisations/studio-la-voix-du-12`
+  - `/realisations/east-portland-sash`
+- **Schema** : hub ItemList ; chaque cas Article / CaseStudy + BreadcrumbList.
+- **hreflang** ↔ `/case-studies/` (.com).
+
+## P4 — Candidats ville (après validation socle P1–P3)
+### `/agence-seo-lyon` — ne pas construire avant go P4
+- **Mot-clé** : agence seo lyon (1 300) ; secondaire création site internet lyon (590)
+- **H1** : Agence SEO à Lyon
+- URL à la **racine** (comme Paris).
+
+### `/agence-seo-bordeaux` — ne pas construire avant go P4
+- **Mot-clé** : agence seo bordeaux (1 600, concurrence idx 8)
+- **H1** : Agence SEO à Bordeaux
+- URL à la **racine**.
+
 ## P4 — Pages existantes à garder/aligner
-`/offres` (cibler « tarif/prix agence seo » via PAA), `/realisations` (= études de cas), `/click-first`, `/a-propos` (aligner H1 : « À propos de Monsieur Click — Agence SEO local à Malakoff (92) »), `/contact`, légales. Aligner tous les H1 sur la requête, mailler vers pages argent.
+`/offres` (cibler « tarif/prix agence seo » via PAA), `/click-first`, `/a-propos` (aligner H1 : « À propos de Monsieur Click — Agence SEO local à Malakoff (92) »), `/contact`, légales. Aligner tous les H1 sur la requête, mailler vers pages argent.
+

@@ -14,7 +14,7 @@
 <meta property="og:description" content="Une seule méthode, à votre échelle. Le prix final est fixé après votre diagnostic gratuit.">
 <meta property="og:type" content="website">
 <link rel="preload" as="image" href="hero-bg.webp" fetchpriority="high">
-<link rel="stylesheet" href="/css/main.css?v=20260716">
+<link rel="stylesheet" href="/css/main.css?v=20260716h">
 <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 <link rel="dns-prefetch" href="https://connect.facebook.net">
 <link rel="dns-prefetch" href="https://link.monsieurclick.com">
@@ -48,7 +48,8 @@
     <div class="nav-links" id="navLinks" aria-hidden="true">
       <a href="/click-first" class="link">Click First™</a>
       <a href="/services/" class="link">Services</a>
-      <a href="/realisations" class="link">Réalisations</a>
+      <a href="/realisations/" class="link">Réalisations</a>
+      <a href="/glossaire/" class="link">Glossaire</a>
       <a href="/offres" class="link">Offres</a>
       <a href="/a-propos" class="link">À propos</a>
       <a href="/blog" class="link">Blog</a>
@@ -73,7 +74,7 @@
 <section>
   <div class="wrap">
     <div class="offers">
-      <div class="offer reveal">
+      <div class="offer reveal" id="offre-essentiel">
         <div class="tier-ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-7"/><path d="M12 13C12 9.5 9.2 7.5 5.5 7.5c0 3.5 2.8 5.5 6.5 5.5Z"/><path d="M12 13c0-3 2.4-5 6-5 0 3-2.4 5-6 5Z"/></svg></div>
         <div class="scope">Site petit ou coach</div>
         <h3>Click First<span class="tm">™</span> Essentiel</h3>
@@ -86,11 +87,13 @@
           <li>Framework de visibilité IA déployé</li>
           <li>Optimisation mensuelle et rapports</li>
         </ul>
+        <p class="offer-links">Services inclus : <a href="/services/creation-site-web">création de site</a> · <a href="/services/seo-local">SEO local</a> · <a href="/services/google-business-profile">GBP</a> · <a href="/services/visibilite-ia-geo">visibilité IA</a></p>
+        <p class="offer-links offer-links--peer">Autres portées : <a href="#offre-developpement">Développement</a> · <a href="#offre-expansion">Expansion</a> · <a href="#comparatif">comparer</a></p>
         <a href="/contact" class="btn btn-ghost">Obtenir mon diagnostic</a>
       </div>
-      <div class="offer featured reveal">
+      <div class="offer reveal" id="offre-developpement">
         <div class="tier-ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16h16"/><polyline points="7,14 11,10 14,13 19,7"/><polyline points="15,7 19,7 19,11"/></svg></div>
-        <div class="scope">Site artisan</div>
+        <div class="scope">Site artisan · 2 à 3 villes</div>
         <h3>Click First<span class="tm">™</span> Développement</h3>
         <div class="price"><b>1 000 €</b> <small>/ mois</small></div>
         <div class="eng">Engagement 12 mois</div>
@@ -101,9 +104,11 @@
           <li>Visibilité IA (GEO) et Schema.org</li>
           <li>Optimisation continue suivie</li>
         </ul>
+        <p class="offer-links">Services inclus : <a href="/services/creation-site-web">création de site</a> · <a href="/services/seo">SEO</a> · <a href="/services/seo-local">SEO local</a> · <a href="/services/google-business-profile">GBP</a> · <a href="/services/visibilite-ia-geo">visibilité IA</a></p>
+        <p class="offer-links offer-links--peer">Autres portées : <a href="#offre-essentiel">Essentiel</a> · <a href="#offre-expansion">Expansion</a> · <a href="#comparatif">comparer</a></p>
         <a href="/contact" class="btn btn-primary">Obtenir mon diagnostic</a>
       </div>
-      <div class="offer reveal">
+      <div class="offer reveal" id="offre-expansion">
         <div class="tier-ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15a10.5 10.5 0 0 1 8.5-9.5C18.5 9.5 16 12.5 12 14"/><path d="M9 15l-.6.6c-1 1-1.2 4.4-1.2 4.4s3.4-.2 4.4-1.2l.6-.6"/><path d="m12 14-2-2"/><circle cx="14.8" cy="8.2" r="1.1"/></svg></div>
         <div class="scope">Site entreprise</div>
         <h3>Click First<span class="tm">™</span> Expansion</h3>
@@ -116,6 +121,8 @@
           <li>Visibilité IA avancée</li>
           <li>Pilotage KPI approfondi</li>
         </ul>
+        <p class="offer-links">Services inclus : <a href="/services/creation-site-web">création de site</a> · <a href="/services/seo">SEO</a> · <a href="/services/seo-local">SEO local</a> · <a href="/services/refonte-site-web">refonte</a> · <a href="/services/visibilite-ia-geo">visibilité IA</a> · <a href="/services/">tous les services</a></p>
+        <p class="offer-links offer-links--peer">Autres portées : <a href="#offre-essentiel">Essentiel</a> · <a href="#offre-developpement">Développement</a> · <a href="#comparatif">comparer</a></p>
         <a href="/contact" class="btn btn-ghost">Obtenir mon diagnostic</a>
       </div>
     </div>
@@ -150,12 +157,12 @@
           <tr><td>Villes ciblées</td><td class="c">1</td><td class="c mid">2 à 3</td><td class="c">Multi</td></tr>
           <tr><td>Services couverts</td><td class="c">1 à 3</td><td class="c mid">3 à 6</td><td class="c">Multi</td></tr>
           <tr><td>Ampleur du déploiement de contenu</td><td class="c">Ciblée</td><td class="c mid">Étendue</td><td class="c">Maximale</td></tr>
-          <tr><td>Site sur mesure + Technical SEO</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>SEO local + Google Business Profile</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Avis Google + cohérence NAP</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Schema.org + OKF (lisible par les IA)</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Visibilité IA / GEO (ChatGPT, Gemini, Perplexity)</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
-          <tr><td>Optimisation continue + rapport KPI mensuel</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td><a href="/services/creation-site-web">Site sur mesure + Technical SEO</a></td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td><a href="/services/seo-local">SEO local</a> + <a href="/services/google-business-profile">Google Business Profile</a></td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td><a href="/services/google-business-profile">Avis Google</a> + <a href="/services/seo-local">cohérence NAP</a></td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td><a href="/services/visibilite-ia-geo">Schema.org + OKF</a> (lisible par les IA)</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td><a href="/services/visibilite-ia-geo">Visibilité IA / GEO</a> (ChatGPT, Gemini, Perplexity)</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
+          <tr><td><a href="/services/seo">Optimisation continue</a> + rapport KPI mensuel</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
           <tr><td>Accompagnement dédié</td><td class="c yes">✓</td><td class="c mid yes">✓</td><td class="c yes">✓</td></tr>
         </tbody>
       </table>
@@ -179,17 +186,17 @@
       <p>Quel que soit le plan, vous bénéficiez de l'ensemble des leviers. Seule l'ampleur change : pages, villes et services couverts.</p>
     </div>
     <div class="fgrid">
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg></div><h3>Site &amp; Technical SEO</h3><p>Site sur mesure, rapide, mobile-first. Core Web Vitals au vert.</p></div>
-      <div class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div><h3>SEO local</h3><p>Référencement naturel sur vos mots-clés service et ville.</p></div>
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Google Business Profile</h3><p>Fiche optimisée et synchronisée pour dominer Google Maps.</p></div>
-      <div class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8 4.8-2.2Z"/></svg></div><h3>Citations &amp; NAP</h3><p>Coordonnées cohérentes partout pour renforcer la confiance.</p></div>
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.28 5.83.85-4.22 4.11 1 5.8L12 16.9l-5.21 2.74 1-5.8-4.22-4.11 5.83-.85L12 3.5Z"/></svg></div><h3>Avis Google</h3><p>Stratégie d'obtention et de gestion de vos avis.</p></div>
-      <div class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4.6a2 2 0 0 1 4 0c0 .5.4.9.9.9H17.5V8c0 .5.4.9.9.9a2 2 0 0 1 0 4c-.5 0-.9.4-.9.9V16H15c-.5 0-.9.4-.9.9a2 2 0 0 1-4 0c0-.5-.4-.9-.9-.9H6.5v-2.2c0-.5-.4-.9-.9-.9a2 2 0 0 1 0-4c.5 0 .9-.4.9-.9V5.5H9c.5 0 .9-.4 1-.9Z"/></svg></div><h3>Schema.org &amp; OKF</h3><p>Données structurées lisibles par Google et par les IA.</p></div>
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg></div><h3>Visibilité IA (GEO)</h3><p>Être cité par ChatGPT, Claude, Gemini et Perplexity.</p></div>
-      <div class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16h16"/><polyline points="7,14 11,10 14,13 19,7"/><polyline points="15,7 19,7 19,11"/></svg></div><h3>Optimisation continue</h3><p>Mises à jour mensuelles et rapport KPI transparent.</p></div>
+      <a href="/services/creation-site-web" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg></div><h3>Site &amp; Technical SEO</h3><p>Site sur mesure, rapide, mobile-first. Core Web Vitals au vert.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/seo-local" class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div><h3>SEO local</h3><p>Référencement naturel sur vos mots-clés service et ville.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/google-business-profile" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Google Business Profile</h3><p>Fiche optimisée et synchronisée pour dominer Google Maps.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/seo-local" class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8 4.8-2.2Z"/></svg></div><h3>Citations &amp; NAP</h3><p>Coordonnées cohérentes partout pour renforcer la confiance.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/google-business-profile" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.28 5.83.85-4.22 4.11 1 5.8L12 16.9l-5.21 2.74 1-5.8-4.22-4.11 5.83-.85L12 3.5Z"/></svg></div><h3>Avis Google</h3><p>Stratégie d'obtention et de gestion de vos avis.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/visibilite-ia-geo" class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4.6a2 2 0 0 1 4 0c0 .5.4.9.9.9H17.5V8c0 .5.4.9.9.9a2 2 0 0 1 0 4c-.5 0-.9.4-.9.9V16H15c-.5 0-.9.4-.9.9a2 2 0 0 1-4 0c0-.5-.4-.9-.9-.9H6.5v-2.2c0-.5-.4-.9-.9-.9a2 2 0 0 1 0-4c.5 0 .9-.4.9-.9V5.5H9c.5 0 .9-.4 1-.9Z"/></svg></div><h3>Schema.org &amp; OKF</h3><p>Données structurées lisibles par Google et par les IA.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/visibilite-ia-geo" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg></div><h3>Visibilité IA (GEO)</h3><p>Être cité par ChatGPT, Claude, Gemini et Perplexity.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/seo" class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16h16"/><polyline points="7,14 11,10 14,13 19,7"/><polyline points="15,7 19,7 19,11"/></svg></div><h3>Optimisation continue</h3><p>Mises à jour mensuelles et rapport KPI transparent.</p><span class="flink">Voir le service &rarr;</span></a>
     </div>
-    <p class="center muted reveal center muted reveal u-note-center-22">Automatisation CRM disponible en option, activée uniquement si votre volume de contacts le justifie.</p>
-    <p class="center reveal center reveal u-mt-8 u-text-95">Voir <a href="/click-first" class="u-text-cyan">le détail de la méthode Click First™</a> ou <a href="/realisations" class="u-text-cyan">des résultats concrets en réalisations</a>.</p>
+    <p class="center muted reveal u-note-center-22">Automatisation CRM disponible en option, activée uniquement si votre volume de contacts le justifie.</p>
+    <p class="center reveal u-mt-8 u-text-95">Voir le <a href="/services/" class="u-text-cyan">hub services</a>, <a href="/click-first" class="u-text-cyan">la méthode Click First™</a> ou <a href="/realisations/" class="u-text-cyan">les réalisations</a>.</p>
   </div>
 </section>
 
@@ -201,9 +208,9 @@
       <p>Site web, Google Business Profile et présence IA travaillent ensemble, s'alimentent mutuellement et renforcent votre autorité locale. Ajoutez la construction complète, le framework GEO IA et le suivi mensuel : c'est incomparable à un site livré puis abandonné.</p>
     </div>
     <div class="fgrid u-mb-md">
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg></div><h3>Votre base</h3><p>Le site web, rapide et clair, où tout converge et se convertit.</p></div>
-      <div class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Votre présence locale</h3><p>Le Google Business Profile, qui capte les recherches de proximité.</p></div>
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg></div><h3>Votre voix &amp; portée</h3><p>Les moteurs IA et les données structurées, qui vous recommandent.</p></div>
+      <a href="/services/creation-site-web" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg></div><h3>Votre base</h3><p>Le site web, rapide et clair, où tout converge et se convertit.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/google-business-profile" class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div><h3>Votre présence locale</h3><p>Le Google Business Profile, qui capte les recherches de proximité.</p><span class="flink">Voir le service &rarr;</span></a>
+      <a href="/services/visibilite-ia-geo" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg></div><h3>Votre voix &amp; portée</h3><p>Les moteurs IA et les données structurées, qui vous recommandent.</p><span class="flink">Voir le service &rarr;</span></a>
     </div>
     <div class="wrap u-wrap-820-tight">
     <div class="reveal">
@@ -232,9 +239,9 @@
       <p>Votre offre dépend de votre ampleur (villes, services, pages), pas de votre métier. Vous n'avez pas à trancher seul : le diagnostic gratuit identifie la bonne échelle à partir de votre concurrence réelle sur Google et Google Maps.</p>
     </div>
     <div class="fgrid">
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-7"/><path d="M12 13C12 9.5 9.2 7.5 5.5 7.5c0 3.5 2.8 5.5 6.5 5.5Z"/><path d="M12 13c0-3 2.4-5 6-5 0 3-2.4 5-6 5Z"/></svg></div><h3>Essentiel</h3><p>Indépendant, thérapeute ou coach visant <strong>une ville</strong> et un à trois services.</p><ul><li>Devenir le choix évident localement</li><li>Fiche Google Business Profile optimisée</li><li>Framework de visibilité IA déployé</li></ul></div>
-      <div class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16h16"/><polyline points="7,14 11,10 14,13 19,7"/><polyline points="15,7 19,7 19,11"/></svg></div><h3>Développement</h3><p>Artisan ou cabinet avec plusieurs services et <strong>deux à trois villes</strong>.</p><ul><li>Parcours client élargi</li><li>Contenus et pages locales</li><li>Stratégie d'avis Google et GEO poussés</li></ul></div>
-      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15a10.5 10.5 0 0 1 8.5-9.5C18.5 9.5 16 12.5 12 14"/><path d="M9 15l-.6.6c-1 1-1.2 4.4-1.2 4.4s3.4-.2 4.4-1.2l.6-.6"/><path d="m12 14-2-2"/><circle cx="14.8" cy="8.2" r="1.1"/></svg></div><h3>Expansion</h3><p>Entreprise multi-sites ou franchise à rendre visible <strong>partout</strong>.</p><ul><li>Déploiement multi-villes</li><li>Couverture multi-services</li><li>Pilotage KPI approfondi</li></ul></div>
+      <a href="#offre-essentiel" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-7"/><path d="M12 13C12 9.5 9.2 7.5 5.5 7.5c0 3.5 2.8 5.5 6.5 5.5Z"/><path d="M12 13c0-3 2.4-5 6-5 0 3-2.4 5-6 5Z"/></svg></div><h3>Essentiel</h3><p>Indépendant, thérapeute ou coach visant <strong>une ville</strong> et un à trois services.</p><ul><li>Devenir le choix évident localement</li><li>Fiche Google Business Profile optimisée</li><li>Framework de visibilité IA déployé</li></ul></a>
+      <a href="#offre-developpement" class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16h16"/><polyline points="7,14 11,10 14,13 19,7"/><polyline points="15,7 19,7 19,11"/></svg></div><h3>Développement</h3><p>Artisan ou cabinet avec plusieurs services et <strong>deux à trois villes</strong>.</p><ul><li>Parcours client élargi</li><li>Contenus et pages locales</li><li>Stratégie d'avis Google et GEO poussés</li></ul></a>
+      <a href="#offre-expansion" class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15a10.5 10.5 0 0 1 8.5-9.5C18.5 9.5 16 12.5 12 14"/><path d="M9 15l-.6.6c-1 1-1.2 4.4-1.2 4.4s3.4-.2 4.4-1.2l.6-.6"/><path d="m12 14-2-2"/><circle cx="14.8" cy="8.2" r="1.1"/></svg></div><h3>Expansion</h3><p>Entreprise multi-sites ou franchise à rendre visible <strong>partout</strong>.</p><ul><li>Déploiement multi-villes</li><li>Couverture multi-services</li><li>Pilotage KPI approfondi</li></ul></a>
     </div>
   </div>
 </section>
@@ -328,7 +335,8 @@
         <h4>Navigation</h4>
         <a href="/click-first">Click First™</a>
         <a href="/services/">Services</a>
-        <a href="/realisations">Réalisations</a>
+        <a href="/realisations/">Réalisations</a>
+        <a href="/glossaire/">Glossaire</a>
         <a href="/offres">Offres</a>
         <a href="/a-propos">À propos</a>
         <a href="/blog">Blog</a>
@@ -345,6 +353,6 @@
   </div>
 </footer>
 <script defer src="/perf.js?v=20260712b"></script>
-<script src="/shared.js"></script>
+<script src="/shared.js?v=20260716h"></script>
 </body>
 </html>

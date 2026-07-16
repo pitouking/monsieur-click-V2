@@ -31,9 +31,24 @@
 /agence-seo-suisse                  → agence seo CH (260) + hub
 /agence-seo-geneve                  → agence seo genève (210)
 /blog/                              → 15 articles (migrés) + nouveaux
-/offres  /realisations  /click-first  /a-propos  /contact   (existent)
+/glossaire/                         → hub + définitions (citation IA)
+  /glossaire/seo-local
+  /glossaire/optimisation-moteurs-generatifs
+  /glossaire/google-business-profile
+/realisations/                      → hub études de cas
+  /realisations/assogym
+  /realisations/dharma-massage-therapy
+  /realisations/susan-filan
+  /realisations/bodyguard-paris
+  /realisations/heather-fillmore-coaching
+  /realisations/studio-la-voix-du-12
+  /realisations/east-portland-sash
+/offres  /click-first  /a-propos  /contact
 /mentions-legales  /confidentialite  /conditions
+# Candidats P4 (pas avant validation socle) :
+# /agence-seo-lyon  /agence-seo-bordeaux
 ```
+
 
 ## Arborescence — monsieurclick.com (EN)
 
@@ -50,8 +65,14 @@
 /ai-seo-agency                        → ai seo agency (1 000)
 /seo-agency-london                    → test géo UK
 /blog/                                → EN natif
-/pricing  /case-studies  /about  /contact
+/glossary/                            → hub + definitions (AI citation)
+  /glossary/local-seo
+  /glossary/generative-engine-optimization
+  /glossary/google-business-profile
+/case-studies/                        → hub + individual case studies
+/pricing  /about  /contact
 ```
+
 
 ## Règles hreflang
 
@@ -76,8 +97,14 @@
 | `/services/google-business-profile` | `/services/google-business-profile` |
 | `/services/visibilite-ia-geo` | `/services/generative-engine-optimization` |
 | `/services/audit-seo` | (à créer EN : `/services/seo-audit`) |
+| `/glossaire/` | `/glossary/` |
+| `/glossaire/seo-local` | `/glossary/local-seo` |
+| `/glossaire/optimisation-moteurs-generatifs` | `/glossary/generative-engine-optimization` |
+| `/glossaire/google-business-profile` | `/glossary/google-business-profile` |
+| `/realisations/` | `/case-studies/` |
 
 - Pages **sans équivalent** (ex. `/agence-seo-paris`, `/small-business-seo`) : pas de hreflang croisé forcé. Auto-référent uniquement.
+
 - Ne jamais mélanger FR et EN sur le même domaine.
 
 ## Maillage interne

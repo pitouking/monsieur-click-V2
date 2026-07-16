@@ -63,8 +63,24 @@ Contenu **natif EN** (US/UK entities, examples). No machine translation.
 - **H1** : SEO Agency in London for Small Businesses
 - **Schema** : Service (areaServed London) + LocalBusiness. Build only after core EN pages live; measure before scaling to more cities.
 
-## Aspirational (do NOT target short term)
-`/` home for « seo agency / seo company » (US 27 100 / 22 200) — build the home well, but expect ranking only after domain authority grows. See `06-do-not-build.md`.
+## P1 — `/` (Home)
+- **Keyword** : seo agency / seo company (aspirational)
+- **H1** : badge hero (not the big headline) — `Local SEO Agency & Web Design`. Slogan stays in `<p class="hero-headline">`.
+- **Journey** : includes AI / GEO steps (AI results + AI recommendation) before the call.
+- Build the home well; expect head-term ranking only after domain authority grows.
 
 ## EN pages needing a NEW slug (no FR twin)
 `/services/seo-audit` (EN twin of `/services/audit-seo`) — create for hreflang parity if audit is offered in EN.
+
+## P4 — `/glossary/` (AI citation, not volume-driven)
+### `/glossary/`
+- **H1** : SEO & GEO Glossary
+- **Schema** : DefinedTermSet. Entries:
+  - `/glossary/local-seo`
+  - `/glossary/generative-engine-optimization`
+  - `/glossary/google-business-profile`
+- **hreflang** ↔ `/glossaire/` (.fr). Native EN copy (US/UK entities). Never machine-translate FR.
+
+## P4 — `/case-studies/` (hub + individual cases)
+Mirror of FR `/realisations/` with the same 7 clients, native EN case narratives. Hub + one URL per case. hreflang ↔ `/realisations/`.
+

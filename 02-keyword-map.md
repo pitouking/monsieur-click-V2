@@ -14,19 +14,23 @@ Volumes = Google Ads search volume, DataForSEO, juillet 2026. **Susceptibles de 
 | consultant seo | 2 900 | Faible | `/consultant-seo-paris` |
 | agence web paris | 1 900 | Faible | `/agence-web-paris` |
 | audit seo | 1 600 | Moyenne | `/services/audit-seo` |
+| agence seo bordeaux | 1 600 | Très faible (idx 8) | `/agence-seo-bordeaux` (P4 candidat) |
 | référencement naturel | 1 600 | Faible | `/services/seo` |
+| agence seo lyon | 1 300 | Faible (idx 23) | `/agence-seo-lyon` (P4 candidat) |
 | agence référencement | 1 300 | Moyenne | `/services/seo` |
 | consultant seo paris | 1 000 | Faible | `/consultant-seo-paris` |
+| seo local | 1 000 | Faible | `/services/seo-local` |
 | refonte site internet | 880 | Faible | `/services/refonte-site-web` |
 | référencement local | 880 | Faible | `/services/seo-local` |
 | agence seo local | 720 | Faible | `/services/seo-local` |
 | création site internet paris | 720 | Faible | `/creation-site-internet-paris` |
 | création site vitrine | 590 | Faible | `/services/creation-site-web` (section) |
+| création site internet lyon | 590 | Faible | `/agence-seo-lyon` (secondaire, P4) |
 | création site wordpress | 320 | Faible | `/services/creation-site-wordpress` |
 | seo paris | 260 | Faible | `/agence-seo-paris` |
 | référencement paris | 170 | Faible | `/agence-seo-paris` |
 | agence seo ile-de-france | 110 | Faible | `/agence-seo-ile-de-france` |
-**Sous-total France : ≈ 55 450/mo**
+**Sous-total France : ≈ 58 350/mo** (hors Lyon/Bordeaux jusqu'à livraison P4)
 
 ### Belgique (fr)
 | Mot-clé | Vol./mo | Page cible |
@@ -48,7 +52,7 @@ Volumes = Google Ads search volume, DataForSEO, juillet 2026. **Susceptibles de 
 | référencement naturel | 70 | hub CH |
 **Sous-total Suisse : ≈ 1 500/mo**
 
-**TOTAL FRANCOPHONE ≈ 59 100/mo**
+**TOTAL FRANCOPHONE ≈ 62 000/mo** (avec Lyon + Bordeaux une fois livrés)
 
 ## Anglophone (.com)
 
@@ -87,3 +91,13 @@ People Also Ask : « c'est quoi une agence seo », « tarif / prix d'une agence 
 ## AI Overview
 
 Non déclenché sur « agence seo paris » à la date du pull. SERP dominé par **local pack** (Google Maps) + annuaires (Sortlist, Tool-Advisor). Conséquence : sur ces requêtes commerciales, le levier n°1 est la **fiche Google (GBP)**, pas seulement l'organique.
+
+## Glossaire (hors volume, stratégique)
+
+Pas piloté par le volume Google Ads. Format le plus cité par les IA génératives. Aligné sur le service visibilité IA déjà vendu.
+
+| Terme | FR | EN |
+|---|---|---|
+| SEO local | `/glossaire/seo-local` | `/glossary/local-seo` |
+| GEO | `/glossaire/optimisation-moteurs-generatifs` | `/glossary/generative-engine-optimization` |
+| Google Business Profile | `/glossaire/google-business-profile` | `/glossary/google-business-profile` |

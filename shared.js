@@ -39,6 +39,17 @@
     if(!open){item.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
   }));
 
+  /* Cartes a.fcard : navigation en capture pour contrer les scripts tiers (cookie, trackers) */
+  document.addEventListener('click',function(e){
+    if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+    const card=e.target&&e.target.closest&&e.target.closest('a.fcard');
+    if(!card)return;
+    const href=card.getAttribute('href');
+    if(!href||href.charAt(0)==='#')return;
+    e.preventDefault();
+    location.assign(card.href);
+  },true);
+
   const form=document.getElementById('auditForm'),msg=document.getElementById('cformMsg');
   if(form){form.addEventListener('submit',async e=>{
     e.preventDefault();const key=form.querySelector('[name=access_key]').value;if(msg)msg.style.display='block';

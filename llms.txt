@@ -61,8 +61,12 @@
 - Agence SEO Île-de-France : https://monsieurclick.fr/agence-seo-ile-de-france
 - Offres et tarifs : https://monsieurclick.fr/offres
   - Essentiel 850€/mois, Développement 1 000€/mois, Expansion 1 500€/mois
-- Réalisations : https://monsieurclick.fr/realisations
-  - Études de cas : Assogym, Dharma Massage, Bodyguard Paris, etc.
+- Réalisations : https://monsieurclick.fr/realisations/
+  - Études de cas individuelles : Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore, Studio La Voix du 12, East Portland Sash
+- Glossaire SEO & GEO : https://monsieurclick.fr/glossaire/
+  - SEO local : https://monsieurclick.fr/glossaire/seo-local/
+  - GEO (optimisation moteurs génératifs) : https://monsieurclick.fr/glossaire/optimisation-moteurs-generatifs/
+  - Google Business Profile : https://monsieurclick.fr/glossaire/google-business-profile/
 - À propos : https://monsieurclick.fr/a-propos
   - Créateur Jean-Pierre Baguette. 100% à distance.
 - Diagnostic gratuit : https://monsieurclick.fr/contact

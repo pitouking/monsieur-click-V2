@@ -4,7 +4,8 @@
   <url><loc>https://monsieurclick.fr/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://monsieurclick.fr/click-first</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://monsieurclick.fr/offres</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://monsieurclick.fr/realisations</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://monsieurclick.fr/realisations/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://monsieurclick.fr/glossaire/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://monsieurclick.fr/a-propos</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://monsieurclick.fr/contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://monsieurclick.fr/blog/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -35,12 +36,26 @@
   <url><loc>https://monsieurclick.fr/agence-seo-geneve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.fr/agence-seo-ile-de-france</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
+  <!-- Glossaire -->
+  <url><loc>https://monsieurclick.fr/glossaire/seo-local/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://monsieurclick.fr/glossaire/optimisation-moteurs-generatifs/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://monsieurclick.fr/glossaire/google-business-profile/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Réalisations (études de cas) -->
+  <url><loc>https://monsieurclick.fr/realisations/assogym/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://monsieurclick.fr/realisations/dharma-massage-therapy/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://monsieurclick.fr/realisations/susan-filan/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://monsieurclick.fr/realisations/bodyguard-paris/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://monsieurclick.fr/realisations/heather-fillmore-coaching/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://monsieurclick.fr/realisations/studio-la-voix-du-12/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://monsieurclick.fr/realisations/east-portland-sash/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
   <!-- Pages légales -->
   <url><loc>https://monsieurclick.fr/mentions-legales</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://monsieurclick.fr/confidentialite</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://monsieurclick.fr/conditions</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 
-  <!-- Articles de blog (nouvelle arborescence /blog/slug) -->
+  <!-- Articles de blog -->
   <url><loc>https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo</loc><lastmod>2026-05-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.fr/blog/geo-generative-engine-optimization</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.fr/blog/ia-vont-elles-remplacer-google</loc><lastmod>2026-04-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>

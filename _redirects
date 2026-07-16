@@ -55,3 +55,7 @@
 /blog-trouver-clients-sans-publicite /blog/trouver-clients-sans-publicite 301
 /blog-trouver-clients-sans-publicite.html /blog/trouver-clients-sans-publicite 301
 /blog /blog/ 301
+
+# Realisations hub (folder) + legacy flat
+/realisations.html /realisations/ 301
+/case-studies.html /case-studies/ 301
