@@ -4,10 +4,11 @@
   "description": "",
   "main": "shared.js",
   "scripts": {
+    "build:css": "node scripts/build-css.cjs",
     "test": "playwright test",
     "test:headed": "playwright test --headed",
-    "deploy:fr": "CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 wrangler pages deploy . --project-name=monsieurclick-fr --commit-dirty=true",
-    "deploy:en": "CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 wrangler pages deploy . --project-name=monsieurclick-com --commit-dirty=true",
+    "deploy:fr": "npm run build:css && CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 npx wrangler pages deploy . --project-name=monsieurclick-fr --branch=fr --commit-dirty=true",
+    "deploy:en": "echo 'Deploy EN from ../en with --project-name=monsieurclick-com --branch=en (do not deploy this FR root to .com)' && exit 1",
     "barry": "barry-cache",
     "barry:validate": "barry-cache validate",
     "barry:resume": "barry-cache resume",

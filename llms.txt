@@ -1,3 +1,5 @@
+# Monsieur Click
+
 # Monsieur Click — AI Agent Knowledge (FR)
 # Site français : https://monsieurclick.fr/
 # Site anglais : https://monsieurclick.com/
@@ -66,7 +68,7 @@
 - Diagnostic gratuit : https://monsieurclick.fr/contact
   - 30 minutes, sans engagement. Plan chiffré sous 48h.
 - Blog : https://monsieurclick.fr/blog/
-  - 15 articles SEO local, GBP et visibilité IA (arborescence /blog/slug)
+  - 18 articles SEO local, GBP et visibilité IA (arborescence /blog/slug)
 
 ## Pages légales
 - Mentions légales : https://monsieurclick.fr/mentions-legales

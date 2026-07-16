@@ -35,36 +35,38 @@
     ['scroll','click','keydown','touchstart','mousemove'].forEach(function(ev){
       window.addEventListener(ev,run,opts);
     });
-    setTimeout(run,8000);
+    /* Fallback loin après LCP (évite le coût Pixel/trackers pendant le lab) */
+    setTimeout(run,12000);
   }
 
-  onLoad(function(){
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init','852496749984370');
-    fbq('track','PageView');
-  },3500);
-
+  /* Meta Pixel + trackers lourds : après interaction (ou 12s) */
   onceInteraction(function(){
     idle(function(){
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init','852496749984370');
+      fbq('track','PageView');
+    },1500);
+
+    idle(function(){
       loadScript('https://www.cookie-banner.ca/api/v1/banner.js?id=81d60f48-8071-419e-a0e9-73bb65bd3f98',{async:true});
-    },2000);
+    },2500);
+
+    idle(function(){
+      loadScript('https://link.monsieurclick.com/js/external-tracking.js',{defer:true,trackingId:'tk_a30e543c7c964e4f9c2e3f8981a6ddd1'});
+    },4000);
+
+    idle(function(){
+      loadScript('https://plugin.nytsys.com/api/site/07425859-5919-4fb7-bfb1-dadeb407fd93/nytsys.min.js',{defer:true});
+    },5500);
+
+    idle(function(){
+      loadScript('https://rest.happierleads.com/v3/script?clientId=aSuWe5DNqU8U6HqUMeVxGC&version=4.0.0',{async:true});
+    },7000);
+
+    idle(function(){
+      loadScript('https://sitebehaviour-cdn.fra1.cdn.digitaloceanspaces.com/index.min.js?sitebehaviour-secret=feeac00c-7f80-49e8-a6c6-e2055444c955',{defer:true});
+    },8500);
   });
-
-  idle(function(){
-    loadScript('https://link.monsieurclick.com/js/external-tracking.js',{defer:true,trackingId:'tk_a30e543c7c964e4f9c2e3f8981a6ddd1'});
-  },4500);
-
-  idle(function(){
-    loadScript('https://plugin.nytsys.com/api/site/07425859-5919-4fb7-bfb1-dadeb407fd93/nytsys.min.js',{defer:true});
-  },6500);
-
-  idle(function(){
-    loadScript('https://sitebehaviour-cdn.fra1.cdn.digitaloceanspaces.com/index.min.js?sitebehaviour-secret=feeac00c-7f80-49e8-a6c6-e2055444c955',{defer:true});
-  },9000);
-
-  idle(function(){
-    loadScript('https://rest.happierleads.com/v3/script?clientId=aSuWe5DNqU8U6HqUMeVxGC&version=4.0.0',{async:true});
-  },7500);
 
   var widgetWrap=document.getElementById('widgetWrap');
   if(widgetWrap){
@@ -99,29 +101,37 @@
       if(document.querySelector('script[src*="form_embed.js"]'))return;
       loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
     }
-    if(location.hash==='#parlons')bootForm();
+    if(location.hash==='#parlons'||location.hash==='#contact')bootForm();
     if('IntersectionObserver' in window){
+      /* Pas de getBoundingClientRect synchrone (forced layout / TBT) */
       var fio=new IntersectionObserver(function(entries,o){
         entries.forEach(function(e){
           if(!e.isIntersecting)return;
           o.disconnect();
           bootForm();
         });
-      },{rootMargin:'420px'});
+      },{rootMargin:'480px 0px',threshold:0});
       fio.observe(parlons);
-      if(parlons.getBoundingClientRect().top<window.innerHeight+420)bootForm();
-    }else onLoad(bootForm,1500);
+    }else onLoad(bootForm,2000);
   }
 
-  var contactIframe=document.querySelector('iframe[src*="widget/form/"],iframe[data-src*="widget/form/"]');
+  var contactIframe=document.querySelector('iframe[data-src*="widget/form/"]');
   if(contactIframe&&!parlons){
     function bootContactForm(){
       mountFormIframe(contactIframe.parentElement||document);
       if(!document.querySelector('script[src*="form_embed.js"]'))
         loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
     }
-    bootContactForm();
-    onLoad(bootContactForm,0);
+    if('IntersectionObserver' in window){
+      var cio=new IntersectionObserver(function(entries,o){
+        entries.forEach(function(e){
+          if(!e.isIntersecting)return;
+          o.disconnect();
+          bootContactForm();
+        });
+      },{rootMargin:'480px 0px',threshold:0});
+      cio.observe(contactIframe);
+    }else onLoad(bootContactForm,2000);
   }
 
 })();
