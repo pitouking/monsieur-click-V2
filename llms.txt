@@ -35,6 +35,8 @@
   - Get cited by ChatGPT, Gemini, Claude, Perplexity (Schema, OKF, llms.txt)
 - SEO services : https://monsieurclick.com/services/seo
   - Technical, on-page and content SEO measured inside Click First™
+- SEO audit : https://monsieurclick.com/services/seo-audit
+  - Technical, on-page and semantic audit with prioritized action plan
 - Local SEO : https://monsieurclick.com/services/local-seo
   - Google Business Profile, reviews, citations and local pages
 - Web design : https://monsieurclick.com/services/web-design
