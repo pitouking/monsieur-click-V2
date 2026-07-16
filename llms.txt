@@ -76,18 +76,26 @@
 ## Bundle OKF (connaissances structurées pour IA)
 - Hub OKF : https://monsieurclick.fr/okf/
 - Services OKF : https://monsieurclick.fr/okf/services/
-- À propos OKF : https://monsieurclick.fr/okf/a-propos
-- Réalisations OKF : https://monsieurclick.fr/okf/realisations
-- Contact OKF : https://monsieurclick.fr/okf/contact
+- Création site : https://monsieurclick.fr/okf/services/creation-site-web/
+- SEO : https://monsieurclick.fr/okf/services/seo/
+- SEO local : https://monsieurclick.fr/okf/services/seo-local/
+- GBP : https://monsieurclick.fr/okf/services/google-business-profile/
+- GEO / visibilité IA : https://monsieurclick.fr/okf/services/visibilite-ia-geo/
+- Agence SEO Paris : https://monsieurclick.fr/okf/agence-seo-paris/
+- Click First™ OKF : https://monsieurclick.fr/okf/click-first/
 - Blog OKF : https://monsieurclick.fr/okf/blog/
-- Framework GEO IA : https://monsieurclick.fr/okf/services/framework-geo-ia
+- Texts (plain) : https://monsieurclick.fr/texts/
 
-## Blog (15 articles)
+## Blog (18 articles)
 ### Stratégie
 - Click First™ pas une prestation SEO : https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo
 - Entreprise référence plutôt que visible : https://monsieurclick.fr/blog/entreprise-reference-plutot-que-visible
 - Site suffit en 2026 ? : https://monsieurclick.fr/blog/site-suffit-2026
 - Google Ads ou SEO : https://monsieurclick.fr/blog/google-ads-ou-seo
+
+- Prix / tarif agence SEO 2026 : https://monsieurclick.fr/blog/prix-tarif-agence-seo-2026
+- C'est quoi une agence SEO : https://monsieurclick.fr/blog/c-est-quoi-une-agence-seo
+- Choisir son agence SEO à Paris : https://monsieurclick.fr/blog/comment-choisir-agence-seo-paris
 
 ### SEO Local & GBP
 - Concurrents devant vous : https://monsieurclick.fr/blog/pourquoi-concurrents-devant-google

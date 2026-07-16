@@ -1,6 +1,6 @@
 TITRE: Optimisation mensuelle
 DESCRIPTION: Suivi et optimisation continue : SEO, contenu, avis, visibilité IA.
-URL: https://monsieurclick.fr/okf/services/optimisation-mensuelle
+URL: https://monsieurclick.fr/offres
 TYPE: Service
 LANG: fr
 TAGS: optimisation, suivi, maintenance, SEO

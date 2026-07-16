@@ -1,6 +1,6 @@
 TITRE: Vos clients utilisent ChatGPT avant Google
 DESCRIPTION: Le changement de comportement de recherche en 2026. Pourquoi vos prospects consultent d'abord les IA.
-URL: https://monsieurclick.fr/blog-clients-utilisent-chatgpt-avant-google
+URL: https://monsieurclick.fr/blog/clients-utilisent-chatgpt-avant-google
 TYPE: BlogArticle
 LANG: fr
 TAGS: ChatGPT, Google, comportement, recherche, 2026
@@ -11,5 +11,5 @@ Le changement de comportement de recherche en 2026. Pourquoi vos prospects consu
 
 Cet article explore le thème : Comportement client.
 
-→ Lire l'article complet : https://monsieurclick.fr/blog-clients-utilisent-chatgpt-avant-google
+→ Lire l'article complet : https://monsieurclick.fr/blog/clients-utilisent-chatgpt-avant-google
 → Blog : https://monsieurclick.fr/blog

@@ -1,6 +1,6 @@
 TITRE: Click First™ n'est pas une prestation SEO
 DESCRIPTION: Le problème n'est pas les outils, c'est leur isolement. Click First™ les connecte en un système cohérent.
-URL: https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo
+URL: https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo
 TYPE: BlogArticle
 LANG: fr
 TAGS: Click First, SEO, méthode, visibilité globale
@@ -11,5 +11,5 @@ Le problème n'est pas les outils, c'est leur isolement. Click First™ les conn
 
 Cet article explore le thème : Stratégie.
 
-→ Lire l'article complet : https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo
+→ Lire l'article complet : https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo
 → Blog : https://monsieurclick.fr/blog

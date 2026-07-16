@@ -5,7 +5,7 @@
     "02-keyword-map.md": "f7adb58c8645a8839bcff22b68fa9f1067f251496a9bea2dced01d7a081103b5",
     "03-pages-fr.md": "a80fc7d27025ba2f594bc3c7d5522c9b9309f973da15ca3a5a5d21b2138bce8f",
     "04-pages-en.md": "de16ecedfb5af49511d2dbc167f2efc6509a19277948e78a1b6f82af63efdbac",
-    "05-blog-map.md": "19958fe0584681469ce0f4f9a32bf655ce08807fba2cc9eb5f82cfb2698fc5bb",
+    "05-blog-map.md": "2f61b00c9f29eb7ff4949107223170c760f7c58a2d771e41296cea4958a800db",
     "06-do-not-build.md": "0e9edcb8fbdbddc0b4e634dd5b1f0d2e71f1aa68691b8c2123d1c95082f10767",
     "07-technical-seo-schema.md": "98781dc877d33af6b9ecbf09de4b7d8d8a79ace6094f85e17727d734ec8f279b",
     "08-page-template-storybrand.md": "921661f04bbbe0b1a0ef6716dc154a98bb541d2dee3d4c531ce3c9d356fa39b1",
@@ -38,8 +38,8 @@
     "score-questions.js": "1d37c537ad494f26602230cf991912abbb87f4720e010b8d7885e224837aaa4f",
     "shared.js": "d34694db89af725f50eac61130e140cdefb13dde08d38d251b3dd8aab5696bb7"
   },
-  "indexed_at_commit": "f3ec38d95d7fca1665cbea6ff9dd4688ffed1f9f",
-  "indexed_at_timestamp": "2026-07-16T09:35:56.636136+00:00",
+  "indexed_at_commit": "c0aca315f6e6e2cca102f24956de83b468954010",
+  "indexed_at_timestamp": "2026-07-16T10:29:17.947584+00:00",
   "schema_version": 3,
   "stats": {
     "total_edges": 220,

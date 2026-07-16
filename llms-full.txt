@@ -110,7 +110,7 @@ Titre : Blog SEO local, Google Business & visibilité IA | Monsieur Click
 Description : Conseils pratiques pour être trouvé et choisi sur Google, Maps et les IA : SEO local, fiche Google, avis et visibilité dans ChatGPT.
 Schema.org : ItemList, Organization, ProfessionalService, WebSite, BreadcrumbList
 Résumé :
-Hub du blog avec 15 articles organisés par catégories : Stratégie, SEO, Google Business Profile, Visibilité IA. Filtres interactifs. Chaque article présente un titre, une catégorie, un extrait et un lien. Articles mis en avant : Click First™ n'est pas une prestation SEO, GEO pour les IA génératives.
+Hub du blog avec 18 articles organisés par catégories : Stratégie, SEO, Google Business Profile, Visibilité IA. Filtres interactifs. Chaque article présente un titre, une catégorie, un extrait et un lien. Articles mis en avant : Click First™ n'est pas une prestation SEO, GEO pour les IA génératives.
 Contenu clé : liste complète des articles avec catégories et extraits, recherche et filtres.
 
 ================================================================================
@@ -207,6 +207,9 @@ Résumé : Les habitudes de recherche changent. Les clients commencent par ChatG
 BLOG : Google Ads ou SEO — Où investir ?
 ================================================================================
 URL : https://monsieurclick.fr/blog/google-ads-ou-seo
+- https://monsieurclick.fr/blog/prix-tarif-agence-seo-2026
+- https://monsieurclick.fr/blog/c-est-quoi-une-agence-seo
+- https://monsieurclick.fr/blog/comment-choisir-agence-seo-paris
 Titre : Google Ads ou référencement naturel (SEO) : où investir pour un retour durable ?
 Description : Publicité ou référencement ? Les deux ont leur place, mais pas au même moment. Voici comment choisir.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList

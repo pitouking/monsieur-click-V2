@@ -21,9 +21,9 @@
 | `/blog/click-first-pas-une-prestation-seo` | `/click-first` |
 
 ### Nouveaux articles FR (issus des PAA à demande prouvée)
-- « Prix / tarif d'une agence SEO en 2026 » → `/offres`
-- « C'est quoi une agence SEO ? » → `/services/seo`
-- « Comment choisir son agence SEO à Paris » → `/agence-seo-paris`
+- ✅ `/blog/prix-tarif-agence-seo-2026` → `/offres`
+- ✅ `/blog/c-est-quoi-une-agence-seo` → `/services/seo`
+- ✅ `/blog/comment-choisir-agence-seo-paris` → `/agence-seo-paris`
 
 ## .com — blog EN natif (à créer, pas une traduction)
 

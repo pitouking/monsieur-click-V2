@@ -1,6 +1,6 @@
 TITRE: Un site internet suffit-il en 2026 ?
 DESCRIPTION: Un site seul ne suffit plus sans SEO, Google Business Profile, avis et visibilité IA. Le nouveau paysage du marketing digital.
-URL: https://monsieurclick.fr/blog-site-suffit-2026
+URL: https://monsieurclick.fr/blog/site-suffit-2026
 TYPE: BlogArticle
 LANG: fr
 TAGS: site internet, 2026, SEO, IA, marketing digital
@@ -11,5 +11,5 @@ Un site seul ne suffit plus sans SEO, Google Business Profile, avis et visibilit
 
 Cet article explore le thème : Stratégie.
 
-→ Lire l'article complet : https://monsieurclick.fr/blog-site-suffit-2026
+→ Lire l'article complet : https://monsieurclick.fr/blog/site-suffit-2026
 → Blog : https://monsieurclick.fr/blog
