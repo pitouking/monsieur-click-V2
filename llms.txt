@@ -49,6 +49,14 @@
   - Création de site et SEO intégré pour Paris
 - Création de site à Paris : https://monsieurclick.fr/creation-site-internet-paris
   - Site vitrine et SEO pour entreprises parisiennes
+- Création site WordPress : https://monsieurclick.fr/services/creation-site-wordpress
+- Visibilité IA (GEO) : https://monsieurclick.fr/services/visibilite-ia-geo
+  - Être cité par ChatGPT, Gemini, Perplexity (Schema, OKF, llms.txt)
+- Agence SEO Belgique : https://monsieurclick.fr/agence-seo-belgique
+- Agence SEO Bruxelles : https://monsieurclick.fr/agence-seo-bruxelles
+- Agence SEO Suisse : https://monsieurclick.fr/agence-seo-suisse
+- Agence SEO Genève : https://monsieurclick.fr/agence-seo-geneve
+- Agence SEO Île-de-France : https://monsieurclick.fr/agence-seo-ile-de-france
 - Offres et tarifs : https://monsieurclick.fr/offres
   - Essentiel 850€/mois, Développement 1 000€/mois, Expansion 1 500€/mois
 - Réalisations : https://monsieurclick.fr/realisations
@@ -57,8 +65,8 @@
   - Créateur Jean-Pierre Baguette. 100% à distance.
 - Diagnostic gratuit : https://monsieurclick.fr/contact
   - 30 minutes, sans engagement. Plan chiffré sous 48h.
-- Blog : https://monsieurclick.fr/blog
-  - 15 articles SEO local, GBP et visibilité IA
+- Blog : https://monsieurclick.fr/blog/
+  - 15 articles SEO local, GBP et visibilité IA (arborescence /blog/slug)
 
 ## Pages légales
 - Mentions légales : https://monsieurclick.fr/mentions-legales
@@ -76,27 +84,27 @@
 
 ## Blog (15 articles)
 ### Stratégie
-- Click First™ pas une prestation SEO : https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo
-- Entreprise référence plutôt que visible : https://monsieurclick.fr/blog-entreprise-reference-plutot-que-visible
-- Site suffit en 2026 ? : https://monsieurclick.fr/blog-site-suffit-2026
-- Google Ads ou SEO : https://monsieurclick.fr/blog-google-ads-ou-seo
+- Click First™ pas une prestation SEO : https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo
+- Entreprise référence plutôt que visible : https://monsieurclick.fr/blog/entreprise-reference-plutot-que-visible
+- Site suffit en 2026 ? : https://monsieurclick.fr/blog/site-suffit-2026
+- Google Ads ou SEO : https://monsieurclick.fr/blog/google-ads-ou-seo
 
 ### SEO Local & GBP
-- Concurrents devant vous : https://monsieurclick.fr/blog-pourquoi-concurrents-devant-google
-- Entreprise invisible sur Google : https://monsieurclick.fr/blog-pourquoi-entreprise-invisible-google
-- Comment Google classe les entreprises : https://monsieurclick.fr/blog-comment-google-classe-les-entreprises
-- Fiche GBP sans appel : https://monsieurclick.fr/blog-fiche-google-business-profile-sans-appel
-- Plus d'avis Google : https://monsieurclick.fr/blog-obtenir-plus-avis-google
+- Concurrents devant vous : https://monsieurclick.fr/blog/pourquoi-concurrents-devant-google
+- Entreprise invisible sur Google : https://monsieurclick.fr/blog/pourquoi-entreprise-invisible-google
+- Comment Google classe les entreprises : https://monsieurclick.fr/blog/comment-google-classe-les-entreprises
+- Fiche GBP sans appel : https://monsieurclick.fr/blog/fiche-google-business-profile-sans-appel
+- Plus d'avis Google : https://monsieurclick.fr/blog/obtenir-plus-avis-google
 
 ### Visibilité IA (GEO)
-- GEO pour entreprises : https://monsieurclick.fr/blog-geo-generative-engine-optimization
-- Apparaître dans ChatGPT, Gemini, Perplexity : https://monsieurclick.fr/blog-apparaitre-reponses-chatgpt-gemini-perplexity
-- Clients utilisent ChatGPT avant Google : https://monsieurclick.fr/blog-clients-utilisent-chatgpt-avant-google
-- IA vont-elles remplacer Google ? : https://monsieurclick.fr/blog-ia-vont-elles-remplacer-google
+- GEO pour entreprises : https://monsieurclick.fr/blog/geo-generative-engine-optimization
+- Apparaître dans ChatGPT, Gemini, Perplexity : https://monsieurclick.fr/blog/apparaitre-reponses-chatgpt-gemini-perplexity
+- Clients utilisent ChatGPT avant Google : https://monsieurclick.fr/blog/clients-utilisent-chatgpt-avant-google
+- IA vont-elles remplacer Google ? : https://monsieurclick.fr/blog/ia-vont-elles-remplacer-google
 
 ### Acquisition
-- Site internet perd des clients : https://monsieurclick.fr/blog-site-internet-perd-clients
-- Clients sans publicité : https://monsieurclick.fr/blog-trouver-clients-sans-publicite
+- Site internet perd des clients : https://monsieurclick.fr/blog/site-internet-perd-clients
+- Clients sans publicité : https://monsieurclick.fr/blog/trouver-clients-sans-publicite
 
 ## Offres et tarifs
 | Offre | Cible | Prix | Engagement |

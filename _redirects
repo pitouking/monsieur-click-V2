@@ -22,3 +22,36 @@
 # Texts directory rewrites
 /texts /texts/index.txt 200
 /texts/ /texts/index.txt 200
+
+# Blog migration blog-xxx → /blog/xxx
+/blog-apparaitre-reponses-chatgpt-gemini-perplexity /blog/apparaitre-reponses-chatgpt-gemini-perplexity 301
+/blog-apparaitre-reponses-chatgpt-gemini-perplexity.html /blog/apparaitre-reponses-chatgpt-gemini-perplexity 301
+/blog-click-first-pas-une-prestation-seo /blog/click-first-pas-une-prestation-seo 301
+/blog-click-first-pas-une-prestation-seo.html /blog/click-first-pas-une-prestation-seo 301
+/blog-clients-utilisent-chatgpt-avant-google /blog/clients-utilisent-chatgpt-avant-google 301
+/blog-clients-utilisent-chatgpt-avant-google.html /blog/clients-utilisent-chatgpt-avant-google 301
+/blog-comment-google-classe-les-entreprises /blog/comment-google-classe-les-entreprises 301
+/blog-comment-google-classe-les-entreprises.html /blog/comment-google-classe-les-entreprises 301
+/blog-entreprise-reference-plutot-que-visible /blog/entreprise-reference-plutot-que-visible 301
+/blog-entreprise-reference-plutot-que-visible.html /blog/entreprise-reference-plutot-que-visible 301
+/blog-fiche-google-business-profile-sans-appel /blog/fiche-google-business-profile-sans-appel 301
+/blog-fiche-google-business-profile-sans-appel.html /blog/fiche-google-business-profile-sans-appel 301
+/blog-geo-generative-engine-optimization /blog/geo-generative-engine-optimization 301
+/blog-geo-generative-engine-optimization.html /blog/geo-generative-engine-optimization 301
+/blog-google-ads-ou-seo /blog/google-ads-ou-seo 301
+/blog-google-ads-ou-seo.html /blog/google-ads-ou-seo 301
+/blog-ia-vont-elles-remplacer-google /blog/ia-vont-elles-remplacer-google 301
+/blog-ia-vont-elles-remplacer-google.html /blog/ia-vont-elles-remplacer-google 301
+/blog-obtenir-plus-avis-google /blog/obtenir-plus-avis-google 301
+/blog-obtenir-plus-avis-google.html /blog/obtenir-plus-avis-google 301
+/blog-pourquoi-concurrents-devant-google /blog/pourquoi-concurrents-devant-google 301
+/blog-pourquoi-concurrents-devant-google.html /blog/pourquoi-concurrents-devant-google 301
+/blog-pourquoi-entreprise-invisible-google /blog/pourquoi-entreprise-invisible-google 301
+/blog-pourquoi-entreprise-invisible-google.html /blog/pourquoi-entreprise-invisible-google 301
+/blog-site-internet-perd-clients /blog/site-internet-perd-clients 301
+/blog-site-internet-perd-clients.html /blog/site-internet-perd-clients 301
+/blog-site-suffit-2026 /blog/site-suffit-2026 301
+/blog-site-suffit-2026.html /blog/site-suffit-2026 301
+/blog-trouver-clients-sans-publicite /blog/trouver-clients-sans-publicite 301
+/blog-trouver-clients-sans-publicite.html /blog/trouver-clients-sans-publicite 301
+/blog /blog/ 301

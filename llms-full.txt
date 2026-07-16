@@ -116,7 +116,7 @@ Contenu clé : liste complète des articles avec catégories et extraits, recher
 ================================================================================
 BLOG : Click First™ n'est pas une prestation SEO
 ================================================================================
-URL : https://monsieurclick.fr/blog-click-first-pas-une-prestation-seo
+URL : https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo
 Titre : Click First™ n'est pas une prestation SEO — c'est un écosystème de visibilité complet
 Description : Le problème des PME n'est pas le manque d'outils SEO, c'est leur isolement. Click First™ connecte site, SEO local, GBP, avis, GEO et données structurées en un seul système cohérent.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -126,7 +126,7 @@ Résumé : La plupart des entreprises achètent des prestations SEO isolées qui
 ================================================================================
 BLOG : GEO — Optimiser son entreprise pour les IA génératives
 ================================================================================
-URL : https://monsieurclick.fr/blog-geo-generative-engine-optimization
+URL : https://monsieurclick.fr/blog/geo-generative-engine-optimization
 Titre : GEO (Generative Engine Optimization) : optimisez votre entreprise pour les IA génératives
 Description : L'évolution naturelle du SEO : être compris et cité par les IA génératives comme ChatGPT, Gemini, Claude et Perplexity.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -136,7 +136,7 @@ Résumé : Le GEO est la suite logique du SEO. Là où le SEO vise les moteurs d
 ================================================================================
 BLOG : Les IA vont-elles remplacer Google ?
 ================================================================================
-URL : https://monsieurclick.fr/blog-ia-vont-elles-remplacer-google
+URL : https://monsieurclick.fr/blog/ia-vont-elles-remplacer-google
 Titre : Les IA vont-elles remplacer Google ? La vérité sur l'avenir de la recherche en ligne
 Description : ChatGPT, Perplexity et Gemini ne tuent pas Google. Ils changent le parcours de vos futurs clients. Voici ce que ça implique pour votre entreprise.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -146,7 +146,7 @@ Résumé : Les IA ne remplacent pas Google, elles ajoutent un nouveau canal de r
 ================================================================================
 BLOG : Entreprise référencée plutôt que visible
 ================================================================================
-URL : https://monsieurclick.fr/blog-entreprise-reference-plutot-que-visible
+URL : https://monsieurclick.fr/blog/entreprise-reference-plutot-que-visible
 Titre : Devenez une entreprise de référence, pas seulement visible
 Description : Être trouvé sur Google ne suffit plus. Il faut devenir la référence que Google, ChatGPT et vos clients citent spontanément.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -156,7 +156,7 @@ Résumé : La visibilité est passive, la référence est active. Une entreprise
 ================================================================================
 BLOG : Obtenir plus d'avis Google
 ================================================================================
-URL : https://monsieurclick.fr/blog-obtenir-plus-avis-google
+URL : https://monsieurclick.fr/blog/obtenir-plus-avis-google
 Titre : Obtenir plus d'avis Google (sans être insistant) — Guide complet
 Description : Les avis Google sont le facteur n°1 du SEO local. Découvrez comment en obtenir plus, naturellement, sans forcer vos clients.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -166,7 +166,7 @@ Résumé : Guide pratique pour obtenir des avis Google authentiques. Stratégies
 ================================================================================
 BLOG : Votre site internet perd des clients
 ================================================================================
-URL : https://monsieurclick.fr/blog-site-internet-perd-clients
+URL : https://monsieurclick.fr/blog/site-internet-perd-clients
 Titre : Votre site internet perd des clients : 10 signes qui ne trompent pas
 Description : Un site lent, mal structuré ou sans données Schema.org fait fuir vos prospects ET Google. Voici les 10 signaux d'alarme.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -176,7 +176,7 @@ Résumé : 10 signes que votre site fait fuir des clients : lenteur, absence de 
 ================================================================================
 BLOG : Pourquoi vos concurrents sont devant vous sur Google
 ================================================================================
-URL : https://monsieurclick.fr/blog-pourquoi-concurrents-devant-google
+URL : https://monsieurclick.fr/blog/pourquoi-concurrents-devant-google
 Titre : Pourquoi vos concurrents sont devant vous sur Google (et comment les dépasser)
 Description : Vos concurrents ne sont pas meilleurs que vous. Ils sont juste mieux organisés. Voici les 5 leviers qu'ils activent.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -186,7 +186,7 @@ Résumé : 5 raisons : Google Business Profile optimisé, avis réguliers, site 
 ================================================================================
 BLOG : Apparaître dans les réponses de ChatGPT, Gemini, Perplexity
 ================================================================================
-URL : https://monsieurclick.fr/blog-apparaitre-reponses-chatgpt-gemini-perplexity
+URL : https://monsieurclick.fr/blog/apparaitre-reponses-chatgpt-gemini-perplexity
 Titre : Apparaître dans les réponses de ChatGPT, Gemini et Perplexity — Guide GEO
 Description : Les IA conversationnelles recommandent déjà des entreprises. Voici comment faire en sorte que la vôtre soit citée.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -196,7 +196,7 @@ Résumé : Guide pratique pour être cité par les IA : bundle OKF/llms.txt, Sch
 ================================================================================
 BLOG : Vos clients utilisent ChatGPT avant Google
 ================================================================================
-URL : https://monsieurclick.fr/blog-clients-utilisent-chatgpt-avant-google
+URL : https://monsieurclick.fr/blog/clients-utilisent-chatgpt-avant-google
 Titre : Vos clients utilisent ChatGPT avant Google — Êtes-vous prêt ?
 Description : En 2026, de plus en plus de clients posent leurs questions aux IA avant de chercher sur Google. Votre entreprise est-elle visible là-bas ?
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -206,7 +206,7 @@ Résumé : Les habitudes de recherche changent. Les clients commencent par ChatG
 ================================================================================
 BLOG : Google Ads ou SEO — Où investir ?
 ================================================================================
-URL : https://monsieurclick.fr/blog-google-ads-ou-seo
+URL : https://monsieurclick.fr/blog/google-ads-ou-seo
 Titre : Google Ads ou référencement naturel (SEO) : où investir pour un retour durable ?
 Description : Publicité ou référencement ? Les deux ont leur place, mais pas au même moment. Voici comment choisir.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -216,7 +216,7 @@ Résumé : Comparaison Google Ads vs SEO : les Ads donnent des résultats imméd
 ================================================================================
 BLOG : Trouver des clients sans publicité
 ================================================================================
-URL : https://monsieurclick.fr/blog-trouver-clients-sans-publicite
+URL : https://monsieurclick.fr/blog/trouver-clients-sans-publicite
 Titre : Trouver des clients chaque semaine sans publicité — La méthode SEO local
 Description : Attirez des clients qualifiés chaque semaine sans dépenser un euro en publicité. La méthode complète.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -226,7 +226,7 @@ Résumé : Méthode pour attirer des clients sans publicité : Google Business P
 ================================================================================
 BLOG : Fiche Google Business Profile sans appel
 ================================================================================
-URL : https://monsieurclick.fr/blog-fiche-google-business-profile-sans-appel
+URL : https://monsieurclick.fr/blog/fiche-google-business-profile-sans-appel
 Titre : Votre fiche Google Business Profile n'apporte aucun appel — Voici pourquoi
 Description : Votre fiche Google est optimisée mais le téléphone ne sonne pas ? 5 raisons qui expliquent pourquoi et comment y remédier.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -236,7 +236,7 @@ Résumé : Une fiche GBP bien classée ne suffit pas si elle ne convertit pas. R
 ================================================================================
 BLOG : Comment Google classe les entreprises
 ================================================================================
-URL : https://monsieurclick.fr/blog-comment-google-classe-les-entreprises
+URL : https://monsieurclick.fr/blog/comment-google-classe-les-entreprises
 Titre : Comment Google classe les entreprises locales — Les vrais critères de classement
 Description : Proximité, pertinence, notoriété : découvrez comment Google décide quelles entreprises montrer dans le pack local.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -246,7 +246,7 @@ Résumé : Les 3 piliers du classement local Google : Proximité (distance physi
 ================================================================================
 BLOG : Pourquoi votre entreprise est invisible sur Google
 ================================================================================
-URL : https://monsieurclick.fr/blog-pourquoi-entreprise-invisible-google
+URL : https://monsieurclick.fr/blog/pourquoi-entreprise-invisible-google
 Titre : Pourquoi votre entreprise est invisible sur Google — Les 7 erreurs fatales
 Description : Vous avez un site et une fiche Google, mais personne ne vous trouve ? Voici les 7 raisons les plus fréquentes.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
@@ -256,7 +256,7 @@ Résumé : 7 erreurs : pas de fiche GBP vérifiée, incohérence NAP, absence d'
 ================================================================================
 BLOG : Un site internet suffit-il en 2026 ?
 ================================================================================
-URL : https://monsieurclick.fr/blog-site-suffit-2026
+URL : https://monsieurclick.fr/blog/site-suffit-2026
 Titre : Un site internet suffit-il en 2026 ? La réponse va vous surprendre
 Description : En 2026, un site seul ne suffit plus. Découvrez ce dont votre entreprise a vraiment besoin pour être trouvée.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
