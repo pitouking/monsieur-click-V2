@@ -313,6 +313,11 @@
 .prose li{margin-bottom:8px}
 .prose a{color:var(--cyan-2);text-decoration:underline}
 .mcomp{display:grid;grid-template-columns:64px 1fr;gap:24px;padding:38px 0;border-top:1px solid var(--brd);transition:border-color var(--dur-med) var(--ease-out),transform var(--dur-med) var(--ease-out)}
+a.mcomp{text-decoration:none;color:inherit;cursor:pointer}
+a.mcomp:hover{border-color:var(--brd-2);transform:translateX(4px)}
+a.mcomp:focus-visible{outline:2px solid var(--cyan-2);outline-offset:6px;border-radius:8px}
+.mcomp-link{display:inline-block;margin-top:14px;font-size:.88rem;font-weight:600;color:var(--cyan-2)}
+a.mcomp:hover .mcomp-link{text-decoration:underline}
 .mcomp .ic{width:56px;height:56px;border-radius:14px;display:grid;place-items:center;background:rgba(53,167,230,.14);font-size:1.6rem;box-shadow:0 0 32px rgba(53,167,230,.12)}
 .mcomp:nth-of-type(even) .ic{background:rgba(240,82,42,.14);box-shadow:0 0 32px rgba(240,82,42,.12)}
 .mcomp h3{font-size:1.4rem;margin-bottom:8px}
