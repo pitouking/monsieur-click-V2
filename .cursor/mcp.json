@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "vexp": {
+      "command": "node",
+      "args": [
+        "/Users/jpm/.nvm/versions/node/v24.16.0/lib/node_modules/vexp-cli/mcp/mcp-server.cjs"
+      ],
+      "env": {
+        "VEXP_WORKSPACE": "/Users/jpm/Library/Mobile Documents/com~apple~CloudDocs/CoworkOS/Client Work/Monsieur Click V2 EN-FR/monsieur-click-V2"
+      }
+    }
+  }
+}

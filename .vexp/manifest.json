@@ -1,0 +1,40 @@
+{
+  "file_hashes": {
+    "00-project-brief.md": "2a2bec0ca18c1e2fc331c9c880eadcb0a91715bfa1c897906afb07954df4bedc",
+    "01-architecture-hreflang.md": "0f9750ae9001807dba5db6998ca0a40cf815051e36775269f61283f6a43b53e6",
+    "02-keyword-map.md": "f7adb58c8645a8839bcff22b68fa9f1067f251496a9bea2dced01d7a081103b5",
+    "03-pages-fr.md": "a80fc7d27025ba2f594bc3c7d5522c9b9309f973da15ca3a5a5d21b2138bce8f",
+    "04-pages-en.md": "de16ecedfb5af49511d2dbc167f2efc6509a19277948e78a1b6f82af63efdbac",
+    "05-blog-map.md": "19958fe0584681469ce0f4f9a32bf655ce08807fba2cc9eb5f82cfb2698fc5bb",
+    "06-do-not-build.md": "0e9edcb8fbdbddc0b4e634dd5b1f0d2e71f1aa68691b8c2123d1c95082f10767",
+    "07-technical-seo-schema.md": "98781dc877d33af6b9ecbf09de4b7d8d8a79ace6094f85e17727d734ec8f279b",
+    "08-page-template-storybrand.md": "921661f04bbbe0b1a0ef6716dc154a98bb541d2dee3d4c531ce3c9d356fa39b1",
+    "09-master-prompt.md": "5a3b70b29dc820cd8a3d469d70136cd7ce32d6fc4808520d3d4581bb74bb8029",
+    "10-frontend-refonte.md": "02b5a05fff8d2100bd0071bb07b6fe1d88733e7f342fb692de023abd0c86cef7",
+    "AGENTS.md": "004f07b7ac89dbb90c276be1d9e1fc8a33daab05973e36e84fa7489455b6f717",
+    "AI_RULES.md": "c25ac9b8fb7db29f40ab129027380f5a8a6b74a9ca0031b41dbc05dca3358144",
+    "CHANGELOG.md": "967326072b7aba3b65005e58d80060f7c0290a8e5bb004e230dba858f09ab5dd",
+    "CLAUDE.md": "a45b7372d144b08856513b2d49e2407cbce1b388b874f173cf40309996045c9f",
+    "COMPONENTS.md": "f6825e59a96fd5d3b66be90ca0ba5241ce3a4f99cd915a2bd1977fd9f28d7105",
+    "COPYWRITING.md": "a907886f2d1329a27a22f585ba0767b6598f2a7948443f3f3b42f1bc387b7faf",
+    "DECISIONS.md": "c786bc706baca5efa20136509b70ad6ba326e744775bafb58388dd79fe783a5c",
+    "DESIGN_SYSTEM.md": "b4ab2371941fea94765b767fe8e95db25841885a29817f03c5bad51a3f434d1a",
+    "IMAGE_PROMPTS.md": "d143601740865b4fcd31b2c3f62082e01473e97ceefee2b66622dea9aa84ffce",
+    "PROJECT.md": "980e57c614f580a0fd45767cfc39004be193bbc037ccc8a05fc934a8d0f910f5",
+    "README.md": "0fd9d55d45884448ed7716af5fb27152a395fd687ed95c1f2b26e50f6c8ef15b",
+    "SEO_RULES.md": "e0396fdaea8d6c3fcc36de71e1aa1a78fa6aa705446e718993367f31cc137caf",
+    "STORYBRAND.md": "39f6d87ea9992012904bd822a4cd4b20e0993279e6147e52ea6bb7c25c13ed78",
+    "TODO.md": "c438154eaf1239133f1535646e1bf6e3d9a08512389097dde6fa549a8c057ee5",
+    "audit-croise-fr-en.md": "6e324efdac20753c75e0ce6fa9b740cece7e97ecd1a7f783da04dcf93421035f",
+    "audit-impeccable.md": "76bf0658d373d786355ffc71c8294dc54f5ac39ceeaf3bb0ad08425a3ec1daed"
+  },
+  "indexed_at_commit": "111f032d2bbd0bd57910ba4aac35c3ef8a0ed31a",
+  "indexed_at_timestamp": "2026-07-16T08:17:51.215760+00:00",
+  "schema_version": 3,
+  "stats": {
+    "total_edges": 192,
+    "total_files": 27,
+    "total_nodes": 219
+  },
+  "vexp_version": "2.2.1"
+}
