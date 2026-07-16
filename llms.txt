@@ -27,6 +27,12 @@
   - Local SEO agency for small businesses in Malakoff (92). Web design, GBP, AI visibility. Click First™ method.
 - Click First™ : https://monsieurclick.com/click-first
   - All-in-one method: website, SEO, GBP, reviews, GEO
+- Services hub : https://monsieurclick.com/services/
+  - Entry to EN service pages inside Click First™
+- Small Business SEO : https://monsieurclick.com/small-business-seo
+  - Local SEO for owners: Maps, website foundations, AI visibility
+- Generative Engine Optimization (GEO) : https://monsieurclick.com/services/generative-engine-optimization
+  - Get cited by ChatGPT, Gemini, Claude, Perplexity (Schema, OKF, llms.txt)
 - Pricing : https://monsieurclick.com/pricing
   - Essential 850€/mo, Growth 1,000€/mo, Expansion 1,500€/mo
 - Case Studies : https://monsieurclick.com/case-studies
