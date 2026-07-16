@@ -24,9 +24,31 @@
 
 ## Pages principales
 - Accueil : https://monsieurclick.fr/
-  - Agence SEO local & création de site à Malakoff (92)
+  - Agence SEO & Webdesign à Malakoff (92), France & francophonie
 - Click First™ : https://monsieurclick.fr/click-first
   - Méthode tout-en-un : site web, SEO local, GBP, avis, GEO
+- Services : https://monsieurclick.fr/services/
+  - Hub des prestations SEO et web
+- Création de site internet : https://monsieurclick.fr/services/creation-site-web
+  - Sites sur mesure, rapides, optimisés SEO, orientés conversion
+- Référencement naturel (SEO) : https://monsieurclick.fr/services/seo
+  - SEO technique, on-page et contenu pour TPE/PME
+- Agence SEO à Paris : https://monsieurclick.fr/agence-seo-paris
+  - Référencement naturel et local pour Paris et Île-de-France
+- Consultant SEO à Paris : https://monsieurclick.fr/consultant-seo-paris
+  - Jean-Pierre Baguette, audit, stratégie et accompagnement
+- Audit SEO complet : https://monsieurclick.fr/services/audit-seo
+  - Technique, on-page, sémantique et concurrence
+- SEO local & Google Maps : https://monsieurclick.fr/services/seo-local
+  - Pack local, citations NAP, avis Google
+- Google Business Profile : https://monsieurclick.fr/services/google-business-profile
+  - Optimisation fiche Google pour le pack local
+- Refonte de site internet : https://monsieurclick.fr/services/refonte-site-web
+  - Site plus rapide, plus visible, orienté conversion
+- Agence web à Paris : https://monsieurclick.fr/agence-web-paris
+  - Création de site et SEO intégré pour Paris
+- Création de site à Paris : https://monsieurclick.fr/creation-site-internet-paris
+  - Site vitrine et SEO pour entreprises parisiennes
 - Offres et tarifs : https://monsieurclick.fr/offres
   - Essentiel 850€/mois, Développement 1 000€/mois, Expansion 1 500€/mois
 - Réalisations : https://monsieurclick.fr/realisations

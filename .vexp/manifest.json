@@ -10,7 +10,7 @@
     "07-technical-seo-schema.md": "98781dc877d33af6b9ecbf09de4b7d8d8a79ace6094f85e17727d734ec8f279b",
     "08-page-template-storybrand.md": "921661f04bbbe0b1a0ef6716dc154a98bb541d2dee3d4c531ce3c9d356fa39b1",
     "09-master-prompt.md": "5a3b70b29dc820cd8a3d469d70136cd7ce32d6fc4808520d3d4581bb74bb8029",
-    "10-frontend-refonte.md": "02b5a05fff8d2100bd0071bb07b6fe1d88733e7f342fb692de023abd0c86cef7",
+    "10-frontend-refonte.md": "207b37ed9ae55faba6b48d73fbe87daead0407c94d3f845e144e68f815c0cd5c",
     "AGENTS.md": "004f07b7ac89dbb90c276be1d9e1fc8a33daab05973e36e84fa7489455b6f717",
     "AI_RULES.md": "c25ac9b8fb7db29f40ab129027380f5a8a6b74a9ca0031b41dbc05dca3358144",
     "CHANGELOG.md": "967326072b7aba3b65005e58d80060f7c0290a8e5bb004e230dba858f09ab5dd",
@@ -25,16 +25,26 @@
     "SEO_RULES.md": "e0396fdaea8d6c3fcc36de71e1aa1a78fa6aa705446e718993367f31cc137caf",
     "STORYBRAND.md": "39f6d87ea9992012904bd822a4cd4b20e0993279e6147e52ea6bb7c25c13ed78",
     "TODO.md": "c438154eaf1239133f1535646e1bf6e3d9a08512389097dde6fa549a8c057ee5",
+    "admin-scores.js": "affcb57546ff05ae02de2874e3c82e94133461da405373b00003ac1262d3913f",
     "audit-croise-fr-en.md": "6e324efdac20753c75e0ce6fa9b740cece7e97ecd1a7f783da04dcf93421035f",
-    "audit-impeccable.md": "76bf0658d373d786355ffc71c8294dc54f5ac39ceeaf3bb0ad08425a3ec1daed"
+    "audit-impeccable.md": "76bf0658d373d786355ffc71c8294dc54f5ac39ceeaf3bb0ad08425a3ec1daed",
+    "functions/_lib/scoring.js": "658972f95014f6afc021c17a8d324924141a4a095f11be2edcc24026cf248ce0",
+    "functions/api/admin/scores.js": "689783c91e10049c4c1a9b78e87665deb2bb9d29055c43c895e59f82d4998214",
+    "functions/api/score/result.js": "b1e237cbaaca8e9e2b26e88dfa74152e047c80973cd358f291262ef6dbda28d4",
+    "functions/api/score/submit.js": "cfdc6965ad8ab54c715886997da1b5c73e81d1d0955f14dd6e5d069d47e3caea",
+    "home.js": "99a6a592b7d659354f929a32403c3879cf2a5a0ad808f3a4fce538b2eec5ef5c",
+    "perf.js": "c2683c46881be8c0c95628af03e197d8dd55aefde0bcdc540779fe220d7c7327",
+    "score-embed.js": "2dce4c2c5c4005a792b3ed8c681632255eb62b777c0b27a8e4f5db1d1480c1d2",
+    "score-questions.js": "1d37c537ad494f26602230cf991912abbb87f4720e010b8d7885e224837aaa4f",
+    "shared.js": "d34694db89af725f50eac61130e140cdefb13dde08d38d251b3dd8aab5696bb7"
   },
-  "indexed_at_commit": "111f032d2bbd0bd57910ba4aac35c3ef8a0ed31a",
-  "indexed_at_timestamp": "2026-07-16T08:17:51.215760+00:00",
+  "indexed_at_commit": "f3ec38d95d7fca1665cbea6ff9dd4688ffed1f9f",
+  "indexed_at_timestamp": "2026-07-16T09:35:56.636136+00:00",
   "schema_version": 3,
   "stats": {
-    "total_edges": 192,
-    "total_files": 27,
-    "total_nodes": 219
+    "total_edges": 220,
+    "total_files": 37,
+    "total_nodes": 260
   },
   "vexp_version": "2.2.1"
 }
