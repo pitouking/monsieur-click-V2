@@ -1,0 +1,50 @@
+TITRE: Texts — Version texte du site Monsieur Click
+DESCRIPTION: Versions textuelles de toutes les pages du site monsieurclick.fr, optimisées pour la consommation par agents IA.
+URL: https://monsieurclick.fr/texts/
+TYPE: KnowledgeBundle
+LANG: fr
+TAGS: texts, IA, knowledge, monsieur-click
+
+# Texts — Monsieur Click (FR)
+
+Ce répertoire contient la version texte de chaque page du site monsieurclick.fr.
+
+## Pages principales
+- Accueil : texts/index.txt
+- Click First™ : texts/click-first.txt
+- Offres : texts/offres.txt
+- Réalisations : texts/realisations.txt
+- À propos : texts/a-propos.txt
+- Contact : texts/contact.txt
+- Blog : texts/blog.txt
+
+## Services
+- SEO Local & Site Web GEO : texts/services/seo-local-site-web.txt
+- SEO Local : texts/services/seo-local.txt
+- Framework GEO IA : texts/services/framework-geo-ia.txt
+- Création de site web : texts/services/creation-site-web.txt
+- Optimisation mensuelle : texts/services/optimisation-mensuelle.txt
+- SEO ChatGPT : texts/services/seo-chatgpt.txt
+- Copywriting StoryBrand : texts/services/copywriting-storybrand.txt
+
+## Blog
+- Apparaître dans ChatGPT, Gemini et Perplexity : texts/blog/apparaitre-reponses-chatgpt-gemini-perplexity.txt
+- Click First™ n'est pas une prestation SEO : texts/blog/click-first-pas-une-prestation-seo.txt
+- Vos clients utilisent ChatGPT avant Google : texts/blog/clients-utilisent-chatgpt-avant-google.txt
+- GEO : optimiser son entreprise pour les IA génératives : texts/blog/geo-generative-engine-optimization.txt
+- Trouver des clients sans publicité : texts/blog/trouver-clients-sans-publicite.txt
+- Obtenir plus d'avis Google : texts/blog/obtenir-plus-avis-google.txt
+- Google Ads ou SEO : où investir ? : texts/blog/google-ads-ou-seo.txt
+- Fiche Google Business Profile sans appel : texts/blog/fiche-google-business-profile-sans-appel.txt
+- Comment Google classe les entreprises : texts/blog/comment-google-classe-les-entreprises.txt
+- Votre site internet perd des clients : texts/blog/site-internet-perd-clients.txt
+- Pourquoi vos concurrents sont devant vous : texts/blog/pourquoi-concurrents-devant-google.txt
+- Pourquoi votre entreprise est invisible sur Google : texts/blog/pourquoi-entreprise-invisible-google.txt
+- Un site internet suffit-il en 2026 ? : texts/blog/site-suffit-2026.txt
+- Entreprise référencée plutôt que visible : texts/blog/entreprise-reference-plutot-que-visible.txt
+- Les IA vont-elles remplacer Google ? : texts/blog/ia-vont-elles-remplacer-google.txt
+
+## Pages légales
+- Mentions légales : texts/mentions-legales.txt
+- Confidentialité : texts/confidentialite.txt
+- Conditions : texts/conditions.txt

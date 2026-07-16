@@ -1,0 +1,24 @@
+# Cloudflare Pages redirects
+
+# Score Click First™ merged into a section on /click-first (one-way, no reverse rule)
+/score /click-first 301
+/score-resultat /click-first 301
+/score.html /click-first 301
+/score-resultat.html /click-first 301
+
+# OKF directory rewrites
+# Single-file matches (a-propos, realisations, contact, and every services/*
+# and blog/* article) are NOT rewritten here: the .html files already exist
+# as static files, Cloudflare Pages resolves /okf/x -> okf/x.html natively.
+# An explicit rule here collides with that native resolution and causes a
+# 308 self-redirect loop (confirmed live on /okf/services/* and /okf/blog/*).
+/okf /okf/index.html 200
+/okf/ /okf/index.html 200
+/okf/services /okf/services/index.html 200
+/okf/services/ /okf/services/index.html 200
+/okf/blog /okf/blog/index.html 200
+/okf/blog/ /okf/blog/index.html 200
+
+# Texts directory rewrites
+/texts /texts/index.txt 200
+/texts/ /texts/index.txt 200

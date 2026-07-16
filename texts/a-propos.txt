@@ -1,0 +1,12 @@
+TITRE: À propos de Monsieur Click
+DESCRIPTION: Histoire, valeurs, créateur Jean-Pierre Baguette. 100% à distance.
+URL: https://monsieurclick.fr/a-propos
+TYPE: Page
+LANG: fr
+TAGS: à propos, équipe, Monsieur Click
+
+# À propos de Monsieur Click
+
+Histoire, valeurs, créateur Jean-Pierre Baguette. 100% à distance.
+
+→ Page complète : https://monsieurclick.fr/a-propos

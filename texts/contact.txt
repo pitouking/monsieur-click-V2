@@ -1,0 +1,12 @@
+TITRE: Diagnostic gratuit — Contact
+DESCRIPTION: 30 minutes sans engagement. État des lieux, priorités, plan chiffré sous 48h.
+URL: https://monsieurclick.fr/contact
+TYPE: Page
+LANG: fr
+TAGS: contact, diagnostic, gratuit
+
+# Diagnostic gratuit — Contact
+
+30 minutes sans engagement. État des lieux, priorités, plan chiffré sous 48h.
+
+→ Page complète : https://monsieurclick.fr/contact

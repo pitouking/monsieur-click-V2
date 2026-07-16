@@ -1,0 +1,25 @@
+{
+  "name": "eleemnt-logo-et-image-de-fond-monsieur-click",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shared.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "deploy:fr": "CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 wrangler pages deploy . --project-name=monsieurclick-fr --commit-dirty=true",
+    "deploy:en": "CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 wrangler pages deploy . --project-name=monsieurclick-com --commit-dirty=true",
+    "barry": "barry-cache",
+    "barry:validate": "barry-cache validate",
+    "barry:resume": "barry-cache resume",
+    "barry:finalize": "barry-cache finalize",
+    "barry:failure": "barry-cache failure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "barry-cache": "^0.1.0"
+  }
+}
