@@ -19,11 +19,9 @@
 <link rel="dns-prefetch" href="https://connect.facebook.net">
 <link rel="dns-prefetch" href="https://link.monsieurclick.com">
 <link rel="dns-prefetch" href="https://www.cookie-banner.ca">
-<link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="preload" as="font" href="/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="/hero-bg.webp" fetchpriority="high">
-<link rel="preload" href="/styles.css?v=20260712b" as="style">
-<link rel="stylesheet" href="/styles.css?v=20260712b">
+<link rel="preload" as="image" href="/hero-bg.webp" fetchpriority="high" media="(min-width: 921px)">
+<link rel="stylesheet" href="/css/main.css?v=20260716en">
 <meta property="og:locale:alternate" content="fr_FR">
 <meta property="og:url" content="https://monsieurclick.com/">
 <meta name="twitter:card" content="summary_large_image">
@@ -55,103 +53,86 @@
 </script>
 </head>
 <body>
-
-<nav id="nav">
+<a class="u-hidden" href="#main">Skip to content</a>
+<header class="site-header" role="banner">
+<nav id="nav" class="site-header__nav" aria-label="Main navigation">
   <div class="wrap-wide nav-inner">
-    <a href="/" class="logo"><img class="mk" src="/logo-mc.webp" alt="Monsieur Click" width="48" height="48"> Monsieur <b>Click</b></a>
+    <a href="/" class="logo site-header__logo"><img class="mk" src="/logo-mc.webp" alt="Monsieur Click" width="48" height="48"> Monsieur <b>Click</b></a>
     <div class="nav-links" id="navLinks" aria-hidden="true">
       <a href="/click-first" class="link">Click First™</a>
       <a href="/case-studies" class="link">Case studies</a>
       <a href="/pricing" class="link">Pricing</a>
       <a href="/about" class="link">About</a>
       <a href="/blog" class="link">Blog</a>
-      <a href="/contact" class="btn btn-primary">Free audit</a>
+      <a href="/click-first#score" class="btn btn-primary">Calculate my Click First™ Score</a>
       <div class="lang" role="group" aria-label="Site language"><a href="https://monsieurclick.fr" hreflang="fr">FR</a><a href="https://monsieurclick.com" class="on" hreflang="en" aria-current="true">EN</a></div>
     </div>
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">☰</button>
   </div>
 </nav>
+</header>
 
+<main id="main">
 <!-- HERO -->
-<header class="hero" id="top">
+<header class="hero site-hero" id="top">
   <div class="wrap-wide">
     <div class="hero-inner">
-      <span class="badge reveal-up rd1">LOCAL SEO · WEBSITE · GOOGLE BUSINESS PROFILE · AI</span>
-      <h1>
-        <span class="reveal-up rd2" style="display:block">Your future customers</span>
-        <span class="reveal-up rd3" style="display:block">are already looking for you.</span>
-        <span class="sub reveal-up rd4">Let's make sure they find you.</span>
+      <p class="badge reveal-up rd1">Local SEO · Website · Google Business Profile · AI</p>
+      <h1 class="hero-headline">
+        <span class="reveal-up rd2 u-block">Your future customers</span>
+        <span class="reveal-up rd3 u-block">are already looking for you.</span>
+        <span class="sub reveal-up rd4">Click First™: one system to get found, understood, chosen.</span>
       </h1>
       <div class="grating reveal-up rd5">
         <span class="g">Google</span><span class="stars">★★★★★</span>
         <span>Based on 15 reviews</span><span class="pipe">·</span>
         <span>Powered by Monsieur Click</span>
       </div>
-      <p class="lead reveal-up rd5">Grow your business. As a <strong>local SEO agency</strong>, we handle your <strong>visibility</strong> on Google, in local search and in AI Search assistants.</p>
+      <p class="lead reveal-up rd5">Grow your business. As a <strong>local SEO agency</strong>, we build lasting <strong>visibility</strong> on Google and in AI assistants with <strong>Click First™</strong>: one measured system, not isolated deliverables.</p>
       <div class="hero-cta reveal-up rd6">
-        <a href="#contact" class="btn btn-primary">Get my free audit</a>
-        <a href="#clickfirst" class="btn btn-ghost">Discover Click First<span class="tm">™</span></a>
+        <a href="/click-first#score" class="btn btn-primary">Calculate my Click First™ Score</a>
+        <a href="#parlons" class="btn btn-ghost">Get my free diagnostic</a>
       </div>
-      <div class="hero-check reveal-up rd6">More customers today. Lasting visibility for tomorrow. <a href="/click-first#score" style="color:var(--cyan-2);text-decoration:underline">Calculate your free Click First™ Score →</a></div>
+      <div class="hero-check reveal-up rd6">More customers today. Lasting visibility for tomorrow.</div>
     </div>
   </div>
   <div class="scroll-cue">Scroll<span></span></div>
 </header>
-
-<!-- MARQUEE services & benefits -->
-<div class="marquee" aria-label="Monsieur Click services and benefits">
-  <div class="marquee-track">
-    <span class="item">Website</span><span class="item">Organic SEO</span><span class="item">Google Business Profile</span><span class="item">Google Reviews</span><span class="item">AI visibility (GEO)</span><span class="item">Schema structured data</span><span class="item">Continuous optimization</span><span class="item adv">All included</span><span class="item adv">No hidden fees</span><span class="item adv">Monthly KPI report</span><span class="item adv">Measurable results</span><span class="item adv">French &amp; English</span>
-    <div class="marquee-dup" aria-hidden="true"><span class="item">Website</span><span class="item">Organic SEO</span><span class="item">Google Business Profile</span><span class="item">Google Reviews</span><span class="item">AI visibility (GEO)</span><span class="item">Schema structured data</span><span class="item">Continuous optimization</span><span class="item adv">All included</span><span class="item adv">No hidden fees</span><span class="item adv">Monthly KPI report</span><span class="item adv">Measurable results</span><span class="item adv">French &amp; English</span></div>
-  </div>
-</div>
 
 <!-- SECTION 2 -->
 <section id="constat">
   <div class="wrap">
     <div class="constat-head reveal">
       <div>
-        <span class="dot-sep"></span><span class="eyebrow">The reality</span>
-        <h2 style="font-size:clamp(2rem,4.2vw,3.1rem);font-family:'Montserrat';font-weight:700">You do your job.<br>The internet, meanwhile, keeps changing.</h2>
+        <h2 class="u-h2-constat">You do your job.<br>The internet, meanwhile, keeps changing.</h2>
       </div>
-      <p class="muted" style="font-size:1.05rem">You are an expert at what you do. Meanwhile, Google evolves, AI shows up in the results, local search habits shift, and it becomes harder to know what really moves your local rankings. You started your business to serve clients, not to monitor every search engine optimization update or rebuild your online presence alone.</p>
+      <p class="muted u-text-md">You are an expert at what you do. Meanwhile, Google evolves, AI shows up in the results, local search habits shift, and it becomes harder to know what really moves your local rankings. You started your business to serve clients, not to run SEO every week. That is exactly why Click First™ exists: turn your real-world expertise into lasting <strong>visibility</strong>, without pulling you away from growth.</p>
     </div>
     <div class="checklist" id="checklist">
+      <span class="chip">Website</span>
       <span class="chip">Organic SEO</span>
       <span class="chip">Google Business Profile</span>
-      <span class="chip">Google Reviews</span>
-      <span class="chip">Website</span>
-      <span class="chip">AI Overviews</span>
-      <span class="chip">ChatGPT</span>
-      <span class="chip">Gemini</span>
-      <span class="chip">Claude</span>
-      <span class="chip">Perplexity</span>
+      <span class="chip">AI visibility</span>
     </div>
     <div class="q-strip reveal">
       <div class="q1">Where do you even start?</div>
-      <div class="q2">And above all, what really matters today?</div>
+      <div class="q2">A clear score. One system. Not a vague SEO quote.</div>
     </div>
-    <div class="cards3">
-      <div class="icard reveal"><span class="num2">01</span>
-        <div class="visual"><div class="glow"></div>
-          <svg class="bigicon" viewBox="0 0 48 48" fill="none" stroke="#5cc0f2" stroke-width="3" stroke-linecap="round"><circle cx="21" cy="21" r="13"/><path d="M31 31 L42 42"/></svg>
-        </div>
-        <div class="body"><h3>Get found</h3><p>Your future customers are already searching for your services in local search. Your small business needs to show up at the right moment, with the right signals for Google and your market.</p></div>
+    <div class="belief-list">
+      <div class="belief reveal">
+        <h3>Get found</h3>
+        <p>Your future customers already search for your services. Coherent <strong>organic SEO</strong> and a solid website put your business in front of them at the right moment.</p>
       </div>
-      <div class="icard reveal"><span class="num2">02</span>
-        <div class="visual"><div class="glow"></div>
-          <svg class="bigicon" viewBox="0 0 48 48" fill="#5cc0f2"><path d="M24 4l5.4 11 12.1 1.7-8.8 8.5 2.1 12L24 41.5 13.2 47.2l2.1-12-8.8-8.5L18.6 15z"/></svg>
-        </div>
-        <div class="body"><h3>Get recommended</h3><p>Google and AI put forward the businesses that show the strongest signals of trust, experience and consistent local visibility across the web.</p></div>
+      <div class="belief reveal">
+        <h3>Get recommended</h3>
+        <p>Google and AI surface the strongest signals: reviews, clear content, and structured data (<a href="https://schema.org/" target="_blank" rel="noopener noreferrer">Schema.org</a>).</p>
       </div>
-      <div class="icard o reveal"><span class="num2">03</span>
-        <div class="visual"><div class="glow"></div>
-          <svg class="bigicon" viewBox="0 0 48 48" fill="none" stroke="#ff6a3d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 40 L8 26 M18 40 L18 16 M28 40 L28 22 M38 40 L38 10"/><path d="M6 40 L42 40"/></svg>
-        </div>
-        <div class="body"><h3>Do your job</h3><p>Keep growing your business while our team handles your digital marketing strategy, from local SEO to <strong>web design</strong> and ongoing optimization.</p></div>
+      <div class="belief reveal">
+        <h3>Do your job</h3>
+        <p>Keep growing your business while we orchestrate visibility, the initial diagnostic, and monthly optimization.</p>
       </div>
     </div>
-    <p class="lede-close reveal" style="margin-top:56px">What if the problem isn't your business, but the way the internet keeps changing? <a href="/click-first" style="color:var(--cyan-2)">Click First™</a> was built to answer exactly that.</p>
+    <p class="lede-close reveal u-mt-xl">What if the problem isn't your business, but the way the internet keeps changing? See how the <a href="/click-first" class="u-text-cyan">Click First™ method</a> answers that.</p>
   </div>
 </section>
 
@@ -165,8 +146,7 @@
   <div class="jtrack" id="jtrack">
     <div class="jsticky">
       <div class="jhead reveal">
-        <span class="dot-sep"></span><span class="eyebrow">Your future customer's journey</span>
-        <h3 style="font-size:clamp(1.9rem,3.6vw,2.7rem);font-family:'Montserrat';font-weight:700">Follow your future customer, from the first click to the call.</h3>
+        <h2 class="u-h2-journey">Follow your future customer, from the first click to the call.</h2>
       </div>
       <div class="jstage">
         <div class="jnode">
@@ -174,7 +154,7 @@
           <div class="jbig" id="jbig"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
         </div>
         <div class="jinfo">
-          <div class="step-k" id="jstepk">Scene 1 / 7</div>
+          <div class="step-k" id="jstepk">Step 1 / 4</div>
           <h3 id="jtitle">The search</h3>
           <p id="jdesc">Tuesday, 9 a.m. A customer types their need on Google, followed by their city. The decision starts here.</p>
         </div>
@@ -192,31 +172,44 @@
 <section id="clickfirst" class="eco">
   <div class="wrap">
     <div class="shead center">
-      <span class="dot-sep"></span><span class="eyebrow">Click First<span class="tm">™</span></span>
       <h2>One method.<br>Every lever working together.</h2>
-      <p>Building a website is no longer enough. <strong>Local SEO</strong> or a <strong>Google Business Profile</strong> on their own aren't either. <strong>Click First</strong><span class="tm">™</span> brings every lever of your visibility into a single, coherent marketing strategy — from search engine optimization and web design to reviews, structured data and AI visibility.</p>
+      <p>Building a website is no longer enough. <strong>Local SEO</strong> or a <strong>Google Business Profile</strong> on their own aren't either. <strong>Click First</strong><span class="tm">™</span> brings every lever of your visibility into a single, coherent strategy: site, local SEO, reviews, structured data and AI visibility.</p>
     </div>
-    <p class="lede-close center eco-lede">None of these elements work alone. Their coherence is what improves local rankings, strengthens trust and makes the difference in your market.</p>
+    <p class="lede-close center eco-lede">None of these elements work alone. Their coherence is what improves local rankings, strengthens trust and makes the difference, as outlined in <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">Google Search Central</a>.</p>
     <div class="eco-viz">
-    <div class="constellation" id="constellation">
-      <svg class="links" id="ecoLinks" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"></svg>
-      <div class="eglow"></div>
-      <div class="ecenter" id="ecoCenter"><span class="nm">Click First<span class="tm">™</span></span></div>
-    </div>
-    <div class="eco-fallback">
+    <div class="eco-levers" aria-label="Click First levers">
       <span class="chip center-pill">Click First™</span>
-      <span class="chip">Website</span><span class="chip">SEO</span><span class="chip">Google Business Profile</span>
-      <span class="chip">Google Reviews</span><span class="chip">Schema.org</span><span class="chip">StoryBrand content</span>
-      <span class="chip">Service pages</span><span class="chip">Location pages</span><span class="chip">Knowledge Graph</span>
-      <span class="chip">AI Overviews</span><span class="chip">ChatGPT</span><span class="chip">Gemini</span>
-      <span class="chip">Claude</span><span class="chip">Perplexity</span><span class="chip">Continuous monitoring</span>
+      <span class="chip">Website</span>
+      <span class="chip">SEO</span>
+      <span class="chip">Google Business Profile</span>
+      <span class="chip">Google Reviews</span>
+      <span class="chip">Schema.org</span>
+      <span class="chip">AI visibility</span>
     </div>
     </div>
     <div class="center eco-cta">
-      <p class="lede-close" style="margin-bottom:26px">Each lever strengthens the others. Your business becomes easier to find, easier to recommend, easier to choose — with measurable outcomes tracked every month. Explore the full <a href="/click-first" style="color:var(--cyan-2)">Click First™ methodology</a>, review <a href="/case-studies" style="color:var(--cyan-2)">client results across industries</a>, or see how <a href="/pricing" style="color:var(--cyan-2)">pricing adapts to your scope</a>.</p>
-      <a href="/click-first" class="btn btn-cyan">Discover Click First<span class="tm">™</span></a>
-      <p class="muted" style="margin-top:18px;font-size:.94rem">Want proof? See <a href="/case-studies" style="color:var(--cyan-2)">our case studies</a>. Ready to start? View <a href="/pricing" style="color:var(--cyan-2)">our pricing</a>.</p>
+      <p class="lede-close u-mb-md">Each lever strengthens the others. Your business becomes easier to find, easier to recommend, easier to choose.</p>
+      <div class="cta-row">
+        <a href="/click-first#score" class="btn btn-primary">Calculate my Click First™ Score</a>
+        <a href="#parlons" class="btn btn-ghost">Get my free diagnostic</a>
+      </div>
+      <p class="muted u-mt-md u-text-sm"><a href="/click-first" class="u-text-cyan">Discover Click First™</a> · <a href="/case-studies" class="u-text-cyan">Case studies</a> · <a href="/pricing" class="u-text-cyan">Pricing</a></p>
     </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <h2>Website, SEO, local and AI visibility: one coherent offer.</h2>
+      <p>Every deliverable sits inside <a href="/click-first" class="u-text-cyan">Click First™</a>. Start with the score, then scale with pricing that fits your scope.</p>
+    </div>
+    <ul class="svc-strip reveal">
+      <li><a href="/click-first"><strong>Click First™ method</strong><span>One system to get found, understood, chosen.</span></a></li>
+      <li><a href="/case-studies"><strong>Case studies</strong><span>Real local businesses, measurable outcomes.</span></a></li>
+      <li><a href="/pricing"><strong>Pricing</strong><span>Same foundation, three scopes of project.</span></a></li>
+    </ul>
   </div>
 </section>
 
@@ -224,9 +217,8 @@
 <section id="offres">
   <div class="wrap">
     <div class="shead center reveal">
-      <span class="dot-sep"></span><span class="eyebrow">Click First<span class="tm">™</span> plans</span>
       <h2>One method. At your scale.</h2>
-      <p>The foundation is identical across all three plans: same local SEO services, same quality, same support. None is better than another. It simply adapts to the scope of your project and your search engine optimization needs: more or fewer service pages, location pages and cities covered. The final price is set after your <a href="/contact" style="color:var(--cyan-2)">free audit</a>.</p>
+      <p>The foundation is identical across all three plans: same local SEO services, same quality, same support. None is better than another. It simply adapts to the scope of your project. The final price is set after your <strong>free diagnostic</strong>.</p>
     </div>
     <div class="offers">
       <div class="offer reveal">
@@ -241,9 +233,9 @@
           <li>A few location pages</li>
           <li>Full Click First™ foundation included</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost">Get my audit</a>
+        <a href="#parlons" class="btn btn-ghost">Get my free diagnostic</a>
       </div>
-      <div class="offer featured reveal">
+      <div class="offer reveal">
         <div class="scope">Tradesperson site</div>
         <h3>Click First<span class="tm">™</span> Growth</h3>
         <div class="price"><b>€1,000</b> <small>/ month</small></div>
@@ -255,7 +247,7 @@
           <li>Service pages and location pages</li>
           <li>Full Click First™ foundation included</li>
         </ul>
-        <a href="#contact" class="btn btn-primary">Get my audit</a>
+        <a href="#parlons" class="btn btn-ghost">Get my free diagnostic</a>
       </div>
       <div class="offer reveal">
         <div class="scope">Company site</div>
@@ -269,11 +261,11 @@
           <li>Location pages at scale</li>
           <li>Full Click First™ foundation included</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost">Get my audit</a>
+        <a href="#parlons" class="btn btn-ghost">Get my free diagnostic</a>
       </div>
     </div>
-    <p class="center muted reveal" style="max-width:720px;margin:20px auto 0;font-size:.92rem">Three scopes of the same system, none better or worse than another. The free audit determines the right scale for your business, no more, no less. Common questions? Read our <a href="#faq" style="color:var(--cyan-2)">local SEO FAQ</a>.</p>
-    <p class="price-note">Complete project, website and system, from €2,000 to €20,000 depending on needs. No online payment: everything starts with a <strong>free audit</strong>, no commitment.</p>
+    <p class="center muted reveal u-note-center">Three scopes of the same system. <a href="/click-first#score" class="u-text-cyan">Calculate your Click First™ Score first</a>, then the <a href="#parlons" class="u-text-cyan">free diagnostic</a> sets the right scale. Full detail on the <a href="/pricing" class="u-text-cyan">pricing page</a>.</p>
+    <p class="price-note">Complete project, website and system, from €2,000 to €20,000 depending on needs. No online payment: everything starts with a <strong>free diagnostic</strong>, no commitment.</p>
   </div>
 </section>
 
@@ -284,9 +276,9 @@
       <div class="intl-left reveal">
         <span class="dot-sep"></span><span class="eyebrow">Borderless</span>
         <div class="intl-big">FR / EN</div>
-        <h3 style="font-size:clamp(2rem,4vw,3rem);margin:14px 0 18px">Visibility that speaks your language.</h3>
+        <h3 class="u-h2-about">Visibility that speaks your language.</h3>
         <p>We support small businesses in French-speaking countries (France, Belgium, Switzerland, Canada) and English-speaking countries (United States, United Kingdom), in French and in English, with no language barrier — the same trusted service provider, wherever your market is.</p>
-        <p style="font-family:'Montserrat';color:var(--cyan-2);font-size:1.2rem">The same method, Click First<span class="tm">™</span>, everywhere.</p>
+        <p class="u-text-cyan-lg">The same method, Click First<span class="tm">™</span>, everywhere.</p>
       </div>
       <div class="flags reveal">
         <div class="flag"><span class="em"><svg class="em-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h9M8.5 4v2M11 6a10 10 0 0 1-6 8M6 10a8 8 0 0 0 5 4"/><path d="m12.5 20 3.5-8 3.5 8M14 17h4"/></svg></span><div><div class="c">French-speaking countries</div><div class="s">France, Belgium, Switzerland, Canada and more</div></div></div>
@@ -308,7 +300,7 @@
     <div class="shead center reveal">
       <span class="dot-sep"></span><span class="eyebrow">Reviews</span>
       <h2>The reviews your future customers already see.</h2>
-      <p>Before reaching out, they often check your Google reviews. Strong social proof builds trust fast — and it is one of the signals that supports your local visibility alongside your website and Google Business Profile. See more in our <a href="/case-studies" style="color:var(--cyan-2)">case studies</a>.</p>
+      <p>Before reaching out, they often check your Google reviews. Strong social proof builds trust fast — and it is one of the signals that supports your local visibility alongside your website and Google Business Profile. See more in our <a href="/case-studies" class="u-text-cyan">case studies</a>.</p>
     </div>
     <div class="center reveal"><span class="g-badge"><span class="stars">★★★★★</span> <b>5.0</b> · 15 Google reviews</span></div>
     <div class="widget-wrap reveal" id="widgetWrap">
@@ -389,7 +381,7 @@
       <div class="faq-intro reveal">
         <span class="dot-sep"></span><span class="eyebrow">Frequently asked questions</span>
         <h2>We explain it, without the jargon.</h2>
-        <p>Local SEO, Google Business Profile and AI visibility often raise the same questions. Here are clear, honest answers — aligned with guidance from <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer" style="color:var(--cyan-2)">Google Search Central</a> and <a href="https://support.google.com/business/" target="_blank" rel="noopener noreferrer" style="color:var(--cyan-2)">Google Business Profile Help</a> — so you can decide with confidence.</p>
+        <p>Local SEO, Google Business Profile and AI visibility often raise the same questions. Here are clear, honest answers — aligned with guidance from <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer" class="u-text-cyan">Google Search Central</a> and <a href="https://support.google.com/business/" target="_blank" rel="noopener noreferrer" class="u-text-cyan">Google Business Profile Help</a> — so you can decide with confidence.</p>
         <a href="/contact" class="btn btn-primary">Ask your question in the free audit</a>
       </div>
       <div class="faq-list reveal">
@@ -401,7 +393,7 @@
         <div class="faq-item"><button class="faq-q">What is local SEO?<span class="chev">+</span></button><div class="faq-a"><p>It is the set of local SEO services that make a small business visible for location-based searches, such as a service near me. It combines the Google profile, reviews, website, local content and technical quality standards such as those promoted by the <a href="https://www.w3.org/" target="_blank" rel="noopener noreferrer">W3C</a>.</p></div></div>
         <div class="faq-item"><button class="faq-q">Do you work with French and English-speaking businesses?<span class="chev">+</span></button><div class="faq-a"><p>Yes. We support small businesses across French and English-speaking countries, in French and in English, with no language barrier — one service provider, one methodology.</p></div></div>
         <div class="faq-item"><button class="faq-q">Is SEO dead now that AI exists?<span class="chev">+</span></button><div class="faq-a"><p>No. Organic search engine optimization is evolving, not dying. AI engines like ChatGPT, Gemini and Perplexity rely on the same foundations as Google: clear content, Schema.org structured data, reviews and consistent information. Done well, SEO directly feeds your visibility in AI (GEO). It is not one or the other, it is the same foundation.</p></div></div>
-        <div class="faq-item"><button class="faq-q">Why invest now rather than in a year?<span class="chev">+</span></button><div class="faq-a"><p>Because visibility is built over time, and your competitors are already moving. Every month of waiting leaves room on Google, Google Maps and in AI answers. Starting early means compounding authority that newcomers will later have to catch up on. <a href="/pricing">Compare plans</a> or <a href="#contact">request a free audit</a> to see where you stand.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Why invest now rather than in a year?<span class="chev">+</span></button><div class="faq-a"><p>Because visibility is built over time, and your competitors are already moving. Every month of waiting leaves room on Google, Google Maps and in AI answers. Starting early means compounding authority that newcomers will later have to catch up on. <a href="/pricing">Compare plans</a> or <a href="#parlons">request a free diagnostic</a> to see where you stand.</p></div></div>
       </div>
     </div>
   </div>
@@ -422,7 +414,7 @@
         <span class="bimg"><img loading="lazy" decoding="async" src="/img-blog-become-a-reference-business.svg" alt="Why your business should become a reference rather than just a visible business"></span>
         <span class="bbody"><span class="cat">Strategy</span><span class="bh3">Become a reference business, not just visible</span><span class="bexc">Visible attracts visitors. A reference attracts trust, and customers.</span><span class="blink">Read the article &rarr;</span></span></a>
     </div>
-    <div class="reveal" style="margin-top:30px"><a href="/blog" class="btn btn-cyan">See all articles</a></div>
+    <div class="reveal u-mt-lg"><a href="/blog" class="btn btn-ghost">See all articles</a></div>
   </div>
 </section>
 
@@ -433,23 +425,24 @@
     <h2 class="reveal">Your future customers will keep searching. Google will keep evolving. So will AI.</h2>
     <p class="q reveal">Will your business still be the one they find tomorrow?</p>
     <div class="cta-actions reveal">
-      <a href="#parlons" class="btn btn-primary">Get my free audit</a>
-      <p class="micro">Personalized audit. No commitment.</p>
+      <a href="/click-first#score" class="btn btn-primary">Calculate my Click First™ Score</a>
+      <a href="#parlons" class="btn btn-ghost">Get my free diagnostic</a>
+      <p class="micro">Free Score. Diagnostic with no commitment.</p>
     </div>
   </div>
 </section>
 
 <!-- FORM (GoHighLevel) -->
-<section id="parlons" style="padding-top:0">
-  <div class="wrap" style="max-width:760px">
+<section id="parlons" class="u-section-tight">
+  <div class="wrap u-max-w-form">
     <div class="shead center reveal">
       <div class="kick"><span class="no">·</span><span class="eyebrow">Let's talk about your visibility</span></div>
-      <p style="font-size:clamp(2rem,4.2vw,3.1rem);font-family:'Montserrat';font-weight:700;margin:0">Drop us a line.</p>
+      <h2 class="u-h2-constat">Drop us a line.</h2>
       <p>Describe your need in a few lines and we'll get back to you within 24 business hours.</p>
     </div>
-    <div class="embed-wrap reveal" style="max-width:600px;margin:0 auto">
-      <iframe loading="lazy" src="https://link.monsieurclick.com/widget/form/K7GBzGoHlcHaf4tdbN7Q"
-        style="width:100%;height:600px;border:none;border-radius:8px"
+    <div class="embed-wrap reveal u-max-w-embed u-mx-auto">
+      <iframe loading="lazy" data-src="https://link.monsieurclick.com/widget/form/K7GBzGoHlcHaf4tdbN7Q"
+        class="embed-iframe"
         id="inline-K7GBzGoHlcHaf4tdbN7Q"
         data-layout="{'id':'INLINE'}"
         data-form-name="Contact form EN"
@@ -459,28 +452,30 @@
   </div>
 </section>
 
-<footer>
+</main>
+
+<footer class="site-footer">
   <div class="wrap-wide">
     <div class="foot-grid">
       <div>
-        <a href="/" class="logo" style="margin-bottom:14px"><img class="mk" src="/logo-mc.webp" alt="Monsieur Click" width="48" height="48"> Monsieur <b>Click</b></a>
+        <a href="/" class="logo u-logo-foot"><img class="mk" src="/logo-mc.webp" alt="Monsieur Click" width="48" height="48"> Monsieur <b>Click</b></a>
         <p>Creator of Click First™, the method that makes your business easy to find, easy to recommend and easy to choose, on Google as well as in AI. French and English-speaking markets.</p>
       </div>
       <div>
-        <p style="font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;font-family:'Montserrat',sans-serif;font-weight:700">Contact</p>
+        <p class="foot-label">Contact</p>
         <p>24 bis sentier des Fosses Rouges<br>92240 Malakoff, France</p>
         <p>French &amp; English, remote everywhere</p>
         <a href="mailto:contact@monsieurclick.com">contact@monsieurclick.com</a>
         <a href="tel:+33660761523">+33 6 60 76 15 23</a>
       </div>
       <div>
-        <p style="font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px;font-family:'Montserrat',sans-serif;font-weight:700">Navigation</p>
+        <p class="foot-label">Navigation</p>
         <a href="/click-first">Click First™</a>
         <a href="/case-studies">Case studies</a>
         <a href="/pricing">Pricing</a>
         <a href="/about">About</a>
         <a href="/blog">Blog</a>
-        <a href="/contact">Free audit</a>
+        <a href="/contact">Free diagnostic</a>
       </div>
     </div>
 <div class="social">
@@ -494,7 +489,7 @@
   </div>
 </footer>
 
-<script defer src="/home.js?v=20260710k"></script>
-<script defer src="/perf.js?v=20260712b"></script>
+<script defer src="/home.js?v=20260716en"></script>
+<script defer src="/perf.js?v=20260716en"></script>
 </body>
 </html>

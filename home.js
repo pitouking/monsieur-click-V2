@@ -1,5 +1,6 @@
 (function(){
   'use strict';
+  document.documentElement.classList.add('js');
   const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
   let ticking=false;
 
@@ -50,10 +51,7 @@
     const steps=[
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>',t:'The search',d:'Tuesday, 9 a.m. A customer types their need on Google, followed by their city. The decision starts here.'},
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>',t:'The local pack',d:'Three Google Business Profiles appear on Google Maps. Is yours one of them?'},
-      {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg>',t:'The comparison',d:'They open two or three sites and judge, in seconds, which one feels the most trustworthy.'},
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.28 5.83.85-4.22 4.11 1 5.8L12 16.9l-5.21 2.74 1-5.8-4.22-4.11 5.83-.85L12 3.5Z"/></svg>',t:'The reviews',d:'They read your Google reviews. Five stars, thoughtful replies: the doubt fades away.'},
-      {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.7 4.5L18 9l-4.3 1.5L12 15l-1.7-4.5L6 9l4.3-1.5L12 3Z"/><path d="M18.5 14l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8Z"/></svg>',t:'The AI results',d:'They ask Google\'s AI Overview "which one should I pick?". Your name comes up, or it doesn\'t.'},
-      {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg>',t:'The recommendation',d:'They double-check on ChatGPT or Perplexity. The AI confirms it and cites you as the go-to.'},
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4.5h3.6l1.8 4.5-2.3 1.6a12.5 12.5 0 0 0 5.5 5.5l1.6-2.3 4.5 1.8v3.6a1.8 1.8 0 0 1-1.9 1.8A16 16 0 0 1 2.7 6.4 1.8 1.8 0 0 1 4.5 4.5Z"/></svg>',t:'The call',d:'The phone rings. They already know why they\'re calling. The journey ends at your door.'}
     ];
     const jbig=document.getElementById('jbig'),jtitle=document.getElementById('jtitle'),jdesc=document.getElementById('jdesc'),jstepk=document.getElementById('jstepk'),jrail=document.getElementById('jrail'),jrailScroll=document.getElementById('jrailScroll'),jprog=document.getElementById('jprog'),jtrack=document.getElementById('jtrack');
@@ -72,7 +70,7 @@
         d.className='jdot'+(i===0?' active':'');
         d.setAttribute('role','button');
         d.setAttribute('tabindex','0');
-        d.setAttribute('aria-label','Scene '+(i+1)+': '+s.t);
+        d.setAttribute('aria-label','Step '+(i+1)+': '+s.t);
         d.innerHTML='<span>'+s.e+'</span> '+s.t;
         d.addEventListener('click',()=>{
           if(isJMobile()||jMetrics.range<=0){setStep(i);return;}
@@ -93,7 +91,7 @@
         jt=setTimeout(()=>{
           if(i!==jcur)return;
           jbig.innerHTML=s.e;jtitle.textContent=s.t;jdesc.textContent=s.d;
-          jstepk.textContent='Scene '+(i+1)+' / '+steps.length;
+          jstepk.textContent='Step '+(i+1)+' / '+steps.length;
           grp.forEach(el=>el.classList.remove('jswap'));
         },180);
         [...jrail.children].forEach((c,k)=>c.classList.toggle('active',k===i));
@@ -129,41 +127,6 @@
       addEventListener('resize',()=>{measureJ();if(isJMobile())setStep(jcur<0?0:jcur);},{passive:true});
       jMobile.addEventListener('change',()=>{measureJ();const i=Math.max(0,jcur);jcur=-1;setStep(i);});
       onScrollJ();
-    }
-
-    const nodes=['Website','SEO','Google Business Profile','Google Reviews','Schema.org','StoryBrand content','Service pages','Location pages','Knowledge Graph','AI Overviews','ChatGPT','Gemini','Claude','Perplexity','Continuous monitoring'];
-    const cont=document.getElementById('constellation'),svg=document.getElementById('ecoLinks'),center=document.getElementById('ecoCenter');
-    if(cont&&svg){
-      const N=nodes.length,els=[],lines=[],base=[];let offset=0,paused=false,ecoRun=false;
-      nodes.forEach((label,i)=>{
-        const el=document.createElement('div');el.className='enode';el.textContent=label;cont.appendChild(el);
-        const ln=document.createElementNS('http://www.w3.org/2000/svg','line');ln.setAttribute('x1','50');ln.setAttribute('y1','50');svg.appendChild(ln);
-        els.push(el);lines.push(ln);base.push((i/N)*Math.PI*2 - Math.PI/2);
-        el.addEventListener('mouseenter',()=>{paused=true;els.forEach((p,k)=>p.classList.toggle('dim',k!==i));lines.forEach((l,k)=>l.classList.toggle('hot',k===i));el.classList.remove('dim');el.classList.add('hot');});
-        el.addEventListener('mouseleave',()=>{paused=false;reset();});
-      });
-      if(center){
-        center.addEventListener('mouseenter',()=>{paused=true;els.forEach(p=>{p.classList.remove('dim');p.classList.add('hot');});lines.forEach(l=>l.classList.add('hot'));});
-        center.addEventListener('mouseleave',()=>{paused=false;reset();});
-      }
-      function reset(){els.forEach(p=>p.classList.remove('dim','hot'));lines.forEach(l=>l.classList.remove('hot'));}
-      let cw=0,ch=0;
-      function place(){
-        if(cw<1||ch<1)return;
-        const r=Math.min(cw,ch)*0.36,cx=cw/2,cy=ch/2;
-        els.forEach((el,i)=>{const a=base[i]+offset;const x=cx+Math.cos(a)*r,y=cy+Math.sin(a)*r;
-          el.style.transform='translate(-50%,-50%)';el.style.left=(x/cw*100)+'%';el.style.top=(y/ch*100)+'%';
-          lines[i].setAttribute('x2',(x/cw*100).toFixed(2));lines[i].setAttribute('y2',(y/ch*100).toFixed(2));});
-      }
-      function tick(){if(ecoRun){if(!paused&&!reduce)offset+=0.0018;place();}requestAnimationFrame(tick);}
-      if('ResizeObserver' in window){
-        new ResizeObserver(es=>{const box=es[0].contentRect;cw=box.width;ch=box.height;place();}).observe(cont);
-      }else{
-        function measureEco(){cw=cont.clientWidth;ch=cont.clientHeight;}
-        measureEco();addEventListener('resize',()=>{measureEco();place();},{passive:true});
-      }
-      requestAnimationFrame(tick);
-      if('IntersectionObserver' in window){new IntersectionObserver(es=>{ecoRun=es.some(e=>e.isIntersecting);},{threshold:.05}).observe(cont);}
     }
 
     const cv=document.getElementById('particles');

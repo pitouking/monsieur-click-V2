@@ -86,12 +86,20 @@
     }else onLoad(bootReviews,2500);
   }
 
+  function mountFormIframe(root){
+    var iframe=root&&(root.querySelector?root.querySelector('iframe[data-src]'):null);
+    if(iframe&&iframe.dataset.src&&!iframe.getAttribute('src'))
+      iframe.setAttribute('src',iframe.dataset.src);
+  }
+
   var parlons=document.getElementById('parlons');
   if(parlons){
     function bootForm(){
+      mountFormIframe(parlons);
       if(document.querySelector('script[src*="form_embed.js"]'))return;
       loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
     }
+    if(location.hash==='#parlons'||location.hash==='#contact')bootForm();
     if('IntersectionObserver' in window){
       var fio=new IntersectionObserver(function(entries,o){
         entries.forEach(function(e){
@@ -99,17 +107,19 @@
           o.disconnect();
           bootForm();
         });
-      },{rootMargin:'420px'});
+      },{rootMargin:'480px 0px',threshold:0});
       fio.observe(parlons);
-    }else onLoad(bootForm,1500);
+    }else onLoad(bootForm,2000);
   }
 
-  var contactIframe=document.querySelector('iframe[src*="widget/form/"]');
+  var contactIframe=document.querySelector('iframe[data-src*="widget/form/"]');
   if(contactIframe&&!parlons){
-    idle(function(){
+    function bootContactForm(){
+      mountFormIframe(contactIframe.parentElement||document);
       if(!document.querySelector('script[src*="form_embed.js"]'))
         loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
-    },1200);
+    }
+    idle(bootContactForm,1200);
   }
 
 })();
