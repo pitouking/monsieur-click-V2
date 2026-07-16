@@ -36,8 +36,18 @@
   document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{
     const item=q.parentElement,a=item.querySelector('.faq-a'),open=item.classList.contains('open');
     if(!a)return;
-    document.querySelectorAll('.faq-item').forEach(i=>{const pane=i.querySelector('.faq-a');i.classList.remove('open');if(pane)pane.style.maxHeight=null});
-    if(!open){item.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
+    document.querySelectorAll('.faq-item').forEach(i=>{
+      const pane=i.querySelector('.faq-a');
+      const btn=i.querySelector('.faq-q');
+      i.classList.remove('open');
+      if(pane)pane.style.maxHeight=null;
+      if(btn)btn.setAttribute('aria-expanded','false');
+    });
+    if(!open){
+      item.classList.add('open');
+      a.style.maxHeight=a.scrollHeight+'px';
+      q.setAttribute('aria-expanded','true');
+    }
   }));
 
   function bootHeavy(){
@@ -50,10 +60,7 @@
     const steps=[
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>',t:'La recherche',d:'Mardi, 9 h. Un client tape son besoin sur Google, suivi du nom de sa ville. La décision commence ici.'},
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>',t:'Le pack local',d:'Trois fiches Google Business Profile s\'affichent sur Google Maps. La vôtre en fait-elle partie ?'},
-      {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg>',t:'La comparaison',d:'Il ouvre deux ou trois sites et juge, en quelques secondes, celui qui inspire le plus confiance.'},
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.28 5.83.85-4.22 4.11 1 5.8L12 16.9l-5.21 2.74 1-5.8-4.22-4.11 5.83-.85L12 3.5Z"/></svg>',t:'Les avis',d:'Il lit vos avis Google. Cinq étoiles, des réponses soignées : le doute s\'efface.'},
-      {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.7 4.5L18 9l-4.3 1.5L12 15l-1.7-4.5L6 9l4.3-1.5L12 3Z"/><path d="M18.5 14l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8Z"/></svg>',t:'Les résultats IA',d:'Il demande à l\'AI Overview de Google « lequel choisir ? ». Votre nom ressort, ou pas.'},
-      {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg>',t:'La recommandation',d:'Il vérifie sur ChatGPT ou Perplexity. L\'IA le conforte et vous cite comme la référence.'},
       {e:'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4.5h3.6l1.8 4.5-2.3 1.6a12.5 12.5 0 0 0 5.5 5.5l1.6-2.3 4.5 1.8v3.6a1.8 1.8 0 0 1-1.9 1.8A16 16 0 0 1 2.7 6.4 1.8 1.8 0 0 1 4.5 4.5Z"/></svg>',t:'L\'appel',d:'Le téléphone sonne. Il sait déjà pourquoi il vous appelle. Le parcours aboutit chez vous.'}
     ];
     const jbig=document.getElementById('jbig'),jtitle=document.getElementById('jtitle'),jdesc=document.getElementById('jdesc'),jstepk=document.getElementById('jstepk'),jrail=document.getElementById('jrail'),jrailScroll=document.getElementById('jrailScroll'),jprog=document.getElementById('jprog'),jtrack=document.getElementById('jtrack');
@@ -72,7 +79,7 @@
         d.className='jdot'+(i===0?' active':'');
         d.setAttribute('role','button');
         d.setAttribute('tabindex','0');
-        d.setAttribute('aria-label','Scène '+(i+1)+': '+s.t);
+        d.setAttribute('aria-label','Étape '+(i+1)+': '+s.t);
         d.innerHTML='<span>'+s.e+'</span> '+s.t;
         d.addEventListener('click',()=>{
           if(isJMobile()||jMetrics.range<=0){setStep(i);return;}
@@ -93,7 +100,7 @@
         jt=setTimeout(()=>{
           if(i!==jcur)return;
           jbig.innerHTML=s.e;jtitle.textContent=s.t;jdesc.textContent=s.d;
-          jstepk.textContent='Scène '+(i+1)+' / '+steps.length;
+          jstepk.textContent='Étape '+(i+1)+' / '+steps.length;
           grp.forEach(el=>el.classList.remove('jswap'));
         },180);
         [...jrail.children].forEach((c,k)=>c.classList.toggle('active',k===i));

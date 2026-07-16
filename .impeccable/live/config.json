@@ -1,0 +1,7 @@
+{
+  "files": ["**/*.html"],
+  "exclude": ["admin-scores.html"],
+  "insertBefore": "</body>",
+  "commentSyntax": "html",
+  "cspChecked": true
+}
