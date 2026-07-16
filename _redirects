@@ -20,3 +20,5 @@
 # Texts rewrites
 /texts  /texts/index.txt  200
 /texts/  /texts/index.txt  200
+
+/case-studies.html /case-studies/ 301
