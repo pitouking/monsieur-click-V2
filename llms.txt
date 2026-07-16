@@ -33,6 +33,14 @@
   - Local SEO for owners: Maps, website foundations, AI visibility
 - Generative Engine Optimization (GEO) : https://monsieurclick.com/services/generative-engine-optimization
   - Get cited by ChatGPT, Gemini, Claude, Perplexity (Schema, OKF, llms.txt)
+- SEO services : https://monsieurclick.com/services/seo
+  - Technical, on-page and content SEO measured inside Click First™
+- Local SEO : https://monsieurclick.com/services/local-seo
+  - Google Business Profile, reviews, citations and local pages
+- Web design : https://monsieurclick.com/services/web-design
+  - Fast, conversion-first sites (WordPress or static)
+- WordPress web design : https://monsieurclick.com/services/wordpress-web-design
+  - Clean WordPress builds that stay fast and editable
 - Pricing : https://monsieurclick.com/pricing
   - Essential 850€/mo, Growth 1,000€/mo, Expansion 1,500€/mo
 - Case Studies : https://monsieurclick.com/case-studies
