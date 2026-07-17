@@ -1,6 +1,6 @@
 TITLE: Generative Engine Optimization
 DESCRIPTION: The natural evolution of SEO: being understood and cited by ChatGPT, Gemini, Claude, Perplexity.
-URL: https://monsieurclick.com/blog-geo-generative-engine-optimization
+URL: https://monsieurclick.com/blog/geo-generative-engine-optimization
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog, geo
@@ -11,5 +11,5 @@ The natural evolution of SEO: being understood and cited by ChatGPT, Gemini, Cla
 
 This article explores: GEO.
 
-→ Read full article: https://monsieurclick.com/blog-geo-generative-engine-optimization
+→ Read full article: https://monsieurclick.com/blog/geo-generative-engine-optimization
 → Blog: https://monsieurclick.com/blog

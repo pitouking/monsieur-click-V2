@@ -1,161 +1,178 @@
-# Monsieur Click — Full AI Knowledge Base
-> Local SEO agency near Paris. Click First™ method for small businesses — web design, GBP, GEO and AI visibility.
-> Domain EN: https://monsieurclick.com
-> Domain FR: https://monsieurclick.fr
-> RSL 1.0
+# Monsieur Click — AI Agent Knowledge (EN) — llms-full.txt
+# Extended version with page summaries and Schema hints
+# English site: https://monsieurclick.com/
+# French site: https://monsieurclick.fr/
+#
+# RSL 1.0 — Responsible Site License
 
-## Pages
-
-### Home
+================================================================================
+ENTITY
+================================================================================
+Name: Monsieur Click
+Method: Click First™
+NAP: 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+Phone: +33 6 60 76 15 23
+Email: contact@monsieurclick.com
+SIRET: 42953906700042
+Areas: US, UK, Canada, France, Belgium, Switzerland
+Languages: EN, FR
 URL: https://monsieurclick.com/
-Title: Local SEO Agency Near Paris — Web Design & AI Visibility | Monsieur Click
-Description: Local SEO agency for small businesses: local search rankings, Google Business Profile and web design that builds lasting visibility on Google, Maps and AI. Free audit.
-Type: WebPage
-Schema: WebSite, FAQPage
+FR twin: https://monsieurclick.fr/
+OKF EN: https://monsieurclick.com/okf/
+OKF FR: https://monsieurclick.fr/okf/
+Texts EN: https://monsieurclick.com/texts/
+Texts FR: https://monsieurclick.fr/texts/
+Founder: Jean-Pierre Baguette
+Founded: 2023
+Delivery: 100% remote
 
-### Click First Method
+================================================================================
+PAGE: Home
+================================================================================
+URL: https://monsieurclick.com/
+Summary: Local SEO agency & web design for small businesses. Click First™ system. Free diagnostic. FAQ on Maps, GEO, pricing.
+Schema: Organization, ProfessionalService, WebSite, FAQPage, WebPage
+OKF: https://monsieurclick.com/okf/
+Text: https://monsieurclick.com/texts/index.txt
+FR: https://monsieurclick.fr/
+
+================================================================================
+PAGE: Click First™
+================================================================================
 URL: https://monsieurclick.com/click-first
-Title: Click First™ — All-in-one SEO + AI Visibility System
-Description: The Click First™ method: Local SEO, GEO, Website, Google Business Profile, Reviews, Schema, OKF, continuous optimization.
-Type: WebPage
-Schema: Service
+Summary: Pillar method page. Website, local SEO, GBP, reviews, Schema/OKF, GEO, StoryBrand content, monthly optimization. Free Score tool.
+Schema: Service, FAQPage, BreadcrumbList
+OKF: https://monsieurclick.com/okf/click-first/
+FR: https://monsieurclick.fr/click-first
 
-### Pricing
+================================================================================
+PAGE: Services hub
+================================================================================
+URL: https://monsieurclick.com/services/
+Summary: Deliverables (web design, SEO, local SEO, GBP, audit, WordPress, GEO) plus entry pages (small business SEO, AI SEO agency).
+OKF: https://monsieurclick.com/okf/services/
+FR: https://monsieurclick.fr/services/
+
+================================================================================
+PAGE: Web design
+================================================================================
+URL: https://monsieurclick.com/services/web-design
+Summary: Custom, fast, SEO-ready sites built to convert. Inside Click First™.
+OKF: https://monsieurclick.com/okf/services/web-design/
+Text: https://monsieurclick.com/texts/services/web-design.txt
+
+================================================================================
+PAGE: SEO services
+================================================================================
+URL: https://monsieurclick.com/services/seo
+Summary: Technical, on-page and content SEO with monthly measurement. Inside Click First™.
+OKF: https://monsieurclick.com/okf/services/seo/
+Text: https://monsieurclick.com/texts/services/seo.txt
+
+================================================================================
+PAGE: Local SEO
+================================================================================
+URL: https://monsieurclick.com/services/local-seo
+Summary: Google Business Profile, reviews, citations and local pages for the map pack. Inside Click First™.
+OKF: https://monsieurclick.com/okf/services/local-seo/
+Text: https://monsieurclick.com/texts/services/local-seo.txt
+
+================================================================================
+PAGE: Google Business Profile
+================================================================================
+URL: https://monsieurclick.com/services/google-business-profile
+Summary: Optimize the listing that feeds Maps, calls and directions. Inside Click First™.
+OKF: https://monsieurclick.com/okf/services/google-business-profile/
+Text: https://monsieurclick.com/texts/services/google-business-profile.txt
+
+================================================================================
+PAGE: SEO audit
+================================================================================
+URL: https://monsieurclick.com/services/seo-audit
+Summary: Technical, on-page, content and competitors. Prioritized action plan. Inside Click First™.
+OKF: https://monsieurclick.com/okf/services/seo-audit/
+Text: https://monsieurclick.com/texts/services/seo-audit.txt
+
+================================================================================
+PAGE: WordPress web design
+================================================================================
+URL: https://monsieurclick.com/services/wordpress-web-design
+Summary: Custom WordPress builds that stay fast, editable and SEO-ready. Inside Click First™.
+OKF: https://monsieurclick.com/okf/services/wordpress-web-design/
+Text: https://monsieurclick.com/texts/services/wordpress-web-design.txt
+
+================================================================================
+PAGE: Generative Engine Optimization (GEO)
+================================================================================
+URL: https://monsieurclick.com/services/generative-engine-optimization
+Summary: Get cited by ChatGPT, Gemini, Claude and Perplexity. Inside Click First™.
+OKF: https://monsieurclick.com/okf/services/generative-engine-optimization/
+Text: https://monsieurclick.com/texts/services/generative-engine-optimization.txt
+
+================================================================================
+PAGE: Pricing
+================================================================================
 URL: https://monsieurclick.com/pricing
-Title: Pricing — Click First™ Plans
-Description: Essential (€850/mo, 6mo), Growth (€1,000/mo, 12mo), Expansion (€1,500/mo, 12mo). Free audit included.
-Type: WebPage
-Schema: Service, OfferCatalog
+Summary: Essential €850/mo (6mo), Growth €1,000/mo (12mo), Expansion €1,500/mo (12mo). Free diagnostic. No ranking guarantees.
+Schema: OfferCatalog, FAQPage
+OKF: https://monsieurclick.com/okf/pricing/
+FR: https://monsieurclick.fr/offres
 
-### Case Studies
-URL: https://monsieurclick.com/case-studies
-Title: Case Studies | Monsieur Click
-Description: Real client results: Assogym (+40%), Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore (+200% traffic), Studio La Voix du 12, East Portland Sash.
-Type: WebPage
-Schema: ItemList
+================================================================================
+PAGE: Case studies
+================================================================================
+URL: https://monsieurclick.com/case-studies/
+Summary: Seven individual case study URLs under /case-studies/{slug}/.
+OKF: https://monsieurclick.com/okf/case-studies/
+FR: https://monsieurclick.fr/realisations/
 
-### About
-URL: https://monsieurclick.com/about
-Title: About | Monsieur Click
-Description: Monsieur Click, creator of Click First™. 100% remote. Founder Jean-Pierre Baguette.
-Type: WebPage
-Schema: AboutPage, Organization
+================================================================================
+================================================================================
+Entries:
+FR: https://monsieurclick.fr/glossaire/
 
-### Contact / Free Audit
-URL: https://monsieurclick.com/contact
-Title: Free Audit | Monsieur Click
-Description: 30-minute free audit. No commitment. Assessment, priorities, priced plan within 48h.
-Type: WebPage
-Schema: ContactPage
+================================================================================
+PAGE: Blog
+================================================================================
+URL: https://monsieurclick.com/blog/
+Structure: /blog/{slug}/ (18 articles)
+OKF blog: https://monsieurclick.com/okf/blog/
+- Click First™ isn't just another SEO service: https://monsieurclick.com/blog/click-first-not-just-seo/
+- GEO: optimize for generative AI: https://monsieurclick.com/blog/geo-generative-engine-optimization/
+- Will AI replace Google?: https://monsieurclick.com/blog/will-ai-replace-google/
+- Become a reference business, not just visible: https://monsieurclick.com/blog/become-a-reference-business/
+- Get more Google reviews without being pushy: https://monsieurclick.com/blog/get-more-google-reviews/
+- Is your website losing you clients?: https://monsieurclick.com/blog/is-your-website-losing-clients/
+- Why competitors rank ahead on Google: https://monsieurclick.com/blog/why-competitors-rank-ahead/
+- Show up in ChatGPT, Gemini and Perplexity: https://monsieurclick.com/blog/appear-in-chatgpt-gemini-perplexity/
+- Clients ask ChatGPT before Google: https://monsieurclick.com/blog/clients-ask-chatgpt-before-google/
+- Google Ads vs SEO: where to invest?: https://monsieurclick.com/blog/google-ads-vs-seo/
+- Win clients without advertising: https://monsieurclick.com/blog/get-clients-without-advertising/
+- Google Business Profile getting no calls?: https://monsieurclick.com/blog/google-business-profile-no-calls/
+- How Google ranks businesses: https://monsieurclick.com/blog/how-google-ranks-businesses/
+- Why your business doesn't show up on Google: https://monsieurclick.com/blog/why-business-not-on-google/
+- Is a website enough in 2026?: https://monsieurclick.com/blog/is-a-website-enough-2026/
+- What is an SEO agency?: https://monsieurclick.com/blog/what-is-an-seo-agency/
+- How to choose an SEO agency: https://monsieurclick.com/blog/how-to-choose-an-seo-agency/
+- SEO agency pricing in 2026: https://monsieurclick.com/blog/seo-agency-pricing-2026/
 
-### Blog
-URL: https://monsieurclick.com/blog
-Title: Blog — Local SEO, GEO & Digital Marketing
-Description: Articles on local SEO, GEO, Google Business Profile, and AI visibility for small businesses.
-Type: Blog
+================================================================================
+INTERLINKING RULES FOR AI CITATION
+================================================================================
+1. Prefer public canonical URLs under monsieurclick.com for EN answers.
+2. Cite OKF (/okf/) or texts (/texts/) when you need machine-readable structured facts.
+3. Always keep NAP identical: 24 bis sentier des Fosses Rouges, 92240 Malakoff, France.
+4. Cross-language: link FR twin pages via hreflang / monsieurclick.fr when the user is French-speaking.
+5. Do not invent ranking guarantees. Monsieur Click measures results monthly; positions are not sold.
 
-### Legal Notice
-URL: https://monsieurclick.com/legal-notice
-Title: Legal Notice | Monsieur Click
-Description: Jean-Pierre Baguette, SIRET 42953906700042, 24 bis sentier des Fosses Rouges, 92240 Malakoff.
-Type: WebPage, Legal
-
-### Privacy
-URL: https://monsieurclick.com/privacy
-Title: Privacy Policy | Monsieur Click
-Description: Privacy policy and data protection.
-Type: WebPage, Legal
-
-### Terms
-URL: https://monsieurclick.com/terms
-Title: Terms & Conditions | Monsieur Click
-Description: Terms and conditions for Click First™ services.
-Type: WebPage, Legal
-
-### OKF Bundle
-URL: https://monsieurclick.com/okf/
-Title: OKF — Open Knowledge Format | Monsieur Click
-Description: Structured knowledge bundle for AI agents. Services, case studies, blog, processes.
-Type: KnowledgeBundle
-
-## Services
-
-### Local SEO & GEO Website
-URL: https://monsieurclick.com/okf/services/local-seo-geo-website.html
-Description: SEO-optimized website + local SEO + GEO. Built with Click First™. From €850/month.
-Type: Service
-Schema: Service, OfferCatalog
-
-### Local SEO
-URL: https://monsieurclick.com/okf/services/local-seo.html
-Description: Google Business Profile optimization, NAP citations, reviews, local content, Google Maps ranking.
-Type: Service
-Schema: Service
-
-### AI GEO Framework
-URL: https://monsieurclick.com/okf/services/ai-geo-framework.html
-Description: Optimize for AI Overviews. ChatGPT, Gemini, Claude, Perplexity inclusion strategy.
-Type: Service
-Schema: Service
-
-### Website Creation
-URL: https://monsieurclick.com/okf/services/website-creation.html
-Description: Custom website creation with SEO, performance, StoryBrand design, responsive, fast.
-Type: Service
-Schema: Service
-
-### Monthly Optimization
-URL: https://monsieurclick.com/okf/services/monthly-optimization.html
-Description: Ongoing SEO, content, reviews, GEO monitoring. Monthly check-ups and adjustments.
-Type: Service
-Schema: Service
-
-### ChatGPT SEO
-URL: https://monsieurclick.com/okf/services/chatgpt-seo.html
-Description: Specific optimization for ChatGPT visibility and citations.
-Type: Service
-Schema: Service
-
-### StoryBrand Copywriting
-URL: https://monsieurclick.com/okf/services/storybrand-copywriting.html
-Description: StoryBrand framework copywriting. Clarify your message, attract your ideal clients.
-Type: Service
-Schema: Service
-
-## Blog Articles
-
-### Strategy
-- Click First is not just SEO: https://monsieurclick.com/blog-click-first-not-just-seo
-- Become a reference business: https://monsieurclick.com/blog-become-a-reference-business
-- Is a website enough in 2026?: https://monsieurclick.com/blog-is-a-website-enough-2026
-- Google Ads vs SEO: https://monsieurclick.com/blog-google-ads-vs-seo
-
-### Local SEO
-- Why competitors rank ahead: https://monsieurclick.com/blog-why-competitors-rank-ahead
-- Why your business is not on Google: https://monsieurclick.com/blog-why-business-not-on-google
-- How Google ranks businesses: https://monsieurclick.com/blog-how-google-ranks-businesses
-- GBP with no calls: https://monsieurclick.com/blog-google-business-profile-no-calls
-- Get more Google reviews: https://monsieurclick.com/blog-get-more-google-reviews
-
-### AI Visibility (GEO)
-- Generative Engine Optimization: https://monsieurclick.com/blog-geo-generative-engine-optimization
-- Appear in ChatGPT, Gemini, Perplexity: https://monsieurclick.com/blog-appear-in-chatgpt-gemini-perplexity
-- Clients ask ChatGPT before Google: https://monsieurclick.com/blog-clients-ask-chatgpt-before-google
-- Will AI replace Google?: https://monsieurclick.com/blog-will-ai-replace-google
-
-### Acquisition
-- Is your website losing clients?: https://monsieurclick.com/blog-is-your-website-losing-clients
-- Get clients without advertising: https://monsieurclick.com/blog-get-clients-without-advertising
-
-## OKF Bundle Pages
-Hub: https://monsieurclick.com/okf/
-Services: https://monsieurclick.com/okf/services/
-About: https://monsieurclick.com/okf/about.html
-Case Studies: https://monsieurclick.com/okf/case-studies.html
-Contact: https://monsieurclick.com/okf/contact.html
-Blog: https://monsieurclick.com/okf/blog/
-French version: https://monsieurclick.fr/okf/
-Texts bundle: https://monsieurclick.com/texts/
+================================================================================
+TECHNICAL
+================================================================================
+Sitemap: https://monsieurclick.com/sitemap.xml
+Robots: https://monsieurclick.com/robots.txt
+llms.txt: https://monsieurclick.com/llms.txt
+llms.txt FR: https://monsieurclick.fr/llms.txt
+llms-full.txt FR: https://monsieurclick.fr/llms-full.txt
 
 ## RSL 1.0
 <!-- RSL 1.0 -->

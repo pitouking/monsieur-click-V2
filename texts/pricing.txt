@@ -1,12 +1,23 @@
-TITLE: Pricing — Click First™ Plans
-DESCRIPTION: Essential €850/mo (6mo), Growth €1,000/mo (12mo), Expansion €1,500/mo (12mo). Free audit.
+TITLE: Pricing
+DESCRIPTION: Essential €850, Growth €1,000, Expansion €1,500 per month.
 URL: https://monsieurclick.com/pricing
-TYPE: Page
+TYPE: OfferCatalog
 LANG: en
-TAGS: pricing, plans, essential, growth, expansion
+TAGS: monsieur-click,click-first
 
-# Pricing — Click First™ Plans
+# Pricing
 
-Essential €850/mo (6mo), Growth €1,000/mo (12mo), Expansion €1,500/mo (12mo). Free audit.
+Essential €850, Growth €1,000, Expansion €1,500 per month.
 
-→ Full page: https://monsieurclick.com/pricing
+## Entity
+- Monsieur Click · Click First™
+- 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- +33 6 60 76 15 23 · contact@monsieurclick.com
+
+## Links
+→ Page: https://monsieurclick.com/pricing
+→ OKF hub: https://monsieurclick.com/okf/
+→ llms.txt: https://monsieurclick.com/llms.txt
+→ FR twin site: https://monsieurclick.fr/
+→ FR OKF: https://monsieurclick.fr/okf/
+

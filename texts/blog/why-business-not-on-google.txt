@@ -1,6 +1,6 @@
 TITLE: Why Your Business Is Not on Google
 DESCRIPTION: 7 mistakes that make a business invisible.
-URL: https://monsieurclick.com/blog-why-business-not-on-google
+URL: https://monsieurclick.com/blog/why-business-not-on-google
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 7 mistakes that make a business invisible.
 
-→ Read full article: https://monsieurclick.com/blog-why-business-not-on-google
+→ Read full article: https://monsieurclick.com/blog/why-business-not-on-google
 → Blog: https://monsieurclick.com/blog

@@ -1,6 +1,6 @@
 TITLE: How Google Ranks Businesses
 DESCRIPTION: Real local ranking criteria.
-URL: https://monsieurclick.com/blog-how-google-ranks-businesses
+URL: https://monsieurclick.com/blog/how-google-ranks-businesses
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 Real local ranking criteria.
 
-→ Read full article: https://monsieurclick.com/blog-how-google-ranks-businesses
+→ Read full article: https://monsieurclick.com/blog/how-google-ranks-businesses
 → Blog: https://monsieurclick.com/blog

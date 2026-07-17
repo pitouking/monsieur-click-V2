@@ -1,6 +1,6 @@
 TITLE: Is a Website Enough in 2026?
 DESCRIPTION: A site alone isn't enough without SEO, GBP, reviews and AI.
-URL: https://monsieurclick.com/blog-is-a-website-enough-2026
+URL: https://monsieurclick.com/blog/is-a-website-enough-2026
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 A site alone isn't enough without SEO, GBP, reviews and AI.
 
-→ Read full article: https://monsieurclick.com/blog-is-a-website-enough-2026
+→ Read full article: https://monsieurclick.com/blog/is-a-website-enough-2026
 → Blog: https://monsieurclick.com/blog

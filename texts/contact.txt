@@ -1,12 +1,23 @@
-TITLE: Free Audit — Contact | Monsieur Click
-DESCRIPTION: 30-minute free audit. No commitment. Assessment and plan within 48h.
+TITLE: Free diagnostic
+DESCRIPTION: 30-minute free diagnostic. No commitment.
 URL: https://monsieurclick.com/contact
-TYPE: Page
+TYPE: ContactPage
 LANG: en
-TAGS: contact, free audit, consultation
+TAGS: monsieur-click,click-first
 
-# Free Audit — Contact | Monsieur Click
+# Free diagnostic
 
-30-minute free audit. No commitment. Assessment and plan within 48h.
+30-minute free diagnostic. No commitment.
 
-→ Full page: https://monsieurclick.com/contact
+## Entity
+- Monsieur Click · Click First™
+- 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- +33 6 60 76 15 23 · contact@monsieurclick.com
+
+## Links
+→ Page: https://monsieurclick.com/contact
+→ OKF hub: https://monsieurclick.com/okf/
+→ llms.txt: https://monsieurclick.com/llms.txt
+→ FR twin site: https://monsieurclick.fr/
+→ FR OKF: https://monsieurclick.fr/okf/
+

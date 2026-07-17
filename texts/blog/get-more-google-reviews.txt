@@ -1,6 +1,6 @@
 TITLE: Get More Google Reviews
 DESCRIPTION: How to get Google reviews without being pushy.
-URL: https://monsieurclick.com/blog-get-more-google-reviews
+URL: https://monsieurclick.com/blog/get-more-google-reviews
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 How to get Google reviews without being pushy.
 
-→ Read full article: https://monsieurclick.com/blog-get-more-google-reviews
+→ Read full article: https://monsieurclick.com/blog/get-more-google-reviews
 → Blog: https://monsieurclick.com/blog

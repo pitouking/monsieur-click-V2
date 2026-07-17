@@ -1,12 +1,23 @@
-TITLE: Legal Notice
-DESCRIPTION: Legal notice of Monsieur Click. Jean-Pierre Baguette, SIRET 42953906700042.
+TITLE: Legal notice
+DESCRIPTION: Jean-Pierre Baguette, SIRET 42953906700042, Malakoff.
 URL: https://monsieurclick.com/legal-notice
-TYPE: Legal
+TYPE: WebPage
 LANG: en
-TAGS: legal, sirert, publisher
+TAGS: monsieur-click,click-first
 
-# Legal Notice
+# Legal notice
 
-Legal notice of Monsieur Click. Jean-Pierre Baguette, SIRET 42953906700042.
+Jean-Pierre Baguette, SIRET 42953906700042, Malakoff.
 
-→ Full page: https://monsieurclick.com/legal-notice
+## Entity
+- Monsieur Click · Click First™
+- 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- +33 6 60 76 15 23 · contact@monsieurclick.com
+
+## Links
+→ Page: https://monsieurclick.com/legal-notice
+→ OKF hub: https://monsieurclick.com/okf/
+→ llms.txt: https://monsieurclick.com/llms.txt
+→ FR twin site: https://monsieurclick.fr/
+→ FR OKF: https://monsieurclick.fr/okf/
+

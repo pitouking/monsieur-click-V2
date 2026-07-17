@@ -1,12 +1,23 @@
-TITLE: Click First™ — All-in-one SEO + AI Visibility
-DESCRIPTION: The all-in-one Click First™ method: Local SEO, GEO, Website, Google Business Profile, Reviews.
+TITLE: Click First™
+DESCRIPTION: All-in-one visibility method: site, SEO, GBP, reviews, GEO.
 URL: https://monsieurclick.com/click-first
 TYPE: Service
 LANG: en
-TAGS: click-first, method, seo, geo, visibility
+TAGS: monsieur-click,click-first
 
-# Click First™ — All-in-one SEO + AI Visibility
+# Click First™
 
-The all-in-one Click First™ method: Local SEO, GEO, Website, Google Business Profile, Reviews.
+All-in-one visibility method: site, SEO, GBP, reviews, GEO.
 
-→ Full page: https://monsieurclick.com/click-first
+## Entity
+- Monsieur Click · Click First™
+- 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- +33 6 60 76 15 23 · contact@monsieurclick.com
+
+## Links
+→ Page: https://monsieurclick.com/click-first
+→ OKF hub: https://monsieurclick.com/okf/
+→ llms.txt: https://monsieurclick.com/llms.txt
+→ FR twin site: https://monsieurclick.fr/
+→ FR OKF: https://monsieurclick.fr/okf/
+

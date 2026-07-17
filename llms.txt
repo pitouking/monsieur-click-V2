@@ -1,21 +1,122 @@
-  - Entry to EN service pages inside Click First™
-- Small Business SEO : https://monsieurclick.com/small-business-seo
-  - Local SEO for owners: Maps, website foundations, AI visibility
-- Generative Engine Optimization (GEO) : https://monsieurclick.com/services/generative-engine-optimization
-  - Get cited by ChatGPT, Gemini, Claude, Perplexity (Schema, OKF, llms.txt)
-- SEO services : https://monsieurclick.com/services/seo
-  - Technical, on-page and content SEO measured inside Click First™
-- SEO audit : https://monsieurclick.com/services/seo-audit
-  - Technical, on-page and semantic audit with prioritized action plan
-- Local SEO : https://monsieurclick.com/services/local-seo
-  - Google Business Profile, reviews, citations and local pages
-- Web design : https://monsieurclick.com/services/web-design
-  - Fast, conversion-first sites (WordPress or static)
-- WordPress web design : https://monsieurclick.com/services/wordpress-web-design
-  - Clean WordPress builds that stay fast and editable
-- Google Business Profile : https://monsieurclick.com/services/google-business-profile
-  - Complete listing, reviews, photos and posts for Maps
-- AI SEO agency : https://monsieurclick.com/ai-seo-agency
-  - SEO plus Generative Engine Optimization in one system
-- SEO agency London : https://monsieurclick.com/seo-agency-london
-  - Remote Click First™ for London / UK small businesses (geo test)
+# Monsieur Click
+
+# Monsieur Click — AI Agent Knowledge (EN)
+# English site: https://monsieurclick.com/
+# French site: https://monsieurclick.fr/
+#
+# RSL 1.0 — Responsible Site License
+# For AI engines (ChatGPT, Claude, Gemini, Perplexity, etc.)
+# and authorized indexing robots.
+
+## Entity
+- Name: Monsieur Click
+- Proprietary method: Click First™
+- Address: 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- Phone: +33 6 60 76 15 23
+- Email: contact@monsieurclick.com
+- Areas: United States, United Kingdom, Canada, France, Belgium, Switzerland
+- Languages: English (EN), French (FR)
+- SIRET: 42953906700042
+- Promise: Be found. Be chosen.
+- Site EN: https://monsieurclick.com/
+- Site FR: https://monsieurclick.fr/
+- Bundle OKF EN: https://monsieurclick.com/okf/
+- Bundle OKF FR: https://monsieurclick.fr/okf/
+- Bundle texts EN: https://monsieurclick.com/texts/
+- Bundle texts FR: https://monsieurclick.fr/texts/
+
+## Main pages
+- Home: https://monsieurclick.com/
+  - Local SEO agency & web design for small businesses
+- Click First™: https://monsieurclick.com/click-first
+  - All-in-one: website, local SEO, GBP, reviews, GEO
+- Services: https://monsieurclick.com/services/
+  - Hub of SEO and web deliverables
+- Web design: https://monsieurclick.com/services/web-design
+- SEO services: https://monsieurclick.com/services/seo
+- Local SEO: https://monsieurclick.com/services/local-seo
+- Google Business Profile: https://monsieurclick.com/services/google-business-profile
+- SEO audit: https://monsieurclick.com/services/seo-audit
+- WordPress web design: https://monsieurclick.com/services/wordpress-web-design
+- Generative Engine Optimization: https://monsieurclick.com/services/generative-engine-optimization
+- Small business SEO: https://monsieurclick.com/small-business-seo
+- AI SEO agency: https://monsieurclick.com/ai-seo-agency
+- SEO agency London: https://monsieurclick.com/seo-agency-london
+- Pricing: https://monsieurclick.com/pricing
+  - Essential €850/mo, Growth €1,000/mo, Expansion €1,500/mo
+- Case studies: https://monsieurclick.com/case-studies/
+  - Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore, Studio La Voix du 12, East Portland Sash
+- About: https://monsieurclick.com/about
+- Free diagnostic: https://monsieurclick.com/contact
+- Blog: https://monsieurclick.com/blog/
+  - 18 articles (folder structure /blog/slug/)
+
+## Legal
+- Legal notice: https://monsieurclick.com/legal-notice
+- Privacy: https://monsieurclick.com/privacy
+- Terms: https://monsieurclick.com/terms
+
+## OKF bundle (structured knowledge for AI)
+- OKF hub: https://monsieurclick.com/okf/
+- Services OKF: https://monsieurclick.com/okf/services/
+- Web design OKF: https://monsieurclick.com/okf/services/web-design/
+- SEO OKF: https://monsieurclick.com/okf/services/seo/
+- Local SEO OKF: https://monsieurclick.com/okf/services/local-seo/
+- GBP OKF: https://monsieurclick.com/okf/services/google-business-profile/
+- GEO OKF: https://monsieurclick.com/okf/services/generative-engine-optimization/
+- Click First™ OKF: https://monsieurclick.com/okf/click-first/
+- Pricing OKF: https://monsieurclick.com/okf/pricing/
+- Case studies OKF: https://monsieurclick.com/okf/case-studies/
+- Blog OKF: https://monsieurclick.com/okf/blog/
+- Texts (plain): https://monsieurclick.com/texts/
+- FR OKF twin: https://monsieurclick.fr/okf/
+- FR texts twin: https://monsieurclick.fr/texts/
+
+## Blog (18 articles)
+### Strategy
+- Click First™ not just SEO: https://monsieurclick.com/blog/click-first-not-just-seo/
+- Become a reference business: https://monsieurclick.com/blog/become-a-reference-business/
+- Is a website enough in 2026?: https://monsieurclick.com/blog/is-a-website-enough-2026/
+- Google Ads vs SEO: https://monsieurclick.com/blog/google-ads-vs-seo/
+- SEO agency pricing 2026: https://monsieurclick.com/blog/seo-agency-pricing-2026/
+- What is an SEO agency?: https://monsieurclick.com/blog/what-is-an-seo-agency/
+- How to choose an SEO agency: https://monsieurclick.com/blog/how-to-choose-an-seo-agency/
+
+### Local SEO & GBP
+- Why competitors rank ahead: https://monsieurclick.com/blog/why-competitors-rank-ahead/
+- Why business not on Google: https://monsieurclick.com/blog/why-business-not-on-google/
+- How Google ranks businesses: https://monsieurclick.com/blog/how-google-ranks-businesses/
+- GBP with no calls: https://monsieurclick.com/blog/google-business-profile-no-calls/
+- Get more Google reviews: https://monsieurclick.com/blog/get-more-google-reviews/
+
+### AI visibility (GEO)
+- GEO for businesses: https://monsieurclick.com/blog/geo-generative-engine-optimization/
+- Appear in ChatGPT, Gemini, Perplexity: https://monsieurclick.com/blog/appear-in-chatgpt-gemini-perplexity/
+- Clients ask ChatGPT before Google: https://monsieurclick.com/blog/clients-ask-chatgpt-before-google/
+- Will AI replace Google?: https://monsieurclick.com/blog/will-ai-replace-google/
+
+### Acquisition
+- Website losing clients: https://monsieurclick.com/blog/is-your-website-losing-clients/
+- Clients without advertising: https://monsieurclick.com/blog/get-clients-without-advertising/
+
+## Pricing
+| Plan | Fit | Price | Commitment |
+|------|-----|-------|------------|
+| Click First™ Essential | Small site / coach | €850/mo | 6 months |
+| Click First™ Growth | Trades / local SME | €1,000/mo | 12 months |
+| Click First™ Expansion | Multi-location | €1,500/mo | 12 months |
+
+## Verified outcomes (examples)
+- Dub-School: +40% students
+- Heather Fillmore Coaching: +200% traffic
+- Sync Legal: +150% leads
+
+## Technical resources
+- Sitemap: https://monsieurclick.com/sitemap.xml
+- Robots: https://monsieurclick.com/robots.txt
+- llms-full.txt: https://monsieurclick.com/llms-full.txt
+- llms.txt FR: https://monsieurclick.fr/llms.txt
+- llms-full.txt FR: https://monsieurclick.fr/llms-full.txt
+
+## RSL 1.0
+<!-- RSL 1.0 -->

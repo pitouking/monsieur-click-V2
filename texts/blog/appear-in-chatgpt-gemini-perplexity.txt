@@ -1,6 +1,6 @@
 TITLE: Appear in ChatGPT, Gemini and Perplexity
 DESCRIPTION: How to get recommended by conversational AI. GEO strategies for AI visibility.
-URL: https://monsieurclick.com/blog-appear-in-chatgpt-gemini-perplexity
+URL: https://monsieurclick.com/blog/appear-in-chatgpt-gemini-perplexity
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog, ai-visibility
@@ -11,5 +11,5 @@ How to get recommended by conversational AI. GEO strategies for AI visibility.
 
 This article explores: AI Visibility.
 
-→ Read full article: https://monsieurclick.com/blog-appear-in-chatgpt-gemini-perplexity
+→ Read full article: https://monsieurclick.com/blog/appear-in-chatgpt-gemini-perplexity
 → Blog: https://monsieurclick.com/blog

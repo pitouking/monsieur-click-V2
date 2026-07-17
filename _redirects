@@ -13,7 +13,8 @@
 /okf/  /okf/index.html  200
 /okf/services  /okf/services/index.html  200
 /okf/services/  /okf/services/index.html  200
-/okf/services/*  /okf/services/:splat.html  200
+/okf/services  /okf/services/index.html  200
+/okf/services/  /okf/services/index.html  200
 /okf/blog  /okf/blog/index.html  200
 /okf/blog/  /okf/blog/index.html  200
 /okf/blog/*  /okf/blog/:splat.html  200
@@ -22,3 +23,66 @@
 /texts/  /texts/index.txt  200
 
 /case-studies.html /case-studies/ 301
+
+# Blog migration blog-xxx → /blog/xxx
+/blog-appear-in-chatgpt-gemini-perplexity /blog/appear-in-chatgpt-gemini-perplexity/ 301
+/blog-appear-in-chatgpt-gemini-perplexity.html /blog/appear-in-chatgpt-gemini-perplexity/ 301
+/blog-become-a-reference-business /blog/become-a-reference-business/ 301
+/blog-become-a-reference-business.html /blog/become-a-reference-business/ 301
+/blog-click-first-not-just-seo /blog/click-first-not-just-seo/ 301
+/blog-click-first-not-just-seo.html /blog/click-first-not-just-seo/ 301
+/blog-clients-ask-chatgpt-before-google /blog/clients-ask-chatgpt-before-google/ 301
+/blog-clients-ask-chatgpt-before-google.html /blog/clients-ask-chatgpt-before-google/ 301
+/blog-geo-generative-engine-optimization /blog/geo-generative-engine-optimization/ 301
+/blog-geo-generative-engine-optimization.html /blog/geo-generative-engine-optimization/ 301
+/blog-get-clients-without-advertising /blog/get-clients-without-advertising/ 301
+/blog-get-clients-without-advertising.html /blog/get-clients-without-advertising/ 301
+/blog-get-more-google-reviews /blog/get-more-google-reviews/ 301
+/blog-get-more-google-reviews.html /blog/get-more-google-reviews/ 301
+/blog-google-ads-vs-seo /blog/google-ads-vs-seo/ 301
+/blog-google-ads-vs-seo.html /blog/google-ads-vs-seo/ 301
+/blog-google-business-profile-no-calls /blog/google-business-profile-no-calls/ 301
+/blog-google-business-profile-no-calls.html /blog/google-business-profile-no-calls/ 301
+/blog-how-google-ranks-businesses /blog/how-google-ranks-businesses/ 301
+/blog-how-google-ranks-businesses.html /blog/how-google-ranks-businesses/ 301
+/blog-how-to-choose-an-seo-agency /blog/how-to-choose-an-seo-agency/ 301
+/blog-how-to-choose-an-seo-agency.html /blog/how-to-choose-an-seo-agency/ 301
+/blog-is-a-website-enough-2026 /blog/is-a-website-enough-2026/ 301
+/blog-is-a-website-enough-2026.html /blog/is-a-website-enough-2026/ 301
+/blog-is-your-website-losing-clients /blog/is-your-website-losing-clients/ 301
+/blog-is-your-website-losing-clients.html /blog/is-your-website-losing-clients/ 301
+/blog-seo-agency-pricing-2026 /blog/seo-agency-pricing-2026/ 301
+/blog-seo-agency-pricing-2026.html /blog/seo-agency-pricing-2026/ 301
+/blog-what-is-an-seo-agency /blog/what-is-an-seo-agency/ 301
+/blog-what-is-an-seo-agency.html /blog/what-is-an-seo-agency/ 301
+/blog-why-business-not-on-google /blog/why-business-not-on-google/ 301
+/blog-why-business-not-on-google.html /blog/why-business-not-on-google/ 301
+/blog-why-competitors-rank-ahead /blog/why-competitors-rank-ahead/ 301
+/blog-why-competitors-rank-ahead.html /blog/why-competitors-rank-ahead/ 301
+/blog-will-ai-replace-google /blog/will-ai-replace-google/ 301
+/blog-will-ai-replace-google.html /blog/will-ai-replace-google/ 301
+/blog /blog/ 301
+/blog.html /blog/ 301
+
+# Legacy OKF service filenames → folder URLs (2026 architecture)
+/okf/services/website-creation /okf/services/web-design/ 301
+/okf/services/website-creation.html /okf/services/web-design/ 301
+/okf/services/local-seo-geo-website /okf/services/web-design/ 301
+/okf/services/local-seo-geo-website.html /okf/services/web-design/ 301
+/okf/services/ai-geo-framework /okf/services/generative-engine-optimization/ 301
+/okf/services/ai-geo-framework.html /okf/services/generative-engine-optimization/ 301
+/okf/services/chatgpt-seo /okf/services/generative-engine-optimization/ 301
+/okf/services/chatgpt-seo.html /okf/services/generative-engine-optimization/ 301
+/okf/services/monthly-optimization /okf/services/seo/ 301
+/okf/services/monthly-optimization.html /okf/services/seo/ 301
+/okf/services/storybrand-copywriting /okf/services/web-design/ 301
+/okf/services/storybrand-copywriting.html /okf/services/web-design/ 301
+/okf/case-studies.html /okf/case-studies/ 301
+/glossary/ /services/ 301
+/glossary /services/ 301
+/glossary/local-seo/ /services/local-seo/ 301
+/glossary/local-seo /services/local-seo/ 301
+/glossary/generative-engine-optimization/ /services/generative-engine-optimization/ 301
+/glossary/generative-engine-optimization /services/generative-engine-optimization/ 301
+/glossary/google-business-profile/ /services/google-business-profile/ 301
+/glossary/google-business-profile /services/google-business-profile/ 301

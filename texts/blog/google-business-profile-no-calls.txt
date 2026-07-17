@@ -1,6 +1,6 @@
 TITLE: Google Business Profile With No Calls
 DESCRIPTION: Why optimized profiles get no calls and how to fix it.
-URL: https://monsieurclick.com/blog-google-business-profile-no-calls
+URL: https://monsieurclick.com/blog/google-business-profile-no-calls
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 Why optimized profiles get no calls and how to fix it.
 
-→ Read full article: https://monsieurclick.com/blog-google-business-profile-no-calls
+→ Read full article: https://monsieurclick.com/blog/google-business-profile-no-calls
 → Blog: https://monsieurclick.com/blog

@@ -1,6 +1,6 @@
 TITLE: Is Your Website Losing Clients?
 DESCRIPTION: 10 signs your site drives clients away.
-URL: https://monsieurclick.com/blog-is-your-website-losing-clients
+URL: https://monsieurclick.com/blog/is-your-website-losing-clients
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 10 signs your site drives clients away.
 
-→ Read full article: https://monsieurclick.com/blog-is-your-website-losing-clients
+→ Read full article: https://monsieurclick.com/blog/is-your-website-losing-clients
 → Blog: https://monsieurclick.com/blog

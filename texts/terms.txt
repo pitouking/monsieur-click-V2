@@ -1,12 +1,23 @@
-TITLE: Terms & Conditions
-DESCRIPTION: Terms and conditions for Click First™ services.
+TITLE: Terms
+DESCRIPTION: Terms for Click First™ services.
 URL: https://monsieurclick.com/terms
-TYPE: Legal
+TYPE: WebPage
 LANG: en
-TAGS: terms, conditions, service
+TAGS: monsieur-click,click-first
 
-# Terms & Conditions
+# Terms
 
-Terms and conditions for Click First™ services.
+Terms for Click First™ services.
 
-→ Full page: https://monsieurclick.com/terms
+## Entity
+- Monsieur Click · Click First™
+- 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- +33 6 60 76 15 23 · contact@monsieurclick.com
+
+## Links
+→ Page: https://monsieurclick.com/terms
+→ OKF hub: https://monsieurclick.com/okf/
+→ llms.txt: https://monsieurclick.com/llms.txt
+→ FR twin site: https://monsieurclick.fr/
+→ FR OKF: https://monsieurclick.fr/okf/
+

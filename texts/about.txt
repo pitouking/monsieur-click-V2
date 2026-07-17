@@ -1,12 +1,23 @@
-TITLE: About | Monsieur Click
-DESCRIPTION: Monsieur Click, creator of Click First™. 100% remote. Founder Jean-Pierre Baguette.
+TITLE: About
+DESCRIPTION: Jean-Pierre Baguette, creator of Click First™. 100% remote.
 URL: https://monsieurclick.com/about
-TYPE: Page
+TYPE: AboutPage
 LANG: en
-TAGS: about, monsieur-click, founder
+TAGS: monsieur-click,click-first
 
-# About | Monsieur Click
+# About
 
-Monsieur Click, creator of Click First™. 100% remote. Founder Jean-Pierre Baguette.
+Jean-Pierre Baguette, creator of Click First™. 100% remote.
 
-→ Full page: https://monsieurclick.com/about
+## Entity
+- Monsieur Click · Click First™
+- 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- +33 6 60 76 15 23 · contact@monsieurclick.com
+
+## Links
+→ Page: https://monsieurclick.com/about
+→ OKF hub: https://monsieurclick.com/okf/
+→ llms.txt: https://monsieurclick.com/llms.txt
+→ FR twin site: https://monsieurclick.fr/
+→ FR OKF: https://monsieurclick.fr/okf/
+

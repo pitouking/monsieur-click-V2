@@ -1,6 +1,6 @@
 TITLE: Click First™ is Not Just SEO
 DESCRIPTION: The problem isn't the tools, it's their isolation. Click First connects them into one system.
-URL: https://monsieurclick.com/blog-click-first-not-just-seo
+URL: https://monsieurclick.com/blog/click-first-not-just-seo
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog, strategy
@@ -11,5 +11,5 @@ The problem isn't the tools, it's their isolation. Click First connects them int
 
 This article explores: Strategy.
 
-→ Read full article: https://monsieurclick.com/blog-click-first-not-just-seo
+→ Read full article: https://monsieurclick.com/blog/click-first-not-just-seo
 → Blog: https://monsieurclick.com/blog

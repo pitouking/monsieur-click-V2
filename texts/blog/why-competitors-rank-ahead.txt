@@ -1,6 +1,6 @@
 TITLE: Why Competitors Rank Ahead of You
 DESCRIPTION: 5 reasons competitors outrank you.
-URL: https://monsieurclick.com/blog-why-competitors-rank-ahead
+URL: https://monsieurclick.com/blog/why-competitors-rank-ahead
 TYPE: BlogArticle
 LANG: en
 TAGS: monsieur-click, blog
@@ -9,5 +9,5 @@ TAGS: monsieur-click, blog
 
 5 reasons competitors outrank you.
 
-→ Read full article: https://monsieurclick.com/blog-why-competitors-rank-ahead
+→ Read full article: https://monsieurclick.com/blog/why-competitors-rank-ahead
 → Blog: https://monsieurclick.com/blog

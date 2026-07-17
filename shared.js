@@ -1,5 +1,5 @@
 document.documentElement.classList.add('js');
-// Monsieur Click — script partagé des pages intérieures
+// Monsieur Click — shared interior pages script (EN)
 (function(){
   const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
   let ticking=false;
@@ -40,14 +40,25 @@ document.documentElement.classList.add('js');
     if(!open){item.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
   }));
 
+  /* a.fcard: capture navigation so third-party scripts cannot swallow clicks */
+  document.addEventListener('click',function(e){
+    if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+    const card=e.target&&e.target.closest&&e.target.closest('a.fcard');
+    if(!card)return;
+    const href=card.getAttribute('href');
+    if(!href||href.charAt(0)==='#')return;
+    e.preventDefault();
+    location.assign(card.href);
+  },true);
+
   const form=document.getElementById('auditForm'),msg=document.getElementById('cformMsg');
   if(form){form.addEventListener('submit',async e=>{
     e.preventDefault();const key=form.querySelector('[name=access_key]').value;if(msg)msg.style.display='block';
-    if(key==='VOTRE_CLE_WEB3FORMS'){if(msg)msg.textContent='Formulaire à connecter (clé Web3Forms ou GoHighLevel) avant mise en ligne.';return;}
-    if(msg)msg.textContent='Envoi en cours...';
+    if(key==='VOTRE_CLE_WEB3FORMS'){if(msg)msg.textContent='Connect this form (Web3Forms or GoHighLevel) before go-live.';return;}
+    if(msg)msg.textContent='Sending...';
     try{const r=await fetch(form.action,{method:'POST',body:new FormData(form)});
-      if(msg)msg.textContent=r.ok?'Merci ! Votre demande est envoyée. Réponse sous 24 h ouvrées.':'Une erreur est survenue, réessayez ou écrivez à contact@monsieurclick.com.';
+      if(msg)msg.textContent=r.ok?'Thank you. Your request was sent. We reply within 24 business hours.':'Something went wrong. Try again or email contact@monsieurclick.com.';
       if(r.ok)form.reset();}
-    catch{if(msg)msg.textContent='Une erreur est survenue, réessayez ou écrivez à contact@monsieurclick.com.';}
+    catch{if(msg)msg.textContent='Something went wrong. Try again or email contact@monsieurclick.com.';}
   });}
 })();

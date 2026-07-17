@@ -1,0 +1,15 @@
+TITLE: Google Business Profile
+DESCRIPTION: Glossary entry: Google Business Profile
+URL: https://monsieurclick.com/glossary/google-business-profile/
+TYPE: DefinedTerm
+LANG: en
+TAGS: glossary,seo
+
+# Google Business Profile
+
+Citable definition for Google Business Profile.
+
+→ https://monsieurclick.com/glossary/google-business-profile/
+→ Glossary hub: https://monsieurclick.com/glossary/
+→ FR glossaire: https://monsieurclick.fr/glossaire/
+
