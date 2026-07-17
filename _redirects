@@ -59,3 +59,11 @@
 # Realisations hub (folder) + legacy flat
 /realisations.html /realisations/ 301
 /case-studies.html /case-studies/ 301
+/glossaire/ /services/ 301
+/glossaire /services/ 301
+/glossaire/seo-local/ /services/seo-local/ 301
+/glossaire/seo-local /services/seo-local/ 301
+/glossaire/optimisation-moteurs-generatifs/ /services/visibilite-ia-geo/ 301
+/glossaire/optimisation-moteurs-generatifs /services/visibilite-ia-geo/ 301
+/glossaire/google-business-profile/ /services/google-business-profile/ 301
+/glossaire/google-business-profile /services/google-business-profile/ 301

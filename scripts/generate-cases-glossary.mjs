@@ -266,7 +266,7 @@ function casePageFr(c) {
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/realisations/${c.slug}/">
 <meta property="og:title" content="${c.name} | Réalisations Monsieur Click">
 <meta property="og:type" content="article">
-<link rel="stylesheet" href="/css/main.css?v=20260716g">
+<link rel="stylesheet" href="/css/main.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Accueil","item":"https://monsieurclick.fr/"},
@@ -343,7 +343,7 @@ function casePageEn(c) {
 <link rel="alternate" hreflang="en" href="https://monsieurclick.com/case-studies/${c.slug}/">
 <link rel="alternate" hreflang="fr" href="https://monsieurclick.fr/realisations/${c.slug}/">
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/realisations/${c.slug}/">
-<link rel="stylesheet" href="/styles.css?v=20260716g">
+<link rel="stylesheet" href="/styles.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Home","item":"https://monsieurclick.com/"},
@@ -442,7 +442,7 @@ const frHub = `<!DOCTYPE html>
 <link rel="alternate" hreflang="fr" href="https://monsieurclick.fr/realisations/">
 <link rel="alternate" hreflang="en" href="https://monsieurclick.com/case-studies/">
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/realisations/">
-<link rel="stylesheet" href="/css/main.css?v=20260716g">
+<link rel="stylesheet" href="/css/main.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Accueil","item":"https://monsieurclick.fr/"},
@@ -506,7 +506,7 @@ const enHub = `<!DOCTYPE html>
 <link rel="alternate" hreflang="en" href="https://monsieurclick.com/case-studies/">
 <link rel="alternate" hreflang="fr" href="https://monsieurclick.fr/realisations/">
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/realisations/">
-<link rel="stylesheet" href="/styles.css?v=20260716g">
+<link rel="stylesheet" href="/styles.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ItemList","name":"Monsieur Click case studies","itemListElement":${JSON.stringify(
   cases.map((c, i) => ({
@@ -625,7 +625,7 @@ function glossEntryFr(g) {
 <link rel="alternate" hreflang="fr" href="https://monsieurclick.fr/glossaire/${g.slug}/">
 <link rel="alternate" hreflang="en" href="https://monsieurclick.com/glossary/${g.slug === 'seo-local' ? 'local-seo' : g.slug === 'optimisation-moteurs-generatifs' ? 'generative-engine-optimization' : g.slug}/">
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/glossaire/${g.slug}/">
-<link rel="stylesheet" href="/css/main.css?v=20260716g">
+<link rel="stylesheet" href="/css/main.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"DefinedTerm","name":"${g.h1}","description":${JSON.stringify(g.def)},"inDefinedTermSet":"https://monsieurclick.fr/glossaire/","url":"https://monsieurclick.fr/glossaire/${g.slug}/"}
 </script>
@@ -675,7 +675,7 @@ function glossEntryEn(g) {
 <link rel="alternate" hreflang="en" href="https://monsieurclick.com/glossary/${g.slug}/">
 <link rel="alternate" hreflang="fr" href="https://monsieurclick.fr/glossaire/${frSlug}/">
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/glossaire/${frSlug}/">
-<link rel="stylesheet" href="/styles.css?v=20260716g">
+<link rel="stylesheet" href="/styles.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"DefinedTerm","name":"${g.h1}","description":${JSON.stringify(g.def)},"inDefinedTermSet":"https://monsieurclick.com/glossary/","url":"https://monsieurclick.com/glossary/${g.slug}/"}
 </script>
@@ -712,7 +712,7 @@ const glossHubFr = `<!DOCTYPE html>
 <link rel="alternate" hreflang="fr" href="https://monsieurclick.fr/glossaire/">
 <link rel="alternate" hreflang="en" href="https://monsieurclick.com/glossary/">
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/glossaire/">
-<link rel="stylesheet" href="/css/main.css?v=20260716g">
+<link rel="stylesheet" href="/css/main.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"DefinedTermSet","name":"Glossaire SEO & GEO Monsieur Click","url":"https://monsieurclick.fr/glossaire/","hasDefinedTerm":[
 {"@type":"DefinedTerm","name":"SEO local","url":"https://monsieurclick.fr/glossaire/seo-local/"},
@@ -759,7 +759,7 @@ const glossHubEn = `<!DOCTYPE html>
 <link rel="alternate" hreflang="en" href="https://monsieurclick.com/glossary/">
 <link rel="alternate" hreflang="fr" href="https://monsieurclick.fr/glossaire/">
 <link rel="alternate" hreflang="x-default" href="https://monsieurclick.fr/glossaire/">
-<link rel="stylesheet" href="/styles.css?v=20260716g">
+<link rel="stylesheet" href="/styles.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"DefinedTermSet","name":"Monsieur Click SEO & GEO Glossary","url":"https://monsieurclick.com/glossary/"}
 </script>

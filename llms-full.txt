@@ -26,6 +26,7 @@ Réseaux sociaux : LinkedIn, Twitter/X, Instagram
 Bundle OKF : https://monsieurclick.fr/okf/
 Bundle OKF EN : https://monsieurclick.com/okf/
 Bundle texts : https://monsieurclick.fr/texts/
+Bundle texts EN : https://monsieurclick.com/texts/
 
 ================================================================================
 PAGE : Accueil

@@ -89,18 +89,22 @@
   }
 
   function mountFormIframe(root){
-    var iframe=root&&(root.querySelector?root.querySelector('iframe[data-src]'):null);
-    if(iframe&&iframe.dataset.src&&!iframe.getAttribute('src'))
-      iframe.setAttribute('src',iframe.dataset.src);
+    if(!root||!root.querySelectorAll)return;
+    root.querySelectorAll('iframe[data-src]').forEach(function(iframe){
+      if(iframe.dataset.src&&!iframe.getAttribute('src'))
+        iframe.setAttribute('src',iframe.dataset.src);
+    });
+  }
+
+  function bootEmbeds(root){
+    mountFormIframe(root||document);
+    if(!document.querySelector('script[src*="form_embed.js"]'))
+      loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
   }
 
   var parlons=document.getElementById('parlons');
   if(parlons){
-    function bootForm(){
-      mountFormIframe(parlons);
-      if(document.querySelector('script[src*="form_embed.js"]'))return;
-      loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
-    }
+    function bootForm(){bootEmbeds(parlons);}
     if(location.hash==='#parlons'||location.hash==='#contact')bootForm();
     if('IntersectionObserver' in window){
       /* Pas de getBoundingClientRect synchrone (forced layout / TBT) */
@@ -115,13 +119,12 @@
     }else onLoad(bootForm,2000);
   }
 
-  var contactIframe=document.querySelector('iframe[data-src*="widget/form/"]');
-  if(contactIframe&&!parlons){
+  var contactEmbeds=document.querySelectorAll('iframe[data-src*="widget/form/"],iframe[data-src*="widget/booking/"]');
+  if(contactEmbeds.length&&!parlons){
     function bootContactForm(){
-      mountFormIframe(contactIframe.parentElement||document);
-      if(!document.querySelector('script[src*="form_embed.js"]'))
-        loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
+      bootEmbeds(document);
     }
+    if(location.hash==='#rdv'||location.hash==='#contact')bootContactForm();
     if('IntersectionObserver' in window){
       var cio=new IntersectionObserver(function(entries,o){
         entries.forEach(function(e){
@@ -130,7 +133,8 @@
           bootContactForm();
         });
       },{rootMargin:'480px 0px',threshold:0});
-      cio.observe(contactIframe);
+      cio.observe(contactEmbeds[0]);
+      if(contactEmbeds.length>1)cio.observe(contactEmbeds[contactEmbeds.length-1]);
     }else onLoad(bootContactForm,2000);
   }
 

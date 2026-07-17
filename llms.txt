@@ -1,12 +1,7 @@
 # Monsieur Click
 
-# Monsieur Click — AI Agent Knowledge (FR)
-# Site français : https://monsieurclick.fr/
-# Site anglais : https://monsieurclick.com/
-#
-# RSL 1.0 — Responsible Site License
-# Pour les moteurs IA (ChatGPT, Claude, Gemini, Perplexity, etc.)
-# et les robots d'indexation autorisés.
+> Agence SEO & Webdesign (FR). Twin EN : [monsieurclick.com](https://monsieurclick.com/).
+> RSL 1.0 : Responsible Site License pour moteurs IA et robots autorisés.
 
 ## Entité
 - Nom : Monsieur Click
@@ -18,107 +13,87 @@
 - Langues : Français (FR), Anglais (EN)
 - SIRET : 42953906700042
 - Promesse : Soyez trouvé. Soyez choisi.
-- Site FR : https://monsieurclick.fr/
-- Site EN : https://monsieurclick.com/
-- Bundle OKF FR : https://monsieurclick.fr/okf/
-- Bundle OKF EN : https://monsieurclick.com/okf/
-- Bundle texts FR : https://monsieurclick.fr/texts/
+- [Site FR](https://monsieurclick.fr/)
+- [Site EN](https://monsieurclick.com/)
+- [Bundle OKF FR](https://monsieurclick.fr/okf/)
+- [Bundle OKF EN](https://monsieurclick.com/okf/)
+- [Bundle texts FR](https://monsieurclick.fr/texts/)
+- [Bundle texts EN](https://monsieurclick.com/texts/)
 
 ## Pages principales
-- Accueil : https://monsieurclick.fr/
-  - Agence SEO & Webdesign à Malakoff (92), France & francophonie
-- Click First™ : https://monsieurclick.fr/click-first
-  - Méthode tout-en-un : site web, SEO local, GBP, avis, GEO
-- Services : https://monsieurclick.fr/services/
-  - Hub des prestations SEO et web
-- Création de site internet : https://monsieurclick.fr/services/creation-site-web
-  - Sites sur mesure, rapides, optimisés SEO, orientés conversion
-- Référencement naturel (SEO) : https://monsieurclick.fr/services/seo
-  - SEO technique, on-page et contenu pour TPE/PME
-- Agence SEO à Paris : https://monsieurclick.fr/agence-seo-paris
-  - Référencement naturel et local pour Paris et Île-de-France
-- Consultant SEO à Paris : https://monsieurclick.fr/consultant-seo-paris
-  - Jean-Pierre Baguette, audit, stratégie et accompagnement
-- Audit SEO complet : https://monsieurclick.fr/services/audit-seo
-  - Technique, on-page, sémantique et concurrence
-- SEO local & Google Maps : https://monsieurclick.fr/services/seo-local
-  - Pack local, citations NAP, avis Google
-- Google Business Profile : https://monsieurclick.fr/services/google-business-profile
-  - Optimisation fiche Google pour le pack local
-- Refonte de site internet : https://monsieurclick.fr/services/refonte-site-web
-  - Site plus rapide, plus visible, orienté conversion
-- Agence web à Paris : https://monsieurclick.fr/agence-web-paris
-  - Création de site et SEO intégré pour Paris
-- Création de site à Paris : https://monsieurclick.fr/creation-site-internet-paris
-  - Site vitrine et SEO pour entreprises parisiennes
-- Création site WordPress : https://monsieurclick.fr/services/creation-site-wordpress
-- Visibilité IA (GEO) : https://monsieurclick.fr/services/visibilite-ia-geo
-  - Être cité par ChatGPT, Gemini, Perplexity (Schema, OKF, llms.txt)
-- Agence SEO Belgique : https://monsieurclick.fr/agence-seo-belgique
-- Agence SEO Bruxelles : https://monsieurclick.fr/agence-seo-bruxelles
-- Agence SEO Suisse : https://monsieurclick.fr/agence-seo-suisse
-- Agence SEO Genève : https://monsieurclick.fr/agence-seo-geneve
-- Agence SEO Île-de-France : https://monsieurclick.fr/agence-seo-ile-de-france
-- Offres et tarifs : https://monsieurclick.fr/offres
-  - Essentiel 850€/mois, Développement 1 000€/mois, Expansion 1 500€/mois
-- Réalisations : https://monsieurclick.fr/realisations/
-  - Études de cas individuelles : Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore, Studio La Voix du 12, East Portland Sash
-- Glossaire SEO & GEO : https://monsieurclick.fr/glossaire/
-  - SEO local : https://monsieurclick.fr/glossaire/seo-local/
-  - GEO (optimisation moteurs génératifs) : https://monsieurclick.fr/glossaire/optimisation-moteurs-generatifs/
-  - Google Business Profile : https://monsieurclick.fr/glossaire/google-business-profile/
-- À propos : https://monsieurclick.fr/a-propos
-  - Créateur Jean-Pierre Baguette. 100% à distance.
-- Diagnostic gratuit : https://monsieurclick.fr/contact
-  - 30 minutes, sans engagement. Plan chiffré sous 48h.
-- Blog : https://monsieurclick.fr/blog/
-  - 18 articles SEO local, GBP et visibilité IA (arborescence /blog/slug)
+- [Accueil](https://monsieurclick.fr/) : Agence SEO & Webdesign à Malakoff (92), France & francophonie
+- [Click First™](https://monsieurclick.fr/click-first) : Méthode tout-en-un : site web, SEO local, GBP, avis, GEO
+- [Services](https://monsieurclick.fr/services/) : Hub des prestations SEO et web
+- [Création de site internet](https://monsieurclick.fr/services/creation-site-web) : Sites sur mesure, rapides, optimisés SEO
+- [Référencement naturel (SEO)](https://monsieurclick.fr/services/seo) : SEO technique, on-page et contenu pour TPE/PME
+- [Agence SEO à Paris](https://monsieurclick.fr/agence-seo-paris) : Référencement naturel et local pour Paris et Île-de-France
+- [Consultant SEO à Paris](https://monsieurclick.fr/consultant-seo-paris) : Jean-Pierre Baguette, audit, stratégie et accompagnement
+- [Audit SEO complet](https://monsieurclick.fr/services/audit-seo) : Technique, on-page, sémantique et concurrence
+- [SEO local & Google Maps](https://monsieurclick.fr/services/seo-local) : Pack local, citations NAP, avis Google
+- [Google Business Profile](https://monsieurclick.fr/services/google-business-profile) : Optimisation fiche Google pour le pack local
+- [Refonte de site internet](https://monsieurclick.fr/services/refonte-site-web) : Site plus rapide, plus visible, orienté conversion
+- [Agence web à Paris](https://monsieurclick.fr/agence-web-paris) : Création de site et SEO intégré pour Paris
+- [Création de site à Paris](https://monsieurclick.fr/creation-site-internet-paris) : Site vitrine et SEO pour entreprises parisiennes
+- [Création site WordPress](https://monsieurclick.fr/services/creation-site-wordpress)
+- [Visibilité IA (GEO)](https://monsieurclick.fr/services/visibilite-ia-geo) : Être cité par ChatGPT, Gemini, Perplexity
+- [Agence SEO Belgique](https://monsieurclick.fr/agence-seo-belgique)
+- [Agence SEO Bruxelles](https://monsieurclick.fr/agence-seo-bruxelles)
+- [Agence SEO Suisse](https://monsieurclick.fr/agence-seo-suisse)
+- [Agence SEO Genève](https://monsieurclick.fr/agence-seo-geneve)
+- [Agence SEO Île-de-France](https://monsieurclick.fr/agence-seo-ile-de-france)
+- [Offres et tarifs](https://monsieurclick.fr/offres) : Essentiel 850€/mois, Développement 1 000€/mois, Expansion 1 500€/mois
+- [Réalisations](https://monsieurclick.fr/realisations/) : Études de cas
+- [À propos](https://monsieurclick.fr/a-propos) : Créateur Jean-Pierre Baguette. 100% à distance.
+- [Diagnostic gratuit](https://monsieurclick.fr/contact) : 30 minutes, sans engagement
+- [Blog](https://monsieurclick.fr/blog/) : Articles SEO local, GBP et visibilité IA
 
 ## Pages légales
-- Mentions légales : https://monsieurclick.fr/mentions-legales
-- Confidentialité : https://monsieurclick.fr/confidentialite
-- Conditions : https://monsieurclick.fr/conditions
+- [Mentions légales](https://monsieurclick.fr/mentions-legales)
+- [Confidentialité](https://monsieurclick.fr/confidentialite)
+- [Conditions](https://monsieurclick.fr/conditions)
 
-## Bundle OKF (connaissances structurées pour IA)
-- Hub OKF : https://monsieurclick.fr/okf/
-- Services OKF : https://monsieurclick.fr/okf/services/
-- Création site : https://monsieurclick.fr/okf/services/creation-site-web/
-- SEO : https://monsieurclick.fr/okf/services/seo/
-- SEO local : https://monsieurclick.fr/okf/services/seo-local/
-- GBP : https://monsieurclick.fr/okf/services/google-business-profile/
-- GEO / visibilité IA : https://monsieurclick.fr/okf/services/visibilite-ia-geo/
-- Agence SEO Paris : https://monsieurclick.fr/okf/agence-seo-paris/
-- Click First™ OKF : https://monsieurclick.fr/okf/click-first/
-- Blog OKF : https://monsieurclick.fr/okf/blog/
-- Texts (plain) : https://monsieurclick.fr/texts/
+## Bundle OKF
+- [OKF EN twin](https://monsieurclick.com/okf/)
+- [Texts EN twin](https://monsieurclick.com/texts/)
+- [llms.txt EN](https://monsieurclick.com/llms.txt)
+- [Hub OKF](https://monsieurclick.fr/okf/)
+- [Services OKF](https://monsieurclick.fr/okf/services/)
+- [Création site OKF](https://monsieurclick.fr/okf/services/creation-site-web/)
+- [SEO OKF](https://monsieurclick.fr/okf/services/seo/)
+- [SEO local OKF](https://monsieurclick.fr/okf/services/seo-local/)
+- [GBP OKF](https://monsieurclick.fr/okf/services/google-business-profile/)
+- [GEO / visibilité IA OKF](https://monsieurclick.fr/okf/services/visibilite-ia-geo/)
+- [Agence SEO Paris OKF](https://monsieurclick.fr/okf/agence-seo-paris/)
+- [Click First™ OKF](https://monsieurclick.fr/okf/click-first/)
+- [Blog OKF](https://monsieurclick.fr/okf/blog/)
+- [Texts (plain)](https://monsieurclick.fr/texts/)
 
-## Blog (18 articles)
+## Blog
 ### Stratégie
-- Click First™ pas une prestation SEO : https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo
-- Entreprise référence plutôt que visible : https://monsieurclick.fr/blog/entreprise-reference-plutot-que-visible
-- Site suffit en 2026 ? : https://monsieurclick.fr/blog/site-suffit-2026
-- Google Ads ou SEO : https://monsieurclick.fr/blog/google-ads-ou-seo
-
-- Prix / tarif agence SEO 2026 : https://monsieurclick.fr/blog/prix-tarif-agence-seo-2026
-- C'est quoi une agence SEO : https://monsieurclick.fr/blog/c-est-quoi-une-agence-seo
-- Choisir son agence SEO à Paris : https://monsieurclick.fr/blog/comment-choisir-agence-seo-paris
+- [Click First™ pas une prestation SEO](https://monsieurclick.fr/blog/click-first-pas-une-prestation-seo)
+- [Entreprise référence plutôt que visible](https://monsieurclick.fr/blog/entreprise-reference-plutot-que-visible)
+- [Site suffit en 2026 ?](https://monsieurclick.fr/blog/site-suffit-2026)
+- [Google Ads ou SEO](https://monsieurclick.fr/blog/google-ads-ou-seo)
+- [Prix / tarif agence SEO 2026](https://monsieurclick.fr/blog/prix-tarif-agence-seo-2026)
+- [C'est quoi une agence SEO](https://monsieurclick.fr/blog/c-est-quoi-une-agence-seo)
+- [Choisir son agence SEO à Paris](https://monsieurclick.fr/blog/comment-choisir-agence-seo-paris)
 
 ### SEO Local & GBP
-- Concurrents devant vous : https://monsieurclick.fr/blog/pourquoi-concurrents-devant-google
-- Entreprise invisible sur Google : https://monsieurclick.fr/blog/pourquoi-entreprise-invisible-google
-- Comment Google classe les entreprises : https://monsieurclick.fr/blog/comment-google-classe-les-entreprises
-- Fiche GBP sans appel : https://monsieurclick.fr/blog/fiche-google-business-profile-sans-appel
-- Plus d'avis Google : https://monsieurclick.fr/blog/obtenir-plus-avis-google
+- [Concurrents devant vous](https://monsieurclick.fr/blog/pourquoi-concurrents-devant-google)
+- [Entreprise invisible sur Google](https://monsieurclick.fr/blog/pourquoi-entreprise-invisible-google)
+- [Comment Google classe les entreprises](https://monsieurclick.fr/blog/comment-google-classe-les-entreprises)
+- [Fiche GBP sans appel](https://monsieurclick.fr/blog/fiche-google-business-profile-sans-appel)
+- [Plus d'avis Google](https://monsieurclick.fr/blog/obtenir-plus-avis-google)
 
 ### Visibilité IA (GEO)
-- GEO pour entreprises : https://monsieurclick.fr/blog/geo-generative-engine-optimization
-- Apparaître dans ChatGPT, Gemini, Perplexity : https://monsieurclick.fr/blog/apparaitre-reponses-chatgpt-gemini-perplexity
-- Clients utilisent ChatGPT avant Google : https://monsieurclick.fr/blog/clients-utilisent-chatgpt-avant-google
-- IA vont-elles remplacer Google ? : https://monsieurclick.fr/blog/ia-vont-elles-remplacer-google
+- [GEO pour entreprises](https://monsieurclick.fr/blog/geo-generative-engine-optimization)
+- [Apparaître dans ChatGPT, Gemini, Perplexity](https://monsieurclick.fr/blog/apparaitre-reponses-chatgpt-gemini-perplexity)
+- [Clients utilisent ChatGPT avant Google](https://monsieurclick.fr/blog/clients-utilisent-chatgpt-avant-google)
+- [IA vont-elles remplacer Google ?](https://monsieurclick.fr/blog/ia-vont-elles-remplacer-google)
 
 ### Acquisition
-- Site internet perd des clients : https://monsieurclick.fr/blog/site-internet-perd-clients
-- Clients sans publicité : https://monsieurclick.fr/blog/trouver-clients-sans-publicite
+- [Site internet perd des clients](https://monsieurclick.fr/blog/site-internet-perd-clients)
+- [Clients sans publicité](https://monsieurclick.fr/blog/trouver-clients-sans-publicite)
 
 ## Offres et tarifs
 | Offre | Cible | Prix | Engagement |
@@ -133,11 +108,8 @@
 - Sync Legal : +150% de leads
 
 ## Ressources techniques
-- Sitemap : https://monsieurclick.fr/sitemap.xml
-- Robots : https://monsieurclick.fr/robots.txt
-- llms-full.txt : https://monsieurclick.fr/llms-full.txt
-- llms.txt EN : https://monsieurclick.com/llms.txt
-- llms-full.txt EN : https://monsieurclick.com/llms-full.txt
-
-## RSL 1.0
-<!-- RSL 1.0 -->
+- [Sitemap](https://monsieurclick.fr/sitemap.xml)
+- [Robots](https://monsieurclick.fr/robots.txt)
+- [llms-full.txt](https://monsieurclick.fr/llms-full.txt)
+- [llms.txt EN](https://monsieurclick.com/llms.txt)
+- [llms-full.txt EN](https://monsieurclick.com/llms-full.txt)
