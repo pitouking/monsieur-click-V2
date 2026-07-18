@@ -1,6 +1,6 @@
-## vexp <!-- vexp v2.1.0 -->
+## vexp <!-- vexp v2.2.1 -->
 
-**MANDATORY: use `run_pipeline` - do NOT grep or glob the codebase.**
+**MANDATORY: use `run_pipeline` - do NOT grep, glob, or read files manually.**
 vexp returns pre-indexed, graph-ranked context in a single call.
 
 ### Workflow
@@ -20,8 +20,15 @@ vexp returns pre-indexed, graph-ranked context in a single call.
 - If you spawn sub-agents or background tasks, pass them the context from `run_pipeline`
   rather than letting them search the codebase independently
 
-### Smart Features
-Intent auto-detection, hybrid ranking, session memory, auto-expanding budget.
+### Tips
+- Include real identifiers (class/function names) or file paths in the task - literal
+  matches rank best; pure natural-language phrasing falls back to text ranking
+- Add `include_tests: true` when debugging
+- Use `preset: "refactor"` for deep impact analysis
+
+### Fallback
+If `run_pipeline` returns 0 pivots with an INDEX EMPTY warning, the index is rebuilding.
+Use file search and read tools directly until the index is ready.
 
 ### Multi-Repo
 `run_pipeline` auto-queries all indexed repos. Use `repos: ["alias"]` to scope. Run `index_status` to see aliases.

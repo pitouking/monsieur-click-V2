@@ -22,3 +22,9 @@ User-agent: Bytespider
 Allow: /
 
 Sitemap: https://monsieurclick.fr/sitemap.xml
+
+# AI knowledge files
+# https://monsieurclick.fr/llms.txt
+# https://monsieurclick.fr/llms-full.txt
+# https://monsieurclick.fr/okf/
+# https://monsieurclick.fr/texts/

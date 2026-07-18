@@ -22,17 +22,14 @@
 <path d="M0 0 H150 A40 40 0 0 1 110 40 H0 Z" fill="#35a7e6" opacity=".10"/>
 <path d="M800 450 H650 A40 40 0 0 1 690 410 H800 Z" fill="#f0522a" opacity=".12"/>
 
-<rect x="396" y="120" width="8" height="180" rx="4" fill="#9fb4d6"/>
-<rect x="330" y="300" width="140" height="16" rx="8" fill="#9fb4d6"/>
-<line x1="250" y1="150" x2="550" y2="150" stroke="#9fb4d6" stroke-width="8" stroke-linecap="round"/>
-<g stroke="#35a7e6" stroke-width="3">
-<line x1="250" y1="150" x2="250" y2="205"/><line x1="250" y1="150" x2="310" y2="205"/>
-</g>
-<path d="M235 205 h90 l-14 40 h-62 Z" fill="url(#or)"/>
-<g stroke="#35a7e6" stroke-width="3">
-<line x1="550" y1="150" x2="490" y2="195"/><line x1="550" y1="150" x2="550" y2="195"/>
-</g>
-<path d="M478 195 h84 l-13 38 h-58 Z" fill="url(#cy)"/>
-<circle cx="400" cy="120" r="14" fill="#ffc24b"/>
-
+<!-- Pricing bars -->
+<rect x="220" y="280" width="70" height="70" rx="10" fill="#1a3558" stroke="#9fb4d6" stroke-width="3"/>
+<rect x="320" y="220" width="70" height="130" rx="10" fill="url(#cy)"/>
+<rect x="420" y="160" width="70" height="190" rx="10" fill="url(#or)"/>
+<rect x="520" y="200" width="70" height="150" rx="10" fill="#35a7e6" opacity=".75"/>
+<!-- baseline -->
+<line x1="200" y1="360" x2="620" y2="360" stroke="#9fb4d6" stroke-width="6" stroke-linecap="round"/>
+<!-- euro badge -->
+<circle cx="400" cy="120" r="42" fill="#0f2748" stroke="#ffc24b" stroke-width="5"/>
+<text x="400" y="136" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffc24b">€</text>
 </svg>
