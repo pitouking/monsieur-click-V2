@@ -58,7 +58,6 @@
 
 # Realisations hub (folder) + legacy flat
 /realisations.html /realisations/ 301
-/case-studies.html /case-studies/ 301
 /glossaire/ /services/ 301
 /glossaire /services/ 301
 /glossaire/seo-local/ /services/seo-local/ 301
@@ -67,3 +66,28 @@
 /glossaire/optimisation-moteurs-generatifs /services/visibilite-ia-geo/ 301
 /glossaire/google-business-profile/ /services/google-business-profile/ 301
 /glossaire/google-business-profile /services/google-business-profile/ 301
+
+# English slug on .fr + cross-language paths
+/about /a-propos 301
+/about.html /a-propos 301
+/about/ /a-propos 301
+/case-studies /realisations/ 301
+/case-studies/ /realisations/ 301
+/case-studies.html /realisations/ 301
+/glossaire/index.html /services/ 301
+/glossaire.html /services/ 301
+/blog-c-est-quoi-une-agence-seo /blog/c-est-quoi-une-agence-seo/ 301
+/blog-c-est-quoi-une-agence-seo.html /blog/c-est-quoi-une-agence-seo/ 301
+
+# Flat .html → clean URLs (avoid duplicate signals)
+/a-propos.html /a-propos 301
+/a-propos/ /a-propos 301
+/conditions.html /conditions 301
+/conditions/ /conditions 301
+/contact.html /contact 301
+/offres.html /offres 301
+/click-first.html /click-first 301
+/methode.html /methode 301
+/confidentialite.html /confidentialite 301
+/mentions-legales.html /mentions-legales 301
+/blog.html /blog/ 301

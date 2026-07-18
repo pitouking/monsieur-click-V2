@@ -30,6 +30,10 @@ const cases = [
     quoteFr: 'Notre club est maintenant premier dans les recherches Google sur tout le département. Jean a compris exactement ce dont nous avions besoin et a livré un site que nos membres adorent.',
     quoteEn: 'Our club is now first in Google searches across the whole area. Jean understood exactly what we needed and delivered a site our members love.',
     who: 'Assogym, Coulombs',
+    tldrFr: 'Invisible sur Google → #1 département, +40 % inscriptions',
+    tldrEn: 'Invisible on Google → #1 in area, +40% sign-ups',
+    tagsFr: ['SEO local', 'Google Business Profile', 'GEO', 'WordPress'],
+    tagsEn: ['Local SEO', 'Google Business Profile', 'GEO', 'WordPress'],
   },
   {
     slug: 'dharma-massage-therapy',
@@ -49,6 +53,10 @@ const cases = [
     quoteFr: 'Avant Monsieur Click, mon site disait "massage", et j\'attirais des clients de spa. Maintenant mon site dit "massage médical" et attire exactement les patients que je suis formé à aider.',
     quoteEn: 'Before Monsieur Click, my site said "massage" and attracted spa clients. Now it says "medical massage" and attracts exactly the patients I am trained to help.',
     who: 'Dharma Massage Therapy',
+    tldrFr: 'Site « spa » → mots-clés médicaux #1, bonne clientèle',
+    tldrEn: '"Spa" positioning → medical keywords #1, ideal clientele',
+    tagsFr: ['StoryBrand', 'SEO local', 'Google Business Profile', 'Réservation'],
+    tagsEn: ['StoryBrand', 'Local SEO', 'Google Business Profile', 'Booking'],
   },
   {
     slug: 'susan-filan',
@@ -68,6 +76,10 @@ const cases = [
     quoteFr: 'Si vous cherchez quelqu\'un pour créer votre site web, arrêtez de chercher. JP est patient, brillant, et comprend instinctivement ce que vous essayez de créer.',
     quoteEn: 'If you are looking for someone to build your website, stop looking. JP is patient, brilliant, and instinctively understands what you are trying to create.',
     who: 'Susan Filan, Avocate',
+    tldrFr: 'Zéro visibilité niche → 1re page Google, citée par ChatGPT',
+    tldrEn: 'Zero niche visibility → Google page 1, cited by ChatGPT',
+    tagsFr: ['Marque personnelle', 'SEO niche', 'GEO', 'Avocat'],
+    tagsEn: ['Personal brand', 'Niche SEO', 'GEO', 'Attorney'],
   },
   {
     slug: 'bodyguard-paris',
@@ -87,6 +99,10 @@ const cases = [
     quoteFr: 'Notre réputation a toujours été solide, mais nous n\'avions rien pour le montrer en ligne. Maintenant, quand les clients nous googlent, ils voient exactement qui nous sommes.',
     quoteEn: 'Our reputation was always strong, but we had nothing to show online. Now when clients Google us, they see exactly who we are.',
     who: 'Bodyguard Paris',
+    tldrFr: 'Bouche-à-oreille seul → #1-3 Google, clients internationaux',
+    tldrEn: 'Word of mouth only → #1-3 Google, international clients',
+    tagsFr: ['SEO local', 'Google Business Profile', 'GEO', 'Site sur mesure'],
+    tagsEn: ['Local SEO', 'Google Business Profile', 'GEO', 'Custom site'],
   },
   {
     slug: 'heather-fillmore-coaching',
@@ -106,6 +122,10 @@ const cases = [
     quoteFr: 'Mon business allait bien, mais mon site ne racontait pas mon histoire. Trafic organique +200 %. ChatGPT me recommande.',
     quoteEn: 'My business was fine, but my site was not telling my story. Organic traffic +200%. ChatGPT recommends me.',
     who: 'Heather Fillmore Coaching',
+    tldrFr: 'Site sans histoire → +200 % trafic, visible sur ChatGPT',
+    tldrEn: 'Site without a story → +200% traffic, visible on ChatGPT',
+    tagsFr: ['StoryBrand', 'Mobile-first', 'GEO', 'Coaching'],
+    tagsEn: ['StoryBrand', 'Mobile-first', 'GEO', 'Coaching'],
   },
   {
     slug: 'studio-la-voix-du-12',
@@ -125,6 +145,10 @@ const cases = [
     quoteFr: 'J\'ai passé des années à investir dans l\'équipement, mais nous n\'avions qu\'un placeholder. Maintenant, ce sont les studios et les agences qui nous appellent.',
     quoteEn: 'I spent years investing in equipment, but we only had a placeholder. Now studios and agencies call us.',
     who: 'Studio La Voix du 12',
+    tldrFr: 'Page placeholder → mots-clés #1, ×3 réservations',
+    tldrEn: 'Placeholder page → #1 keywords, 3× bookings',
+    tagsFr: ['SEO local', 'Google Business Profile', 'GEO', 'Studio audio'],
+    tagsEn: ['Local SEO', 'Google Business Profile', 'GEO', 'Recording studio'],
   },
   {
     slug: 'east-portland-sash',
@@ -144,8 +168,45 @@ const cases = [
     quoteFr: 'The only window business in Portland offering restoration, replication and installation.',
     quoteEn: 'The only window business in Portland offering restoration, replication and installation.',
     who: 'East Portland Sash, Portland OR',
+    tldrFr: 'Introuvable localement → devis le jour même, SEO Portland',
+    tldrEn: 'Hard to find locally → same-day quotes, Portland SEO',
+    tagsFr: ['SEO local', 'Google Business Profile', 'GEO', 'Artisan'],
+    tagsEn: ['Local SEO', 'Google Business Profile', 'GEO', 'Craftsman'],
   },
 ];
+
+function parseSiteMeta(site) {
+  const parts = site.split(' · ').map((s) => s.trim());
+  const domain = parts[0];
+  let score = '';
+  let tti = '';
+  for (const part of parts.slice(1)) {
+    const scoreMatch = part.match(/^Score\s+(.+)$/);
+    const ttiMatch = part.match(/^TTI\s+(.+)$/);
+    if (scoreMatch) score = scoreMatch[1];
+    if (ttiMatch) tti = ttiMatch[1];
+  }
+  return { domain, score, tti };
+}
+
+function hubBadges(c) {
+  const { score, tti } = parseSiteMeta(c.site);
+  const bits = [];
+  if (score) bits.push(`<span class="rcase-badge rcase-badge--score">Score ${score}</span>`);
+  if (tti) bits.push(`<span class="rcase-badge rcase-badge--perf">TTI ${tti}</span>`);
+  return bits.length ? `<div class="rcase-meta">${bits.join('')}</div>` : '';
+}
+
+function hubChips(items) {
+  return items
+    .slice(0, 4)
+    .map((label, index) => `<span class="chip2${index === 0 ? ' chip2--lead' : ''}">${label}</span>`)
+    .join('');
+}
+
+function hubTags(tags) {
+  return tags.map((tag) => `<span class="rcase-tag">${tag}</span>`).join('');
+}
 
 const frNav = `header class="site-header" role="banner">
 <nav id="nav" class="site-header__nav" aria-label="Navigation principale">
@@ -397,27 +458,57 @@ ${enFoot}
 }
 
 function hubCardFr(c) {
-  return `<article class="rcase reveal">
+  const { domain } = parseSiteMeta(c.site);
+  return `<article class="rcase rcase--hub reveal">
   <div class="shot"><a href="/realisations/${c.slug}/"><img src="${c.img}" alt="${c.name}" loading="lazy" width="400" height="800"></a></div>
   <div class="content">
-    <div class="head"><h3><a href="/realisations/${c.slug}/">${c.name}</a></h3><span class="site">${c.site}</span></div>
+    ${hubBadges(c)}
+    <div class="head"><h3><a href="/realisations/${c.slug}/">${c.name}</a></h3><span class="site">${domain}</span></div>
     <div class="sector">${c.sectorFr}</div>
-    <p>${c.problemFr.slice(0, 140)}…</p>
-    <p><a class="u-text-cyan" href="/realisations/${c.slug}/">Lire l'étude de cas →</a></p>
+    <div class="rcase-tldr">
+      <span class="rcase-tldr-label">En bref</span>
+      <p>${c.tldrFr}</p>
+    </div>
+    <div class="rcase-problem">
+      <h4>Le problème</h4>
+      <p>${c.problemFr}</p>
+    </div>
+    <div class="rcase-results"><div class="chips">${hubChips(c.resultsFr)}</div></div>
+    <div class="rcase-tags">${hubTags(c.tagsFr)}</div>
+    <div class="rcase-foot"><a class="rcase-cta" href="/realisations/${c.slug}/">Lire l'étude de cas →</a></div>
   </div>
 </article>`;
 }
 
 function hubCardEn(c) {
-  return `<article class="rcase reveal">
+  const { domain } = parseSiteMeta(c.site);
+  return `<article class="rcase rcase--hub reveal">
   <div class="shot"><a href="/case-studies/${c.slug}/"><img src="${c.img}" alt="${c.name}" loading="lazy" width="400" height="800"></a></div>
   <div class="content">
-    <div class="head"><h3><a href="/case-studies/${c.slug}/">${c.name}</a></h3><span class="site">${c.site}</span></div>
+    ${hubBadges(c)}
+    <div class="head"><h3><a href="/case-studies/${c.slug}/">${c.name}</a></h3><span class="site">${domain}</span></div>
     <div class="sector">${c.sectorEn}</div>
-    <p>${c.problemEn.slice(0, 140)}…</p>
-    <p><a href="/case-studies/${c.slug}/">Read the case study →</a></p>
+    <div class="rcase-tldr">
+      <span class="rcase-tldr-label">TL;DR</span>
+      <p>${c.tldrEn}</p>
+    </div>
+    <div class="rcase-problem">
+      <h4>The problem</h4>
+      <p>${c.problemEn}</p>
+    </div>
+    <div class="rcase-results"><div class="chips">${hubChips(c.resultsEn)}</div></div>
+    <div class="rcase-tags">${hubTags(c.tagsEn)}</div>
+    <div class="rcase-foot"><a class="rcase-cta" href="/case-studies/${c.slug}/">Read the case study →</a></div>
   </div>
 </article>`;
+}
+
+function hubCardsBlock(lang) {
+  const key = lang === 'fr' ? 'catFr' : 'catEn';
+  const cardFn = lang === 'fr' ? hubCardFr : hubCardEn;
+  return [...groupBy(cases, key)]
+    .map(([cat, list]) => `    <h2 class="cat-title reveal">${cat}</h2>\n${list.map(cardFn).join('\n')}`)
+    .join('\n');
 }
 
 function groupBy(arr, key) {
@@ -475,12 +566,7 @@ const frHub = `<!DOCTYPE html>
     <div class="prose reveal u-wrap-820-mb">
       <p>Chaque étude de cas détaille le problème, la solution et les résultats. Un système unique : site, SEO local, Google Business Profile, avis, Schema.org et <a href="/glossaire/optimisation-moteurs-generatifs">GEO</a>.</p>
     </div>
-${[...groupBy(cases, 'catFr')]
-  .map(
-    ([cat, list]) =>
-      `    <h2 class="cat-title reveal">${cat}</h2>\n` + list.map(hubCardFr).join('\n')
-  )
-  .join('\n')}
+${hubCardsBlock('fr')}
     <p class="center reveal u-mt-14"><a href="/glossaire/" class="u-text-cyan">Glossaire SEO &amp; GEO</a> · <a href="/offres" class="u-text-cyan">Offres</a> · <a href="/contact" class="u-text-cyan">Diagnostic gratuit</a></p>
   </div>
 </section>
@@ -531,12 +617,7 @@ ${enNav}
 </header>
 <section>
   <div class="wrap">
-${[...groupBy(cases, 'catEn')]
-  .map(
-    ([cat, list]) =>
-      `    <h2 class="cat-title reveal">${cat}</h2>\n` + list.map(hubCardEn).join('\n')
-  )
-  .join('\n')}
+${hubCardsBlock('en')}
   </div>
 </section>
 </main>
@@ -787,7 +868,11 @@ ${enFoot}
 </body>
 </html>`;
 
-// Write all
+// Write all (only when run directly)
+const isMain =
+  process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isMain) {
 write(path.join(FR, 'realisations/index.html'), frHub);
 write(path.join(EN, 'case-studies/index.html'), enHub);
 for (const c of cases) {
@@ -812,3 +897,6 @@ if (fs.existsSync(flatEn)) {
 }
 
 console.log('done');
+}
+
+export { hubCardsBlock, hubCardFr, hubCardEn, cases };

@@ -1,6 +1,6 @@
 /* base.css — reset, html, body, typographie de base */
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:100px}
+html{scroll-behavior:smooth;scroll-padding-top:100px;overflow-x:clip;max-width:100%}
 body{
   font-family:var(--font-body);
   font-size:var(--text-body);
@@ -9,6 +9,8 @@ body{
   background-size:26px 26px;
   color:var(--color-text);
   line-height:var(--line-height-normal);
+  overflow-x:clip;
+  max-width:100%;
 }
 body::before{
   content:"";
