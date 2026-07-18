@@ -1,3 +1,4 @@
+document.documentElement.classList.add('js');
 // Monsieur Click — script partagé des pages intérieures
 (function(){
   const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;

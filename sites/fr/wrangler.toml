@@ -1,0 +1,8 @@
+name = "monsieurclick-fr"
+compatibility_date = "2026-01-01"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "clickfirst"
+database_id = "0c84490b-c751-4641-a8f0-bbd2b2c9682a"

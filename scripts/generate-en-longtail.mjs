@@ -292,7 +292,7 @@ function pageHtml(p) {
 <meta name="description" content="${p.meta}">
 <link rel="canonical" href="${p.url}">
 ${hreflang}
-<link rel="stylesheet" href="/styles.css?v=20260716g">
+<link rel="stylesheet" href="/styles.css?v=20260717hero2">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Service","name":"${p.h1}","provider":{"@type":"ProfessionalService","name":"Monsieur Click","url":"https://monsieurclick.com"},"url":"${p.url}","description":${JSON.stringify(p.meta)}}
 </script>

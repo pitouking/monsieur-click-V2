@@ -1,0 +1,52 @@
+# Monsieur Click — plain-text knowledge index (EN)
+
+OKF hub: https://monsieurclick.com/okf/
+llms.txt: https://monsieurclick.com/llms.txt
+llms-full.txt: https://monsieurclick.com/llms-full.txt
+FR OKF: https://monsieurclick.fr/okf/
+FR texts: https://monsieurclick.fr/texts/
+FR llms: https://monsieurclick.fr/llms.txt
+
+## Core
+- Home: /texts/index.txt → https://monsieurclick.com/
+- Click First™: /texts/click-first.txt → https://monsieurclick.com/click-first
+- Pricing: /texts/pricing.txt → https://monsieurclick.com/pricing
+- About: /texts/about.txt → https://monsieurclick.com/about
+- Free diagnostic: /texts/contact.txt → https://monsieurclick.com/contact
+- Case studies: /texts/case-studies.txt → https://monsieurclick.com/case-studies/
+- Blog: /texts/blog.txt → https://monsieurclick.com/blog/
+- Legal notice: /texts/legal-notice.txt → https://monsieurclick.com/legal-notice
+- Privacy: /texts/privacy.txt → https://monsieurclick.com/privacy
+- Terms: /texts/terms.txt → https://monsieurclick.com/terms
+
+## Services
+- Web design: /texts/services/web-design.txt → /services/web-design
+- SEO services: /texts/services/seo.txt → /services/seo
+- Local SEO: /texts/services/local-seo.txt → /services/local-seo
+- Google Business Profile: /texts/services/google-business-profile.txt → /services/google-business-profile
+- SEO audit: /texts/services/seo-audit.txt → /services/seo-audit
+- WordPress web design: /texts/services/wordpress-web-design.txt → /services/wordpress-web-design
+- Generative Engine Optimization (GEO): /texts/services/generative-engine-optimization.txt → /services/generative-engine-optimization
+- Small business SEO: /texts/services/small-business-seo.txt → /small-business-seo
+- AI SEO agency: /texts/services/ai-seo-agency.txt → /ai-seo-agency
+- SEO agency London: /texts/services/seo-agency-london.txt → /seo-agency-london
+
+## Blog
+- Click First™ isn't just another SEO service: /texts/blog/click-first-not-just-seo.txt → /blog/click-first-not-just-seo/
+- GEO: optimize for generative AI: /texts/blog/geo-generative-engine-optimization.txt → /blog/geo-generative-engine-optimization/
+- Will AI replace Google?: /texts/blog/will-ai-replace-google.txt → /blog/will-ai-replace-google/
+- Become a reference business, not just visible: /texts/blog/become-a-reference-business.txt → /blog/become-a-reference-business/
+- Get more Google reviews without being pushy: /texts/blog/get-more-google-reviews.txt → /blog/get-more-google-reviews/
+- Is your website losing you clients?: /texts/blog/is-your-website-losing-clients.txt → /blog/is-your-website-losing-clients/
+- Why competitors rank ahead on Google: /texts/blog/why-competitors-rank-ahead.txt → /blog/why-competitors-rank-ahead/
+- Show up in ChatGPT, Gemini and Perplexity: /texts/blog/appear-in-chatgpt-gemini-perplexity.txt → /blog/appear-in-chatgpt-gemini-perplexity/
+- Clients ask ChatGPT before Google: /texts/blog/clients-ask-chatgpt-before-google.txt → /blog/clients-ask-chatgpt-before-google/
+- Google Ads vs SEO: where to invest?: /texts/blog/google-ads-vs-seo.txt → /blog/google-ads-vs-seo/
+- Win clients without advertising: /texts/blog/get-clients-without-advertising.txt → /blog/get-clients-without-advertising/
+- Google Business Profile getting no calls?: /texts/blog/google-business-profile-no-calls.txt → /blog/google-business-profile-no-calls/
+- How Google ranks businesses: /texts/blog/how-google-ranks-businesses.txt → /blog/how-google-ranks-businesses/
+- Why your business doesn't show up on Google: /texts/blog/why-business-not-on-google.txt → /blog/why-business-not-on-google/
+- Is a website enough in 2026?: /texts/blog/is-a-website-enough-2026.txt → /blog/is-a-website-enough-2026/
+- What is an SEO agency?: /texts/blog/what-is-an-seo-agency.txt → /blog/what-is-an-seo-agency/
+- How to choose an SEO agency: /texts/blog/how-to-choose-an-seo-agency.txt → /blog/how-to-choose-an-seo-agency/
+- SEO agency pricing in 2026: /texts/blog/seo-agency-pricing-2026.txt → /blog/seo-agency-pricing-2026/

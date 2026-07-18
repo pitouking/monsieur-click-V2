@@ -1,0 +1,28 @@
+TITLE: WordPress web design
+DESCRIPTION: Custom WordPress builds that stay fast, editable and SEO-ready.
+URL: https://monsieurclick.com/services/wordpress-web-design
+TYPE: Service
+LANG: en
+TAGS: wordpress,web-design,click-first
+
+# WordPress web design
+
+Custom WordPress builds that stay fast, editable and SEO-ready.
+
+Part of Click First™: website, SEO, Google Business Profile, reviews and AI visibility work together.
+
+## Entity
+- Name: Monsieur Click
+- Address: 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- Phone: +33 6 60 76 15 23
+- Email: contact@monsieurclick.com
+- Founder: Jean-Pierre Baguette
+
+## Links
+→ Public page: https://monsieurclick.com/services/wordpress-web-design
+→ Services hub: https://monsieurclick.com/services/
+→ Click First™: https://monsieurclick.com/click-first
+→ OKF: https://monsieurclick.com/okf/services/wordpress-web-design/
+→ Free diagnostic: https://monsieurclick.com/contact
+→ FR OKF: https://monsieurclick.fr/okf/
+

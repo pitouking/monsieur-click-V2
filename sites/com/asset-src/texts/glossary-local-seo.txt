@@ -1,0 +1,15 @@
+TITLE: Local SEO
+DESCRIPTION: Glossary entry: Local SEO
+URL: https://monsieurclick.com/glossary/local-seo/
+TYPE: DefinedTerm
+LANG: en
+TAGS: glossary,seo
+
+# Local SEO
+
+Citable definition for Local SEO.
+
+→ https://monsieurclick.com/glossary/local-seo/
+→ Glossary hub: https://monsieurclick.com/glossary/
+→ FR glossaire: https://monsieurclick.fr/glossaire/
+

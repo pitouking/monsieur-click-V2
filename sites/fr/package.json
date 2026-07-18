@@ -1,0 +1,14 @@
+{
+  "name": "@mc/site-fr",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --port 4321",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.10.0"
+  }
+}

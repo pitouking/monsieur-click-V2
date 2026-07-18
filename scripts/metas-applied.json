@@ -1,0 +1,430 @@
+{
+  "FR": {
+    "index.html": {
+      "title": "Agence SEO à Malakoff (92) | Monsieur Click",
+      "description": "SEO local et sites pour TPE/PME à Malakoff et en Île-de-France, sans jargon inutile. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "click-first.html": {
+      "title": "Méthode SEO Click First™ | Monsieur Click",
+      "description": "Site, SEO local, fiche Google et visibilité IA réunis en un système à Malakoff (92). Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "offres.html": {
+      "title": "Tarifs SEO local dès 850€/mois | Monsieur Click",
+      "description": "Offres Click First™ pour TPE/PME : site, SEO local et GBP dès 850€/mois, sans surprise. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "contact.html": {
+      "title": "Diagnostic SEO gratuit à Malakoff | Monsieur Click",
+      "description": "Audit gratuit de 30 min sur Google, Maps et IA. Basés à Malakoff (92), 100% à distance. 100% à distance. Note 5/5 sur 15 avis. Réservez maintenant."
+    },
+    "a-propos.html": {
+      "title": "Agence SEO Malakoff (92) | À propos Monsieur Click",
+      "description": "Jean-Pierre Baguette, créateur de Click First™ à Malakoff. Google et IA pour TPE/PME. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/index.html": {
+      "title": "Blog SEO local & GEO | Monsieur Click",
+      "description": "Guides SEO local, fiche Google et visibilité IA pour TPE/PME en Île-de-France, concrets. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog.html": {
+      "title": "Blog SEO local & GEO | Monsieur Click",
+      "description": "Guides SEO local, fiche Google et visibilité IA pour TPE/PME en Île-de-France, concrets. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/index.html": {
+      "title": "Services SEO & web à Malakoff | Monsieur Click",
+      "description": "Création de site, SEO, SEO local, GBP et GEO pour TPE/PME. Agence à Malakoff (92). Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/creation-site-web/index.html": {
+      "title": "Création de site web | Monsieur Click Malakoff",
+      "description": "Sites rapides et SEO-ready pour TPE/PME en Île-de-France. Conversion et Core Web Vitals. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/seo/index.html": {
+      "title": "Référencement naturel SEO | Monsieur Click",
+      "description": "SEO technique, contenu et suivi mensuel pour TPE/PME à Malakoff et partout en France. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/seo-local/index.html": {
+      "title": "SEO local & Google Maps | Monsieur Click",
+      "description": "Pack local, fiche Google et avis pour dominer Maps en Île-de-France, sans porte-à-porte. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/google-business-profile/index.html": {
+      "title": "Optimisation Google Business Profile | MC",
+      "description": "Fiche Google complète : avis, photos et posts. Plus d'appels Maps pour TPE/PME locales. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/audit-seo/index.html": {
+      "title": "Audit SEO complet | Monsieur Click Malakoff",
+      "description": "Audit technique, on-page et concurrentiel pour TPE/PME. Plan d'action priorisé et lisible. Sans jargon. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/refonte-site-web/index.html": {
+      "title": "Refonte de site web SEO | Monsieur Click",
+      "description": "Refonte rapide, mobile et orientée conversion pour TPE/PME en Île-de-France et au-delà. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/creation-site-wordpress/index.html": {
+      "title": "Création site WordPress | Monsieur Click",
+      "description": "WordPress sur mesure, rapide et éditable, SEO intégré pour TPE/PME en Île-de-France. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "services/visibilite-ia-geo/index.html": {
+      "title": "Visibilité IA (GEO) | Monsieur Click Malakoff",
+      "description": "Soyez cités par ChatGPT, Gemini et Perplexity. GEO concret pour TPE/PME locales. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "agence-seo-paris/index.html": {
+      "title": "Agence SEO à Paris | Monsieur Click",
+      "description": "Référencement naturel et local pour TPE/PME à Paris. Basés à Malakoff (92), suivi mensuel. Sans jargon. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "agence-web-paris/index.html": {
+      "title": "Agence web à Paris | Monsieur Click",
+      "description": "Création de site et SEO pour entreprises parisiennes. Agence à Malakoff (92), à distance. Pour TPE/PME. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "creation-site-internet-paris/index.html": {
+      "title": "Création site internet Paris | Monsieur Click",
+      "description": "Site vitrine SEO à Paris pour TPE/PME. Rapide, mobile et orienté demandes clients. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "consultant-seo-paris/index.html": {
+      "title": "Consultant SEO à Paris | Jean-Pierre Baguette",
+      "description": "Accompagnement SEO direct pour TPE/PME à Paris et en IDF. Méthode Click First™ claire. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "agence-seo-ile-de-france/index.html": {
+      "title": "Agence SEO Île-de-France | Monsieur Click",
+      "description": "SEO local pour TPE/PME en IDF : Paris et banlieue. Fiche Google et Maps inclus. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "agence-seo-belgique/index.html": {
+      "title": "Agence SEO en Belgique | Monsieur Click",
+      "description": "SEO et SEO local pour TPE/PME en Belgique, 100% à distance et en français clair. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "agence-seo-bruxelles/index.html": {
+      "title": "Agence SEO à Bruxelles | Monsieur Click",
+      "description": "Référencement naturel et local pour TPE/PME à Bruxelles. Suivi mensuel clair et direct. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "agence-seo-suisse/index.html": {
+      "title": "Agence SEO en Suisse | Monsieur Click",
+      "description": "SEO local et visibilité IA pour TPE/PME en Suisse romande, 100% à distance. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "agence-seo-geneve/index.html": {
+      "title": "Agence SEO à Genève | Monsieur Click",
+      "description": "Référencement et fiche Google pour TPE/PME à Genève. Accompagnement en français. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/index.html": {
+      "title": "Réalisations SEO local | Monsieur Click",
+      "description": "7 études de cas SEO et sites pour TPE/PME. Résultats concrets avec Click First™. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/assogym/index.html": {
+      "title": "Cas client Assogym SEO | Monsieur Click",
+      "description": "Assogym : club de fitness rendu visible sur Google Maps. Étude de cas Click First™. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/dharma-massage-therapy/index.html": {
+      "title": "Cas Dharma Massage | Monsieur Click",
+      "description": "Dharma Massage Therapy : site et SEO local alignés sur un positionnement premium. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/susan-filan/index.html": {
+      "title": "Cas Susan Filan SEO | Monsieur Click",
+      "description": "Susan Filan : site et autorité SEO pour une avocate senior. Étude de cas détaillée. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/bodyguard-paris/index.html": {
+      "title": "Cas Bodyguard Paris SEO | Monsieur Click",
+      "description": "Bodyguard Paris : visibilité Google hors bouche-à-oreille. Étude de cas SEO local. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/heather-fillmore-coaching/index.html": {
+      "title": "Cas Heather Fillmore | Monsieur Click",
+      "description": "Heather Fillmore Coaching : +200% de trafic organique avec la méthode Click First™. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/studio-la-voix-du-12/index.html": {
+      "title": "Cas Studio La Voix du 12 | Monsieur Click",
+      "description": "Studio à Montpellier : d'une page vide à une présence Google crédible et locale. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "realisations/east-portland-sash/index.html": {
+      "title": "Cas East Portland Sash | Monsieur Click",
+      "description": "Artisan Portland : SEO local pour la restauration de fenêtres bois anciennes. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/click-first-pas-une-prestation-seo/index.html": {
+      "title": "Click First™ vs SEO isolé | Monsieur Click",
+      "description": "Pourquoi un SEO isolé plafonne. La méthode Click First™ pour TPE/PME locales. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/geo-generative-engine-optimization/index.html": {
+      "title": "GEO pour entreprises | Monsieur Click",
+      "description": "Optimisez votre présence pour ChatGPT, Gemini et Perplexity dès 2026, sans gadget. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/ia-vont-elles-remplacer-google/index.html": {
+      "title": "Les IA vont-elles remplacer Google ? | MC",
+      "description": "Les IA changent le parcours client, pas Google. Ce que les TPE/PME doivent faire ensuite. Pour TPE/PME. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/entreprise-reference-plutot-que-visible/index.html": {
+      "title": "Devenir une référence locale | Monsieur Click",
+      "description": "Visible ne suffit pas : devenez l'entreprise citée sur Google et par les IA locales. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/obtenir-plus-avis-google/index.html": {
+      "title": "Obtenir plus d'avis Google | Monsieur Click",
+      "description": "Système simple d'avis Google sans harceler vos clients. Réputation locale durable. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/site-internet-perd-clients/index.html": {
+      "title": "Site qui perd des clients | Monsieur Click",
+      "description": "10 signes que votre site fait fuir les demandes. Correctifs concrets pour TPE/PME. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/pourquoi-concurrents-devant-google/index.html": {
+      "title": "Concurrents devant vous sur Google | MC",
+      "description": "Ils envoient plus de signaux de confiance. 5 leviers pour les dépasser en local. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/apparaitre-reponses-chatgpt-gemini-perplexity/index.html": {
+      "title": "Apparaître dans ChatGPT & Gemini | MC",
+      "description": "Devenez la source citée par les IA. Stratégie GEO concrète pour TPE/PME locales. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/clients-utilisent-chatgpt-avant-google/index.html": {
+      "title": "Clients sur ChatGPT avant Google | MC",
+      "description": "Vos prospects demandent aux IA d'abord. Comment rester le choix recommandé en local. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/google-ads-ou-seo/index.html": {
+      "title": "Google Ads ou SEO pour PME | Monsieur Click",
+      "description": "Ads pour la vitesse, SEO pour la durée. Où placer votre budget marketing en 2026. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/trouver-clients-sans-publicite/index.html": {
+      "title": "Clients sans publicité | Monsieur Click",
+      "description": "Système de visibilité durable : SEO local, avis et GBP sans dépendre des ads payantes. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/fiche-google-business-profile-sans-appel/index.html": {
+      "title": "Fiche Google sans appel | Monsieur Click",
+      "description": "Visible sur Maps mais aucun appel ? Correctifs avis, photos, posts et NAP cohérent. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/comment-google-classe-les-entreprises/index.html": {
+      "title": "Comment Google classe les entreprises | MC",
+      "description": "5 critères du classement local Google. Optimisez pour le pack Maps, pas pour le vanity. 100% à distance. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/pourquoi-entreprise-invisible-google/index.html": {
+      "title": "Entreprise invisible sur Google | MC",
+      "description": "7 raisons d'invisibilité locale et correctifs concrets pour TPE/PME qui veulent des appels. Sans jargon. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/site-suffit-2026/index.html": {
+      "title": "Un site suffit-il en 2026 ? | Monsieur Click",
+      "description": "Non : il faut SEO local, avis, GBP et GEO. Stratégie complète pour PME locales. Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/c-est-quoi-une-agence-seo/index.html": {
+      "title": "C'est quoi une agence SEO ? | Monsieur Click",
+      "description": "Rôle, missions et limites d'une agence SEO pour TPE/PME. Guide clair, sans hype. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/comment-choisir-agence-seo-paris/index.html": {
+      "title": "Choisir une agence SEO à Paris | MC",
+      "description": "8 critères pour sélectionner une agence SEO à Paris sans mauvaises surprises. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "blog/prix-tarif-agence-seo-2026/index.html": {
+      "title": "Prix agence SEO 2026 | Monsieur Click",
+      "description": "Fourchettes réalistes et offres dès 850€/mois. Lisez un devis SEO sans surprise. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "methode.html": {
+      "title": "Méthode SEO Click First™ | Monsieur Click",
+      "description": "Site, SEO local, fiche Google et visibilité IA réunis en un système à Malakoff (92). Plan mensuel clair. Note 5/5 sur 15 avis. Diagnostic gratuit."
+    },
+    "mentions-legales.html": {
+      "title": "Mentions légales | Monsieur Click Malakoff",
+      "description": "Mentions légales Monsieur Click, Malakoff (92). SIRET 42953906700042. Contact, hébergeur et éditeur du site."
+    },
+    "confidentialite.html": {
+      "title": "Confidentialité RGPD | Monsieur Click",
+      "description": "Politique de confidentialité et données personnelles sur monsieurclick.fr. Conformité RGPD et cookies."
+    },
+    "conditions.html": {
+      "title": "Conditions générales | Monsieur Click",
+      "description": "CGV des offres Click First™ : engagement, facturation, résiliation et modalités de service pour TPE/PME."
+    },
+    "404.html": {
+      "title": "Page introuvable | Monsieur Click",
+      "description": "Cette page n'existe pas. Retournez à l'accueil Monsieur Click ou demandez un diagnostic SEO gratuit."
+    }
+  },
+  "EN": {
+    "index.html": {
+      "title": "Local SEO Agency near Paris | Monsieur Click",
+      "description": "Local SEO, web design and AI visibility for SMBs near Paris — one Click First™ system, measured monthly. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "click-first.html": {
+      "title": "Click First™ SEO Method near Paris | MC",
+      "description": "Website, Maps and AI visibility in one system near Paris — not isolated SEO deliverables that stall. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "methode.html": {
+      "title": "Click First™ SEO Method near Paris | MC",
+      "description": "Website, Maps and AI visibility in one system near Paris — not isolated SEO deliverables that stall. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "pricing.html": {
+      "title": "Local SEO Pricing near Paris | Monsieur Click",
+      "description": "Plans from €850/mo near Paris: website, local SEO and Google Business Profile in one measured system. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "contact.html": {
+      "title": "Free SEO Diagnostic near Paris | Monsieur Click",
+      "description": "30-min free audit of your Google, Maps and AI visibility. Remote from Malakoff near Paris. Rated 5/5 by 15+ clients. Book now."
+    },
+    "about.html": {
+      "title": "Local SEO Agency near Paris | About Us",
+      "description": "Jean-Pierre Baguette built Click First™ in Malakoff near Paris. Google and AI for SMBs who want calls. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/index.html": {
+      "title": "Local SEO & GEO Blog near Paris | MC",
+      "description": "Straight-talk guides on Maps, GBP and AI visibility for small businesses near Paris. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/index.html": {
+      "title": "SEO & Web Design near Paris | Monsieur Click",
+      "description": "Web design, local SEO, GBP and GEO near Paris — built for US and UK small businesses. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/web-design/index.html": {
+      "title": "Web Design near Paris | Monsieur Click",
+      "description": "Fast, conversion-first websites built to rank near Paris. Core Web Vitals stay green. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/seo/index.html": {
+      "title": "SEO Services near Paris | Monsieur Click",
+      "description": "Technical, on-page and content SEO with monthly proof for small businesses near Paris. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/local-seo/index.html": {
+      "title": "Local SEO near Paris | Monsieur Click",
+      "description": "Rank in the Google map pack near Paris: GBP, reviews, citations and local landing pages. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/google-business-profile/index.html": {
+      "title": "Google Business Profile near Paris | MC",
+      "description": "GBP that gets calls near Paris: reviews, photos and posts optimized every single month. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/seo-audit/index.html": {
+      "title": "SEO Audit near Paris | Monsieur Click",
+      "description": "Technical, on-page and competitor audit near Paris — prioritized plan, zero fluff. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/wordpress-web-design/index.html": {
+      "title": "WordPress Design near Paris | Monsieur Click",
+      "description": "Custom WordPress that stays fast, editable and SEO-ready after launch near Paris. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "services/generative-engine-optimization/index.html": {
+      "title": "GEO near Paris | AI Visibility Monsieur Click",
+      "description": "Get cited by ChatGPT, Gemini and Perplexity. Practical GEO for SMBs near Paris. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "small-business-seo/index.html": {
+      "title": "Small Business SEO near Paris | Monsieur Click",
+      "description": "Practical local SEO for owners near Paris: Maps, GBP and a website that converts leads. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "small-business-seo.html": {
+      "title": "Small Business SEO near Paris | Monsieur Click",
+      "description": "Practical local SEO for owners near Paris: Maps, GBP and a website that converts leads. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "ai-seo-agency/index.html": {
+      "title": "AI SEO Agency near Paris | Monsieur Click",
+      "description": "SEO plus GEO near Paris so you show up on Google and in AI answers — not just one channel. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "ai-seo-agency.html": {
+      "title": "AI SEO Agency near Paris | Monsieur Click",
+      "description": "SEO plus GEO near Paris so you show up on Google and in AI answers — not just one channel. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "seo-agency-london.html": {
+      "title": "SEO Agency in London | Monsieur Click",
+      "description": "Local SEO and GBP for London small businesses. Remote Click First™ delivery from Paris. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/index.html": {
+      "title": "Local SEO Case Studies | Monsieur Click",
+      "description": "7 real Click First™ builds near Paris and beyond: websites, Maps and AI visibility wins. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/assogym/index.html": {
+      "title": "Assogym Local SEO Case Study | Monsieur Click",
+      "description": "Fitness club that finally showed up on Google Maps. Full Click First™ case study inside. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/dharma-massage-therapy/index.html": {
+      "title": "Dharma Massage SEO Case | Monsieur Click",
+      "description": "Premium massage practice: site and local SEO matched to the brand. Full case study. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/susan-filan/index.html": {
+      "title": "Susan Filan SEO Case Study | Monsieur Click",
+      "description": "Senior attorney site rebuilt for authority and organic search. Full case study inside. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/bodyguard-paris/index.html": {
+      "title": "Bodyguard Paris SEO Case Study | Monsieur Click",
+      "description": "Paris security agency: Google demand beyond word of mouth. Full Click First™ case study. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/heather-fillmore-coaching/index.html": {
+      "title": "Heather Fillmore SEO Case | Monsieur Click",
+      "description": "Coach site: +200% organic traffic with Click First™. See the full case study now. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/studio-la-voix-du-12/index.html": {
+      "title": "Studio La Voix du 12 SEO Case | Monsieur Click",
+      "description": "Montpellier studio: from empty page to credible Google presence. Full case study. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "case-studies/east-portland-sash/index.html": {
+      "title": "East Portland Sash SEO Case | Monsieur Click",
+      "description": "Portland craftsperson: local SEO for wood window restoration. Full case study inside. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/click-first-not-just-seo/index.html": {
+      "title": "Click First™ vs Isolated SEO | Monsieur Click",
+      "description": "Why siloed SEO plateaus near Paris. One system for site, Maps and AI visibility. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/geo-generative-engine-optimization/index.html": {
+      "title": "GEO for Small Business 2026 | Monsieur Click",
+      "description": "Get cited by ChatGPT, Gemini and Perplexity in 2026. Practical GEO steps for SMBs. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/will-ai-replace-google/index.html": {
+      "title": "Will AI Replace Google? | Monsieur Click",
+      "description": "AI changes how buyers choose — not Google alone. What small businesses should do next. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/become-a-reference-business/index.html": {
+      "title": "Become a Local Reference Business | MC",
+      "description": "Visibility is not enough. Become the business Google and AI recommend in your market. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/get-more-google-reviews/index.html": {
+      "title": "Get More Google Reviews | Monsieur Click",
+      "description": "A simple review system that does not feel pushy. Stronger local reputation, fast. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/is-your-website-losing-clients/index.html": {
+      "title": "Is Your Website Losing Clients? | Monsieur Click",
+      "description": "10 signs your site kills inquiries — and the concrete fix for each one today. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/why-competitors-rank-ahead/index.html": {
+      "title": "Why Competitors Rank Ahead of You | MC",
+      "description": "They send stronger trust signals. Five levers to catch up on Google Maps this quarter. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/appear-in-chatgpt-gemini-perplexity/index.html": {
+      "title": "Appear in ChatGPT & Gemini | Monsieur Click",
+      "description": "Become a cited source in AI answers. Practical GEO steps for small businesses. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/clients-ask-chatgpt-before-google/index.html": {
+      "title": "Clients Ask ChatGPT Before Google | MC",
+      "description": "Buyers ask AI first. How to stay the recommended local choice in your market. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/google-ads-vs-seo/index.html": {
+      "title": "Google Ads vs SEO for SMBs | Monsieur Click",
+      "description": "Ads for speed, SEO for lasting demand. Where to put your 2026 marketing budget. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/get-clients-without-advertising/index.html": {
+      "title": "Get Clients Without Advertising | Monsieur Click",
+      "description": "Build lasting demand with local SEO, reviews and GBP — not only paid ads that stop. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/google-business-profile-no-calls/index.html": {
+      "title": "GBP Visible but No Calls? | Monsieur Click",
+      "description": "On Maps but silent? Fix reviews, photos, posts and NAP consistency this month. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/how-google-ranks-businesses/index.html": {
+      "title": "How Google Ranks Local Businesses | MC",
+      "description": "Five local ranking criteria explained for owners who want more phone calls. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/why-business-not-on-google/index.html": {
+      "title": "Why You're Invisible on Google | Monsieur Click",
+      "description": "Seven reasons local businesses stay hidden — and how to fix each one this month. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/is-a-website-enough-2026/index.html": {
+      "title": "Is a Website Enough in 2026? | Monsieur Click",
+      "description": "A site alone is not enough. Add local SEO, GBP, reviews and GEO together now. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/what-is-an-seo-agency/index.html": {
+      "title": "What Is an SEO Agency? | Monsieur Click",
+      "description": "What an SEO agency actually does for small businesses — without the sales hype. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/how-to-choose-an-seo-agency/index.html": {
+      "title": "How to Choose an SEO Agency | Monsieur Click",
+      "description": "Eight criteria to pick an SEO partner. No ranking promises, no agency fluff. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "blog/seo-agency-pricing-2026/index.html": {
+      "title": "SEO Agency Pricing 2026 | Monsieur Click",
+      "description": "Realistic SEO price ranges and plans from €850/mo. Read every quote clearly. Rated 5/5 by 15+ clients. Free diagnostic."
+    },
+    "legal-notice.html": {
+      "title": "Legal Notice | Monsieur Click Malakoff",
+      "description": "Legal notice for Monsieur Click, Malakoff (92) near Paris. SIRET 42953906700042. Host and contact."
+    },
+    "privacy.html": {
+      "title": "Privacy Policy | Monsieur Click",
+      "description": "How Monsieur Click collects and protects personal data on monsieurclick.com. Cookies and GDPR."
+    },
+    "terms.html": {
+      "title": "Terms of Service | Monsieur Click",
+      "description": "Terms for Click First™ plans near Paris: commitments, billing, cancellation and service conditions."
+    },
+    "404.html": {
+      "title": "Page Not Found | Monsieur Click",
+      "description": "This page does not exist. Return to Monsieur Click or book a free SEO diagnostic near Paris."
+    }
+  }
+}
