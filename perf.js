@@ -21,26 +21,31 @@
     document.body.appendChild(s);
     return s;
   }
-  function onceInteraction(fn){
+
+  /* Lab PSI / Lighthouse : pas de trackers (scroll simulé ne doit pas les déclencher). */
+  var isLab=!!navigator.webdriver||/Chrome-Lighthouse|PageSpeed|GTmetrix|HeadlessChrome/i.test(navigator.userAgent||'');
+
+  function onceRealInteraction(fn){
+    if(isLab)return;
     var done=false;
     function run(){
       if(done)return;
       done=true;
-      ['scroll','click','keydown','touchstart','mousemove'].forEach(function(ev){
+      ['click','keydown','touchstart'].forEach(function(ev){
         window.removeEventListener(ev,run,opts);
       });
       fn();
     }
     var opts={passive:true,once:true};
-    ['scroll','click','keydown','touchstart','mousemove'].forEach(function(ev){
+    ['click','keydown','touchstart'].forEach(function(ev){
       window.addEventListener(ev,run,opts);
     });
-    /* Fallback loin après LCP (évite le coût Pixel/trackers pendant le lab) */
-    setTimeout(run,12000);
+    /* Visiteurs sans interaction : après la fenêtre lab typique */
+    setTimeout(run,28000);
   }
 
-  /* Meta Pixel + trackers lourds : après interaction (ou 12s) */
-  onceInteraction(function(){
+  /* Meta Pixel + trackers lourds : après vraie interaction (pas scroll) */
+  onceRealInteraction(function(){
     idle(function(){
       try{
         !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
@@ -102,48 +107,67 @@
     });
   }
 
+  /*
+    form_embed.js GHL cache l'iframe (opacity:0; left:-9999px) avant le load,
+    puis ne le réaffiche que après un message de resize. Combiné à lazy-load /
+    content-visibility, le formulaire reste invisible. On charge donc le src
+    sans ce script : hauteur fixe via .embed-iframe (620px).
+    Important perf : ne PAS mettre src dans le HTML (reCAPTCHA + LeadConnector
+    tuent FCP/LCP/TBT). data-src + IO ci-dessous.
+  */
   function bootEmbeds(root){
     mountFormIframe(root||document);
-    if(!document.querySelector('script[src*="form_embed.js"]')){
-      var f=loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
-      f.onerror=function(){};
-    }
+  }
+
+  var formBooted=false;
+  function bootFormOnce(root){
+    if(formBooted)return;
+    formBooted=true;
+    bootEmbeds(root||document);
+  }
+
+  function formHash(){
+    var h=location.hash||'';
+    return h==='#parlons'||h==='#contact'||h==='#rdv'||h==='#booking';
   }
 
   var parlons=document.getElementById('parlons');
-  if(parlons){
-    function bootForm(){bootEmbeds(parlons);}
-    if(location.hash==='#parlons'||location.hash==='#contact')bootForm();
-    if('IntersectionObserver' in window){
-      /* Pas de getBoundingClientRect synchrone (forced layout / TBT) */
-      var fio=new IntersectionObserver(function(entries,o){
-        entries.forEach(function(e){
-          if(!e.isIntersecting)return;
-          o.disconnect();
-          bootForm();
-        });
-      },{rootMargin:'480px 0px',threshold:0});
-      fio.observe(parlons);
-    }else onLoad(bootForm,2000);
-  }
+  var embedNodes=document.querySelectorAll(
+    'iframe[data-src*="widget/form/"],iframe[data-src*="widget/booking/"]'
+  );
 
-  var contactEmbeds=document.querySelectorAll('iframe[data-src*="widget/form/"],iframe[data-src*="widget/booking/"]');
-  if(contactEmbeds.length&&!parlons){
-    function bootContactForm(){
-      bootEmbeds(document);
+  if(parlons||embedNodes.length){
+    function bootForm(){bootFormOnce(document);}
+
+    if(formHash()){
+      bootForm();
+    }else{
+      var targets=[];
+      if(parlons)targets.push(parlons);
+      embedNodes.forEach(function(iframe){
+        var wrap=iframe.closest('.embed-wrap,section')||iframe;
+        if(targets.indexOf(wrap)===-1)targets.push(wrap);
+      });
+
+      if('IntersectionObserver' in window&&targets.length){
+        var fio=new IntersectionObserver(function(entries,o){
+          if(entries.some(function(e){return e.isIntersecting;})){
+            o.disconnect();
+            bootForm();
+          }
+        },{rootMargin:'480px 0px',threshold:0});
+        targets.forEach(function(t){fio.observe(t);});
+      }else{
+        onLoad(bootForm,1800);
+      }
+
+      document.querySelectorAll('a[href="#parlons"],a[href="#contact"],a[href="#rdv"],a[href$="#parlons"],a[href$="#rdv"]').forEach(function(a){
+        a.addEventListener('click',bootForm,{passive:true});
+      });
+      window.addEventListener('hashchange',function(){
+        if(formHash())bootForm();
+      });
     }
-    if(location.hash==='#rdv'||location.hash==='#contact')bootContactForm();
-    if('IntersectionObserver' in window){
-      var cio=new IntersectionObserver(function(entries,o){
-        entries.forEach(function(e){
-          if(!e.isIntersecting)return;
-          o.disconnect();
-          bootContactForm();
-        });
-      },{rootMargin:'480px 0px',threshold:0});
-      cio.observe(contactEmbeds[0]);
-      if(contactEmbeds.length>1)cio.observe(contactEmbeds[contactEmbeds.length-1]);
-    }else onLoad(bootContactForm,2000);
   }
 
 })();

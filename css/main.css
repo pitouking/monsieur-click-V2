@@ -209,7 +209,10 @@ a{color:inherit;text-decoration:none}
   .menu-toggle{display:none;background:none;border:none;color:var(--ink);font-size:1.6rem;cursor:pointer;padding:8px;line-height:1}
   body.menu-open{overflow:hidden}
 
-  .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:var(--navy) url('/hero-mc-paris.webp') center right/cover no-repeat}
+  .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background-color:var(--navy)}
+  @media (min-width:921px){
+    .hero{background-image:url('/hero-mc-paris.webp');background-position:center right;background-size:cover;background-repeat:no-repeat}
+  }
   .hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(6,14,28,.96) 0%,rgba(6,14,28,.72) 32%,rgba(6,14,28,.12) 58%,transparent 100%)}
   .hero-inner{position:relative;z-index:2;max-width:900px;padding-top:100px;padding-bottom:60px}
   .badge{display:inline-block;border:1px solid var(--brd-2);background:rgba(255,255,255,.08);border-radius:var(--radius-pill);padding:10px 20px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#cfdcf0;font-weight:var(--font-weight-semibold);margin:0;line-height:1.3;font-family:inherit}
@@ -221,9 +224,10 @@ a{color:inherit;text-decoration:none}
   .lang a{font-size:.68rem;font-weight:var(--font-weight-bold);letter-spacing:.05em;color:var(--muted);padding:5px 11px;border-radius:var(--radius-pill);line-height:1;transition:color .2s,background .2s}
   .lang a.on{color:#fff;background:linear-gradient(135deg,var(--cyan),var(--turq))}
   .lang a:not(.on):hover{color:var(--ink)}
-  .reveal-up{opacity:0;transform:translate3d(0,24px,0);animation:heroUp .9s var(--ease-soft) forwards;will-change:opacity,transform}
-  .rd1{animation-delay:.05s}.rd2{animation-delay:.18s}.rd3{animation-delay:.3s}.rd4{animation-delay:.44s}.rd5{animation-delay:.58s}.rd6{animation-delay:.72s}
-  @keyframes heroUp{to{opacity:1;transform:translate3d(0,0,0)}}
+  /* opacity:1 dès le 1er paint : LCP (titre hero) ne doit pas attendre l'anim */
+  .reveal-up{opacity:1;transform:translate3d(0,18px,0);animation:heroUp .75s var(--ease-soft) forwards}
+  .rd1{animation-delay:.04s}.rd2{animation-delay:.1s}.rd3{animation-delay:.16s}.rd4{animation-delay:.22s}.rd5{animation-delay:.28s}.rd6{animation-delay:.34s}
+  @keyframes heroUp{to{transform:translate3d(0,0,0)}}
   .grating{display:flex;align-items:center;gap:9px;margin:24px 0 12px;font-size:.85rem;color:var(--muted);flex-wrap:wrap}
   .grating .g{font-weight:var(--font-weight-bold);color:#fff;font-family:var(--font-display)}
   .grating .pipe{opacity:.4}
@@ -251,7 +255,7 @@ a{color:inherit;text-decoration:none}
     justify-content:center !important;
     align-items:center !important;
     gap:var(--space-3);
-    width:fit-content !important;
+    width:100% !important;
     max-width:100%;
     margin:6px auto 30px !important;
     text-align:center;
@@ -283,7 +287,8 @@ a{color:inherit;text-decoration:none}
   .showcase{position:relative;width:100%;min-height:70vh;overflow:hidden;background:var(--navy)}
   .showcase img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
   .showcase::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,var(--navy),transparent 16%,transparent 84%,var(--navy));pointer-events:none}
-  #offres,#avis,.approach,#parlons,footer{content-visibility:auto;contain-intrinsic-size:auto 600px}
+  /* #parlons exclu : content-visibility casse le lazy-load du widget GHL (IO / iframe) */
+  #offres,#avis,.approach,footer{content-visibility:auto;contain-intrinsic-size:auto 600px}
 
   .journey{background:linear-gradient(180deg,var(--navy),var(--navy-2))}
   .jtrack{position:relative;height:260vh}
@@ -397,9 +402,31 @@ a{color:inherit;text-decoration:none}
   .reviews{background:linear-gradient(180deg,var(--navy),var(--navy-2))}
   .g-badge{display:inline-flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--brd);border-radius:var(--radius-pill);padding:10px 20px;font-size:.9rem;margin:0 auto 30px}
   .g-badge b{font-family:var(--font-display);color:#fff}
-  .widget-wrap{width:100%;max-width:none;margin:0;min-height:60px;padding:0}
-  .widget-wrap emr-simple-carousel{display:block;width:100%;max-width:none}
-  .rev-track{display:flex;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+  /* Full-bleed EMR carousel (must sit outside .wrap; no transform containing block) */
+  #avis.reviews > .widget-wrap,
+  .widget-wrap{
+    width:100%;
+    max-width:none !important;
+    margin:0 !important;
+    padding:0 !important;
+    min-height:60px;
+    box-sizing:border-box;
+    transform:none !important;
+    opacity:1 !important;
+  }
+  #avis.reviews > .widget-wrap emr-simple-carousel,
+  .widget-wrap emr-simple-carousel{
+    display:block !important;
+    width:100% !important;
+    max-width:none !important;
+    box-sizing:border-box;
+  }
+  #avis.reviews > .widget-wrap iframe,
+  #avis.reviews > .widget-wrap > *{
+    width:100% !important;
+    max-width:none !important;
+  }
+  .rev-track{display:flex;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);width:100%}
   .rev-row{display:flex;gap:20px;animation:scrollX 44s linear infinite}
   .rev-track:hover .rev-row{animation-play-state:paused}
   @keyframes scrollX{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
@@ -590,7 +617,7 @@ a{color:inherit;text-decoration:none}
 .page-hero,.pagehero{position:relative;padding:180px 0 90px;overflow:hidden;background:var(--navy) url('/hero-mc-paris.webp') center/cover}
 .pagehero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,14,28,.9),rgba(6,14,28,.82))}
 .page-hero .wrap,.pagehero .wrap{position:relative;z-index:2}
-.pagehero .breadcrumb,.pagehero .eyebrow,.pagehero h1,.pagehero p.sub,.pagehero .btn{opacity:0;transform:translate3d(0,18px,0);animation:heroUp .78s var(--ease-soft) forwards}
+.pagehero .breadcrumb,.pagehero .eyebrow,.pagehero h1,.pagehero p.sub,.pagehero .btn{opacity:1;transform:translate3d(0,18px,0);animation:heroUp .78s var(--ease-soft) forwards}
 .pagehero .eyebrow{animation-delay:.06s}.pagehero h1{animation-delay:.14s}.pagehero p.sub{animation-delay:.24s}.pagehero .btn{animation-delay:.34s}
 .breadcrumb{font-size:.8rem;color:var(--muted);margin-bottom:16px}
 .breadcrumb a:hover{color:var(--ink)}
@@ -705,6 +732,30 @@ a.mcomp:hover .mcomp-link{text-decoration:underline}
 .rcase--hub .rcase-cta{display:inline-flex;align-items:center;gap:8px;font-size:.9rem;font-weight:var(--font-weight-semibold);color:var(--cyan);text-decoration:none;transition:gap .2s var(--ease-out),color .2s}
 .rcase--hub .rcase-cta:hover{color:#fff;gap:12px}
 @media(max-width:920px){.rcase{gap:22px}.rcase .row2{grid-template-columns:1fr}.rcase .shot{flex-basis:190px;max-width:190px}.rcase:nth-of-type(even) .shot{order:0}.rcase--hub{padding:22px 20px 24px;gap:20px}.rcase--hub .shot{flex-basis:160px;max-width:160px}.rcase--hub .rcase-problem p{-webkit-line-clamp:3;line-clamp:3}}
+
+/* ===== Hub intros (replace text walls) ===== */
+.hub-intro{margin:0 0 48px}
+.hub-intro .section-head{max-width:760px;margin-bottom:28px}
+.hub-intro .section-head h2{font-size:clamp(1.55rem,3vw,2rem)}
+.hub-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:28px 0 8px}
+.hub-step{border:1px solid var(--brd);border-radius:var(--radius-lg);background:linear-gradient(165deg,rgba(255,255,255,.06),rgba(255,255,255,.02));padding:22px 22px 24px}
+.hub-step__num{display:inline-flex;align-items:center;justify-content:center;min-width:2rem;height:2rem;padding:0 8px;border-radius:var(--radius-pill);background:rgba(240,82,42,.14);color:var(--orange-2);font-family:var(--font-display);font-weight:var(--font-weight-bold);font-size:.85rem;margin-bottom:12px}
+.hub-step h3{font-size:1.08rem;margin:0 0 8px;color:var(--ink)}
+.hub-step p{margin:0;color:#cbd7ea;font-size:.94rem;line-height:1.55}
+.hub-levers{margin:32px 0 8px}
+.hub-levers h3{font-size:1.05rem;margin:0 0 14px;color:var(--ink)}
+.hub-levers .pill-list{margin:0}
+.hub-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:8px 0 28px}
+.hub-detail{border:1px solid var(--brd);border-radius:var(--radius-lg);background:var(--surface);padding:22px 24px}
+.hub-detail h3{font-size:1.05rem;margin:0 0 8px}
+.hub-detail h3 a{color:var(--cyan-2);text-decoration:none}
+.hub-detail h3 a:hover{color:#fff}
+.hub-detail p{margin:0;color:#cbd7ea;font-size:.94rem;line-height:1.55}
+.hub-intro .duo{margin-top:28px}
+.hub-intro .section-head p{color:#cbd7ea;font-size:1.02rem;line-height:1.6;margin:0}
+@media(max-width:920px){
+  .hub-steps,.hub-detail-grid{grid-template-columns:1fr}
+}
 
 /* ===== Composants premium pages intérieures ===== */
 .prose h2{position:relative}
