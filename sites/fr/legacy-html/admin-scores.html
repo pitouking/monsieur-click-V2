@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scores Click First™ — Admin</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="/css/main.css?v=20260717ds2">
+<style>
+  body{padding:40px 24px}
+  .admin-wrap{max-width:1100px;margin:0 auto}
+  .admin-login{max-width:360px;margin:80px auto;text-align:center}
+  .admin-login input{width:100%;padding:14px 16px;border-radius:12px;border:1px solid var(--brd);background:var(--surface);color:#fff;font-size:1rem;margin-bottom:14px}
+  table{width:100%;border-collapse:collapse;font-size:.86rem}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--brd);vertical-align:top}
+  th{color:var(--muted);font-weight:700;text-transform:uppercase;font-size:.7rem;letter-spacing:.06em}
+  .score-cell{font-weight:700;color:var(--cyan-2)}
+  .table-wrap{overflow-x:auto;border:1px solid var(--brd);border-radius:14px}
+  .admin-msg{color:var(--orange-2);margin-top:10px}
+</style>
+</head>
+<body>
+
+<div class="admin-wrap">
+  <div id="adminLogin" class="admin-login">
+    <h1 class="u-h1-admin">Scores Click First™</h1>
+    <input type="password" id="adminPassword" placeholder="Mot de passe">
+    <button id="adminSubmit" class="btn btn-primary u-btn-full">Voir les résultats</button>
+    <p id="adminMsg" class="admin-msg" hidden></p>
+  </div>
+
+  <div id="adminTable" hidden>
+    <h1 class="u-h1-admin">Scores Click First™ (200 derniers)</h1>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Date</th><th>Langue</th><th>Entreprise</th><th>Email</th><th>Téléphone</th><th>Site web</th><th>Score</th><th>Priorité #1</th></tr>
+        </thead>
+        <tbody id="adminRows"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/admin-scores.js"></script>
+<script defer src="/perf.js?v=20260717ds2"></script>
+</body>
+</html>

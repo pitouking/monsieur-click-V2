@@ -1,0 +1,7 @@
+{
+  "name": "@mc/shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Shared Astro layouts/components (extract progressively from legacy HTML)"
+}

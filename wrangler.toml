@@ -1,6 +1,8 @@
+# Legacy root config — Astro sites now live under sites/fr and sites/com.
+# Prefer: npm run deploy:fr  /  npm run deploy:com
 name = "monsieurclick-fr"
 compatibility_date = "2026-01-01"
-pages_build_output_dir = "."
+pages_build_output_dir = "sites/fr/dist"
 
 [[d1_databases]]
 binding = "DB"

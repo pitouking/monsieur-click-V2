@@ -1,6 +1,14 @@
 .wrangler/
 node_modules/
 .vexp/
+dist/
+.astro/
+sites/*/dist/
+sites/*/.astro/
+sites/*/node_modules/
+sites/*/public/
+.DS_Store
+npm-debug.log*
 
 <!-- barry-cache:start -->
 .context-state/

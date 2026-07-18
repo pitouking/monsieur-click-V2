@@ -1,0 +1,15 @@
+TITLE: Generative Engine Optimization
+DESCRIPTION: Glossary entry: Generative Engine Optimization
+URL: https://monsieurclick.com/glossary/generative-engine-optimization/
+TYPE: DefinedTerm
+LANG: en
+TAGS: glossary,seo
+
+# Generative Engine Optimization
+
+Citable definition for Generative Engine Optimization.
+
+→ https://monsieurclick.com/glossary/generative-engine-optimization/
+→ Glossary hub: https://monsieurclick.com/glossary/
+→ FR glossaire: https://monsieurclick.fr/glossaire/
+

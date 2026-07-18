@@ -1,0 +1,28 @@
+TITLE: SEO audit
+DESCRIPTION: Technical, on-page, content and competitors. Prioritized action plan.
+URL: https://monsieurclick.com/services/seo-audit
+TYPE: Service
+LANG: en
+TAGS: seo-audit,click-first
+
+# SEO audit
+
+Technical, on-page, content and competitors. Prioritized action plan.
+
+Part of Click First™: website, SEO, Google Business Profile, reviews and AI visibility work together.
+
+## Entity
+- Name: Monsieur Click
+- Address: 24 bis sentier des Fosses Rouges, 92240 Malakoff, France
+- Phone: +33 6 60 76 15 23
+- Email: contact@monsieurclick.com
+- Founder: Jean-Pierre Baguette
+
+## Links
+→ Public page: https://monsieurclick.com/services/seo-audit
+→ Services hub: https://monsieurclick.com/services/
+→ Click First™: https://monsieurclick.com/click-first
+→ OKF: https://monsieurclick.com/okf/services/seo-audit/
+→ Free diagnostic: https://monsieurclick.com/contact
+→ FR OKF: https://monsieurclick.fr/okf/
+

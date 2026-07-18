@@ -1,0 +1,33 @@
+<!-- =========================================================================
+     BLOC DE TRACKING CANONIQUE — version EN (monsieurclick.com)
+     À coller dans le <head> de CHAQUE page EN, juste après le Meta Pixel.
+     Tokens fournis par Jean-Pierre depuis le site .com. Prêt à l'emploi.
+     ========================================================================= -->
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F3D55VM422"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-F3D55VM422');</script>
+
+<!-- Cookie banner -->
+<script src="https://www.cookie-banner.ca/api/v1/banner.js?id=d052afb4-30be-458a-8384-c95202aaee34" async></script>
+
+<!-- GoHighLevel external tracking -->
+<script defer src="https://link.monsieurclick.com/js/external-tracking.js" data-tracking-id="tk_a30e543c7c964e4f9c2e3f8981a6ddd1"></script>
+
+<!-- NYTSYS monitoring -->
+<script src="https://plugin.nytsys.com/api/site/07425859-5919-4fb7-bfb1-dadeb407fd93/nytsys.min.js" defer></script>
+
+<!-- Sitebehaviour session recording -->
+<script defer src="https://sitebehaviour-cdn.fra1.cdn.digitaloceanspaces.com/index.min.js?sitebehaviour-secret=feeac00c-7f80-49e8-a6c6-e2055444c955"></script>
+
+<!-- Happierleads B2B identification -->
+<script async src="https://rest.happierleads.com/v3/script?clientId=aSuWe5DNqU8U6HqUMeVxGC&version=4.0.0"></script>
+
+<!-- Meta Pixel : déjà inline dans chaque page (ID 852496749984370).
+     Le .com utilise une variante « idle-loaded » (requestIdleCallback) pour la perf ;
+     la version actuelle fonctionne, à harmoniser plus tard si souhaité. -->
+
+<!-- NON fournis / à ajouter si voulu :
+     - Formilla (chat)   : https://www.formilla.com/scripts/feedback.js (+ GUID)
+     - Buttonizer (bouton flottant) : https://cdn.buttonizer.io/embed.js (+ data-attrs)
+-->
