@@ -1,4 +1,27 @@
 ---
-import rawHtml from '../../../../legacy-html/services/seo-audit/index.html?raw';
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../../chrome.ts';
+import bodyHtml from '../../../../content/services/seo-audit/index.html?raw';
+
+const title = "SEO Audit near Paris | Monsieur Click";
+const description = "Technical, on-page and competitor audit near Paris — prioritized plan, zero fluff. Rated 5/5 by 15+ clients. Free diagnostic.";
+const canonical = "https://monsieurclick.com/services/seo-audit";
+const hreflang = [{"lang":"en","href":"https://monsieurclick.com/services/seo-audit"},{"lang":"fr","href":"https://monsieurclick.fr/services/audit-seo"},{"lang":"x-default","href":"https://monsieurclick.fr/services/audit-seo"}];
+const ogImage = undefined;
+const jsonLd = ["{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Complete SEO Audit\",\"serviceType\":\"SEO audit: technical, on-page and semantic analysis for small businesses\",\"provider\":{\"@id\":\"https://monsieurclick.com/#org\"},\"areaServed\":[{\"@type\":\"Country\",\"name\":\"United States\"},{\"@type\":\"Country\",\"name\":\"United Kingdom\"},{\"@type\":\"Country\",\"name\":\"Canada\"},{\"@type\":\"Country\",\"name\":\"France\"}],\"description\":\"Complete SEO audit for small businesses: technical crawl, on-page analysis, semantic mapping and a prioritized action plan.\",\"url\":\"https://monsieurclick.com/services/seo-audit\"}","{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://monsieurclick.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Services\",\"item\":\"https://monsieurclick.com/services/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"SEO audit\",\"item\":\"https://monsieurclick.com/services/seo-audit\"}]}","{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is a complete SEO audit?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A complete SEO audit covers three dimensions: technical (speed, indexation, architecture), on-page (tags, content, internal links) and semantic (keywords, intent, competition). It produces a prioritized action plan, not an unread 80-page PDF.\"}},{\"@type\":\"Question\",\"name\":\"How long does an SEO audit take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For a typical small-business site we deliver within 5 to 10 business days. A free 30-minute diagnostic comes first to frame goals and budget.\"}},{\"@type\":\"Question\",\"name\":\"Does an audit alone improve rankings?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The audit finds problems and priorities. Visibility gains come from execution: technical fixes, on-page work and content. We can implement through Click First™ SEO services.\"}},{\"@type\":\"Question\",\"name\":\"What is the difference between the free diagnostic and a paid audit?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The free diagnostic (30 min) gives an overview: current visibility, major opportunities, strategic direction. The full audit is deep work with crawl, competitor review, semantic map and a written action plan.\"}},{\"@type\":\"Question\",\"name\":\"Does the audit include local SEO and Google Business Profile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes when your business is local. We check NAP consistency, GBP health and local pack presence, with specific recommendations in the report.\"}}]}","{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"ProfessionalService\"],\"@id\":\"https://monsieurclick.com/#org\",\"name\":\"Monsieur Click\",\"url\":\"https://monsieurclick.com/\",\"logo\":\"https://monsieurclick.com/logo-mc.webp\",\"email\":\"contact@monsieurclick.com\",\"telephone\":\"+33660761523\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"24 bis sentier des Fosses Rouges\",\"postalCode\":\"92240\",\"addressLocality\":\"Malakoff\",\"addressRegion\":\"Île-de-France\",\"addressCountry\":\"FR\"}},{\"@type\":\"WebSite\",\"@id\":\"https://monsieurclick.com/#website\",\"url\":\"https://monsieurclick.com/\",\"name\":\"Monsieur Click\",\"inLanguage\":\"en-US\",\"publisher\":{\"@id\":\"https://monsieurclick.com/#org\"}}]}"];
+const scripts = ["/perf.js?v=20260717ds2","/shared.js?v=20260717ds2"];
 ---
-<Fragment set:html={rawHtml} />
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

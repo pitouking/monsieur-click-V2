@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-hidden="true">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0b1e3d"/><stop offset="1" stop-color="#081428"/>
+</linearGradient>
+<linearGradient id="cy" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#5cc0f2"/><stop offset="1" stop-color="#35a7e6"/>
+</linearGradient>
+<linearGradient id="or" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#ff6a3d"/><stop offset="1" stop-color="#f0522a"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="45%" r="60%">
+<stop offset="0" stop-color="#35a7e6" stop-opacity=".28"/><stop offset="1" stop-color="#35a7e6" stop-opacity="0"/>
+</radialGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#ffffff" opacity=".05"/>
+</pattern>
+</defs>
+<rect width="800" height="450" fill="url(#bg)"/>
+<rect width="800" height="450" fill="url(#dots)"/>
+<rect width="800" height="450" fill="url(#glow)"/>
+<path d="M0 0 H150 A40 40 0 0 1 110 40 H0 Z" fill="#35a7e6" opacity=".10"/>
+<path d="M800 450 H650 A40 40 0 0 1 690 410 H800 Z" fill="#f0522a" opacity=".12"/>
+
+<circle cx="315" cy="220" r="52" fill="url(#cy)"/>
+<path d="M315 196 h30 a30 30 0 1 1 -9 -20" fill="none" stroke="#0b1e3d" stroke-width="9"/>
+<path d="M395 220 h30" stroke="#9fb4d6" stroke-width="8" stroke-linecap="round"/>
+<circle cx="315" cy="220" r="4" fill="#0b1e3d"/>
+<circle cx="485" cy="220" r="52" fill="url(#or)"/>
+<path d="M485 180 l10 26 l26 10 l-26 10 l-10 26 l-10 -26 l-26 -10 l26 -10 Z" fill="#ffc24b"/>
+
+</svg>

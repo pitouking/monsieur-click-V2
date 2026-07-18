@@ -1,0 +1,38 @@
+{
+  "name": "monsieur-click",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "workspaces": [
+    "sites/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:fr": "npm run dev -w @mc/site-fr",
+    "dev:com": "npm run dev -w @mc/site-com",
+    "build:css": "node scripts/build-css.cjs",
+    "build:fr": "npm run sync:assets && npm run build -w @mc/site-fr && node scripts/postbuild-cf.mjs fr",
+    "build:com": "npm run sync:assets && npm run build -w @mc/site-com && node scripts/postbuild-cf.mjs com",
+    "build": "npm run build:fr && npm run build:com",
+    "migrate:html": "node scripts/html-to-astro.mjs --src . --out sites/fr --site fr && node scripts/html-to-astro.mjs --src /tmp/mc-en --out sites/com --site com",
+    "sync:assets": "node scripts/sync-assets.mjs",
+    "bootstrap": "npm run sync:assets && npm run migrate:html",
+    "deploy:fr": "npm run build:fr && cd sites/fr && CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 npx wrangler pages deploy dist --project-name=monsieurclick-fr --branch=fr --commit-dirty=true",
+    "deploy:com": "npm run build:com && cd sites/com && CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 npx wrangler pages deploy dist --project-name=monsieurclick-com --branch=en --commit-dirty=true",
+    "deploy:en": "npm run deploy:com",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "barry": "barry-cache",
+    "barry:validate": "barry-cache validate",
+    "barry:resume": "barry-cache resume",
+    "barry:finalize": "barry-cache finalize",
+    "barry:failure": "barry-cache failure"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "wrangler": "^4.20.0"
+  },
+  "optionalDependencies": {
+    "barry-cache": "^0.1.0"
+  }
+}

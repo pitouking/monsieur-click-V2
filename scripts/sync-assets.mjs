@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 /**
- * Sync static assets into site public/ folders.
- * - FR: from repo root (legacy static tree)
- * - COM: from sites/com/asset-src (exported EN static tree, committed)
+ * Sync static assets into sites/{fr,com}/public from each site's asset-src/.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -18,14 +16,15 @@ const ASSET_EXTS = new Set([
 
 const ROOT_SPECIAL = new Set([
   '_redirects', '_headers', 'robots.txt', 'sitemap.xml', 'llms.txt',
-  'manifest.json', 'favicon.ico', 'browserconfig.xml',
+  'llms-full.txt', 'manifest.json', 'favicon.ico', 'browserconfig.xml',
+  'tracking-head.txt', 'styles.css', 'styles.reference.css',
 ]);
 
 const SKIP_DIR_NAMES = new Set([
   '.git', 'node_modules', 'sites', 'packages', 'scripts', 'dist',
-  '.astro', '.vexp', '.cursor', '.claude', '.impeccable', 'functions',
+  '.astro', '.vexp', '.cursor', '.claude', '.impeccable',
   'docs', 'tests', 'test-results', 'playwright-report', 'src', 'legacy-html',
-  'assets', 'asset-src',
+  'assets', 'asset-src', 'content', 'archive', 'functions',
 ]);
 
 function copyFile(src, dst) {
@@ -60,27 +59,24 @@ function syncSite(label, srcRoot, siteDir) {
   walkAssets(srcRoot, pub, srcRoot);
 
   const fnSrc = path.join(srcRoot, 'functions');
+  const fnDst = path.join(siteDir, 'functions');
   if (fs.existsSync(fnSrc)) {
-    fs.cpSync(fnSrc, path.join(siteDir, 'functions'), { recursive: true });
+    fs.cpSync(fnSrc, fnDst, { recursive: true });
   }
   console.log(`[${label}] assets → ${pub}`);
 }
 
-// Ensure EN asset-src exists (seed from /tmp/mc-en once if needed)
+const frAssetSrc = path.join(root, 'sites/fr/asset-src');
 const comAssetSrc = path.join(root, 'sites/com/asset-src');
+
+if (!fs.existsSync(frAssetSrc)) {
+  console.error('Missing sites/fr/asset-src — run scripts/seed-fr-assets.mjs first');
+  process.exit(1);
+}
 if (!fs.existsSync(comAssetSrc)) {
-  const tmp = '/tmp/mc-en';
-  if (!fs.existsSync(tmp)) {
-    console.error('Missing sites/com/asset-src and /tmp/mc-en — export origin/en first');
-    process.exit(1);
-  }
-  fs.mkdirSync(comAssetSrc, { recursive: true });
-  // Seed non-html assets + functions into asset-src
-  walkAssets(tmp, comAssetSrc, tmp);
-  const fn = path.join(tmp, 'functions');
-  if (fs.existsSync(fn)) fs.cpSync(fn, path.join(comAssetSrc, 'functions'), { recursive: true });
-  console.log('[com] seeded sites/com/asset-src from /tmp/mc-en');
+  console.error('Missing sites/com/asset-src');
+  process.exit(1);
 }
 
-syncSite('fr', root, path.join(root, 'sites/fr'));
+syncSite('fr', frAssetSrc, path.join(root, 'sites/fr'));
 syncSite('com', comAssetSrc, path.join(root, 'sites/com'));

@@ -1,0 +1,12 @@
+TITRE: Framework GEO IA
+DESCRIPTION: Optimisation pour les IA génératives : ChatGPT, Gemini, Claude, Perplexity.
+URL: https://monsieurclick.fr/services/visibilite-ia-geo
+TYPE: Service
+LANG: fr
+TAGS: GEO, IA, ChatGPT, Gemini, Perplexity
+
+# Framework GEO IA
+
+Optimisation pour les IA génératives : ChatGPT, Gemini, Claude, Perplexity.
+
+→ Page complète : https://monsieurclick.fr/offres

@@ -1,0 +1,54 @@
+---
+interface NavLink {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  locale: 'fr' | 'en';
+  links: NavLink[];
+  cta: { href: string; label: string };
+  navAriaLabel: string;
+  menuAriaLabel: string;
+  langAriaLabel: string;
+}
+
+const { locale, links, cta, navAriaLabel, menuAriaLabel, langAriaLabel } = Astro.props;
+---
+<header class="site-header" role="banner">
+  <nav id="nav" class="site-header__nav" aria-label={navAriaLabel}>
+    <div class="wrap-wide nav-inner">
+      <a href="/" class="logo site-header__logo">
+        <img class="mk" src="/logo-mc.webp" alt="Monsieur Click" width="48" height="48" />
+        Monsieur <b>Click</b>
+      </a>
+      <div class="nav-links" id="navLinks" aria-hidden="true">
+        {links.map((link) => (
+          <a href={link.href} class="link">{link.label}</a>
+        ))}
+        <a href={cta.href} class="btn btn-primary">{cta.label}</a>
+        <div class="lang" role="group" aria-label={langAriaLabel}>
+          <a
+            href="https://monsieurclick.fr"
+            class:list={[{ on: locale === 'fr' }]}
+            hreflang="fr"
+            aria-current={locale === 'fr' ? 'true' : undefined}
+          >FR</a>
+          <a
+            href="https://monsieurclick.com"
+            class:list={[{ on: locale === 'en' }]}
+            hreflang="en"
+            aria-current={locale === 'en' ? 'true' : undefined}
+          >EN</a>
+        </div>
+      </div>
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label={menuAriaLabel}
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >☰</button>
+    </div>
+  </nav>
+</header>

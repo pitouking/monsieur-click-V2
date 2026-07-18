@@ -1,4 +1,27 @@
 ---
-import rawHtml from '../../../legacy-html/small-business-seo/index.html?raw';
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../chrome.ts';
+import bodyHtml from '../../../content/small-business-seo/index.html?raw';
+
+const title = "Small Business SEO near Paris | Monsieur Click";
+const description = "Practical local SEO for owners near Paris: Maps, GBP and a website that converts leads. Rated 5/5 by 15+ clients. Free diagnostic.";
+const canonical = "https://monsieurclick.com/small-business-seo";
+const hreflang = [{"lang":"en","href":"https://monsieurclick.com/small-business-seo"},{"lang":"x-default","href":"https://monsieurclick.com/small-business-seo"}];
+const ogImage = undefined;
+const jsonLd = ["{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Small Business SEO — Get Found by Local Customers\",\"provider\":{\"@type\":\"ProfessionalService\",\"name\":\"Monsieur Click\",\"url\":\"https://monsieurclick.com\"},\"url\":\"https://monsieurclick.com/small-business-seo\",\"description\":\"Affordable SEO for small businesses. Local SEO, Google Business Profile, and AI visibility. Free audit, no commitment.\"}","{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How much does small business SEO cost?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It depends on competition and scope. We start with a free audit so the plan matches your market, not a generic package.\"}},{\"@type\":\"Question\",\"name\":\"How long before I see results?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Local SEO often shows early signals in 2–3 months. Stronger positions typically build over 4–6 months.\"}}]}"];
+const scripts = ["/perf.js?v=20260717ds2","/shared.js?v=20260717ds2"];
 ---
-<Fragment set:html={rawHtml} />
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

@@ -1,4 +1,27 @@
 ---
-import rawHtml from '../../../../legacy-html/realisations/east-portland-sash/index.html?raw';
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../../chrome.ts';
+import bodyHtml from '../../../../content/realisations/east-portland-sash/index.html?raw';
+
+const title = "Cas East Portland Sash | Monsieur Click";
+const description = "Artisan Portland : SEO local pour la restauration de fenêtres bois anciennes. Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit.";
+const canonical = "https://monsieurclick.fr/realisations/east-portland-sash/";
+const hreflang = [{"lang":"fr","href":"https://monsieurclick.fr/realisations/east-portland-sash/"},{"lang":"en","href":"https://monsieurclick.com/case-studies/east-portland-sash/"},{"lang":"x-default","href":"https://monsieurclick.fr/realisations/east-portland-sash/"}];
+const ogImage = undefined;
+const jsonLd = ["{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[\n{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https://monsieurclick.fr/\"},\n{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Réalisations\",\"item\":\"https://monsieurclick.fr/realisations/\"},\n{\"@type\":\"ListItem\",\"position\":3,\"name\":\"East Portland Sash\",\"item\":\"https://monsieurclick.fr/realisations/east-portland-sash/\"}]}","{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"East Portland Sash — étude de cas\",\"name\":\"East Portland Sash\",\"description\":\"Un artisan unique à Portland sur la restauration de fenêtres bois, mais difficile à trouver sur les requêtes locales pertinentes.\",\"author\":{\"@type\":\"Organization\",\"name\":\"Monsieur Click\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Monsieur Click\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://monsieurclick.fr/logo-mc.webp\"}},\"mainEntityOfPage\":\"https://monsieurclick.fr/realisations/east-portland-sash/\",\"image\":\"https://monsieurclick.fr/eastportlandsash-mobile.webp\"}"];
+const scripts = ["/perf.js?v=20260717ds2","/shared.js?v=20260717ds2"];
 ---
-<Fragment set:html={rawHtml} />
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

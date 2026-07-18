@@ -1,0 +1,272 @@
+<main id="main">
+<section>
+  <div class="wrap">
+    <div class="u-wrap-820 shead reveal">
+      <div class="section-head__kick kick"><span class="section-head__num no"></span><span class="eyebrow">The reality</span></div>
+      <h2>You're excellent at your craft. Online, no one sees it.</h2>
+      <p>You've mastered your expertise, but your visibility on Google depends on dozens of technical signals no one ever explained to you. When a customer searches for your service nearby, or asks an AI, it's a better-ranked competitor that shows up.</p>
+    </div>
+    <div class="fgrid">
+      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5.2A9 9 0 0 1 12 5c6 0 9.5 7 9.5 7a16 16 0 0 1-2.6 3.4M6.4 6.4A16 16 0 0 0 2.5 12S6 19 12 19a9 9 0 0 0 4.6-1.3"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/><path d="M3 3l18 18"/></svg></div><h3>The visible problem</h3><p>Invisible on Google, Google Maps and in the answers of ChatGPT or Perplexity. A competitor shows up in your place.</p></div>
+      <div class="fcard o reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 15.5s1.3-2 3.5-2 3.5 2 3.5 2"/><path d="M9 9.5h.01M15 9.5h.01"/></svg></div><h3>The felt problem</h3><p>Skilled but invisible, often after a web agency that delivered a site then vanished, with no follow-up and no results.</p></div>
+      <div class="fcard reveal"><div class="fic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 4l3 3-3 3"/><path d="M18 14l3 3-3 3"/><path d="M3 7h4c2 0 3 1 4.5 3M21 7h-4M3 17h4c2 0 3-1 4.5-3M21 17h-4"/></svg></div><h3>The real cause</h3><p>It's not your business. It's the way businesses get discovered that changed: the journey became fragmented.</p></div>
+    </div>
+    <div class="u-mt-38 q-strip reveal">
+      <div class="q1">A single, isolated lever is no longer enough. You need a system.</div>
+      <div class="q2">A Google search, a Google Business Profile, a website, Google reviews, then sometimes a question asked to ChatGPT or Perplexity before the decision. We are that guide: our job is to orchestrate this system, in the right order, to turn an invisible business into the obvious choice, on Google as well as in AI.</div>
+    </div>
+  </div>
+</section>
+
+<section class="u-section-tight" id="score">
+  <div class="u-wrap-820 wrap">
+    <div class="section-head shead reveal">
+      <div class="section-head__kick kick"><span class="section-head__num no"></span><span class="eyebrow">Free tool</span></div>
+      <h2>Your Click First™ Score, in 3 minutes.</h2>
+      <p>35 questions across 5 areas (website, local SEO, Google Business Profile, AI visibility, trust). At the end: your score, your strengths and your top 3 concrete priorities.</p>
+    </div>
+
+    <div id="cfsWizard" class="cfs-wizard">
+      <div class="cfs-progress"><div class="cfs-progress-bar" id="cfsProgressBar"></div></div>
+      <div class="cfs-stepline" id="cfsStepLabel"></div>
+
+      <form id="cfsForm" novalidate>
+        <div id="cfsQuestions" class="cfs-questions"></div>
+
+        <div id="cfsLead" class="cfs-lead" hidden>
+          <h3 class="u-mb-6">Last step</h3>
+          <p class="u-mb-md muted">To receive your score and priorities by email.</p>
+          <div class="cform">
+            <div class="row">
+              <div><label for="cfsBusiness">Business name</label><input id="cfsBusiness" name="business_name" type="text" autocomplete="organization" required></div>
+              <div><label for="cfsEmail">Email</label><input id="cfsEmail" name="email" type="email" autocomplete="email" required></div>
+            </div>
+            <div class="row">
+              <div><label for="cfsWebsite">Website (optional)</label><input id="cfsWebsite" name="website_url" type="url" autocomplete="url" placeholder="https://"></div>
+              <div><label for="cfsPhone">Phone (optional)</label><input id="cfsPhone" name="phone" type="tel" autocomplete="tel"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cfs-nav">
+          <button type="button" id="cfsPrev" class="btn btn-ghost" hidden>Previous</button>
+          <button type="button" id="cfsNext" class="btn btn-primary">Next</button>
+          <button type="submit" id="cfsSubmit" class="btn btn-primary" hidden>See my score</button>
+        </div>
+        <p id="cfsMsg" class="u-mt-14 muted" role="status" hidden></p>
+      </form>
+    </div>
+
+    <div id="cfrContent" hidden>
+      <h3 class="u-mb-32" id="cfrBusinessTitle">Your Click First™ Score</h3>
+      <div class="cfr-hero">
+        <div class="cfr-global">
+          <div class="cfr-global-num" id="cfrGlobalScore">--</div>
+          <div class="cfr-global-label" id="cfrGlobalLabel"></div>
+        </div>
+        <svg id="cfrRadar" viewBox="-45 -20 390 340" class="cfr-radar-svg" aria-hidden="true">
+          <g id="cfrRadarGrid"></g>
+          <polygon id="cfrRadarData" points="" class="cfr-radar-data"></polygon>
+          <g id="cfrRadarLabels"></g>
+        </svg>
+      </div>
+
+      <div class="cfr-badges" id="cfrBadges"></div>
+
+      <div class="cfr-cols">
+        <div>
+          <h3>Your strengths</h3>
+          <ul class="cfr-strengths" id="cfrStrengths"></ul>
+        </div>
+        <div>
+          <h3>Your top 3 priorities</h3>
+          <div class="cfr-priorities" id="cfrPriorities"></div>
+        </div>
+      </div>
+
+      <div class="cfr-cta">
+        <p>These priorities can be tackled together: the Click First™ method brings every lever into a single system.</p>
+        <a href="/contact" class="btn btn-primary">Book my free audit</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="u-section-tight">
+  <div class="wrap">
+    <div class="section-head shead reveal">
+      <div class="section-head__kick kick"><span class="section-head__num no"></span><span class="eyebrow">The system, lever by lever</span></div>
+      <h2>On their own, each lever plateaus. Together, they amplify each other.</h2>
+      <p>A beautiful site without SEO stays invisible. A Google profile without a website doesn't convert. Content without structured data isn't read by AI. Here are the components of Click First™, and how each one feeds the others.</p>
+    </div>
+
+    <a href="/services/web-design/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8.5 21h7M12 17v4"/></svg></div>
+      <div>
+        <h3>Website &amp; Technical SEO</h3>
+        <p>The foundation of your presence, and the technical base Google evaluates first. A fast, mobile-first, clean site is one that engines index and rank easily, and that your customers keep open.</p>
+        <ul><li>Custom, conversion-focused design</li><li>Core Web Vitals in the green, speed and CDN</li><li>Architecture, internal linking, canonicals, sitemap</li><li>Stack adapted to your needs (WordPress, Brizy Cloud, static, custom)</li></ul>
+        <span class="mcomp-link">See web design →</span>
+      </div>
+    </a>
+    <a href="/services/local-seo/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+      <div>
+        <h3>Local organic SEO</h3>
+        <p>We build your authority to rank sustainably on business-intent searches, the ones that bring a customer, not just a visitor. Service pages, location pages, geo-targeted keywords.</p>
+        <ul><li>Technical and on-page audit</li><li>Service + city keywords</li><li>Content that answers real searches</li></ul>
+        <span class="mcomp-link">See local SEO →</span>
+      </div>
+    </a>
+    <a href="/services/google-business-profile/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+      <div>
+        <h3>Google Business Profile</h3>
+        <p>Often the very first contact with your future customers, and the most powerful local lever. We optimize your Google profile and sync it with your site to dominate Google Maps and the local pack.</p>
+        <ul><li>Complete profile, categories and services</li><li>Geotagged photos and regular posts</li><li>Profile and website in sync</li></ul>
+        <span class="mcomp-link">See Google Business Profile →</span>
+      </div>
+    </a>
+    <a href="/services/local-seo/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8 4.8-2.2Z"/></svg></div>
+      <div>
+        <h3>Local citations &amp; NAP consistency</h3>
+        <p>NAP stands for Name, Address, Phone. Google trusts a business more when this information is rigorously identical everywhere. We align your citations across local directories and platforms.</p>
+        <ul><li>Identical NAP across site, profile and directories</li><li>Relevant local citations</li><li>Cleanup of existing inconsistencies</li></ul>
+        <span class="mcomp-link">See local SEO (NAP citations) →</span>
+      </div>
+    </a>
+    <a href="/services/google-business-profile/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.28 5.83.85-4.22 4.11 1 5.8L12 16.9l-5.21 2.74 1-5.8-4.22-4.11 5.83-.85L12 3.5Z"/></svg></div>
+      <div>
+        <h3>Google Reviews</h3>
+        <p>The social proof your customers check before choosing you, and a strong prominence signal for Google and AI alike. We put in place a strategy to earn and manage reviews.</p>
+        <ul><li>Review-generation strategy</li><li>Replies and online reputation</li><li>Highlighted on the website</li></ul>
+        <span class="mcomp-link">See Google review strategy →</span>
+      </div>
+    </a>
+    <a href="/services/generative-engine-optimization/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4.6a2 2 0 0 1 4 0c0 .5.4.9.9.9H17.5V8c0 .5.4.9.9.9a2 2 0 0 1 0 4c-.5 0-.9.4-.9.9V16H15c-.5 0-.9.4-.9.9a2 2 0 0 1-4 0c0-.5-.4-.9-.9-.9H6.5v-2.2c0-.5-.4-.9-.9-.9a2 2 0 0 1 0-4c.5 0 .9-.4.9-.9V5.5H9c.5 0 .9-.4 1-.9Z"/></svg></div>
+      <div>
+        <h3>Structured data: Schema.org &amp; OKF</h3>
+        <p>Schema.org markup describes your business in a language Google understands. OKF, an AI-readable knowledge format, goes further: it structures your facts so ChatGPT, Claude, Gemini and Perplexity cite you accurately.</p>
+        <ul><li>Schema LocalBusiness, Service, FAQ, Breadcrumb</li><li>OKF bundle, llms.txt, Entity Homes</li><li>Consistent named entities</li></ul>
+        <span class="mcomp-link">See AI visibility (GEO) →</span>
+      </div>
+    </a>
+    <a href="/services/generative-engine-optimization/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="2"/><path d="M12 8V4.5M9 12.5h.01M15 12.5h.01M9.5 16h5"/><path d="M2.5 12.5v2M21.5 12.5v2"/></svg></div>
+      <div>
+        <h3>AI visibility (GEO)</h3>
+        <p>GEO, Generative Engine Optimization, prepares your presence for generative engines. Tomorrow, your customers will ask an AI for advice. We configure your content and your crawlers (GPTBot, ClaudeBot, PerplexityBot) so they find you and recommend you.</p>
+        <ul><li>Clear, citable content</li><li>AI Overviews, ChatGPT, Perplexity, Gemini, Claude</li><li>AI crawler configuration</li></ul>
+        <span class="mcomp-link">See AI visibility (GEO) →</span>
+      </div>
+    </a>
+    <a href="/services/web-design/" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 5.5l4 4M4 20l1-4L16.5 4.5a1.8 1.8 0 0 1 3 3L8 19l-4 1Z"/></svg></div>
+      <div>
+        <h3>StoryBrand content</h3>
+        <p>A clear message where your customer is the hero and you are the guide. The StoryBrand method clarifies what you do in five seconds, reassures, converts, and feeds both SEO and AI understanding.</p>
+        <ul><li>Clarified message (StoryBrand)</li><li>Service pages and location pages</li><li>Conversion-focused content</li></ul>
+        <span class="mcomp-link">See web design (conversion) →</span>
+      </div>
+    </a>
+    <a href="/pricing" class="mcomp reveal">
+      <div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16h16"/><polyline points="7,14 11,10 14,13 19,7"/><polyline points="15,7 19,7 19,11"/></svg></div>
+      <div>
+        <h3>Continuous optimization</h3>
+        <p>Your visibility is a living organism. Google evolves, AI evolves, search evolves. We monitor, adjust and improve every month, with a clear KPI report on what's progressing.</p>
+        <ul><li>Monthly content and SEO updates</li><li>Tracking of rankings and AI mentions</li><li>Transparent KPI report</li></ul>
+        <span class="mcomp-link">See pricing plans →</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="u-section-tight">
+  <div class="wrap">
+    <div class="u-wrap-820 prose reveal">
+      <h2>What about CRM automation?</h2>
+      <p>Online booking, lead tracking and automated follow-ups aren't part of the Click First™ core. It's an add-on service we offer only to businesses that genuinely need it, so no contact is lost once visibility is in place.</p>
+    </div>
+  </div>
+</section>
+
+<section class="u-section-tight">
+  <div class="wrap">
+    <div class="section-head section-head--center shead center reveal">
+      <div class="section-head__kick kick"><span class="section-head__num no"></span><span class="eyebrow">The plan</span></div>
+      <h2>Three simple steps. Zero pressure.</h2>
+    </div>
+    <div class="cases">
+      <div class="case reveal"><div class="metric">01</div><div class="tag">Free · 30 min</div><blockquote>We listen, with no pitch and no pressure. We understand your business, your market and what "the obvious choice" means to you.</blockquote></div>
+      <div class="case reveal"><div class="metric">02</div><div class="tag">Within 48 h</div><blockquote>You receive a clear, costed plan: what we build, in what order, in how long, and for what budget. Everything is in writing.</blockquote></div>
+      <div class="case reveal"><div class="metric">03</div><div class="tag">6 to 12 months</div><blockquote>Rollout in 2 to 4 weeks, then continuous optimization with a monthly KPI report. You focus on your craft, we handle your visibility.</blockquote></div>
+    </div>
+  </div>
+</section>
+
+<section class="u-section-tight">
+  <div class="wrap">
+    <div class="u-wrap-820 prose reveal">
+      <h2>What happens if nothing changes</h2>
+      <p>Without a system, the gap widens. Over six to twelve months, better-ranked competitors keep capturing the new customers, reviews and traffic. Your business stays absent from ChatGPT and Perplexity answers while others get cited. And word of mouth remains your only source of leads, which mechanically caps your growth.</p>
+      <h2>What happens once the method is in place</h2>
+      <p>Conversely, once Click First™ is installed, your business becomes confident and visible: the obvious choice in your city, on Google as well as in AI. A steady, predictable flow of qualified inquiries replaces the uncertainty. The phone rings, every week, with contacts who already know why they're calling. You're no longer your market's best-kept secret: you're found, and you're chosen.</p>
+    </div>
+  </div>
+</section>
+
+<section class="u-section-tight" id="faq">
+  <div class="u-wrap-820 wrap">
+    <div class="section-head section-head--center shead center reveal">
+      <div class="section-head__kick kick"><span class="section-head__num no"></span><span class="eyebrow">Frequently asked questions</span></div>
+      <h2>The method, in plain terms.</h2>
+    </div>
+    <div class="reveal">
+      <div class="faq-item"><button class="faq-q">Can I take just one component?<span class="chev">+</span></button><div class="faq-a"><p>The method is designed to make every lever work together. It's the coherence between website, local SEO, Google Business Profile, reviews and AI visibility that produces the best results. We adapt the scale, not the logic.</p></div></div>
+      <div class="faq-item"><button class="faq-q">What is Schema and OKF development?<span class="chev">+</span></button><div class="faq-a"><p>Schema.org markup describes your business in a language Google understands. OKF (Open Knowledge Format) structures your knowledge for AI engines, so ChatGPT, Claude, Gemini and Perplexity can cite you accurately.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Is Technical SEO included?<span class="chev">+</span></button><div class="faq-a"><p>Yes. Loading speed, Core Web Vitals, mobile-first, architecture, internal linking, canonicals and sitemap are an integral part of building the site.</p></div></div>
+      <div class="faq-item"><button class="faq-q">What is NAP consistency?<span class="chev">+</span></button><div class="faq-a"><p>NAP stands for Name, Address, Phone. Google trusts a business more when this information is identical everywhere: website, Google profile and local directories. We align your local citations.</p></div></div>
+      <div class="faq-item"><button class="faq-q">How long until results show?<span class="chev">+</span></button><div class="faq-a"><p>Local SEO often shows first signals within 2 to 3 months; a solid position is built over 4 to 6 months, depending on your industry and competition.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Does Click First™ work with WordPress?<span class="chev">+</span></button><div class="faq-a"><p>We choose the technology best suited to your project: WordPress, Brizy Cloud, an AI-optimized static site or a dynamic platform. Whatever the solution, each site is built with the Click First method, with flawless technical SEO, Schema.org structured data, smart internal linking and an optimized sitemap built in from the start.</p></div></div>
+      <div class="faq-item"><button class="faq-q">How do I get cited by ChatGPT, Gemini and Perplexity?<span class="chev">+</span></button><div class="faq-a"><p>That's the role of GEO (Generative Engine Optimization): clear, citable content, Schema.org structured data and an OKF / llms.txt bundle, consistent named entities, and allowing AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended).</p></div></div>
+      <div class="faq-item"><button class="faq-q">What is the difference between SEO and GEO?<span class="chev">+</span></button><div class="faq-a"><p>Organic SEO targets your ranking on Google and Google Maps. GEO targets your presence in the answers of AI engines like ChatGPT, Claude, Gemini and Perplexity. Click First™ handles both together, because they rely on the same foundations.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Do I need to rebuild my site to apply Click First™?<span class="chev">+</span></button><div class="faq-a"><p>Not necessarily. We start with an audit. If your Technical SEO and Core Web Vitals allow it, we optimize what exists. A rebuild is only proposed when it's truly needed.</p></div></div>
+      <div class="faq-item"><button class="faq-q">How do I appear in the Google Maps local pack?<span class="chev">+</span></button><div class="faq-a"><p>The local pack shows the three most relevant profiles. We work toward it with an optimized Google Business Profile, a Google reviews strategy, NAP consistency across your citations and an aligned website, across Google's three criteria: proximity, relevance and prominence.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Do you work remotely, across France and internationally?<span class="chev">+</span></button><div class="faq-a"><p>Yes, 100% remotely (phone, Zoom, email), across French-speaking countries (France, Belgium, Switzerland, Canada) and English-speaking countries (United States, United Kingdom).</p></div></div>
+      <div class="faq-item"><button class="faq-q">Does Click First™ guarantee the number one spot on Google?<span class="chev">+</span></button><div class="faq-a"><p>No. No serious method can guarantee a position: Google and AI engines change their algorithms without notice. We build lasting visibility, measured each month with a transparent KPI report.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="u-section-tight">
+  <div class="wrap">
+    <div class="ctaband reveal">
+      <h2>Ready to install Click First™ in your business?</h2>
+      <p>Get a free audit: your current visibility on Google and AI, your priorities, and the plan to move ahead. Or <a class="u-link-white" href="#score">calculate your Click First™ Score</a> in 3 minutes.</p>
+      <a href="/contact" class="btn">Get my free audit</a>
+    </div>
+  </div>
+</section>
+
+<!-- Blog teaser -->
+<section class="related">
+  <div class="wrap">
+    <div class="section-head shead reveal"><div class="section-head__kick kick"><span class="section-head__num no">&middot;</span><span class="eyebrow">Read next</span></div><h2>The method explained</h2></div>
+    <div class="blog-grid reveal">
+<a class="bcard reveal" href="/blog/click-first-not-just-seo">
+        <span class="bimg"><img loading="lazy" decoding="async" src="/img-blog-click-first-not-just-seo.svg" alt="Why Click First™ isn't just another SEO service"></span>
+        <span class="bbody"><span class="cat">Strategy</span><span class="bh3">Click First™ isn't just another SEO service</span><span class="bexc">The problem isn't the tools, it's their isolation. Click First connects them.</span><span class="blink">Read the article &rarr;</span></span></a>
+<a class="bcard reveal" href="/blog/become-a-reference-business">
+        <span class="bimg"><img loading="lazy" decoding="async" src="/img-blog-become-a-reference-business.svg" alt="Become a reference business, not just a visible one"></span>
+        <span class="bbody"><span class="cat">Strategy</span><span class="bh3">Become a reference, not just visible</span><span class="bexc">Visible attracts visitors. A reference attracts trust, and customers.</span><span class="blink">Read the article &rarr;</span></span></a>
+<a class="bcard reveal" href="/blog/geo-generative-engine-optimization">
+        <span class="bimg"><img loading="lazy" decoding="async" src="/img-blog-geo-generative-engine-optimization.svg" alt="What is GEO (Generative Engine Optimization)"></span>
+        <span class="bbody"><span class="cat">AI visibility</span><span class="bh3">GEO: optimize your business for generative AI</span><span class="bexc">The natural evolution of SEO: being understood and cited by generative AI.</span><span class="blink">Read the article &rarr;</span></span></a>
+    </div>
+    <div class="u-mt-30 reveal"><a href="/blog/" class="btn btn-cyan">See all articles</a></div>
+  </div>
+</section>
+</main>
