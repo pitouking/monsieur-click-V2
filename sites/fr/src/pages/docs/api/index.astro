@@ -1,0 +1,47 @@
+---
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../../chrome.ts';
+
+const title = 'Documentation API | Monsieur Click';
+const description =
+  'OpenAPI et découverte agents pour l’API publique Click First™ Score de Monsieur Click. Voir auth.md et api-catalog.';
+const canonical = 'https://monsieurclick.fr/docs/api';
+const hreflang = [
+  { lang: 'fr', href: 'https://monsieurclick.fr/docs/api' },
+  { lang: 'en', href: 'https://monsieurclick.com/docs/api' },
+  { lang: 'x-default', href: 'https://monsieurclick.fr/docs/api' },
+];
+---
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  nav={nav}
+  footer={footer}
+>
+  <main id="main">
+    <header class="page-hero pagehero">
+      <div class="wrap">
+        <p class="eyebrow">API</p>
+        <h1>Documentation API Monsieur Click</h1>
+        <p class="sub">API publique Click First™ Score et endpoints de découverte pour agents.</p>
+      </div>
+    </header>
+    <section class="prose wrap">
+      <h2>Lecture machine</h2>
+      <ul>
+        <li><a href="/.well-known/api-catalog">Catalogue API</a> (RFC 9727)</li>
+        <li><a href="/.well-known/openapi-score.json">OpenAPI</a> du score</li>
+        <li><a href="/auth.md">auth.md</a> enregistrement agents</li>
+        <li><a href="/.well-known/mcp/server-card.json">Carte serveur MCP</a></li>
+        <li><a href="/.well-known/agent-skills/index.json">Index des skills</a></li>
+        <li><a href="/api/health">Santé</a></li>
+        <li><a href="/mcp">Transport MCP</a></li>
+      </ul>
+      <h2>Prochaine étape humaine</h2>
+      <p><a class="btn btn-primary" href="/contact">Demander un diagnostic gratuit</a></p>
+    </section>
+  </main>
+</BaseLayout>

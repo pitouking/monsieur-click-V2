@@ -1,13 +1,18 @@
 import { defineConfig } from 'astro/config';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-/** monsieurclick.com — contenu natif EN */
+const root = path.dirname(fileURLToPath(import.meta.url));
+
 export default defineConfig({
   site: 'https://monsieurclick.com',
   output: 'static',
-  build: {
-    format: 'directory',
-  },
+  build: { format: 'directory' },
   vite: {
-    server: { watch: { ignored: ['**/dist/**'] } },
+    resolve: {
+      alias: {
+        '@mc/shared': path.resolve(root, '../../packages/shared'),
+      },
+    },
   },
 });

@@ -1,4 +1,27 @@
 ---
-import rawHtml from '../../../legacy-html/services/index.html?raw';
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../chrome.ts';
+import bodyHtml from '../../../content/services/index.html?raw';
+
+const title = "Services SEO & web à Malakoff | Monsieur Click";
+const description = "Création de site, SEO, SEO local, GBP et GEO pour TPE/PME. Agence à Malakoff (92). Sans promesse de n°1. Note 5/5 sur 15 avis. Diagnostic gratuit.";
+const canonical = "https://monsieurclick.fr/services/";
+const hreflang = [{"lang":"fr-fr","href":"https://monsieurclick.fr/services/"},{"lang":"x-default","href":"https://monsieurclick.fr/services/"}];
+const ogImage = undefined;
+const jsonLd = ["{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[\n{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https://monsieurclick.fr/\"},\n{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Services\",\"item\":\"https://monsieurclick.fr/services/\"}\n]}","{\"@context\":\"https://schema.org\",\"@type\":\"CollectionPage\",\"@id\":\"https://monsieurclick.fr/services/#webpage\",\"url\":\"https://monsieurclick.fr/services/\",\"name\":\"Services SEO & création de site | Monsieur Click\",\"isPartOf\":{\"@id\":\"https://monsieurclick.fr/#website\"},\"about\":{\"@id\":\"https://monsieurclick.fr/#org\"},\"inLanguage\":\"fr-FR\",\"mainEntity\":{\"@type\":\"ItemList\",\"name\":\"Services Monsieur Click\",\"itemListElement\":[\n{\"@type\":\"ListItem\",\"position\":1,\"url\":\"https://monsieurclick.fr/services/creation-site-web\",\"name\":\"Création de site internet\"},\n{\"@type\":\"ListItem\",\"position\":2,\"url\":\"https://monsieurclick.fr/services/seo\",\"name\":\"Référencement naturel (SEO)\"},\n{\"@type\":\"ListItem\",\"position\":3,\"url\":\"https://monsieurclick.fr/services/seo-local\",\"name\":\"SEO local & Google Maps\"},\n{\"@type\":\"ListItem\",\"position\":4,\"url\":\"https://monsieurclick.fr/services/google-business-profile\",\"name\":\"Google Business Profile\"},\n{\"@type\":\"ListItem\",\"position\":5,\"url\":\"https://monsieurclick.fr/services/audit-seo\",\"name\":\"Audit SEO complet\"},\n{\"@type\":\"ListItem\",\"position\":6,\"url\":\"https://monsieurclick.fr/services/refonte-site-web\",\"name\":\"Refonte de site internet\"},\n{\"@type\":\"ListItem\",\"position\":7,\"url\":\"https://monsieurclick.fr/services/creation-site-wordpress\",\"name\":\"Création site WordPress\"},\n{\"@type\":\"ListItem\",\"position\":8,\"url\":\"https://monsieurclick.fr/services/visibilite-ia-geo\",\"name\":\"Visibilité IA (GEO)\"}\n]}}"];
+const scripts = [{"src":"/perf.js?v=20260719perf","module":false},{"src":"/shared.js?v=20260719perf","module":false},{"src":"/webmcp.js?v=20260719agent","module":false}];
 ---
-<Fragment set:html={rawHtml} />
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

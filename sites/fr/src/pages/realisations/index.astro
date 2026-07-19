@@ -1,4 +1,27 @@
 ---
-import rawHtml from '../../../legacy-html/realisations/index.html?raw';
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../chrome.ts';
+import bodyHtml from '../../../content/realisations/index.html?raw';
+
+const title = "Réalisations SEO local | Monsieur Click";
+const description = "7 études de cas SEO et sites pour TPE/PME. Résultats concrets avec Click First™. Accompagnement direct. Note 5/5 sur 15 avis. Diagnostic gratuit.";
+const canonical = "https://monsieurclick.fr/realisations/";
+const hreflang = [{"lang":"fr","href":"https://monsieurclick.fr/realisations/"},{"lang":"en","href":"https://monsieurclick.com/case-studies/"},{"lang":"x-default","href":"https://monsieurclick.fr/realisations/"}];
+const ogImage = undefined;
+const jsonLd = ["{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[\n{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https://monsieurclick.fr/\"},\n{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Réalisations\",\"item\":\"https://monsieurclick.fr/realisations/\"}]}","{\"@context\":\"https://schema.org\",\"@type\":\"ItemList\",\"name\":\"Réalisations Monsieur Click\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"url\":\"https://monsieurclick.fr/realisations/assogym/\",\"name\":\"Assogym\"},{\"@type\":\"ListItem\",\"position\":2,\"url\":\"https://monsieurclick.fr/realisations/dharma-massage-therapy/\",\"name\":\"Dharma Massage Therapy\"},{\"@type\":\"ListItem\",\"position\":3,\"url\":\"https://monsieurclick.fr/realisations/susan-filan/\",\"name\":\"Susan Filan\"},{\"@type\":\"ListItem\",\"position\":4,\"url\":\"https://monsieurclick.fr/realisations/bodyguard-paris/\",\"name\":\"Bodyguard Paris\"},{\"@type\":\"ListItem\",\"position\":5,\"url\":\"https://monsieurclick.fr/realisations/heather-fillmore-coaching/\",\"name\":\"Heather Fillmore Coaching\"},{\"@type\":\"ListItem\",\"position\":6,\"url\":\"https://monsieurclick.fr/realisations/studio-la-voix-du-12/\",\"name\":\"Studio La Voix du 12\"},{\"@type\":\"ListItem\",\"position\":7,\"url\":\"https://monsieurclick.fr/realisations/east-portland-sash/\",\"name\":\"East Portland Sash\"}]}"];
+const scripts = [{"src":"/perf.js?v=20260719perf","module":false},{"src":"/shared.js?v=20260719perf","module":false},{"src":"/webmcp.js?v=20260719agent","module":false}];
 ---
-<Fragment set:html={rawHtml} />
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

@@ -1,0 +1,12 @@
+TITRE: Politique de confidentialité
+DESCRIPTION: Politique de confidentialité et protection des données.
+URL: https://monsieurclick.fr/confidentialite
+TYPE: Legal
+LANG: fr
+TAGS: confidentialité, RGPD, données
+
+# Politique de confidentialité
+
+Politique de confidentialité et protection des données.
+
+→ Page complète : https://monsieurclick.fr/confidentialite

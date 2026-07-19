@@ -7,6 +7,7 @@ sites/*/dist/
 sites/*/.astro/
 sites/*/node_modules/
 sites/*/public/
+sites/*/score-questions.js
 .DS_Store
 npm-debug.log*
 

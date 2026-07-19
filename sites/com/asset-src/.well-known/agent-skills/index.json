@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agentskills.io/schemas/discovery/v0.2.0.json",
+  "version": "0.2.0",
+  "name": "Monsieur Click Agent Skills",
+  "description": "Discoverable agent skills for Monsieur Click",
+  "skills": [
+    {
+      "name": "seo-score",
+      "type": "skill",
+      "description": "Calculate an SEO score for a business website URL.",
+      "url": "https://monsieurclick.com/.well-known/agent-skills/seo-score/SKILL.md",
+      "sha256": "368ac3fef1a697cae8b5ace437f5c7f42567e143086304e0c5362b14b3641a39"
+    },
+    {
+      "name": "request-quote",
+      "type": "skill",
+      "description": "Open the SEO audit quote request page for a business website.",
+      "url": "https://monsieurclick.com/.well-known/agent-skills/request-quote/SKILL.md",
+      "sha256": "3f87a10a0c113cfdb2148967df7ceab1e2b80fb77889996dae485354a22d2fb9"
+    },
+    {
+      "name": "contact-diagnostic",
+      "type": "skill",
+      "description": "Open the free Monsieur Click SEO diagnostic",
+      "url": "https://monsieurclick.com/.well-known/agent-skills/contact-diagnostic/SKILL.md",
+      "sha256": "72b4e0b8d5862d5db58510ba0561887c0ed7e2113f90ced26e711be54cd52ae9"
+    }
+  ]
+}

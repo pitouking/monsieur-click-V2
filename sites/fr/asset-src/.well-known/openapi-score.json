@@ -1,0 +1,79 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "API Score Monsieur Click",
+    "version": "1.0.0",
+    "description": "Calculateur public de score SEO utilisé par les outils Monsieur Click.",
+    "contact": {
+      "name": "Monsieur Click",
+      "url": "https://monsieurclick.fr",
+      "email": "contact@monsieurclick.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://score.monsieurclick.com"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "operationId": "getScoreHome",
+        "summary": "Score API entry",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/score": {
+      "get": {
+        "operationId": "getSeoScore",
+        "summary": "Calculate SEO score for a URL",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Website URL to score"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Score result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "url": {
+                      "type": "string"
+                    },
+                    "score": {
+                      "type": "number"
+                    },
+                    "details": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

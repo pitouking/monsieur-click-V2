@@ -1,0 +1,16 @@
+{
+  "resource": "https://monsieurclick.com/",
+  "resource_name": "Monsieur Click",
+  "authorization_servers": [
+    "https://monsieurclick.com"
+  ],
+  "scopes_supported": [
+    "score:read",
+    "score:submit",
+    "agent:register"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "resource_documentation": "https://monsieurclick.com/auth.md"
+}

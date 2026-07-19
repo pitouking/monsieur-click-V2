@@ -1,0 +1,115 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Hreflang {
+  lang: string;
+  href: string;
+}
+
+export interface NavLink {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  locale: 'fr' | 'en';
+  title: string;
+  description: string;
+  canonical: string;
+  hreflang?: Hreflang[];
+  ogImage?: string;
+  ogLocale?: string;
+  ogLocaleAlternate?: string;
+  jsonLd?: string[];
+  headExtras?: string;
+  scripts?: Array<string | { src: string; module?: boolean }>;
+  cssHref?: string;
+  lcpImage?: string;
+  nav: {
+    links: NavLink[];
+    cta: { href: string; label: string };
+    navAriaLabel: string;
+    menuAriaLabel: string;
+    langAriaLabel: string;
+  };
+  footer: {
+    blurb: string;
+    coordsLabel: string;
+    coordsNote: string;
+    navLabel: string;
+    links: NavLink[];
+    legal: NavLink[];
+    bottom: string;
+  };
+}
+
+const {
+  locale,
+  title,
+  description,
+  canonical,
+  hreflang = [],
+  ogImage = locale === 'fr'
+    ? 'https://monsieurclick.fr/hero-mc-paris.webp'
+    : 'https://monsieurclick.com/hero-mc-paris.webp',
+  ogLocale = locale === 'fr' ? 'fr_FR' : 'en_US',
+  ogLocaleAlternate = locale === 'fr' ? 'en_US' : 'fr_FR',
+  jsonLd = [],
+  headExtras = '',
+  scripts = ['/perf.js?v=20260719agent', '/shared.js?v=20260719agent', '/webmcp.js?v=20260719agent'],
+  cssHref = '/css/main.css?v=20260719constellation',
+  lcpImage = '/hero-mc-paris.webp',
+  nav,
+  footer,
+} = Astro.props;
+
+const scriptTags = scripts.map((s) =>
+  typeof s === 'string' ? { src: s, module: false } : { src: s.src, module: Boolean(s.module) },
+);
+---
+<!DOCTYPE html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href="/logo-mc.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {hreflang.map((h) => (
+      <link rel="alternate" hreflang={h.lang} href={h.href} />
+    ))}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:locale:alternate" content={ogLocaleAlternate} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="dns-prefetch" href="https://connect.facebook.net" />
+    <link rel="dns-prefetch" href="https://link.monsieurclick.com" />
+    <link rel="preload" as="font" href="/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="image" href={lcpImage} type="image/webp" fetchpriority="high" />
+    <link rel="preload" href={cssHref} as="style" />
+    <link rel="stylesheet" href={cssHref} />
+    {jsonLd.map((block) => (
+      <script type="application/ld+json" set:html={block} />
+    ))}
+    {headExtras && <Fragment set:html={headExtras} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{locale === 'fr' ? 'Aller au contenu' : 'Skip to content'}</a>
+    <Header locale={locale} {...nav} />
+    <slot />
+    <Footer locale={locale} {...footer} />
+    {scriptTags.map((s) =>
+      s.module ? (
+        <script is:inline type="module" src={s.src} />
+      ) : (
+        <script is:inline defer src={s.src} />
+      ),
+    )}
+  </body>
+</html>

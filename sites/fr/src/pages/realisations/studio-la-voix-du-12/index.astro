@@ -1,4 +1,27 @@
 ---
-import rawHtml from '../../../../legacy-html/realisations/studio-la-voix-du-12/index.html?raw';
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../../chrome.ts';
+import bodyHtml from '../../../../content/realisations/studio-la-voix-du-12/index.html?raw';
+
+const title = "Cas Studio La Voix du 12 | Monsieur Click";
+const description = "Studio à Montpellier : d";
+const canonical = "https://monsieurclick.fr/realisations/studio-la-voix-du-12/";
+const hreflang = [{"lang":"fr","href":"https://monsieurclick.fr/realisations/studio-la-voix-du-12/"},{"lang":"en","href":"https://monsieurclick.com/case-studies/studio-la-voix-du-12/"},{"lang":"x-default","href":"https://monsieurclick.fr/realisations/studio-la-voix-du-12/"}];
+const ogImage = undefined;
+const jsonLd = ["{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[\n{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https://monsieurclick.fr/\"},\n{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Réalisations\",\"item\":\"https://monsieurclick.fr/realisations/\"},\n{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Studio La Voix du 12\",\"item\":\"https://monsieurclick.fr/realisations/studio-la-voix-du-12/\"}]}","{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Studio La Voix du 12 — étude de cas\",\"name\":\"Studio La Voix du 12\",\"description\":\"Un studio professionnel à Montpellier sans vrai site, juste une page placeholder. Impossible à découvrir.\",\"author\":{\"@type\":\"Organization\",\"name\":\"Monsieur Click\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Monsieur Click\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://monsieurclick.fr/logo-mc.webp\"}},\"mainEntityOfPage\":\"https://monsieurclick.fr/realisations/studio-la-voix-du-12/\",\"image\":\"https://monsieurclick.fr/studio-voix-result.webp\"}"];
+const scripts = [{"src":"/perf.js?v=20260719perf","module":false},{"src":"/shared.js?v=20260719perf","module":false},{"src":"/webmcp.js?v=20260719agent","module":false}];
 ---
-<Fragment set:html={rawHtml} />
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

@@ -1,4 +1,27 @@
 ---
-import rawHtml from '../../../../legacy-html/services/google-business-profile/index.html?raw';
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../../chrome.ts';
+import bodyHtml from '../../../../content/services/google-business-profile/index.html?raw';
+
+const title = "Optimisation Google Business Profile | MC";
+const description = "Fiche Google complète : avis, photos et posts. Plus d";
+const canonical = "https://monsieurclick.fr/services/google-business-profile";
+const hreflang = [{"lang":"fr-fr","href":"https://monsieurclick.fr/services/google-business-profile"},{"lang":"fr-be","href":"https://monsieurclick.fr/services/google-business-profile"},{"lang":"fr-ch","href":"https://monsieurclick.fr/services/google-business-profile"},{"lang":"en-us","href":"https://monsieurclick.com/services/google-business-profile"},{"lang":"en-gb","href":"https://monsieurclick.com/services/google-business-profile"},{"lang":"x-default","href":"https://monsieurclick.com/services/google-business-profile"}];
+const ogImage = undefined;
+const jsonLd = ["{\n  \"@context\":\"https://schema.org\",\"@type\":\"Service\",\n  \"name\":\"Optimisation Google Business Profile\",\n  \"serviceType\":\"Optimisation de fiche Google Business Profile, avis Google, photos et posts pour TPE et PME\",\n  \"provider\":{\"@type\":\"ProfessionalService\",\"name\":\"Monsieur Click\",\"url\":\"https://monsieurclick.fr\"},\n  \"areaServed\":[{\"@type\":\"Country\",\"name\":\"France\"},{\"@type\":\"Country\",\"name\":\"Belgique\"},{\"@type\":\"Country\",\"name\":\"Suisse\"}],\n  \"description\":\"Optimisation complète de Google Business Profile : catégories, description, photos, posts, avis Google et alignement avec le site internet.\"\n}","{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[\n{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Accueil\",\"item\":\"https://monsieurclick.fr/\"},\n{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Services\",\"item\":\"https://monsieurclick.fr/services/\"},\n{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Google Business Profile\",\"item\":\"https://monsieurclick.fr/services/google-business-profile\"}]}","{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[\n{\"@type\":\"Question\",\"name\":\"Qu'est-ce que Google Business Profile ?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Google Business Profile (GBP), anciennement Google My Business, est la fiche gratuite de votre entreprise sur Google Maps et dans les résultats de recherche locale. Elle affiche votre nom, adresse, téléphone, horaires, photos, avis et permet aux clients de vous appeler ou demander un itinéraire directement.\"}},\n{\"@type\":\"Question\",\"name\":\"Pourquoi optimiser sa fiche Google Business Profile ?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Une fiche incomplète ou mal configurée envoie les mauvais signaux à Google et décourage les clients. Une fiche optimisée améliore votre position dans le pack local, augmente les appels et les demandes d'itinéraire, et renforce la confiance grâce aux avis et photos.\"}},\n{\"@type\":\"Question\",\"name\":\"Comment obtenir plus d'avis Google ?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Nous mettons en place un processus éthique : lien direct de demande d'avis après chaque prestation, modèles de message conformes aux règles Google, rappels automatisés et réponses professionnelles. Jamais d'achat d'avis ni d'incitation interdite.\"}},\n{\"@type\":\"Question\",\"name\":\"La fiche Google suffit-elle sans site internet ?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Pour une activité très locale, la fiche Google peut générer des appels. Mais un site internet optimisé renforce votre crédibilité, capture les recherches informationnelles et alimente les signaux locaux de Google. Les deux doivent être alignés.\"}},\n{\"@type\":\"Question\",\"name\":\"Combien de temps pour voir des résultats sur Google Maps ?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Les corrections immédiates (catégories, description, photos) produisent des effets en quelques semaines. Le classement dans le pack local se consolide sur 2 à 4 mois avec une stratégie d'avis régulière et un alignement complet avec le SEO local.\"}}\n]}","{\"@context\":\"https://schema.org\",\"@graph\":[\n{\"@type\":[\"Organization\",\"ProfessionalService\"],\"@id\":\"https://monsieurclick.fr/#org\",\"name\":\"Monsieur Click\",\"url\":\"https://monsieurclick.fr/\",\"logo\":\"https://monsieurclick.fr/logo-mc.webp\",\"email\":\"contact@monsieurclick.com\",\"telephone\":\"+33660761523\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"24 bis sentier des fosses rouges\",\"postalCode\":\"92240\",\"addressLocality\":\"Malakoff\",\"addressRegion\":\"Île-de-France\",\"addressCountry\":\"FR\"}},\n{\"@type\":\"WebSite\",\"@id\":\"https://monsieurclick.fr/#website\",\"url\":\"https://monsieurclick.fr/\",\"name\":\"Monsieur Click\",\"inLanguage\":\"fr-FR\",\"publisher\":{\"@id\":\"https://monsieurclick.fr/#org\"}}\n]}"];
+const scripts = [{"src":"/perf.js?v=20260719perf","module":false},{"src":"/shared.js?v=20260719perf","module":false},{"src":"/webmcp.js?v=20260719agent","module":false}];
 ---
-<Fragment set:html={rawHtml} />
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

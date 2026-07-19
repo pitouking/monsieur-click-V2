@@ -401,9 +401,22 @@
     }
     .jdot{flex:0 0 auto;white-space:nowrap}
     .j-swipe-hint{display:block;text-align:center;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:-6px 0 0;padding:0 16px}
-    .constellation{display:none!important;height:0!important;margin:0!important;padding:0!important;overflow:hidden!important;visibility:hidden!important;aspect-ratio:auto!important}
-    .eco-fallback{display:flex!important;flex-wrap:wrap;gap:10px;justify-content:center;max-width:640px;margin:0 auto;height:auto;overflow:visible;visibility:visible;pointer-events:auto}
-    .eco-fallback .center-pill{width:100%;text-align:center;background:linear-gradient(135deg,var(--orange-2),var(--orange));color:#fff;border:none;font-weight:var(--font-weight-bold)}
+    /* Constellation visible on mobile (was replaced by chip fallback) */
+    .constellation{
+      display:block!important;visibility:visible!important;height:auto!important;
+      overflow:visible!important;margin:4px auto 8px!important;padding:0;
+      max-width:min(400px,94vw);aspect-ratio:1/1;
+    }
+    .constellation .enode{
+      font-size:.58rem;padding:4px 7px;max-width:38vw;white-space:normal;
+      text-align:center;line-height:1.15;letter-spacing:0;
+    }
+    .constellation .ecenter{
+      width:clamp(92px,24vw,128px);height:clamp(92px,24vw,128px);
+      font-size:clamp(.82rem,3vw,1.05rem);
+    }
+    .constellation .eglow{width:min(220px,52%);height:min(220px,52%);filter:blur(18px)}
+    .eco-fallback{display:none!important;height:0!important;margin:0!important;overflow:hidden!important;visibility:hidden!important;pointer-events:none!important}
   }
 
 /* ===== Pages intérieures ===== */

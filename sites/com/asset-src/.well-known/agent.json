@@ -1,0 +1,60 @@
+{
+  "name": "Monsieur Click Score API",
+  "description": "Public SEO score calculator used by Monsieur Click tools and demos.",
+  "version": "1.0.0",
+  "protocolVersion": "0.3.0",
+  "url": "https://monsieurclick.com/mcp",
+  "preferredTransport": "JSONRPC",
+  "supportedInterfaces": [
+    {
+      "url": "https://monsieurclick.com/mcp",
+      "protocol": "JSONRPC"
+    }
+  ],
+  "additionalInterfaces": [
+    {
+      "url": "https://monsieurclick.com/mcp",
+      "transport": "JSONRPC"
+    }
+  ],
+  "provider": {
+    "organization": "Monsieur Click",
+    "url": "https://monsieurclick.com"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "calculate_seo_score",
+      "name": "calculate_seo_score",
+      "description": "Calculate an SEO score for a business website URL.",
+      "tags": [
+        "seo",
+        "score",
+        "audit"
+      ],
+      "examples": [
+        "Score https://example.com"
+      ],
+      "inputModes": [
+        "text/plain",
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ]
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

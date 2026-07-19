@@ -1,0 +1,80 @@
+{
+  "issuer": "https://monsieurclick.fr",
+  "authorization_endpoint": "https://monsieurclick.fr/auth.md",
+  "token_endpoint": "https://monsieurclick.fr/api/oauth/token",
+  "registration_endpoint": "https://monsieurclick.fr/api/agent/register",
+  "revocation_endpoint": "https://monsieurclick.fr/api/oauth/token",
+  "jwks_uri": "https://monsieurclick.fr/.well-known/jwks.json",
+  "response_types_supported": [
+    "token",
+    "code"
+  ],
+  "grant_types_supported": [
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "urn:workos:agent-auth:grant-type:claim"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "none",
+    "client_secret_post"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "scopes_supported": [
+    "score:read",
+    "score:submit",
+    "agent:register"
+  ],
+  "service_documentation": "https://monsieurclick.fr/auth.md",
+  "subject_types_supported": [
+    "public"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "agent_auth": {
+    "skill": "https://monsieurclick.fr/auth.md",
+    "register_uri": "https://monsieurclick.fr/api/agent/register",
+    "identity_endpoint": "https://monsieurclick.fr/api/agent/identity",
+    "claim_endpoint": "https://monsieurclick.fr/api/agent/identity",
+    "claim_uri": "https://monsieurclick.fr/api/agent/identity",
+    "revocation_uri": "https://monsieurclick.fr/api/oauth/token",
+    "events_endpoint": "https://monsieurclick.fr/api/agent/identity",
+    "documentation": "https://monsieurclick.fr/AUTH.md",
+    "identity_types_supported": [
+      "anonymous",
+      "verified_email",
+      "identity_assertion"
+    ],
+    "supported_identity_types": [
+      "anonymous",
+      "verified_email",
+      "identity_assertion"
+    ],
+    "supported_credential_types": [
+      "none",
+      "api_key",
+      "client_credentials"
+    ],
+    "anonymous": {
+      "credential_types_supported": [
+        "api_key",
+        "none"
+      ],
+      "claim_uri": "https://monsieurclick.fr/api/agent/identity"
+    },
+    "identity_assertion": {
+      "assertion_types_supported": [
+        "verified_email",
+        "urn:ietf:params:oauth:token-type:id-jag"
+      ]
+    },
+    "verified_email": {
+      "claim_uri": "https://monsieurclick.fr/api/agent/identity"
+    },
+    "events_supported": [
+      "https://schemas.workos.com/events/agent/auth/identity/assertion/revoked"
+    ]
+  }
+}
