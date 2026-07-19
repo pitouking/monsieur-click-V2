@@ -163,7 +163,8 @@
       let cw=0,ch=0;
       function place(){
         if(cw<1||ch<1)return;
-        const r=Math.min(cw,ch)*0.36,cx=cw/2,cy=ch/2;
+        const mobile=cw<640;
+        const r=Math.min(cw,ch)*(mobile?0.32:0.36),cx=cw/2,cy=ch/2;
         els.forEach((el,i)=>{const a=base[i]+offset;const x=cx+Math.cos(a)*r,y=cy+Math.sin(a)*r;
           el.style.transform='translate(-50%,-50%)';el.style.left=(x/cw*100)+'%';el.style.top=(y/ch*100)+'%';
           lines[i].setAttribute('x2',(x/cw*100).toFixed(2));lines[i].setAttribute('y2',(y/ch*100).toFixed(2));});
