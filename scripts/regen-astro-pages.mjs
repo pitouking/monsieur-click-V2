@@ -56,15 +56,15 @@ function extract(html) {
   ]).map((s) => {
     let src = s.src;
     if (/^\/(perf|shared)\.js/.test(src)) {
-      src = src.replace(/\?.*$/, '') + '?v=20260719astro';
+      src = src.replace(/\?.*$/, '') + '?v=20260719perf';
     }
     return { src, module: Boolean(s.module) };
   });
   const finalScripts = scripts.length
     ? scripts
     : [
-        { src: '/perf.js?v=20260719astro', module: false },
-        { src: '/shared.js?v=20260719astro', module: false },
+        { src: '/perf.js?v=20260719perf', module: false },
+        { src: '/shared.js?v=20260719perf', module: false },
       ];
 
   const hasChrome = /class=["'][^"']*site-header/.test(html);

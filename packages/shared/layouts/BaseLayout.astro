@@ -25,6 +25,7 @@ interface Props {
   headExtras?: string;
   scripts?: Array<string | { src: string; module?: boolean }>;
   cssHref?: string;
+  lcpImage?: string;
   nav: {
     links: NavLink[];
     cta: { href: string; label: string };
@@ -56,8 +57,9 @@ const {
   ogLocaleAlternate = locale === 'fr' ? 'en_US' : 'fr_FR',
   jsonLd = [],
   headExtras = '',
-  scripts = ['/perf.js?v=20260719astro', '/shared.js?v=20260719astro'],
-  cssHref = '/css/main.css?v=20260719astro',
+  scripts = ['/perf.js?v=20260719perf', '/shared.js?v=20260719perf'],
+  cssHref = '/css/main.css?v=20260719perf3',
+  lcpImage = '/hero-mc-paris.webp',
   nav,
   footer,
 } = Astro.props;
@@ -89,6 +91,8 @@ const scriptTags = scripts.map((s) =>
     <link rel="dns-prefetch" href="https://connect.facebook.net" />
     <link rel="dns-prefetch" href="https://link.monsieurclick.com" />
     <link rel="preload" as="font" href="/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="image" href={lcpImage} type="image/webp" fetchpriority="high" />
+    <link rel="preload" href={cssHref} as="style" />
     <link rel="stylesheet" href={cssHref} />
     {jsonLd.map((block) => (
       <script type="application/ld+json" set:html={block} />

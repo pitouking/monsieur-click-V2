@@ -97,3 +97,12 @@
 .u-table-admin__head { background: #0f3460; color: #fff; }
 .u-table-admin__cell { padding: 10px; border-bottom: 1px solid #ddd; }
 .u-table-admin__cell-left { padding: 10px; text-align: left; }
+
+/* Perf: skip rendering work for offscreen sections */
+section:not(:first-of-type),
+.showcase,
+.marquee,
+footer.site-footer{
+  content-visibility:auto;
+  contain-intrinsic-size:1px 720px;
+}

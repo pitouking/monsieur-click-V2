@@ -124,3 +124,12 @@ a.u-hidden:focus-visible {
   color: #fff;
   border-radius: 8px;
 }
+
+/* Perf: skip rendering work for offscreen sections */
+section:not(:first-of-type),
+.showcase,
+.marquee,
+footer.site-footer{
+  content-visibility:auto;
+  contain-intrinsic-size:1px 720px;
+}
