@@ -77,6 +77,8 @@ const scriptTags = scripts.map((s) =>
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="llms-txt" href="/llms.txt" />
+    <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
     {hreflang.map((h) => (
       <link rel="alternate" hreflang={h.lang} href={h.href} />
     ))}
