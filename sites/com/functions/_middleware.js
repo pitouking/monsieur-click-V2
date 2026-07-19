@@ -1,6 +1,9 @@
 /**
  * Markdown for Agents fallback (zone Free cannot enable CF content_converter).
- * When Accept prefers text/markdown, convert HTML responses to markdown.
+ * When Accept prefers text/markdown over HTML, convert HTML responses to markdown.
+ *
+ * Markdown responses must NOT be CDN-cached — a shared cache entry would poison
+ * HTML clients (and break WebMCP static detection).
  */
 function prefersMarkdown(accept) {
   if (!accept) return false;
@@ -24,7 +27,6 @@ function prefersMarkdown(accept) {
 
 function htmlToMarkdown(html) {
   let s = html;
-  // drop scripts/styles/nav/footer noise
   s = s.replace(/<script[\s\S]*?<\/script>/gi, '');
   s = s.replace(/<style[\s\S]*?<\/style>/gi, '');
   s = s.replace(/<!--([\s\S]*?)-->/g, '');
@@ -38,7 +40,6 @@ function htmlToMarkdown(html) {
     (m) => m[1].trim(),
   );
 
-  // Keep main content when possible
   const main = s.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i);
   if (main) s = main[1];
 
@@ -81,7 +82,6 @@ export async function onRequest(context) {
     return next();
   }
 
-  // Don't convert API / well-known machine payloads
   const path = new URL(request.url).pathname;
   if (
     path.startsWith('/api/') ||
@@ -107,8 +107,12 @@ export async function onRequest(context) {
   const tokens = Math.max(1, Math.ceil(md.length / 4));
   const headers = new Headers(res.headers);
   headers.set('content-type', 'text/markdown; charset=utf-8');
-  headers.set('vary', 'accept');
+  headers.set('vary', 'Accept');
   headers.set('x-markdown-tokens', String(tokens));
+  // Prevent CDN from serving markdown to HTML clients (Vary alone is unreliable here).
+  headers.set('cache-control', 'private, no-store');
+  headers.set('cdn-cache-control', 'no-store');
   headers.delete('content-length');
+  headers.delete('etag');
   return new Response(md, { status: res.status, headers });
 }
