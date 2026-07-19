@@ -76,6 +76,14 @@ function syncSite(label, srcRoot, siteDir) {
   if (fs.existsSync(fnSrc)) {
     fs.cpSync(fnSrc, fnDst, { recursive: true });
   }
+
+  // Pages Functions resolve score-questions.js relative to the site root
+  // (sites/<site>/score-questions.js), not public/dist.
+  const scoreSrc = path.join(srcRoot, 'score-questions.js');
+  if (fs.existsSync(scoreSrc)) {
+    copyFile(scoreSrc, path.join(siteDir, 'score-questions.js'));
+  }
+
   console.log(`[${label}] assets → ${pub}`);
 }
 
