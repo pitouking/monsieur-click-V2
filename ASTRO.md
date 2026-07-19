@@ -54,11 +54,20 @@ npm run deploy:com
 - D1 binding `DB` → database `clickfirst` (FR + COM) — requis pour le score Click First™
 - Branch de prod recommandée : `cursor/astro-sites-a34f` (puis `main` après merge)
 
+### Déploiement CLI
+
+```bash
+export CLOUDFLARE_API_TOKEN=…   # token Pages Edit
+export CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352
+npm run deploy:fr
+npm run deploy:com
+```
+
 ### Checklist pré-prod
 
 1. `npm run bootstrap && npm run build`
 2. Vérifier H1 + `page-hero` sur pages marketing (surtout EN)
-3. Vérifier `_redirects` / `_headers` dans chaque `dist/`
+3. Vérifier `_redirects` / `_headers` + `sitemap.xml` dans chaque `dist/`
 4. Smoke : `/`, `/services/`, `/click-first`, `/contact`, score API
 5. Déployer en preview CF → comparer design vs live
 6. Pointer domaines custom
@@ -69,12 +78,16 @@ npm run deploy:com
 - Canonical + hreflang + JSON-LD repris du legacy
 - Pages marketing → `BaseLayout` (Header/Footer partagés)
 - OKF / outils → HTML raw préservé
+- Sitemaps générés par `npm run sitemaps` (pages indexables uniquement)
 
 ## Inventaires (natifs, pas 1:1 FR↔EN)
 
-| Site | Pages HTML | Note |
-|------|------------|------|
+| Site | Pages build | Note |
+|------|-------------|------|
 | `.fr` | ~105 | geos FR/BE/CH, glossaire, réalisations |
-| `.com` | ~85 | long-tail EN, GEO, London test |
+| `.com` | ~86 | long-tail EN, GEO, London test, website-redesign |
+
+Jumeau service ajouté : `/services/refonte-site-web` ↔ `/services/website-redesign`.
 
 Design system partagé (mêmes tokens CSS). Contenu natif par langue — pas de traduction auto.
+Geos FR (Paris, IDF, BE, CH) **sans** miroir EN (voir `06-do-not-build.md`).
