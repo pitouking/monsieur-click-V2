@@ -17,6 +17,7 @@
     "migrate:html": "node scripts/html-to-astro.mjs --src archive/pre-astro-root --out sites/fr --site fr",
     "regen:pages": "node scripts/regen-astro-pages.mjs",
     "sync:assets": "node scripts/sync-assets.mjs",
+    "generate:agent-ready": "node scripts/generate-agent-ready.mjs",
     "sitemaps": "node scripts/generate-sitemaps.mjs",
     "bootstrap": "npm run sitemaps && npm run sync:assets && npm run regen:pages",
     "deploy:fr": "npm run build:fr && cd sites/fr && CLOUDFLARE_ACCOUNT_ID=d6ea7833b7415d26c328c64195a46352 npx wrangler pages deploy dist --project-name=monsieurclick-fr --branch=fr --commit-dirty=true",

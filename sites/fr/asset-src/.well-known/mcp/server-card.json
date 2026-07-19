@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/server-card/v1.json",
+  "serverInfo": {
+    "name": "API Score Monsieur Click",
+    "version": "1.0.0",
+    "description": "Calculateur public de score SEO utilisé par les outils Monsieur Click.",
+    "icons": [
+      {
+        "src": "https://monsieurclick.fr/favicon.svg",
+        "sizes": [
+          "any"
+        ],
+        "type": "image/svg+xml"
+      }
+    ]
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://monsieurclick.fr/mcp"
+  },
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    }
+  },
+  "tools": [
+    {
+      "name": "calculer_score_seo",
+      "description": "Calcule un score SEO pour l'URL d'un site web professionnel.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Website URL to score"
+          }
+        },
+        "required": [
+          "url"
+        ]
+      }
+    }
+  ],
+  "authentication": {
+    "required": false,
+    "schemes": []
+  }
+}

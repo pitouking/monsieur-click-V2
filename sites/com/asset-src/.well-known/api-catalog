@@ -1,0 +1,50 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://score.monsieurclick.com/",
+      "service-desc": [
+        {
+          "href": "https://monsieurclick.com/.well-known/openapi-score.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://monsieurclick.com/docs/api",
+          "type": "text/html"
+        },
+        {
+          "href": "https://monsieurclick.com/docs/api.md",
+          "type": "text/markdown"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://monsieurclick.com/api/health",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://monsieurclick.com/mcp",
+      "service-desc": [
+        {
+          "href": "https://monsieurclick.com/.well-known/mcp/server-card.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://monsieurclick.com/docs/api",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://monsieurclick.com/api/health",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,8 @@ const ROOT_SPECIAL = new Set([
   '_redirects', '_headers', 'robots.txt', 'sitemap.xml', 'llms.txt',
   'llms-full.txt', 'manifest.json', 'favicon.ico', 'browserconfig.xml',
   'tracking-head.txt', 'styles.css', 'styles.reference.css',
+  'auth.md',
+  'AUTH.md',
 ]);
 
 /** Never ship npm metadata into public/dist */
@@ -49,14 +51,31 @@ function walkAssets(srcDir, dstRoot, base) {
     const full = path.join(srcDir, entry.name);
     const rel = path.relative(base, full).replace(/\\/g, '/');
     if (entry.isDirectory()) {
+      // RFC well-known + agent API docs under asset-src
+      if (entry.name === '.well-known' || entry.name === 'docs') {
+        walkAssets(full, dstRoot, base);
+        continue;
+      }
       if (SKIP_DIR_NAMES.has(entry.name) || entry.name.startsWith('.')) continue;
       walkAssets(full, dstRoot, base);
       continue;
     }
-    if (entry.name.endsWith('.html') || entry.name.endsWith('.md')) continue;
+    if (entry.name.endsWith('.html')) continue;
     if (SKIP_FILES.has(entry.name)) continue;
+
+    const inWellKnown = rel === '.well-known' || rel.startsWith('.well-known/');
+    const allowMd =
+      entry.name === 'auth.md' ||
+      entry.name === 'AUTH.md' ||
+      entry.name === 'SKILL.md' ||
+      (entry.name.endsWith('.md') && (inWellKnown || rel.startsWith('docs/')));
+    if (entry.name.endsWith('.md') && !allowMd) continue;
+
     const ext = path.extname(entry.name).toLowerCase();
-    if (!ASSET_EXTS.has(ext) && !ROOT_SPECIAL.has(entry.name)) continue;
+    const extensionlessWellKnown = inWellKnown && ext === '';
+    if (!ASSET_EXTS.has(ext) && !ROOT_SPECIAL.has(entry.name) && !allowMd && !extensionlessWellKnown) {
+      continue;
+    }
     copyFile(full, path.join(dstRoot, rel));
   }
 }

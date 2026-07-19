@@ -1,30 +1,43 @@
 User-agent: *
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 
 # AI engines explicitly allowed
 User-agent: GPTBot
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: OAI-SearchBot
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: ChatGPT-User
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: ClaudeBot
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: Claude-Web
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: PerplexityBot
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: Google-Extended
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: CCBot
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: Bytespider
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 
 Sitemap: https://monsieurclick.com/sitemap.xml
 
-# AI knowledge files
+# AI knowledge + agent discovery
 # https://monsieurclick.com/llms.txt
 # https://monsieurclick.com/llms-full.txt
+# https://monsieurclick.com/auth.md
+# https://monsieurclick.com/.well-known/api-catalog
+# https://monsieurclick.com/.well-known/agent-skills/index.json
 # https://monsieurclick.com/okf/
 # https://monsieurclick.com/texts/

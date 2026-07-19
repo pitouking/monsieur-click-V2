@@ -4,7 +4,6 @@
 /css/*
   Cache-Control: public, max-age=31536000, immutable
 
-
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
@@ -31,3 +30,85 @@
 
 /shared.js
   Cache-Control: public, max-age=31536000, immutable
+
+/webmcp.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Homepage agent discovery Link headers (RFC 8288 / RFC 9727)
+/
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/openapi-score.json>; rel="service-desc"; type="application/openapi+json"
+  Link: </docs/api/>; rel="service-doc"; type="text/html"
+  Link: </.well-known/agent-skills/index.json>; rel="describedby"; type="application/json"
+  Link: </llms.txt>; rel="describedby"; type="text/plain"
+  Link: </auth.md>; rel="service-doc"; type="text/markdown"
+  Link: </.well-known/mcp/server-card.json>; rel="service-desc"; type="application/json"
+  Content-Signal: search=yes, ai-input=yes, ai-train=no
+  Vary: Accept
+
+/index.html
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/openapi-score.json>; rel="service-desc"; type="application/openapi+json"
+  Link: </docs/api/>; rel="service-doc"; type="text/html"
+  Link: </.well-known/agent-skills/index.json>; rel="describedby"; type="application/json"
+  Link: </llms.txt>; rel="describedby"; type="text/plain"
+  Link: </auth.md>; rel="service-doc"; type="text/markdown"
+  Link: </.well-known/mcp/server-card.json>; rel="service-desc"; type="application/json"
+  Content-Signal: search=yes, ai-input=yes, ai-train=no
+  Vary: Accept
+
+/.well-known/api-catalog
+  Content-Type: application/linkset+json
+  Access-Control-Allow-Origin: *
+
+/.well-known/oauth-protected-resource
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/oauth-authorization-server
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/openid-configuration
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/jwks.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/openapi-score.json
+  Content-Type: application/openapi+json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/mcp/server-card.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent-card.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent-skills/index.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent-skills/*/SKILL.md
+  Content-Type: text/markdown; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/auth.md
+  Content-Type: text/markdown; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/AUTH.md
+  Content-Type: text/markdown; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/docs/api.md
+  Content-Type: text/markdown; charset=utf-8
+  Access-Control-Allow-Origin: *
