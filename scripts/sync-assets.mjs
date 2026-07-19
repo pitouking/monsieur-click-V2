@@ -20,6 +20,18 @@ const ROOT_SPECIAL = new Set([
   'tracking-head.txt', 'styles.css', 'styles.reference.css',
 ]);
 
+/** Never ship npm metadata into public/dist */
+const SKIP_FILES = new Set([
+  'package.json',
+  'package-lock.json',
+  'npm-shrinkwrap.json',
+  'yarn.lock',
+  'pnpm-lock.yaml',
+  'tsconfig.json',
+  'astro.config.mjs',
+  'wrangler.toml',
+]);
+
 const SKIP_DIR_NAMES = new Set([
   '.git', 'node_modules', 'sites', 'packages', 'scripts', 'dist',
   '.astro', '.vexp', '.cursor', '.claude', '.impeccable',
@@ -42,6 +54,7 @@ function walkAssets(srcDir, dstRoot, base) {
       continue;
     }
     if (entry.name.endsWith('.html') || entry.name.endsWith('.md')) continue;
+    if (SKIP_FILES.has(entry.name)) continue;
     const ext = path.extname(entry.name).toLowerCase();
     if (!ASSET_EXTS.has(ext) && !ROOT_SPECIAL.has(entry.name)) continue;
     copyFile(full, path.join(dstRoot, rel));

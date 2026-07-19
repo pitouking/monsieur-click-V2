@@ -44,25 +44,48 @@ function extract(html) {
   const ogImage = prop(html, 'og:image');
   const jsonLd = [...html.matchAll(/<script type=["']application\/ld\+json["']>([\s\S]*?)<\/script>/gi)]
     .map((m) => m[1].trim());
-  const scripts = [...html.matchAll(/<script[^>]+src=["']([^"']+)["'][^>]*>/gi)].map((m) => m[1]);
+  const scriptsRaw = [...html.matchAll(/<script[^>]+src=["']([^"']+)["'][^>]*>/gi)].map((m) => m[1]);
+  const scripts = (scriptsRaw.length ? scriptsRaw : ['/perf.js', '/shared.js']).map((src) => {
+    if (/^\/(perf|shared)\.js/.test(src)) {
+      return src.replace(/\?.*$/, '') + '?v=20260719astro';
+    }
+    return src;
+  });
+  // Prefer layout defaults if only chrome scripts
+  const finalScripts = scripts.length
+    ? scripts
+    : ['/perf.js?v=20260719astro', '/shared.js?v=20260719astro'];
 
   const hasChrome = /class=["'][^"']*site-header/.test(html);
   let bodyInner = '';
   if (hasChrome) {
-    const afterHeader = html.split(/<\/header>/i);
-    // First site-header closes; content may include page-hero <header>
-    let rest = afterHeader.slice(1).join('</header>');
-    // Prefer <main>...</main>
+    // Normalize broken legacy: site-header opened but never closed before page-hero
+    let normalized = html.replace(
+      /(<\/nav>\s*)(<header\b[^>]*class=["'][^"']*page-hero)/i,
+      '$1</header>\n$2',
+    );
+
+    // Prefer splitting after the site-header block specifically
+    const siteHeaderBlock = normalized.match(
+      /<header\b[^>]*class=["'][^"']*site-header[\s\S]*?<\/header>/i,
+    );
+    let rest = '';
+    if (siteHeaderBlock) {
+      rest = normalized.slice(siteHeaderBlock.index + siteHeaderBlock[0].length);
+    } else {
+      const parts = normalized.split(/<\/header>/i);
+      rest = parts.slice(1).join('</header>');
+    }
+
+    // Drop chrome footer/scripts — BaseLayout re-injects them
+    rest = rest.split(/<footer\b[^>]*class=["'][^"']*site-footer/i)[0] || rest;
+    rest = rest.replace(/<script[\s\S]*$/i, '').trim();
+
     const main = rest.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i);
     if (main) {
       bodyInner = `<main id="main">${main[1]}</main>`;
     } else {
-      // Between end of site-header and footer
-      const beforeFooter = rest.split(/<footer\b[^>]*class=["'][^"']*site-footer/i)[0] || rest;
-      bodyInner = beforeFooter.replace(/<script[\s\S]*$/i, '').trim();
-      if (!/<main\b/i.test(bodyInner)) {
-        bodyInner = `<main id="main">\n${bodyInner}\n</main>`;
-      }
+      bodyInner = `<main id="main">\n${rest}\n</main>`;
     }
   }
 
@@ -73,7 +96,7 @@ function extract(html) {
     hreflang,
     ogImage,
     jsonLd,
-    scripts: scripts.length ? scripts : ['/perf.js?v=20260717ds2', '/shared.js?v=20260717ds2'],
+    scripts: finalScripts,
     hasChrome,
     bodyInner,
   };

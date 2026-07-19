@@ -56,8 +56,8 @@ const {
   ogLocaleAlternate = locale === 'fr' ? 'en_US' : 'fr_FR',
   jsonLd = [],
   headExtras = '',
-  scripts = ['/perf.js?v=20260717ds2', '/shared.js?v=20260717ds2'],
-  cssHref = '/css/main.css?v=20260717ds2',
+  scripts = ['/perf.js?v=20260719astro', '/shared.js?v=20260719astro'],
+  cssHref = '/css/main.css?v=20260719astro',
   nav,
   footer,
 } = Astro.props;
@@ -92,6 +92,7 @@ const {
     {headExtras && <Fragment set:html={headExtras} />}
   </head>
   <body>
+    <a class="skip-link" href="#main">{locale === 'fr' ? 'Aller au contenu' : 'Skip to content'}</a>
     <Header locale={locale} {...nav} />
     <slot />
     <Footer locale={locale} {...footer} />

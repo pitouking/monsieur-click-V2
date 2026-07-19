@@ -29,16 +29,18 @@ const { locale, links, cta, navAriaLabel, menuAriaLabel, langAriaLabel } = Astro
         <a href={cta.href} class="btn btn-primary">{cta.label}</a>
         <div class="lang" role="group" aria-label={langAriaLabel}>
           <a
-            href="https://monsieurclick.fr"
+            href="https://monsieurclick.fr/"
             class:list={[{ on: locale === 'fr' }]}
             hreflang="fr"
-            aria-current={locale === 'fr' ? 'true' : undefined}
+            lang="fr"
+            aria-current={locale === 'fr' ? 'page' : undefined}
           >FR</a>
           <a
-            href="https://monsieurclick.com"
+            href="https://monsieurclick.com/"
             class:list={[{ on: locale === 'en' }]}
             hreflang="en"
-            aria-current={locale === 'en' ? 'true' : undefined}
+            lang="en"
+            aria-current={locale === 'en' ? 'page' : undefined}
           >EN</a>
         </div>
       </div>
