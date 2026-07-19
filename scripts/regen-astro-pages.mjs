@@ -44,17 +44,28 @@ function extract(html) {
   const ogImage = prop(html, 'og:image');
   const jsonLd = [...html.matchAll(/<script type=["']application\/ld\+json["']>([\s\S]*?)<\/script>/gi)]
     .map((m) => m[1].trim());
-  const scriptsRaw = [...html.matchAll(/<script[^>]+src=["']([^"']+)["'][^>]*>/gi)].map((m) => m[1]);
-  const scripts = (scriptsRaw.length ? scriptsRaw : ['/perf.js', '/shared.js']).map((src) => {
-    if (/^\/(perf|shared)\.js/.test(src)) {
-      return src.replace(/\?.*$/, '') + '?v=20260719astro';
-    }
-    return src;
+  const scriptsRaw = [...html.matchAll(/<script([^>]*)src=["']([^"']+)["'][^>]*>/gi)].map((m) => {
+    const attrs = m[1] || '';
+    const src = m[2];
+    const module = /\btype=["']module["']/i.test(attrs);
+    return { src, module };
   });
-  // Prefer layout defaults if only chrome scripts
+  const scripts = (scriptsRaw.length ? scriptsRaw : [
+    { src: '/perf.js', module: false },
+    { src: '/shared.js', module: false },
+  ]).map((s) => {
+    let src = s.src;
+    if (/^\/(perf|shared)\.js/.test(src)) {
+      src = src.replace(/\?.*$/, '') + '?v=20260719astro';
+    }
+    return { src, module: Boolean(s.module) };
+  });
   const finalScripts = scripts.length
     ? scripts
-    : ['/perf.js?v=20260719astro', '/shared.js?v=20260719astro'];
+    : [
+        { src: '/perf.js?v=20260719astro', module: false },
+        { src: '/shared.js?v=20260719astro', module: false },
+      ];
 
   const hasChrome = /class=["'][^"']*site-header/.test(html);
   let bodyInner = '';
