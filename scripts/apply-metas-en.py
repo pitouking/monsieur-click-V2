@@ -68,7 +68,7 @@ EN = {
     "contact.html": {
         "title": t("Free SEO Diagnostic near Paris | Monsieur Click"),
         "description": d(
-            "30-min free audit of your Google, Maps and AI visibility. Remote from Malakoff near Paris",
+            "Book a free 30-minute SEO audit of your Google Search, Maps and AI visibility. Remote from Malakoff near Paris. Rated 5/5 by 15+ clients — book now.",
             TAIL_BOOK,
         ),
     },
@@ -99,7 +99,7 @@ EN = {
     "services/seo/index.html": {
         "title": t("SEO Services near Paris | Monsieur Click"),
         "description": d(
-            "Technical, on-page and content SEO with monthly proof for small businesses near Paris"
+            "Technical, on-page and content SEO with monthly proof for small businesses near Paris. Rated 5/5 by 15+ clients. Book your free diagnostic now."
         ),
     },
     "services/local-seo/index.html": {
