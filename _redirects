@@ -58,7 +58,9 @@
 
 # Realisations hub (folder) + legacy flat
 /realisations.html /realisations/ 301
-/case-studies.html /case-studies/ 301
+/case-studies.html /realisations/ 301
+/case-studies /realisations/ 301
+/case-studies/ /realisations/ 301
 /glossaire/ /services/ 301
 /glossaire /services/ 301
 /glossaire/seo-local/ /services/seo-local/ 301

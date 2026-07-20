@@ -1,13 +1,13 @@
 # Cloudflare Pages redirects
 
 # Score Click First™ + legacy /methode soft-landing → /click-first (one-way)
-/score /click-first/ 301
-/score-resultat /click-first/ 301
-/score.html /click-first/ 301
-/score-resultat.html /click-first/ 301
-/methode /click-first/ 301
-/methode/ /click-first/ 301
-/methode.html /click-first/ 301
+/score /click-first 301
+/score-resultat /click-first 301
+/score.html /click-first 301
+/score-resultat.html /click-first 301
+/methode /click-first 301
+/methode/ /click-first 301
+/methode.html /click-first 301
 
 # OKF directory rewrites
 # Single-file matches (a-propos, realisations, contact, and every services/*
@@ -61,7 +61,9 @@
 
 # Realisations hub (folder) + legacy flat
 /realisations.html /realisations/ 301
-/case-studies.html /case-studies/ 301
+/case-studies.html /realisations/ 301
+/case-studies /realisations/ 301
+/case-studies/ /realisations/ 301
 /glossaire/ /services/ 301
 /glossaire /services/ 301
 /glossaire/seo-local/ /services/seo-local/ 301
