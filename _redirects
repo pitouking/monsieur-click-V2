@@ -1,10 +1,10 @@
 # Cloudflare Pages redirects
 
 # Score Click First™ merged into a section on /click-first (one-way, no reverse rule)
-/score /click-first 301
-/score-resultat /click-first 301
-/score.html /click-first 301
-/score-resultat.html /click-first 301
+/score /click-first/ 301
+/score-resultat /click-first/ 301
+/score.html /click-first/ 301
+/score-resultat.html /click-first/ 301
 
 # OKF directory rewrites
 # Single-file matches (a-propos, realisations, contact, and every services/*

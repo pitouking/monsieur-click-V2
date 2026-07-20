@@ -1,11 +1,11 @@
 # Click First Score + legacy /methode soft-landing → /click-first (one-way)
-/score  /click-first  301
-/score-result  /click-first  301
-/score.html  /click-first  301
-/score-result.html  /click-first  301
-/methode  /click-first  301
-/methode/  /click-first  301
-/methode.html  /click-first  301
+/score  /click-first/  301
+/score-result  /click-first/  301
+/score.html  /click-first/  301
+/score-result.html  /click-first/  301
+/methode  /click-first/  301
+/methode/  /click-first/  301
+/methode.html  /click-first/  301
 
 # OKF rewrites (internal 200)
 # Single-file matches (about, case-studies, contact) are NOT rewritten here:
@@ -91,14 +91,14 @@
 /realisations/ /case-studies/ 301
 /realisations.html /case-studies/ 301
 
-# Flat .html → clean file URLs (no trailing slash = Astro file-page canonical)
-/about.html /about 301
-/terms.html /terms 301
-/privacy.html /privacy 301
-/legal-notice.html /legal-notice 301
-/contact.html /contact 301
-/pricing.html /pricing 301
-/click-first.html /click-first  301
-/ai-seo-agency.html /ai-seo-agency 301
-/small-business-seo.html /small-business-seo 301
-/seo-agency-london.html /seo-agency-london 301
+# Flat .html → clean directory URLs (trailing slash = Astro directory canonical)
+/about.html /about/ 301
+/terms.html /terms/ 301
+/privacy.html /privacy/ 301
+/legal-notice.html /legal-notice/ 301
+/contact.html /contact/ 301
+/pricing.html /pricing/ 301
+/click-first.html /click-first/ 301
+/ai-seo-agency.html /ai-seo-agency/ 301
+/small-business-seo.html /small-business-seo/ 301
+/seo-agency-london.html /seo-agency-london/ 301

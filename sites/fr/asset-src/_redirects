@@ -1,13 +1,13 @@
 # Cloudflare Pages redirects
 
 # Score Click First™ + legacy /methode soft-landing → /click-first (one-way)
-/score /click-first 301
-/score-resultat /click-first 301
-/score.html /click-first 301
-/score-resultat.html /click-first 301
-/methode /click-first 301
-/methode/ /click-first 301
-/methode.html /click-first 301
+/score /click-first/ 301
+/score-resultat /click-first/ 301
+/score.html /click-first/ 301
+/score-resultat.html /click-first/ 301
+/methode /click-first/ 301
+/methode/ /click-first/ 301
+/methode.html /click-first/ 301
 
 # OKF directory rewrites
 # Single-file matches (a-propos, realisations, contact, and every services/*
