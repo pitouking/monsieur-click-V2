@@ -3,13 +3,129 @@ import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
 import { locale, nav, footer } from '../../chrome.ts';
 import bodyHtml from '../../../content/small-business-seo/index.html?raw';
 
-const title = "Small Business SEO near Paris | Monsieur Click";
-const description = "Practical local SEO for owners near Paris: Maps, GBP and a website that converts leads. Rated 5/5 by 15+ clients. Free diagnostic.";
-const canonical = "https://monsieurclick.com/small-business-seo";
-const hreflang = [{"lang":"en","href":"https://monsieurclick.com/small-business-seo"},{"lang":"x-default","href":"https://monsieurclick.com/small-business-seo"}];
+const title = "Small Business SEO Services | Monsieur Click";
+const description = "Affordable SEO for small businesses. Local SEO, Google Business Profile, and AI visibility. Free audit, no commitment.";
+const canonical = "https://monsieurclick.com/small-business-seo/";
+const hreflang = [
+  {"lang":"en","href":"https://monsieurclick.com/small-business-seo/"},
+  {"lang":"x-default","href":"https://monsieurclick.com/small-business-seo/"},
+];
 const ogImage = undefined;
-const jsonLd = ["{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Small Business SEO — Get Found by Local Customers\",\"provider\":{\"@type\":\"ProfessionalService\",\"name\":\"Monsieur Click\",\"url\":\"https://monsieurclick.com\"},\"url\":\"https://monsieurclick.com/small-business-seo\",\"description\":\"Affordable SEO for small businesses. Local SEO, Google Business Profile, and AI visibility. Free audit, no commitment.\"}","{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How much does small business SEO cost?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It depends on competition and scope. We start with a free audit so the plan matches your market, not a generic package.\"}},{\"@type\":\"Question\",\"name\":\"How long before I see results?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Local SEO often shows early signals in 2–3 months. Stronger positions typically build over 4–6 months.\"}}]}"];
-const scripts = [{"src":"/perf.js?v=20260719perf","module":false},{"src":"/shared.js?v=20260719perf","module":false},{"src":"/webmcp.js?v=20260719agent","module":false}];
+const jsonLd = [
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Small Business SEO",
+    "serviceType": "Small business SEO: local SEO, Google Business Profile, website SEO and GEO",
+    "provider": { "@id": "https://monsieurclick.com/#org" },
+    "areaServed": [
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "United Kingdom" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "France" },
+    ],
+    "description": "Affordable SEO for small businesses. Local SEO, Google Business Profile, converting websites and AI visibility inside Click First™. Free audit, no commitment.",
+    "url": "https://monsieurclick.com/small-business-seo/",
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://monsieurclick.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://monsieurclick.com/services/" },
+      { "@type": "ListItem", "position": 3, "name": "Small Business SEO", "item": "https://monsieurclick.com/small-business-seo/" },
+    ],
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is small business SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is SEO sized for local owners: Google Business Profile and Maps, a converting website, on-page SEO, reviews, and a GEO layer so AI assistants can cite you—run as one system under Click First™, not as disconnected tasks.",
+        },
+      },
+      {
+        "@type": "Question",
+        "name": "How is this different from local SEO alone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Local SEO focuses on the map pack. Small business SEO includes that lever plus site conversion, organic SEO and AI visibility, because Maps alone still needs a site that turns the click into a call.",
+        },
+      },
+      {
+        "@type": "Question",
+        "name": "How much does small business SEO cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Click First™ plans start at €850/month. The free diagnostic sets scope to your market and competition—not a one-size package.",
+        },
+      },
+      {
+        "@type": "Question",
+        "name": "How long before I see results?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Local SEO often shows early signals in 2–3 months. Stronger positions typically build over 4–6 months, depending on category density. No ranking guarantees.",
+        },
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a website already?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Google Business Profile can generate calls on its own, but lasting small business SEO needs a fast site that converts. The diagnostic starts from whatever you have today.",
+        },
+      },
+      {
+        "@type": "Question",
+        "name": "Will you take my direct competitor in the same city?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. One client, one lane: we do not run the same playbook for two competing businesses in the same niche and city. That protects your Map Pack opportunity and the trust of the relationship.",
+        },
+      },
+    ],
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "ProfessionalService"],
+        "@id": "https://monsieurclick.com/#org",
+        "name": "Monsieur Click",
+        "url": "https://monsieurclick.com/",
+        "logo": "https://monsieurclick.com/logo-mc.webp",
+        "email": "contact@monsieurclick.com",
+        "telephone": "+33660761523",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "24 bis sentier des Fosses Rouges",
+          "postalCode": "92240",
+          "addressLocality": "Malakoff",
+          "addressRegion": "Île-de-France",
+          "addressCountry": "FR",
+        },
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://monsieurclick.com/#website",
+        "url": "https://monsieurclick.com/",
+        "name": "Monsieur Click",
+        "inLanguage": "en-US",
+        "publisher": { "@id": "https://monsieurclick.com/#org" },
+      },
+    ],
+  }),
+];
+const scripts = [
+  {"src":"/perf.js?v=20260719perf","module":false},
+  {"src":"/shared.js?v=20260719perf","module":false},
+  {"src":"/webmcp.js?v=20260719agent","module":false},
+];
 ---
 <BaseLayout
   locale={locale}

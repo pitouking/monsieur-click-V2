@@ -1,15 +1,25 @@
-TITLE: Small business SEO
-DESCRIPTION: Practical SEO for local operators.
-URL: https://monsieurclick.com/small-business-seo
+TITLE: Small Business SEO
+DESCRIPTION: Affordable SEO for small businesses. Local SEO, Google Business Profile, converting websites and AI visibility inside Click First™.
+URL: https://monsieurclick.com/small-business-seo/
 TYPE: Service
 LANG: en
-TAGS: click-first,monsieur-click
+TAGS: click-first,monsieur-click,local-seo,geo
 
-# Small business SEO
+# Small Business SEO
 
-Practical SEO for local operators.
+Small business SEO is SEO sized for local owners: Google Business Profile and Maps, a converting website, on-page SEO, reviews, and a GEO layer so AI assistants can cite you—run as one system under Click First™.
 
-Part of Click First™: website, SEO, Google Business Profile, reviews and AI visibility work together.
+We do not take two competing businesses in the same niche and the same city (category exclusivity).
+
+## What you get
+- Local SEO and Google Business Profile optimization
+- Review strategy and NAP consistency
+- Website SEO and conversion-focused pages
+- Generative Engine Optimization (GEO) for ChatGPT, Gemini and Perplexity
+- Monthly measurement with the Click First™ Score
+
+## Pricing
+Click First™ plans start at €850/month after a free diagnostic.
 
 ## Entity
 - Name: Monsieur Click
@@ -19,10 +29,11 @@ Part of Click First™: website, SEO, Google Business Profile, reviews and AI vi
 - Founder: Jean-Pierre Baguette
 
 ## Links
-→ Public page: https://monsieurclick.com/small-business-seo
+→ Public page: https://monsieurclick.com/small-business-seo/
 → Services hub: https://monsieurclick.com/services/
-→ Click First™: https://monsieurclick.com/click-first
+→ Local SEO: https://monsieurclick.com/services/local-seo/
+→ GEO: https://monsieurclick.com/services/generative-engine-optimization/
+→ Click First™: https://monsieurclick.com/click-first/
+→ Pricing: https://monsieurclick.com/pricing/
 → OKF: https://monsieurclick.com/okf/services/small-business-seo/
-→ Free diagnostic: https://monsieurclick.com/contact
-→ FR OKF: https://monsieurclick.fr/okf/
-
+→ Free diagnostic: https://monsieurclick.com/contact/
