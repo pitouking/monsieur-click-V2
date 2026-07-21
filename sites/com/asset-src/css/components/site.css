@@ -36,7 +36,8 @@
   .menu-toggle{display:none;background:none;border:none;color:var(--ink);font-size:1.6rem;cursor:pointer;padding:8px;line-height:1}
   body.menu-open{overflow:hidden}
 
-  .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:var(--navy) url('/hero-mc-paris.webp') center right/cover no-repeat}
+  .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;background:var(--navy)}
+  .hero__bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center right;z-index:0}
   .hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(6,14,28,.96) 0%,rgba(6,14,28,.72) 32%,rgba(6,14,28,.12) 58%,transparent 100%)}
   .hero-inner{position:relative;z-index:2;max-width:900px;padding-top:100px;padding-bottom:60px}
   .badge{display:inline-block;border:1px solid var(--brd-2);background:rgba(255,255,255,.08);border-radius:var(--radius-pill);padding:10px 20px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#cfdcf0;font-weight:var(--font-weight-semibold)}
@@ -268,12 +269,14 @@
   .faq-intro .eyebrow{margin-bottom:12px;display:block}
   .faq-intro h2{font-size:clamp(1.9rem,3.4vw,2.6rem);margin-bottom:18px}
   .faq-intro p{color:var(--muted);margin-bottom:20px}
-  .faq-item{border:1px solid var(--brd);border-radius:12px;margin-bottom:12px;background:var(--surface);overflow:hidden}
-  .faq-q{width:100%;text-align:left;background:none;border:none;color:var(--ink);font-family:var(--font-display);font-weight:var(--font-weight-bold);font-size:1.05rem;padding:20px 22px;cursor:pointer;display:flex;justify-content:space-between;gap:var(--space-4);align-items:center}
-  .faq-q .chev{transition:transform var(--dur-med) var(--ease-out),color var(--dur-med) var(--ease-out);color:var(--orange-2);font-size:1.3rem;flex:none}
+  .faq-list{display:flex;flex-direction:column;gap:max(var(--touch-gap),12px)}
+  .faq-item{border:1px solid var(--brd);border-radius:12px;margin-bottom:0;background:var(--surface);overflow:hidden}
+  .faq-q{width:100%;min-height:var(--touch-min);text-align:left;background:none;border:none;color:var(--ink);font-family:var(--font-display);font-weight:var(--font-weight-bold);font-size:1.05rem;line-height:1.45;padding:14px 18px;cursor:pointer;display:flex;justify-content:space-between;gap:var(--space-4);align-items:center;touch-action:manipulation}
+  .faq-q .chev{display:inline-flex;align-items:center;justify-content:center;min-width:var(--touch-min);min-height:var(--touch-min);margin:-6px -8px -6px 0;padding:6px 8px;transition:transform var(--dur-med) var(--ease-out),color var(--dur-med) var(--ease-out);color:var(--orange-2);font-size:1.3rem;flex:none}
   .faq-item.open .chev{transform:rotate(45deg)}
   .faq-a{max-height:0;overflow:hidden;transition:max-height var(--dur-med) var(--ease-soft);color:var(--muted)}
   .faq-q:hover,.faq-q:focus-visible{color:#fff}
+  .faq-q:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
   .faq-a p{padding:0 22px 20px}
 
   .cta-final{position:relative;overflow:hidden;text-align:center;background:var(--navy)}
@@ -429,7 +432,8 @@
   }
 
 /* ===== Pages intérieures ===== */
-.page-hero,.pagehero{position:relative;padding:180px 0 90px;overflow:hidden;background:var(--navy) url('/hero-mc-paris.webp') center/cover}
+.page-hero,.pagehero{position:relative;padding:180px 0 90px;overflow:hidden;background:var(--navy)}
+.page-hero .hero__bg,.pagehero .hero__bg{object-position:center}
 .pagehero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,14,28,.9),rgba(6,14,28,.82))}
 .page-hero .wrap,.pagehero .wrap{position:relative;z-index:2}
 .pagehero .breadcrumb,.pagehero .eyebrow,.pagehero h1,.pagehero p.sub,.pagehero .btn{transform:translate3d(0,14px,0);animation:heroUp .78s var(--ease-soft) forwards}
@@ -488,14 +492,15 @@ a.mcomp:hover .mcomp-link{text-decoration:underline}
 .cform .note{font-size:.82rem;color:var(--muted);text-align:center}
 #cformMsg{display:none;color:#fff;font-weight:var(--font-weight-semibold);text-align:center}
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.bcard{border:1px solid var(--brd);background:var(--surface);border-radius:var(--radius);overflow:hidden;transition:.25s;display:block}
+.bcard{border:1px solid var(--brd);background:var(--surface);border-radius:var(--radius);overflow:hidden;transition:.25s;display:block;min-height:var(--touch-min);touch-action:manipulation}
+.bcard:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
 .bcard:hover{transform:translateY(-5px);border-color:var(--brd-2)}
 .bcard .bimg{height:150px;background:radial-gradient(120% 120% at 70% 15%,rgba(53,167,230,.25),var(--navy-3))}
 .bcard .bbody{padding:22px}
 .bcard .cat{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--cyan);font-weight:var(--font-weight-bold)}
 .bcard h3{font-size:1.12rem;margin:8px 0}
 .bcard p{color:var(--muted);font-size:.9rem}
-@media(max-width:920px){.cases,.blog-grid,.contact-grid{grid-template-columns:1fr}.mcomp{grid-template-columns:1fr;gap:var(--space-3)}.cform .row{grid-template-columns:1fr}}
+@media(max-width:920px){.cases,.blog-grid,.contact-grid{grid-template-columns:1fr;gap:max(var(--touch-gap),20px)}.mcomp{grid-template-columns:1fr;gap:var(--space-3)}.cform .row{grid-template-columns:1fr}}
 /* Études de cas riches (réalisations) */
 .rcase{display:flex;gap:38px;align-items:center;flex-wrap:wrap;border:1px solid var(--brd);background:linear-gradient(165deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border-radius:var(--radius-lg);padding:32px;margin-bottom:26px;transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .3s,background .3s}
 .rcase:hover{transform:translateY(-5px);border-color:var(--brd-2);background:rgba(255,255,255,.05)}
@@ -780,7 +785,8 @@ a.fcard:hover .flink{color:#fff}
 
 /* Accordéon dépliable dans le corps (réutilise .faq-item via shared.js) */
 .prose .foldset{margin:28px 0}
-.prose .foldset .faq-item{margin-bottom:10px}
+.prose .foldset{display:flex;flex-direction:column;gap:max(var(--touch-gap),12px)}
+.prose .foldset .faq-item{margin-bottom:0}
 
 @media(max-width:720px){
   .prose .proscons{grid-template-columns:1fr}
