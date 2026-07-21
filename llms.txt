@@ -113,3 +113,7 @@
 - [llms-full.txt](https://monsieurclick.fr/llms-full.txt)
 - [llms.txt EN](https://monsieurclick.com/llms.txt)
 - [llms-full.txt EN](https://monsieurclick.com/llms-full.txt)
+
+## Optional
+- [Documentation API agents](https://monsieurclick.fr/docs/api/): Catalogue API machine-readable
+- [AUTH.md](https://monsieurclick.fr/auth.md): Notes d'authentification pour agents IA
