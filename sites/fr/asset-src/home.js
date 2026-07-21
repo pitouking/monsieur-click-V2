@@ -255,4 +255,24 @@
   whenNear(document.getElementById('clickfirst')||document.getElementById('constellation'),bootConstellation,'280px 0px');
   whenNear(document.getElementById('approche')||document.getElementById('particles'),bootParticles,'280px 0px');
   whenNear(document.getElementById('widgetWrap'),bootReviewsFallback,'200px 0px');
+
+  /* Hero: image d'abord, puis la vidéo Livid prend le relais */
+  (function initHeroVideo(){
+    const hero=document.querySelector('.hero.site-hero[data-hero-video]');
+    if(!hero)return;
+    const src=hero.getAttribute('data-hero-video');
+    const wrap=hero.querySelector('.hero__video-wrap');
+    const iframe=hero.querySelector('.hero__video');
+    if(!src||!wrap||!iframe)return;
+    const mobile=matchMedia('(max-width:920px)').matches;
+    if(reduce||mobile)return;
+    wrap.hidden=false;
+    const reveal=()=>{
+      if(hero.classList.contains('is-video-ready'))return;
+      hero.classList.add('is-video-ready');
+    };
+    iframe.addEventListener('load',()=>setTimeout(reveal,700),{once:true});
+    setTimeout(reveal,3500);
+    iframe.src=src;
+  })();
 })();
