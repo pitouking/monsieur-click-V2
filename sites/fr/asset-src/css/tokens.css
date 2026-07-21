@@ -77,6 +77,10 @@
   --space-24: 6rem;
   --space-section: clamp(4rem, 8vw, 7.5rem);
 
+  /* ——— Touch targets (WCAG 2.5.5 / Lighthouse) ——— */
+  --touch-min: 48px;
+  --touch-gap: 8px;
+
   /* ——— Layout ——— */
   --radius: 14px;
   --radius-sm: 8px;

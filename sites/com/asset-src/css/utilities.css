@@ -125,11 +125,19 @@ a.u-hidden:focus-visible {
   border-radius: 8px;
 }
 
-/* Perf: skip rendering work for offscreen sections */
-section:not(:first-of-type),
+/* Perf: skip rendering work for offscreen sections.
+   Exclude #clickfirst / #services: their real height >> 720px placeholder.
+   Underestimated size stacks #services under .eco-cta and fails LH target-size
+   (targets overlap even when each is ≥48px). */
+section:not(:first-of-type):not(#clickfirst):not(#services),
 .showcase,
 .marquee,
 footer.site-footer{
   content-visibility:auto;
-  contain-intrinsic-size:1px 720px;
+  contain-intrinsic-size:auto 720px;
+}
+#clickfirst,
+#services{
+  content-visibility:visible;
+  contain-intrinsic-size:none;
 }

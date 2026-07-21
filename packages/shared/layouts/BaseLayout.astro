@@ -58,7 +58,7 @@ const {
   jsonLd = [],
   headExtras = '',
   scripts = ['/perf.js?v=20260719agent', '/shared.js?v=20260719agent', '/webmcp.js?v=20260719agent'],
-  cssHref = '/css/main.css?v=20260719constellation',
+  cssHref = '/css/main.css?v=20260721touchfix',
   lcpImage = '/hero-mc-paris.webp',
   nav,
   footer,
@@ -94,6 +94,9 @@ const scriptTags = scripts.map((s) =>
     <link rel="preload" as="image" href={lcpImage} type="image/webp" fetchpriority="high" />
     <link rel="preload" href={cssHref} as="style" />
     <link rel="stylesheet" href={cssHref} />
+    <style is:inline>
+      html{background:#081428}
+    </style>
     {jsonLd.map((block) => (
       <script type="application/ld+json" set:html={block} />
     ))}
