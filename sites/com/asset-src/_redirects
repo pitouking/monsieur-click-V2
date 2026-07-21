@@ -91,7 +91,7 @@
 /realisations/ /case-studies/ 301
 /realisations.html /case-studies/ 301
 
-# Flat .html → clean directory URLs (trailing slash avoids extra Astro 308 hop)
+# Flat .html → clean directory URLs (trailing slash = Astro directory canonical)
 /about.html /about/ 301
 /terms.html /terms/ 301
 /privacy.html /privacy/ 301
