@@ -38,12 +38,8 @@ function priorityFor(url) {
 }
 
 function normalizeLoc(url) {
-  // Prefer trailing slash for directory-style hubs already using it in live
-  const slashDirs = ['/services', '/blog', '/realisations', '/case-studies', '/okf'];
-  if (slashDirs.some((d) => url === d || url.startsWith(`${d}/`))) {
-    if (!url.endsWith('/')) return `${url}/`;
-  }
-  return url;
+  if (url === '/') return '/';
+  return url.endsWith('/') ? url : `${url}/`;
 }
 
 function generate(siteLabel, origin) {

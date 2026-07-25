@@ -7,6 +7,7 @@ const root = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   site: 'https://monsieurclick.com',
   output: 'static',
+  trailingSlash: 'always',
   build: { format: 'directory' },
   vite: {
     resolve: {

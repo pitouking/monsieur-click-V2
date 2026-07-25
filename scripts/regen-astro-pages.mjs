@@ -28,17 +28,29 @@ function prop(html, name) {
   return (html.match(re)?.[1] || html.match(re2)?.[1] || '').trim();
 }
 
+function withTrailingSlash(url) {
+  if (!url) return url;
+  try {
+    const u = new URL(url);
+    if (u.pathname !== '/' && !u.pathname.endsWith('/')) u.pathname += '/';
+    return u.href;
+  } catch {
+    if (url === '/' || url.endsWith('/')) return url;
+    return `${url}/`;
+  }
+}
+
 function extract(html) {
   const title = (html.match(/<title>([^<]*)<\/title>/i)?.[1] || '').trim();
   const description = attr(html, 'description') || prop(html, 'og:description');
-  const canonical = (html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i)?.[1]
+  const canonical = withTrailingSlash((html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i)?.[1]
     || html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']canonical["']/i)?.[1]
-    || '').trim();
+    || '').trim());
   const hreflang = [...html.matchAll(/<link[^>]+rel=["']alternate["'][^>]*hreflang=["']([^"']+)["'][^>]*href=["']([^"']+)["'][^>]*>/gi)]
-    .map((m) => ({ lang: m[1], href: m[2] }));
+    .map((m) => ({ lang: m[1], href: withTrailingSlash(m[2]) }));
   if (!hreflang.length) {
     for (const m of html.matchAll(/<link[^>]+hreflang=["']([^"']+)["'][^>]*rel=["']alternate["'][^>]*href=["']([^"']+)["'][^>]*>/gi)) {
-      hreflang.push({ lang: m[1], href: m[2] });
+      hreflang.push({ lang: m[1], href: withTrailingSlash(m[2]) });
     }
   }
   const ogImage = prop(html, 'og:image');
