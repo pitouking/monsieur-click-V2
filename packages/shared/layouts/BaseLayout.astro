@@ -64,11 +64,12 @@ const {
   footer,
 } = Astro.props;
 
-/** Match Cloudflare Pages directory URLs: always trailing slash (home stays `/`). */
-function withTrailingSlash(url: string): string {
+/** Prefer apex host (no www) + trailing slash to match CF redirects / sitemap. */
+function normalizeSeoUrl(url: string): string {
   if (!url) return url;
   try {
     const u = new URL(url);
+    if (u.hostname.startsWith('www.')) u.hostname = u.hostname.slice(4);
     if (u.pathname !== '/' && !u.pathname.endsWith('/')) u.pathname += '/';
     return u.href;
   } catch {
@@ -85,8 +86,8 @@ function withTrailingSlash(url: string): string {
   }
 }
 
-const canonicalHref = canonical ? withTrailingSlash(canonical) : '';
-const hreflangLinks = hreflang.map((h) => ({ ...h, href: withTrailingSlash(h.href) }));
+const canonicalHref = canonical ? normalizeSeoUrl(canonical) : '';
+const hreflangLinks = hreflang.map((h) => ({ ...h, href: normalizeSeoUrl(h.href) }));
 
 const scriptTags = scripts.map((s) =>
   typeof s === 'string' ? { src: s, module: false } : { src: s.src, module: Boolean(s.module) },
