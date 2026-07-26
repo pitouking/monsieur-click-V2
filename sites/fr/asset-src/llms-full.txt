@@ -205,12 +205,32 @@ Catégorie : Visibilité IA
 Résumé : Les habitudes de recherche changent. Les clients commencent par ChatGPT, Perplexity ou Gemini pour leurs questions. Si votre entreprise n'est pas structurée pour ces canaux, vous êtes invisible pour une part croissante de votre marché.
 
 ================================================================================
+PAGE : Agence SEO — guide complet 2026
+================================================================================
+URL : https://monsieurclick.fr/agence-seo-guide/
+Titre : Agence SEO : guide complet 2026 | Monsieur Click
+Description : Comment choisir une agence SEO en 2026 ? Critères, pièges, SEO local vs GEO, KPIs et budget.
+Schema.org : Article, FAQPage, BreadcrumbList, Organization
+Catégorie : SEO
+Résumé : Guide pour choisir une agence SEO en 2026 : GEO, AI Overviews, 5 questions à poser, pièges (garantie n°1), types d'agences, budget et KPIs à 6 mois. Lié à Click First™, SEO, GEO et pages Paris.
+
+================================================================================
+PAGE : Référencement ChatGPT (GEO)
+================================================================================
+URL : https://monsieurclick.fr/services/seo-chatgpt/
+Titre : Référencement ChatGPT & GEO | Monsieur Click
+Description : Apparaitre dans ChatGPT, Gemini et Perplexity. Stratégie GEO pour TPE/PME.
+Schema.org : Service, FAQPage, BreadcrumbList
+Résumé : Page service orientée intention « SEO ChatGPT ». Même levier que Visibilité IA (GEO) : audit citations, contenus citables, Schema, llms.txt, suivi. Complète https://monsieurclick.fr/services/visibilite-ia-geo/
+
+================================================================================
 BLOG : Google Ads ou SEO — Où investir ?
 ================================================================================
 URL : https://monsieurclick.fr/blog/google-ads-ou-seo/
 - https://monsieurclick.fr/blog/prix-tarif-agence-seo-2026/
 - https://monsieurclick.fr/blog/c-est-quoi-une-agence-seo/
 - https://monsieurclick.fr/blog/comment-choisir-agence-seo-paris/
+- https://monsieurclick.fr/agence-seo-guide/
 Titre : Google Ads ou référencement naturel (SEO) : où investir pour un retour durable ?
 Description : Publicité ou référencement ? Les deux ont leur place, mais pas au même moment. Voici comment choisir.
 Schema.org : Article, BlogPosting, Organization, WebSite, BreadcrumbList
