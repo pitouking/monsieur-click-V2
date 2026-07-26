@@ -187,7 +187,7 @@ function buildSite(site) {
         ],
         'service-doc': [
           {
-            href: `${site.origin}/docs/api`,
+            href: `${site.origin}/docs/api/`,
             type: 'text/html',
           },
           {
@@ -212,7 +212,7 @@ function buildSite(site) {
         ],
         'service-doc': [
           {
-            href: `${site.origin}/docs/api`,
+            href: `${site.origin}/docs/api/`,
             type: 'text/html',
           },
         ],
@@ -447,7 +447,7 @@ description: ${site.getQuoteDesc}
 
 # Request quote
 
-Guide the user to ${site.origin}/offres or ${site.origin}/pricing depending on locale, or use the WebMCP tool \`open_free_diagnostic\`.
+Guide the user to ${site.origin}/offres/ or ${site.origin}/pricing/ depending on locale, or use the WebMCP tool \`open_free_diagnostic\`.
 `,
     },
     'contact-diagnostic': {
@@ -467,7 +467,7 @@ description: ${
 
 # Contact / diagnostic
 
-Send the user to ${site.origin}/contact or call the WebMCP tool \`open_free_diagnostic\`.
+Send the user to ${site.origin}/contact/ or call the WebMCP tool \`open_free_diagnostic\`.
 `,
     },
   };

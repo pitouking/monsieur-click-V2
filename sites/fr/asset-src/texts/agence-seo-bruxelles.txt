@@ -1,6 +1,6 @@
 TITRE: Agence SEO à Bruxelles
 DESCRIPTION: SEO et visibilité locale à Bruxelles.
-URL: https://monsieurclick.fr/agence-seo-bruxelles
+URL: https://monsieurclick.fr/agence-seo-bruxelles/
 TYPE: Service
 LANG: fr
 TAGS: monsieur-click, click-first, seo
@@ -19,8 +19,8 @@ Fait partie de la méthode Click First™ : site, SEO, Google Business Profile, 
 - Fondateur : Jean-Pierre Baguette
 
 ## Liens
-→ Page complète : https://monsieurclick.fr/agence-seo-bruxelles
+→ Page complète : https://monsieurclick.fr/agence-seo-bruxelles/
 → Hub services : https://monsieurclick.fr/services/
-→ Click First™ : https://monsieurclick.fr/click-first
+→ Click First™ : https://monsieurclick.fr/click-first/
 → OKF : https://monsieurclick.fr/okf/agence-seo-bruxelles/
-→ Diagnostic : https://monsieurclick.fr/contact
+→ Diagnostic : https://monsieurclick.fr/contact/

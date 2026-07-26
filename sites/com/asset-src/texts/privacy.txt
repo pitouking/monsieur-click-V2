@@ -1,6 +1,6 @@
 TITLE: Privacy
 DESCRIPTION: Privacy policy and data protection.
-URL: https://monsieurclick.com/privacy
+URL: https://monsieurclick.com/privacy/
 TYPE: WebPage
 LANG: en
 TAGS: monsieur-click,click-first
@@ -15,7 +15,7 @@ Privacy policy and data protection.
 - +33 6 60 76 15 23 · contact@monsieurclick.com
 
 ## Links
-→ Page: https://monsieurclick.com/privacy
+→ Page: https://monsieurclick.com/privacy/
 → OKF hub: https://monsieurclick.com/okf/
 → llms.txt: https://monsieurclick.com/llms.txt
 → FR twin site: https://monsieurclick.fr/
