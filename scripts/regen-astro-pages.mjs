@@ -16,16 +16,22 @@ function walk(dir, files = []) {
   return files;
 }
 
+/** Read a meta content= value without truncating on apostrophes inside the attribute. */
+function metaContent(html, attrName, attrValue) {
+  const tagRe = new RegExp(`<meta\\b[^>]*\\b${attrName}=["']${attrValue}["'][^>]*>`, 'i');
+  const tagRe2 = new RegExp(`<meta\\b[^>]*\\bcontent=(["'])[\\s\\S]*?\\1[^>]*\\b${attrName}=["']${attrValue}["'][^>]*>`, 'i');
+  const tag = html.match(tagRe)?.[0] || html.match(tagRe2)?.[0] || '';
+  if (!tag) return '';
+  const m = tag.match(/\bcontent=(["'])([\s\S]*?)\1/i);
+  return (m?.[2] || '').trim();
+}
+
 function attr(html, name) {
-  const re = new RegExp(`<meta[^>]+name=["']${name}["'][^>]+content=["']([^"']*)["']`, 'i');
-  const re2 = new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+name=["']${name}["']`, 'i');
-  return (html.match(re)?.[1] || html.match(re2)?.[1] || '').trim();
+  return metaContent(html, 'name', name);
 }
 
 function prop(html, name) {
-  const re = new RegExp(`<meta[^>]+property=["']${name}["'][^>]+content=["']([^"']*)["']`, 'i');
-  const re2 = new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+property=["']${name}["']`, 'i');
-  return (html.match(re)?.[1] || html.match(re2)?.[1] || '').trim();
+  return metaContent(html, 'property', name);
 }
 
 function withTrailingSlash(url) {

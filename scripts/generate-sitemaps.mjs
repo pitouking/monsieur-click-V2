@@ -52,6 +52,7 @@ function generate(siteLabel, origin) {
     const rel = path.relative(legacyRoot, file).replace(/\\/g, '/');
     if (skipNames.has(path.basename(rel)) || rel.includes('blog-hub-legacy')) continue;
     if (rel.startsWith('okf/')) continue; // OKF mirrors are noindex / tool copies
+    if (rel.startsWith('texts/')) continue; // plain-text AI bundle (rewritten to .txt), not HTML SEO
     const html = fs.readFileSync(file, 'utf8');
     if (isNoindex(html)) continue;
     let url = toUrl(rel);
