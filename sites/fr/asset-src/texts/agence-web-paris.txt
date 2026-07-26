@@ -1,6 +1,6 @@
 TITRE: Agence web à Paris
 DESCRIPTION: Création de site et SEO intégré à Paris.
-URL: https://monsieurclick.fr/agence-web-paris
+URL: https://monsieurclick.fr/agence-web-paris/
 TYPE: Service
 LANG: fr
 TAGS: monsieur-click, click-first, seo
@@ -19,8 +19,8 @@ Fait partie de la méthode Click First™ : site, SEO, Google Business Profile, 
 - Fondateur : Jean-Pierre Baguette
 
 ## Liens
-→ Page complète : https://monsieurclick.fr/agence-web-paris
+→ Page complète : https://monsieurclick.fr/agence-web-paris/
 → Hub services : https://monsieurclick.fr/services/
-→ Click First™ : https://monsieurclick.fr/click-first
+→ Click First™ : https://monsieurclick.fr/click-first/
 → OKF : https://monsieurclick.fr/okf/agence-web-paris/
-→ Diagnostic : https://monsieurclick.fr/contact
+→ Diagnostic : https://monsieurclick.fr/contact/
