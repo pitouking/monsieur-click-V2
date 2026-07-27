@@ -33,6 +33,15 @@
 .site-footer__grid { }
 .site-footer__bottom { }
 
+.embed-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 620px;
+}
+.embed-wrap.booking {
+  min-height: 720px;
+}
+
 .embed-iframe {
   width: 100%;
   height: 620px;
@@ -125,11 +134,19 @@ a.u-hidden:focus-visible {
   border-radius: 8px;
 }
 
-/* Perf: skip rendering work for offscreen sections */
-section:not(:first-of-type),
+/* Perf: skip rendering work for offscreen sections.
+   Never skip GHL form hosts — content-visibility breaks iframe sizing/show on mobile. */
+section:not(:first-of-type):not(#parlons):not(#rdv):not(:has(.embed-wrap)),
 .showcase,
 .marquee,
 footer.site-footer{
   content-visibility:auto;
   contain-intrinsic-size:1px 720px;
+}
+#parlons,
+#rdv,
+section:has(.embed-wrap),
+.embed-wrap{
+  content-visibility:visible;
+  contain-intrinsic-size:none;
 }

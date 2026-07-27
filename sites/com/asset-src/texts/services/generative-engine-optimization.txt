@@ -1,6 +1,6 @@
 TITLE: Generative Engine Optimization (GEO)
 DESCRIPTION: Get cited by ChatGPT, Gemini, Claude and Perplexity.
-URL: https://monsieurclick.com/services/generative-engine-optimization
+URL: https://monsieurclick.com/services/generative-engine-optimization/
 TYPE: Service
 LANG: en
 TAGS: geo,ai-seo,click-first
@@ -19,10 +19,10 @@ Part of Click First™: website, SEO, Google Business Profile, reviews and AI vi
 - Founder: Jean-Pierre Baguette
 
 ## Links
-→ Public page: https://monsieurclick.com/services/generative-engine-optimization
+→ Public page: https://monsieurclick.com/services/generative-engine-optimization/
 → Services hub: https://monsieurclick.com/services/
-→ Click First™: https://monsieurclick.com/click-first
+→ Click First™: https://monsieurclick.com/click-first/
 → OKF: https://monsieurclick.com/okf/services/generative-engine-optimization/
-→ Free diagnostic: https://monsieurclick.com/contact
+→ Free diagnostic: https://monsieurclick.com/contact/
 → FR OKF: https://monsieurclick.fr/okf/
 

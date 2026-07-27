@@ -10,7 +10,7 @@
       ],
       "service-doc": [
         {
-          "href": "https://monsieurclick.fr/docs/api",
+          "href": "https://monsieurclick.fr/docs/api/",
           "type": "text/html"
         },
         {
@@ -35,7 +35,7 @@
       ],
       "service-doc": [
         {
-          "href": "https://monsieurclick.fr/docs/api",
+          "href": "https://monsieurclick.fr/docs/api/",
           "type": "text/html"
         }
       ],

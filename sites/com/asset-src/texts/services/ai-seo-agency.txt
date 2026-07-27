@@ -1,6 +1,6 @@
 TITLE: AI SEO agency
 DESCRIPTION: SEO plus GEO in one Click First™ system.
-URL: https://monsieurclick.com/ai-seo-agency
+URL: https://monsieurclick.com/ai-seo-agency/
 TYPE: Service
 LANG: en
 TAGS: click-first,monsieur-click
@@ -19,10 +19,10 @@ Part of Click First™: website, SEO, Google Business Profile, reviews and AI vi
 - Founder: Jean-Pierre Baguette
 
 ## Links
-→ Public page: https://monsieurclick.com/ai-seo-agency
+→ Public page: https://monsieurclick.com/ai-seo-agency/
 → Services hub: https://monsieurclick.com/services/
-→ Click First™: https://monsieurclick.com/click-first
+→ Click First™: https://monsieurclick.com/click-first/
 → OKF: https://monsieurclick.com/okf/services/ai-seo-agency/
-→ Free diagnostic: https://monsieurclick.com/contact
+→ Free diagnostic: https://monsieurclick.com/contact/
 → FR OKF: https://monsieurclick.fr/okf/
 

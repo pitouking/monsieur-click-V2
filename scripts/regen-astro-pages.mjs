@@ -16,29 +16,47 @@ function walk(dir, files = []) {
   return files;
 }
 
+/** Read a meta content= value without truncating on apostrophes inside the attribute. */
+function metaContent(html, attrName, attrValue) {
+  const tagRe = new RegExp(`<meta\\b[^>]*\\b${attrName}=["']${attrValue}["'][^>]*>`, 'i');
+  const tagRe2 = new RegExp(`<meta\\b[^>]*\\bcontent=(["'])[\\s\\S]*?\\1[^>]*\\b${attrName}=["']${attrValue}["'][^>]*>`, 'i');
+  const tag = html.match(tagRe)?.[0] || html.match(tagRe2)?.[0] || '';
+  if (!tag) return '';
+  const m = tag.match(/\bcontent=(["'])([\s\S]*?)\1/i);
+  return (m?.[2] || '').trim();
+}
+
 function attr(html, name) {
-  const re = new RegExp(`<meta[^>]+name=["']${name}["'][^>]+content=["']([^"']*)["']`, 'i');
-  const re2 = new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+name=["']${name}["']`, 'i');
-  return (html.match(re)?.[1] || html.match(re2)?.[1] || '').trim();
+  return metaContent(html, 'name', name);
 }
 
 function prop(html, name) {
-  const re = new RegExp(`<meta[^>]+property=["']${name}["'][^>]+content=["']([^"']*)["']`, 'i');
-  const re2 = new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+property=["']${name}["']`, 'i');
-  return (html.match(re)?.[1] || html.match(re2)?.[1] || '').trim();
+  return metaContent(html, 'property', name);
+}
+
+function withTrailingSlash(url) {
+  if (!url) return url;
+  try {
+    const u = new URL(url);
+    if (u.pathname !== '/' && !u.pathname.endsWith('/')) u.pathname += '/';
+    return u.href;
+  } catch {
+    if (url === '/' || url.endsWith('/')) return url;
+    return `${url}/`;
+  }
 }
 
 function extract(html) {
   const title = (html.match(/<title>([^<]*)<\/title>/i)?.[1] || '').trim();
   const description = attr(html, 'description') || prop(html, 'og:description');
-  const canonical = (html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i)?.[1]
+  const canonical = withTrailingSlash((html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i)?.[1]
     || html.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']canonical["']/i)?.[1]
-    || '').trim();
+    || '').trim());
   const hreflang = [...html.matchAll(/<link[^>]+rel=["']alternate["'][^>]*hreflang=["']([^"']+)["'][^>]*href=["']([^"']+)["'][^>]*>/gi)]
-    .map((m) => ({ lang: m[1], href: m[2] }));
+    .map((m) => ({ lang: m[1], href: withTrailingSlash(m[2]) }));
   if (!hreflang.length) {
     for (const m of html.matchAll(/<link[^>]+hreflang=["']([^"']+)["'][^>]*rel=["']alternate["'][^>]*href=["']([^"']+)["'][^>]*>/gi)) {
-      hreflang.push({ lang: m[1], href: m[2] });
+      hreflang.push({ lang: m[1], href: withTrailingSlash(m[2]) });
     }
   }
   const ogImage = prop(html, 'og:image');
@@ -56,15 +74,15 @@ function extract(html) {
   ]).map((s) => {
     let src = s.src;
     if (/^\/(perf|shared)\.js/.test(src)) {
-      src = src.replace(/\?.*$/, '') + '?v=20260719perf';
+      src = src.replace(/\?.*$/, '') + '?v=20260721ghl';
     }
     return { src, module: Boolean(s.module) };
   });
   const finalScripts = scripts.length
     ? scripts
     : [
-        { src: '/perf.js?v=20260719perf', module: false },
-        { src: '/shared.js?v=20260719perf', module: false },
+        { src: '/perf.js?v=20260721ghl', module: false },
+        { src: '/shared.js?v=20260721ghl', module: false },
       ];
 
   const hasChrome = /class=["'][^"']*site-header/.test(html);

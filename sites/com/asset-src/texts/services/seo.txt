@@ -1,6 +1,6 @@
 TITLE: SEO services
 DESCRIPTION: Technical, on-page and content SEO with monthly measurement.
-URL: https://monsieurclick.com/services/seo
+URL: https://monsieurclick.com/services/seo/
 TYPE: Service
 LANG: en
 TAGS: seo,click-first,monsieur-click
@@ -19,10 +19,10 @@ Part of Click First™: website, SEO, Google Business Profile, reviews and AI vi
 - Founder: Jean-Pierre Baguette
 
 ## Links
-→ Public page: https://monsieurclick.com/services/seo
+→ Public page: https://monsieurclick.com/services/seo/
 → Services hub: https://monsieurclick.com/services/
-→ Click First™: https://monsieurclick.com/click-first
+→ Click First™: https://monsieurclick.com/click-first/
 → OKF: https://monsieurclick.com/okf/services/seo/
-→ Free diagnostic: https://monsieurclick.com/contact
+→ Free diagnostic: https://monsieurclick.com/contact/
 → FR OKF: https://monsieurclick.fr/okf/
 

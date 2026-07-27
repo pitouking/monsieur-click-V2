@@ -57,12 +57,37 @@ const {
   ogLocaleAlternate = locale === 'fr' ? 'en_US' : 'fr_FR',
   jsonLd = [],
   headExtras = '',
-  scripts = ['/perf.js?v=20260719agent', '/shared.js?v=20260719agent', '/webmcp.js?v=20260719agent'],
-  cssHref = '/css/main.css?v=20260719constellation',
+  scripts = ['/perf.js?v=20260721ghl', '/shared.js?v=20260719agent', '/webmcp.js?v=20260719agent'],
+  cssHref = '/css/main.css?v=20260725hero',
   lcpImage = '/hero-mc-paris.webp',
   nav,
   footer,
 } = Astro.props;
+
+/** Prefer apex host (no www) + trailing slash to match CF redirects / sitemap. */
+function normalizeSeoUrl(url: string): string {
+  if (!url) return url;
+  try {
+    const u = new URL(url);
+    if (u.hostname.startsWith('www.')) u.hostname = u.hostname.slice(4);
+    if (u.pathname !== '/' && !u.pathname.endsWith('/')) u.pathname += '/';
+    return u.href;
+  } catch {
+    if (url.startsWith('#')) return url;
+    const hashIdx = url.indexOf('#');
+    if (hashIdx !== -1) {
+      const path = url.slice(0, hashIdx);
+      const hash = url.slice(hashIdx);
+      const base = !path || path.endsWith('/') ? path : `${path}/`;
+      return `${base}${hash}`;
+    }
+    if (url === '/' || url.endsWith('/')) return url;
+    return `${url}/`;
+  }
+}
+
+const canonicalHref = canonical ? normalizeSeoUrl(canonical) : '';
+const hreflangLinks = hreflang.map((h) => ({ ...h, href: normalizeSeoUrl(h.href) }));
 
 const scriptTags = scripts.map((s) =>
   typeof s === 'string' ? { src: s, module: false } : { src: s.src, module: Boolean(s.module) },
@@ -76,8 +101,8 @@ const scriptTags = scripts.map((s) =>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
-    {hreflang.map((h) => (
+    {canonicalHref && <link rel="canonical" href={canonicalHref} />}
+    {hreflangLinks.map((h) => (
       <link rel="alternate" hreflang={h.lang} href={h.href} />
     ))}
     <meta property="og:type" content="website" />
@@ -86,7 +111,7 @@ const scriptTags = scripts.map((s) =>
     <meta property="og:image" content={ogImage} />
     <meta property="og:locale" content={ogLocale} />
     <meta property="og:locale:alternate" content={ogLocaleAlternate} />
-    <meta property="og:url" content={canonical} />
+    {canonicalHref && <meta property="og:url" content={canonicalHref} />}
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="dns-prefetch" href="https://connect.facebook.net" />
     <link rel="dns-prefetch" href="https://link.monsieurclick.com" />

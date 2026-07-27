@@ -38,12 +38,8 @@ function priorityFor(url) {
 }
 
 function normalizeLoc(url) {
-  // Prefer trailing slash for directory-style hubs already using it in live
-  const slashDirs = ['/services', '/blog', '/realisations', '/case-studies', '/okf'];
-  if (slashDirs.some((d) => url === d || url.startsWith(`${d}/`))) {
-    if (!url.endsWith('/')) return `${url}/`;
-  }
-  return url;
+  if (url === '/') return '/';
+  return url.endsWith('/') ? url : `${url}/`;
 }
 
 function generate(siteLabel, origin) {
@@ -56,6 +52,7 @@ function generate(siteLabel, origin) {
     const rel = path.relative(legacyRoot, file).replace(/\\/g, '/');
     if (skipNames.has(path.basename(rel)) || rel.includes('blog-hub-legacy')) continue;
     if (rel.startsWith('okf/')) continue; // OKF mirrors are noindex / tool copies
+    if (rel.startsWith('texts/')) continue; // plain-text AI bundle (rewritten to .txt), not HTML SEO
     const html = fs.readFileSync(file, 'utf8');
     if (isNoindex(html)) continue;
     let url = toUrl(rel);
