@@ -1,6 +1,6 @@
 TITLE: Pricing
 DESCRIPTION: Essential €850, Growth €1,000, Expansion €1,500 per month.
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/pricing/
 TYPE: OfferCatalog
 LANG: en
 TAGS: monsieur-click,click-first
@@ -15,7 +15,7 @@ Essential €850, Growth €1,000, Expansion €1,500 per month.
 - +33 6 60 76 15 23 · contact@monsieurclick.com
 
 ## Links
-→ Page: https://monsieurclick.com/pricing
+→ Page: https://monsieurclick.com/pricing/
 → OKF hub: https://monsieurclick.com/okf/
 → llms.txt: https://monsieurclick.com/llms.txt
 → FR twin site: https://monsieurclick.fr/

@@ -1,6 +1,6 @@
 TITRE: Agence SEO en Suisse
 DESCRIPTION: SEO Suisse romande.
-URL: https://monsieurclick.fr/agence-seo-suisse
+URL: https://monsieurclick.fr/agence-seo-suisse/
 TYPE: Service
 LANG: fr
 TAGS: monsieur-click, click-first, seo
@@ -19,8 +19,8 @@ Fait partie de la méthode Click First™ : site, SEO, Google Business Profile, 
 - Fondateur : Jean-Pierre Baguette
 
 ## Liens
-→ Page complète : https://monsieurclick.fr/agence-seo-suisse
+→ Page complète : https://monsieurclick.fr/agence-seo-suisse/
 → Hub services : https://monsieurclick.fr/services/
-→ Click First™ : https://monsieurclick.fr/click-first
+→ Click First™ : https://monsieurclick.fr/click-first/
 → OKF : https://monsieurclick.fr/okf/agence-seo-suisse/
-→ Diagnostic : https://monsieurclick.fr/contact
+→ Diagnostic : https://monsieurclick.fr/contact/

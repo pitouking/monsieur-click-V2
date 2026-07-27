@@ -14,7 +14,7 @@ Public score + discovery resources do **not** require OAuth bearer tokens. Soft 
 
 `GET https://monsieurclick.com/.well-known/oauth-authorization-server`
 
-Also published at `https://monsieurclick.com/.well-known/openid-configuration`.
+Also published at `https://monsieurclick.com/.well-known/openid-configuration`
 
 ## Step 2 — Soft register
 

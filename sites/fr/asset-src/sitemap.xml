@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://monsieurclick.fr/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://monsieurclick.fr/a-propos</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://monsieurclick.fr/a-propos/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://monsieurclick.fr/agence-seo-belgique/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://monsieurclick.fr/agence-seo-bruxelles/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://monsieurclick.fr/agence-seo-geneve/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -28,14 +28,14 @@
   <url><loc>https://monsieurclick.fr/blog/site-internet-perd-clients/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.fr/blog/site-suffit-2026/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.fr/blog/trouver-clients-sans-publicite/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://monsieurclick.fr/click-first</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://monsieurclick.fr/conditions</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.fr/confidentialite</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://monsieurclick.fr/click-first/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://monsieurclick.fr/conditions/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://monsieurclick.fr/confidentialite/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <url><loc>https://monsieurclick.fr/consultant-seo-paris/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://monsieurclick.fr/contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://monsieurclick.fr/contact/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://monsieurclick.fr/creation-site-internet-paris/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://monsieurclick.fr/mentions-legales</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://monsieurclick.fr/offres</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://monsieurclick.fr/mentions-legales/</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://monsieurclick.fr/offres/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://monsieurclick.fr/realisations/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.fr/realisations/assogym/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://monsieurclick.fr/realisations/bodyguard-paris/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>

@@ -4,6 +4,9 @@
  *
  * Markdown responses must NOT be CDN-cached — a shared cache entry would poison
  * HTML clients (and break WebMCP static detection).
+ *
+ * Also enforces apex host (www → non-www) if a request reaches Pages with Host: www.*
+ * (Cloudflare Dynamic Redirect should normally catch this at the edge first).
  */
 function prefersMarkdown(accept) {
   if (!accept) return false;
@@ -77,6 +80,17 @@ function htmlToMarkdown(html) {
 
 export async function onRequest(context) {
   const { request, next } = context;
+  const url = new URL(request.url);
+  if (url.hostname.startsWith('www.')) {
+    url.hostname = url.hostname.slice(4);
+    url.protocol = 'https:';
+    if (url.pathname !== '/' && !url.pathname.endsWith('/')) {
+      const last = url.pathname.split('/').pop() || '';
+      if (!last.includes('.')) url.pathname += '/';
+    }
+    return Response.redirect(url.toString(), 301);
+  }
+
   const accept = request.headers.get('accept') || '';
   if (!prefersMarkdown(accept)) {
     return next();

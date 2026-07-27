@@ -1,6 +1,6 @@
 TITRE: Agence SEO à Genève
 DESCRIPTION: SEO et présence locale à Genève.
-URL: https://monsieurclick.fr/agence-seo-geneve
+URL: https://monsieurclick.fr/agence-seo-geneve/
 TYPE: Service
 LANG: fr
 TAGS: monsieur-click, click-first, seo
@@ -19,8 +19,8 @@ Fait partie de la méthode Click First™ : site, SEO, Google Business Profile, 
 - Fondateur : Jean-Pierre Baguette
 
 ## Liens
-→ Page complète : https://monsieurclick.fr/agence-seo-geneve
+→ Page complète : https://monsieurclick.fr/agence-seo-geneve/
 → Hub services : https://monsieurclick.fr/services/
-→ Click First™ : https://monsieurclick.fr/click-first
+→ Click First™ : https://monsieurclick.fr/click-first/
 → OKF : https://monsieurclick.fr/okf/agence-seo-geneve/
-→ Diagnostic : https://monsieurclick.fr/contact
+→ Diagnostic : https://monsieurclick.fr/contact/
