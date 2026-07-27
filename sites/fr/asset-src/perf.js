@@ -96,46 +96,96 @@
     });
   }
 
+  /* GHL parks embeds at left:-9999px / opacity:0 until iFrameResize fires.
+     On mobile Safari that callback often never runs (content-visibility / lazy race). */
+  function forceShowGhlIframes(root){
+    var scope=root&&root.querySelectorAll?root:document;
+    scope.querySelectorAll(
+      '.embed-wrap iframe,iframe[src*="widget/form/"],iframe[src*="widget/booking/"],iframe[data-src*="widget/form/"],iframe[data-src*="widget/booking/"]'
+    ).forEach(function(iframe){
+      var st=iframe.style;
+      var parked=st.left==='-9999px'||st.opacity==='0'||st.visibility==='hidden'||
+        iframe.getAttribute('data-initial-iframe-hidden')==='true';
+      if(!parked)return;
+      st.opacity='1';
+      st.pointerEvents='auto';
+      st.visibility='visible';
+      st.display='block';
+      if(st.left==='-9999px')st.left='';
+      if(st.position==='absolute')st.position='relative';
+      iframe.setAttribute('data-initial-iframe-hidden','false');
+    });
+    try{window.dispatchEvent(new Event('resize'));}catch(e){}
+  }
+
+  function scheduleGhlUnhide(root){
+    [500,1500,2800].forEach(function(ms){
+      setTimeout(function(){forceShowGhlIframes(root);},ms);
+    });
+  }
+
   function bootEmbeds(root){
-    mountFormIframe(root||document);
-    if(!document.querySelector('script[src*="form_embed.js"]'))
-      loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
+    var scope=root||document;
+    mountFormIframe(scope);
+    var existing=document.querySelector('script[src*="form_embed.js"]');
+    if(!existing){
+      var f=loadScript('https://link.monsieurclick.com/js/form_embed.js',{defer:true});
+      f.onload=function(){scheduleGhlUnhide(scope);};
+      f.onerror=function(){scheduleGhlUnhide(scope);};
+    }else{
+      scheduleGhlUnhide(scope);
+    }
+    /* Absolute fallback if onload never fires */
+    setTimeout(function(){forceShowGhlIframes(scope);},3200);
   }
 
   var parlons=document.getElementById('parlons');
   if(parlons){
-    function bootForm(){bootEmbeds(parlons);}
+    var formBooted=false;
+    function bootForm(){
+      if(formBooted)return;
+      formBooted=true;
+      bootEmbeds(parlons);
+    }
     if(location.hash==='#parlons'||location.hash==='#contact')bootForm();
     if('IntersectionObserver' in window){
-      /* Pas de getBoundingClientRect synchrone (forced layout / TBT) */
       var fio=new IntersectionObserver(function(entries,o){
         entries.forEach(function(e){
           if(!e.isIntersecting)return;
           o.disconnect();
           bootForm();
         });
-      },{rootMargin:'480px 0px',threshold:0});
+      },{rootMargin:'640px 0px',threshold:0});
       fio.observe(parlons);
-    }else onLoad(bootForm,2000);
+    }
+    /* Always boot before user reaches the fold on long pages / slow IO */
+    onLoad(bootForm,3500);
   }
 
-  var contactEmbeds=document.querySelectorAll('iframe[data-src*="widget/form/"],iframe[data-src*="widget/booking/"]');
+  var contactWraps=document.querySelectorAll('.embed-wrap');
+  var contactEmbeds=document.querySelectorAll(
+    'iframe[data-src*="widget/form/"],iframe[data-src*="widget/booking/"],iframe[src*="widget/form/"],iframe[src*="widget/booking/"]'
+  );
   if(contactEmbeds.length&&!parlons){
+    var contactBooted=false;
     function bootContactForm(){
+      if(contactBooted)return;
+      contactBooted=true;
       bootEmbeds(document);
     }
+    /* Contact page: form is primary CTA — boot eagerly, don't wait on IO */
+    bootContactForm();
     if(location.hash==='#rdv'||location.hash==='#contact')bootContactForm();
-    if('IntersectionObserver' in window){
+    if('IntersectionObserver' in window&&contactWraps.length){
       var cio=new IntersectionObserver(function(entries,o){
         entries.forEach(function(e){
           if(!e.isIntersecting)return;
           o.disconnect();
           bootContactForm();
         });
-      },{rootMargin:'480px 0px',threshold:0});
-      cio.observe(contactEmbeds[0]);
-      if(contactEmbeds.length>1)cio.observe(contactEmbeds[contactEmbeds.length-1]);
-    }else onLoad(bootContactForm,2000);
+      },{rootMargin:'640px 0px',threshold:0});
+      contactWraps.forEach(function(w){cio.observe(w);});
+    }
   }
 
 })();

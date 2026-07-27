@@ -1,6 +1,6 @@
 TITLE: Web design
 DESCRIPTION: Custom, fast, SEO-ready sites built to convert.
-URL: https://monsieurclick.com/services/web-design
+URL: https://monsieurclick.com/services/web-design/
 TYPE: Service
 LANG: en
 TAGS: web-design,click-first,monsieur-click
@@ -19,10 +19,10 @@ Part of Click First™: website, SEO, Google Business Profile, reviews and AI vi
 - Founder: Jean-Pierre Baguette
 
 ## Links
-→ Public page: https://monsieurclick.com/services/web-design
+→ Public page: https://monsieurclick.com/services/web-design/
 → Services hub: https://monsieurclick.com/services/
-→ Click First™: https://monsieurclick.com/click-first
+→ Click First™: https://monsieurclick.com/click-first/
 → OKF: https://monsieurclick.com/okf/services/web-design/
-→ Free diagnostic: https://monsieurclick.com/contact
+→ Free diagnostic: https://monsieurclick.com/contact/
 → FR OKF: https://monsieurclick.fr/okf/
 

@@ -9,15 +9,15 @@ FR llms: https://monsieurclick.fr/llms.txt
 
 ## Core
 - Home: /texts/index.txt → https://monsieurclick.com/
-- Click First™: /texts/click-first.txt → https://monsieurclick.com/click-first
-- Pricing: /texts/pricing.txt → https://monsieurclick.com/pricing
-- About: /texts/about.txt → https://monsieurclick.com/about
-- Free diagnostic: /texts/contact.txt → https://monsieurclick.com/contact
+- Click First™: /texts/click-first.txt → https://monsieurclick.com/click-first/
+- Pricing: /texts/pricing.txt → https://monsieurclick.com/pricing/
+- About: /texts/about.txt → https://monsieurclick.com/about/
+- Free diagnostic: /texts/contact.txt → https://monsieurclick.com/contact/
 - Case studies: /texts/case-studies.txt → https://monsieurclick.com/case-studies/
 - Blog: /texts/blog.txt → https://monsieurclick.com/blog/
-- Legal notice: /texts/legal-notice.txt → https://monsieurclick.com/legal-notice
-- Privacy: /texts/privacy.txt → https://monsieurclick.com/privacy
-- Terms: /texts/terms.txt → https://monsieurclick.com/terms
+- Legal notice: /texts/legal-notice.txt → https://monsieurclick.com/legal-notice/
+- Privacy: /texts/privacy.txt → https://monsieurclick.com/privacy/
+- Terms: /texts/terms.txt → https://monsieurclick.com/terms/
 
 ## Services
 - Web design: /texts/services/web-design.txt → /services/web-design

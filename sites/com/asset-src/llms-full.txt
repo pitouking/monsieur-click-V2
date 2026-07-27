@@ -39,11 +39,11 @@ FR: https://monsieurclick.fr/
 ================================================================================
 PAGE: Click First™
 ================================================================================
-URL: https://monsieurclick.com/click-first
+URL: https://monsieurclick.com/click-first/
 Summary: Pillar method page. Website, local SEO, GBP, reviews, Schema/OKF, GEO, StoryBrand content, monthly optimization. Free Score tool.
 Schema: Service, FAQPage, BreadcrumbList
 OKF: https://monsieurclick.com/okf/click-first/
-FR: https://monsieurclick.fr/click-first
+FR: https://monsieurclick.fr/click-first/
 
 ================================================================================
 PAGE: Services hub
@@ -56,7 +56,7 @@ FR: https://monsieurclick.fr/services/
 ================================================================================
 PAGE: Web design
 ================================================================================
-URL: https://monsieurclick.com/services/web-design
+URL: https://monsieurclick.com/services/web-design/
 Summary: Custom, fast, SEO-ready sites built to convert. Inside Click First™.
 OKF: https://monsieurclick.com/okf/services/web-design/
 Text: https://monsieurclick.com/texts/services/web-design.txt
@@ -64,7 +64,7 @@ Text: https://monsieurclick.com/texts/services/web-design.txt
 ================================================================================
 PAGE: SEO services
 ================================================================================
-URL: https://monsieurclick.com/services/seo
+URL: https://monsieurclick.com/services/seo/
 Summary: Technical, on-page and content SEO with monthly measurement. Inside Click First™.
 OKF: https://monsieurclick.com/okf/services/seo/
 Text: https://monsieurclick.com/texts/services/seo.txt
@@ -72,7 +72,7 @@ Text: https://monsieurclick.com/texts/services/seo.txt
 ================================================================================
 PAGE: Local SEO
 ================================================================================
-URL: https://monsieurclick.com/services/local-seo
+URL: https://monsieurclick.com/services/local-seo/
 Summary: Google Business Profile, reviews, citations and local pages for the map pack. Inside Click First™.
 OKF: https://monsieurclick.com/okf/services/local-seo/
 Text: https://monsieurclick.com/texts/services/local-seo.txt
@@ -80,7 +80,7 @@ Text: https://monsieurclick.com/texts/services/local-seo.txt
 ================================================================================
 PAGE: Google Business Profile
 ================================================================================
-URL: https://monsieurclick.com/services/google-business-profile
+URL: https://monsieurclick.com/services/google-business-profile/
 Summary: Optimize the listing that feeds Maps, calls and directions. Inside Click First™.
 OKF: https://monsieurclick.com/okf/services/google-business-profile/
 Text: https://monsieurclick.com/texts/services/google-business-profile.txt
@@ -88,7 +88,7 @@ Text: https://monsieurclick.com/texts/services/google-business-profile.txt
 ================================================================================
 PAGE: SEO audit
 ================================================================================
-URL: https://monsieurclick.com/services/seo-audit
+URL: https://monsieurclick.com/services/seo-audit/
 Summary: Technical, on-page, content and competitors. Prioritized action plan. Inside Click First™.
 OKF: https://monsieurclick.com/okf/services/seo-audit/
 Text: https://monsieurclick.com/texts/services/seo-audit.txt
@@ -96,7 +96,7 @@ Text: https://monsieurclick.com/texts/services/seo-audit.txt
 ================================================================================
 PAGE: WordPress web design
 ================================================================================
-URL: https://monsieurclick.com/services/wordpress-web-design
+URL: https://monsieurclick.com/services/wordpress-web-design/
 Summary: Custom WordPress builds that stay fast, editable and SEO-ready. Inside Click First™.
 OKF: https://monsieurclick.com/okf/services/wordpress-web-design/
 Text: https://monsieurclick.com/texts/services/wordpress-web-design.txt
@@ -104,19 +104,35 @@ Text: https://monsieurclick.com/texts/services/wordpress-web-design.txt
 ================================================================================
 PAGE: Generative Engine Optimization (GEO)
 ================================================================================
-URL: https://monsieurclick.com/services/generative-engine-optimization
+URL: https://monsieurclick.com/services/generative-engine-optimization/
 Summary: Get cited by ChatGPT, Gemini, Claude and Perplexity. Inside Click First™.
 OKF: https://monsieurclick.com/okf/services/generative-engine-optimization/
 Text: https://monsieurclick.com/texts/services/generative-engine-optimization.txt
 
 ================================================================================
+PAGE: ChatGPT SEO (GEO)
+================================================================================
+URL: https://monsieurclick.com/services/seo-chatgpt/
+Summary: ChatGPT SEO intent page — same GEO lever as Generative Engine Optimization. AI citation audit, citable content, Schema, llms.txt.
+FR: https://monsieurclick.fr/services/seo-chatgpt/
+Text: https://monsieurclick.com/texts/services/seo-chatgpt.txt
+
+================================================================================
+PAGE: SEO agency guide 2026
+================================================================================
+URL: https://monsieurclick.com/seo-agency-guide/
+Summary: How to choose an SEO agency in 2026: GEO, KPIs, traps, local vs national, budget, 6-month results.
+FR: https://monsieurclick.fr/agence-seo-guide/
+Text: https://monsieurclick.com/texts/seo-agency-guide.txt
+
+================================================================================
 PAGE: Pricing
 ================================================================================
-URL: https://monsieurclick.com/pricing
+URL: https://monsieurclick.com/pricing/
 Summary: Essential €850/mo (6mo), Growth €1,000/mo (12mo), Expansion €1,500/mo (12mo). Free diagnostic. No ranking guarantees.
 Schema: OfferCatalog, FAQPage
 OKF: https://monsieurclick.com/okf/pricing/
-FR: https://monsieurclick.fr/offres
+FR: https://monsieurclick.fr/offres/
 
 ================================================================================
 PAGE: Case studies

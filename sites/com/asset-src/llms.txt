@@ -28,33 +28,35 @@
 ## Main pages
 - Home: https://monsieurclick.com/
   - Local SEO agency & web design for small businesses
-- Click First™: https://monsieurclick.com/click-first
+- Click First™: https://monsieurclick.com/click-first/
   - All-in-one: website, local SEO, GBP, reviews, GEO
 - Services: https://monsieurclick.com/services/
   - Hub of SEO and web deliverables
-- Web design: https://monsieurclick.com/services/web-design
-- SEO services: https://monsieurclick.com/services/seo
-- Local SEO: https://monsieurclick.com/services/local-seo
-- Google Business Profile: https://monsieurclick.com/services/google-business-profile
-- SEO audit: https://monsieurclick.com/services/seo-audit
-- WordPress web design: https://monsieurclick.com/services/wordpress-web-design
-- Generative Engine Optimization: https://monsieurclick.com/services/generative-engine-optimization
-- Small business SEO: https://monsieurclick.com/small-business-seo
-- AI SEO agency: https://monsieurclick.com/ai-seo-agency
-- SEO agency London: https://monsieurclick.com/seo-agency-london
-- Pricing: https://monsieurclick.com/pricing
+- Web design: https://monsieurclick.com/services/web-design/
+- SEO services: https://monsieurclick.com/services/seo/
+- Local SEO: https://monsieurclick.com/services/local-seo/
+- Google Business Profile: https://monsieurclick.com/services/google-business-profile/
+- SEO audit: https://monsieurclick.com/services/seo-audit/
+- WordPress web design: https://monsieurclick.com/services/wordpress-web-design/
+- Generative Engine Optimization: https://monsieurclick.com/services/generative-engine-optimization/
+- ChatGPT SEO (GEO): https://monsieurclick.com/services/seo-chatgpt/
+- SEO agency guide 2026: https://monsieurclick.com/seo-agency-guide/
+- Small business SEO: https://monsieurclick.com/small-business-seo/
+- AI SEO agency: https://monsieurclick.com/ai-seo-agency/
+- SEO agency London: https://monsieurclick.com/seo-agency-london/
+- Pricing: https://monsieurclick.com/pricing/
   - Essential €850/mo, Growth €1,000/mo, Expansion €1,500/mo
 - Case studies: https://monsieurclick.com/case-studies/
   - Assogym, Dharma Massage, Susan Filan, Bodyguard Paris, Heather Fillmore, Studio La Voix du 12, East Portland Sash
-- About: https://monsieurclick.com/about
-- Free diagnostic: https://monsieurclick.com/contact
+- About: https://monsieurclick.com/about/
+- Free diagnostic: https://monsieurclick.com/contact/
 - Blog: https://monsieurclick.com/blog/
   - 18 articles (folder structure /blog/slug/)
 
 ## Legal
-- Legal notice: https://monsieurclick.com/legal-notice
-- Privacy: https://monsieurclick.com/privacy
-- Terms: https://monsieurclick.com/terms
+- Legal notice: https://monsieurclick.com/legal-notice/
+- Privacy: https://monsieurclick.com/privacy/
+- Terms: https://monsieurclick.com/terms/
 
 ## OKF bundle (structured knowledge for AI)
 - OKF hub: https://monsieurclick.com/okf/

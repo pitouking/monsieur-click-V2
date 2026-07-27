@@ -1,6 +1,6 @@
 TITLE: Click First™
 DESCRIPTION: All-in-one visibility method: site, SEO, GBP, reviews, GEO.
-URL: https://monsieurclick.com/click-first
+URL: https://monsieurclick.com/click-first/
 TYPE: Service
 LANG: en
 TAGS: monsieur-click,click-first
@@ -15,7 +15,7 @@ All-in-one visibility method: site, SEO, GBP, reviews, GEO.
 - +33 6 60 76 15 23 · contact@monsieurclick.com
 
 ## Links
-→ Page: https://monsieurclick.com/click-first
+→ Page: https://monsieurclick.com/click-first/
 → OKF hub: https://monsieurclick.com/okf/
 → llms.txt: https://monsieurclick.com/llms.txt
 → FR twin site: https://monsieurclick.fr/

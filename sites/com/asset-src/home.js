@@ -215,4 +215,25 @@
 
   if('requestIdleCallback' in window)requestIdleCallback(bootHeavy,{timeout:2500});
   else setTimeout(bootHeavy,1200);
+
+  /* Hero: poster image first, then Livid background video takes over */
+  (function initHeroVideo(){
+    const hero=document.querySelector('.hero.site-hero[data-hero-video]');
+    if(!hero)return;
+    const src=hero.getAttribute('data-hero-video');
+    const wrap=hero.querySelector('.hero__video-wrap');
+    const iframe=hero.querySelector('.hero__video');
+    if(!src||!wrap||!iframe)return;
+    const mobile=matchMedia('(max-width:920px)').matches;
+    if(reduce||mobile)return;
+    wrap.hidden=false;
+    const reveal=()=>{
+      if(hero.classList.contains('is-video-ready'))return;
+      hero.classList.add('is-video-ready');
+    };
+    iframe.addEventListener('load',()=>setTimeout(reveal,700),{once:true});
+    /* Fallback if load event is delayed/blocked */
+    setTimeout(reveal,3500);
+    iframe.src=src;
+  })();
 })();

@@ -1,0 +1,152 @@
+---
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../chrome.ts';
+import bodyHtml from '../../../content/seo-agency-guide/index.html?raw';
+
+const title = "SEO agency guide 2026 | Monsieur Click";
+const description = "How to choose an SEO agency in 2026: GEO, KPIs, traps to avoid, local vs national, budget and 6-month results. Clear guide for SMBs. Free diagnostic.";
+const canonical = "https://monsieurclick.com/seo-agency-guide/";
+const hreflang = [
+  { lang: "en", href: "https://monsieurclick.com/seo-agency-guide/" },
+  { lang: "fr", href: "https://monsieurclick.fr/agence-seo-guide/" },
+  { lang: "x-default", href: "https://monsieurclick.fr/agence-seo-guide/" },
+];
+const ogImage = "https://monsieurclick.com/img-seo-agency-guide.svg";
+const jsonLd = [
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "ProfessionalService"],
+        "@id": "https://monsieurclick.com/#org",
+        name: "Monsieur Click",
+        url: "https://monsieurclick.com/",
+        logo: "https://monsieurclick.com/logo-mc.webp",
+        email: "contact@monsieurclick.com",
+        telephone: "+33660761523",
+        founder: { "@type": "Person", name: "Jean-Pierre Baguette" },
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "24 bis sentier des Fosses Rouges",
+          postalCode: "92240",
+          addressLocality: "Malakoff",
+          addressRegion: "Île-de-France",
+          addressCountry: "FR",
+        },
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://monsieurclick.com/#website",
+        url: "https://monsieurclick.com/",
+        name: "Monsieur Click",
+        inLanguage: "en-US",
+        publisher: { "@id": "https://monsieurclick.com/#org" },
+      },
+    ],
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://monsieurclick.com/seo-agency-guide/",
+    },
+    headline: "SEO agency guide: how to choose in 2026",
+    description:
+      "How to choose an SEO agency in 2026: GEO, KPIs, traps, budget and how to judge results.",
+    image: "https://monsieurclick.com/img-seo-agency-guide.svg",
+    author: { "@type": "Person", name: "Jean-Pierre Baguette" },
+    publisher: {
+      "@type": "Organization",
+      name: "Monsieur Click",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://monsieurclick.com/logo-mc.webp",
+      },
+    },
+    datePublished: "2026-07-27",
+    dateModified: "2026-07-27",
+    articleSection: "SEO",
+    inLanguage: "en-US",
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://monsieurclick.com/" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://monsieurclick.com/blog/" },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "SEO agency guide 2026",
+        item: "https://monsieurclick.com/seo-agency-guide/",
+      },
+    ],
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "SEO agency vs SEO consultant — what's the difference?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "An agency often has a team. A consultant is one point of contact and can be more agile for SMBs. Method and transparency beat the label.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How long before SEO results show up?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Often 3–6 months for meaningful signals, depending on competition and starting point.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Should I hire a local agency or a fully remote one?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "For nearby customers, Maps and NAP skills matter. For a purely online business, method matters more than location.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What is GEO (Generative Engine Optimization)?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "GEO optimizes your presence so ChatGPT, Gemini, Perplexity and AI Overviews can cite you. It complements classic SEO.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can an SEO agency guarantee first place?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "No. A serious agency commits to a method, actions and metrics — not a magic ranking.",
+        },
+      },
+    ],
+  }),
+];
+const scripts = [
+  { src: "/perf.js?v=20260721ghl", module: false },
+  { src: "/shared.js?v=20260719perf", module: false },
+  { src: "/webmcp.js?v=20260719agent", module: false },
+];
+---
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>
