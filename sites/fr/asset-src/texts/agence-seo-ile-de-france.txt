@@ -1,6 +1,6 @@
 TITRE: Agence SEO en Île-de-France
 DESCRIPTION: Hub régional Paris + banlieue.
-URL: https://monsieurclick.fr/agence-seo-ile-de-france
+URL: https://monsieurclick.fr/agence-seo-ile-de-france/
 TYPE: Service
 LANG: fr
 TAGS: monsieur-click, click-first, seo
@@ -19,8 +19,8 @@ Fait partie de la méthode Click First™ : site, SEO, Google Business Profile, 
 - Fondateur : Jean-Pierre Baguette
 
 ## Liens
-→ Page complète : https://monsieurclick.fr/agence-seo-ile-de-france
+→ Page complète : https://monsieurclick.fr/agence-seo-ile-de-france/
 → Hub services : https://monsieurclick.fr/services/
-→ Click First™ : https://monsieurclick.fr/click-first
+→ Click First™ : https://monsieurclick.fr/click-first/
 → OKF : https://monsieurclick.fr/okf/agence-seo-ile-de-france/
-→ Diagnostic : https://monsieurclick.fr/contact
+→ Diagnostic : https://monsieurclick.fr/contact/

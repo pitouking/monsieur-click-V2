@@ -1,6 +1,6 @@
 TITRE: Agence SEO à Paris
 DESCRIPTION: Référencement naturel et local pour Paris et l'Île-de-France.
-URL: https://monsieurclick.fr/agence-seo-paris
+URL: https://monsieurclick.fr/agence-seo-paris/
 TYPE: Service
 LANG: fr
 TAGS: monsieur-click, click-first, seo
@@ -19,8 +19,8 @@ Fait partie de la méthode Click First™ : site, SEO, Google Business Profile, 
 - Fondateur : Jean-Pierre Baguette
 
 ## Liens
-→ Page complète : https://monsieurclick.fr/agence-seo-paris
+→ Page complète : https://monsieurclick.fr/agence-seo-paris/
 → Hub services : https://monsieurclick.fr/services/
-→ Click First™ : https://monsieurclick.fr/click-first
+→ Click First™ : https://monsieurclick.fr/click-first/
 → OKF : https://monsieurclick.fr/okf/agence-seo-paris/
-→ Diagnostic : https://monsieurclick.fr/contact
+→ Diagnostic : https://monsieurclick.fr/contact/
