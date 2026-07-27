@@ -1,0 +1,109 @@
+---
+import BaseLayout from '@mc/shared/layouts/BaseLayout.astro';
+import { locale, nav, footer } from '../../../chrome.ts';
+import bodyHtml from '../../../../content/services/seo-chatgpt/index.html?raw';
+
+const title = "ChatGPT SEO & GEO | Monsieur Click";
+const description = "Show up in ChatGPT, Gemini and Perplexity. Practical GEO for SMBs — US/UK-ready, delivered from Paris. Rated 5/5 by 15+ clients. Free diagnostic.";
+const canonical = "https://monsieurclick.com/services/seo-chatgpt/";
+const hreflang = [
+  { lang: "en", href: "https://monsieurclick.com/services/seo-chatgpt/" },
+  { lang: "fr", href: "https://monsieurclick.fr/services/seo-chatgpt/" },
+  { lang: "x-default", href: "https://monsieurclick.fr/services/seo-chatgpt/" },
+];
+const ogImage = undefined;
+const jsonLd = [
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "ChatGPT SEO & GEO",
+    serviceType:
+      "Generative Engine Optimization: get cited by ChatGPT, Gemini, Perplexity",
+    provider: {
+      "@type": "ProfessionalService",
+      name: "Monsieur Click",
+      url: "https://monsieurclick.com",
+    },
+    areaServed: [
+      { "@type": "Country", name: "United States" },
+      { "@type": "Country", name: "United Kingdom" },
+      { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "France" },
+    ],
+    description:
+      "GEO for SMBs: AI citation audit, citable content, Schema.org, llms.txt and monitoring — Click First™ method.",
+    url: "https://monsieurclick.com/services/seo-chatgpt/",
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://monsieurclick.com/" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://monsieurclick.com/services/" },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "ChatGPT SEO",
+        item: "https://monsieurclick.com/services/seo-chatgpt/",
+      },
+    ],
+  }),
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Does GEO replace classic SEO?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "No. It complements it. SEO still wins Google and Maps traffic. GEO adds the AI-answer channel.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How long before GEO results show?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Technical foundations can create signals within weeks. Targeted content often takes 1–3 months.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How is this different from your GEO page?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Same Click First™ lever. This page matches ChatGPT SEO intent; the GEO page covers the full technical frame.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you work remotely from Paris (Malakoff)?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. Fully remote delivery for English-speaking and French-speaking markets, with a free diagnostic.",
+        },
+      },
+    ],
+  }),
+];
+const scripts = [
+  { src: "/perf.js?v=20260721ghl", module: false },
+  { src: "/shared.js?v=20260719perf", module: false },
+  { src: "/webmcp.js?v=20260719agent", module: false },
+];
+---
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  canonical={canonical}
+  hreflang={hreflang}
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+  scripts={scripts}
+  nav={nav}
+  footer={footer}
+>
+  <Fragment set:html={bodyHtml} />
+</BaseLayout>

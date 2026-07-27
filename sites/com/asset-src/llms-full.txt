@@ -110,6 +110,22 @@ OKF: https://monsieurclick.com/okf/services/generative-engine-optimization/
 Text: https://monsieurclick.com/texts/services/generative-engine-optimization.txt
 
 ================================================================================
+PAGE: ChatGPT SEO (GEO)
+================================================================================
+URL: https://monsieurclick.com/services/seo-chatgpt/
+Summary: ChatGPT SEO intent page — same GEO lever as Generative Engine Optimization. AI citation audit, citable content, Schema, llms.txt.
+FR: https://monsieurclick.fr/services/seo-chatgpt/
+Text: https://monsieurclick.com/texts/services/seo-chatgpt.txt
+
+================================================================================
+PAGE: SEO agency guide 2026
+================================================================================
+URL: https://monsieurclick.com/seo-agency-guide/
+Summary: How to choose an SEO agency in 2026: GEO, KPIs, traps, local vs national, budget, 6-month results.
+FR: https://monsieurclick.fr/agence-seo-guide/
+Text: https://monsieurclick.com/texts/seo-agency-guide.txt
+
+================================================================================
 PAGE: Pricing
 ================================================================================
 URL: https://monsieurclick.com/pricing/
