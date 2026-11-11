@@ -59,3 +59,13 @@ Aucune publication en production tant que P0 + build + QA ne sont pas validés.
 - GSC fenêtre 2025-12-14 au 2026-05-27 : résultat **null**, donc **aucune croissance globale avant/après vérifiable** pour clics / impressions. Ne pas utiliser de pourcentage artificiel.
 - GA4 après du 2026-05-28 au 2026-11-05 vs avant du 2025-12-17 au 2026-05-27 : sessions 6 094 vs 7 541, événements de conversion 26 vs 17 (+52,9 %), taux d'engagement 40,78 % vs 36,89 %. **Définition des conversions non confirmée** et ne pas prétendre qu'il s'agit de rendez-vous.
 - À publier seulement après attribution et définition du KPI « rendez-vous » dans outil de réservation/CRM : total des rendez-vous, dates, annulations et sources.
+
+## Update — GHL bookings Dharma (12 novembre 2026)
+Connecteur HighLevel accessible ; sous-compte identifié « Dharma Massage & Wellness ». Source: API GHL `get-service-bookings`, fuseau `America/New_York`, filtrée sur la **date de session**. Comptes agrégés sans exposition de données personnelles.
+- **Avant refonte** 2026-04-28 → 2026-05-27 inclus : 1 réservation listée, statut confirmed. **Possible couverture historique incomplète ; ne pas utiliser comme base de croissance avant/après sans validation de migration/paramétrage GHL.**
+- **Premier mois après refonte** 2026-05-28 → 2026-06-26 inclus : 41 réservations uniques, dont 6 cancelled, 34 confirmed, 1 showed ; 35 non annulées.
+- **30 derniers jours GSC complets comparables** 2026-10-10 → 2026-11-08 inclus : 63 réservations uniques, dont 6 cancelled, 4 confirmed, 53 showed ; 57 non annulées.
+- Évolution « premier mois après refonte » → « 30 derniers jours » : **41 → 63 réservations enregistrées (+53,66 %)** ; **35 → 57 hors annulations (+62,86 %)**.
+- Les données sont des **sessions prévues dans la période**, pas nécessairement des rendez-vous **créés pendant la période**. Ne pas attribuer toute la hausse au site ni au canal organique sans données `dateAdded`, source/UTM, calendrier et statut d'acquisition. Vérifier paiements, nouveaux vs récurrents, promotions, facteurs saisonniers.
+- Ne pas confondre ces réservations GHL avec les 26 événements de conversion GA4, dont la définition n'est pas vérifiée.
+- Pour publication d'étude de cas : citer précisément « nombre de réservations hors annulations, source GHL, sur deux périodes de 30 jours » et ne pas prétendre à une croissance causale ou purement SEO.
