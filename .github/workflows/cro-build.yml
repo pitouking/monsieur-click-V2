@@ -1,0 +1,55 @@
+name: FR + US CRO build checks
+
+on:
+  pull_request:
+    paths:
+      - 'sites/fr/**'
+      - 'sites/com/**'
+      - 'packages/**'
+      - 'scripts/**'
+      - 'package*.json'
+      - '.github/workflows/cro-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-fr-us:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout proposed revision
+        uses: actions/checkout@v4
+      - name: Setup Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
+      - name: Check conversion sections in both locales
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync } from 'node:fs';
+          for (const locale of ['fr', 'com']) {
+            const html = readFileSync(`sites/${locale}/content/index.html`, 'utf8');
+            const checks = [
+              ['one hero', (html.match(/class="hero site-hero"/g) || []).length === 1],
+              ['one proof block', (html.match(/class="conversion-proof"/g) || []).length === 1],
+              ['booking CTA', html.includes('href="#parlons" class="btn btn-primary"')],
+              ['secondary score CTA', html.includes('href="/click-first#score" class="btn btn-ghost"')],
+              ['source and date caveat', locale === 'fr' ? html.includes('tous canaux confondus') : html.includes('all channels')],
+              ['Dharma external reference', html.includes('https://dharmamassagetherapy.com/')],
+              ['no made-up pre-launch growth', !html.includes('200 % de rendez-vous')]
+            ];
+            for (const [name, passed] of checks) {
+              if (!passed) throw new Error(`${locale}: ${name} failed`);
+            }
+            console.log(`${locale}: ${checks.length} content checks passed`);
+          }
+          NODE
+      - name: Build FR
+        run: npm run build:fr
+      - name: Build US
+        run: npm run build:com
