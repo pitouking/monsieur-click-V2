@@ -51,3 +51,11 @@ P2 page offres (coûts totaux et conditions de propriété), étude de cas compl
 P3 variantes, tests A/B, animations respectant reduced-motion.
 
 Aucune publication en production tant que P0 + build + QA ne sont pas validés.
+
+## Update — DHA refonte fin mai → données disponibles en novembre 2026
+- Date de départ opérationnelle indiquée par le client : **28 mai 2026**. Confirmer la date de mise en ligne exacte dans Cloudflare ou Git avant publication de l'étude de cas.
+- GSC du 2026-05-28 au 2026-11-08 : **1 059 clics**, **26 402 impressions**, **CTR 4,01 %**, **position moyenne 10,97**.
+- GSC mensuel : juin 188 clics / 5 597 impressions / pos 10,73 ; juillet 207 / 4 865 / pos 12,18 ; août 211 / 6 195 / pos 13,38 ; septembre 173 / 4 038 / pos 10,34 ; octobre 183 / 3 809 / pos 9,00 ; 1-8 novembre 72 / 1 038 / pos 8,51 (mois incomplet).
+- GSC fenêtre 2025-12-14 au 2026-05-27 : résultat **null**, donc **aucune croissance globale avant/après vérifiable** pour clics / impressions. Ne pas utiliser de pourcentage artificiel.
+- GA4 après du 2026-05-28 au 2026-11-05 vs avant du 2025-12-17 au 2026-05-27 : sessions 6 094 vs 7 541, événements de conversion 26 vs 17 (+52,9 %), taux d'engagement 40,78 % vs 36,89 %. **Définition des conversions non confirmée** et ne pas prétendre qu'il s'agit de rendez-vous.
+- À publier seulement après attribution et définition du KPI « rendez-vous » dans outil de réservation/CRM : total des rendez-vous, dates, annulations et sources.
